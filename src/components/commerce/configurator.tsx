@@ -10,7 +10,6 @@ import {
   platformTitle,
   serviceById,
   serviceCatalog,
-  serviceMatrix,
   serviceOptions,
   variantLabel,
   variantsFor,
@@ -18,7 +17,7 @@ import {
 import { priceBuild } from '@/lib/commerce/pricing';
 import { normalizeBuild, toggleBuildService } from '@/lib/commerce/build-rules';
 import { money, type BuildConfiguration, type ServiceSelection } from '@/lib/commerce/schema';
-import type { ServiceFamily } from '@/lib/commerce/catalog-schema';
+import { visibleServiceFamilyGroups } from '@/lib/commerce/service-family-visibility';
 import { cartActions, useCart } from './cart-store';
 import { BuildSummary, ServiceDetails } from './build-summary';
 import { GalleryReference } from './gallery-reference';
@@ -368,21 +367,14 @@ function PlatformConfigurator({
                 compatible families stay together as one build.
                 {service && ` You arrived from ${service}.`}
               </p>
-              {(Object.keys(familyLabels) as ServiceFamily[]).map((family) => {
-                const entries = available.filter((s) => s.serviceFamily === family);
+              {visibleServiceFamilyGroups(build.firearm).map(({ family, entries, upcoming }) => {
                 const current = build.services.some(
                   (c) => serviceById.get(c.serviceId)?.serviceFamily === family,
                 );
-                const upcoming =
-                  family === 'porting'
-                    ? serviceMatrix.upcoming.filter((entry) =>
-                        entry.compatibleManufacturers.includes(build.firearm.manufacturerId),
-                      )
-                    : [];
-                if (!entries.length && !upcoming.length) return null;
                 return (
                   <details
                     className="service-family"
+                    data-service-family={family}
                     key={`${family}-${step}`}
                     open={current || undefined}
                   >
@@ -391,35 +383,46 @@ function PlatformConfigurator({
                       <span>
                         {entries.length
                           ? `${entries.length} available`
-                          : 'Coming soon / custom inquiry'}
+                          : upcoming.length
+                            ? 'Coming soon / custom inquiry'
+                            : 'Custom inquiry'}
                       </span>
                     </summary>
                     <GalleryReference family={family} />
-                    <div className="service-package-grid">
-                      {entries.map((entry) => (
-                        <OptionCard
-                          className="service-package"
-                          key={entry.serviceId}
-                          type="checkbox"
-                          value={entry.serviceId}
-                          title={entry.displayName}
-                          checked={build.services.some((c) => c.serviceId === entry.serviceId)}
-                          onChange={() => toggle(entry.serviceId)}
-                          description={
-                            entry.componentScope === 'extension'
-                              ? 'Magazine-extension texture'
-                              : entry.includedFeatures.map((f) => f.label).join(' · ') ||
-                                `${componentLabels[entry.componentScope]} service`
-                          }
-                          price={`From ${money(entry.basePriceCents)}`}
-                          status={
-                            entry.checkoutEligibility === 'review-required'
-                              ? 'Requires review'
-                              : undefined
-                          }
-                        />
-                      ))}
-                    </div>
+                    {entries.length > 0 ? (
+                      <div className="service-package-grid">
+                        {entries.map((entry) => (
+                          <OptionCard
+                            className="service-package"
+                            key={entry.serviceId}
+                            type="checkbox"
+                            value={entry.serviceId}
+                            title={entry.displayName}
+                            checked={build.services.some((c) => c.serviceId === entry.serviceId)}
+                            onChange={() => toggle(entry.serviceId)}
+                            description={
+                              entry.componentScope === 'extension'
+                                ? 'Magazine-extension texture'
+                                : entry.includedFeatures.map((f) => f.label).join(' · ') ||
+                                  `${componentLabels[entry.componentScope]} service`
+                            }
+                            price={`From ${money(entry.basePriceCents)}`}
+                            status={
+                              entry.checkoutEligibility === 'review-required'
+                                ? 'Requires review'
+                                : undefined
+                            }
+                          />
+                        ))}
+                      </div>
+                    ) : (
+                      <p className="form-note">
+                        No listed package for this platform and component.{' '}
+                        <Link className="text-link" href="/custom-inquiry">
+                          Ask about this work
+                        </Link>
+                      </p>
+                    )}
                     {upcoming.length > 0 && (
                       <details className="upcoming-config">
                         <summary>Upcoming porting · not available to order</summary>
