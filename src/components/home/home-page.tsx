@@ -7,6 +7,7 @@ import { gallery } from '@/data/catalog';
 import { ButtonLink, CTA, Photo, SectionHeading } from '@/components/ui/primitives';
 import { ProofIcon } from '@/components/ui/icon';
 import { GalleryGrid } from '@/components/gallery/gallery-grid';
+import styles from './home-hero.module.css';
 export function HomePage() {
   const review = reviews[0];
   const featureNames = ['Flectarn', 'Midnight Bronze H-294', 'Woodland Tigerstripe'];
@@ -16,13 +17,13 @@ export function HomePage() {
     .filter(Boolean);
   return (
     <>
-      <section className="hero">
+      <section className={`hero ${styles.composition}`}>
         <div className="wrap hero-content">
           <div className="hero-media">
             <Image
               className="hero-image"
-              src={site.hero}
-              alt="A custom Defiant pistol with machined slide and textured frame on a workshop surface"
+              src="/assets/dmw/optimized/66ddfa9991d0be.webp"
+              alt="A custom Defiant pistol in Wood Chip camouflage with a textured grip, photographed outdoors"
               fill
               priority
               sizes="(max-width: 650px) 100vw, 70vw"

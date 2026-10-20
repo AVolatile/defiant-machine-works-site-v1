@@ -1,0 +1,422 @@
+{
+  "source": "/assets/dmw/optimized/66ddfa9991d0be.webp",
+  "results": [
+    {
+      "width": 375,
+      "hero": {
+        "top": 101,
+        "left": 0,
+        "bottom": 814.265625,
+        "right": 375,
+        "width": 375,
+        "height": 713.265625
+      },
+      "media": {
+        "top": 241,
+        "left": 0,
+        "bottom": 616,
+        "right": 375,
+        "width": 375,
+        "height": 375
+      },
+      "headline": {
+        "top": 185.296875,
+        "left": 22,
+        "bottom": 338.53125,
+        "right": 353,
+        "width": 331,
+        "height": 153.234375
+      },
+      "copy": {
+        "top": 552.28125,
+        "left": 22,
+        "bottom": 596.46875,
+        "right": 307,
+        "width": 285,
+        "height": 44.1875
+      },
+      "buttons": [
+        {
+          "top": 620.46875,
+          "left": 22,
+          "bottom": 673.46875,
+          "right": 292,
+          "width": 270,
+          "height": 53
+        },
+        {
+          "top": 685.46875,
+          "left": 22,
+          "bottom": 735.46875,
+          "right": 292,
+          "width": 270,
+          "height": 50
+        }
+      ],
+      "strip": {
+        "top": 759.46875,
+        "left": 22,
+        "bottom": 790.265625,
+        "right": 353,
+        "width": 331,
+        "height": 30.796875
+      },
+      "focal": "50% 50%",
+      "overflow": false,
+      "naturalWidth": 375,
+      "axeViolations": null,
+      "headerSticky": true,
+      "navigationPassed": true,
+      "errors": [],
+      "screenshot": "source-audit/home-hero/screens/hero-375.jpg"
+    },
+    {
+      "width": 390,
+      "hero": {
+        "top": 101,
+        "left": 0,
+        "bottom": 828.953125,
+        "right": 390,
+        "width": 390,
+        "height": 727.953125
+      },
+      "media": {
+        "top": 241,
+        "left": 0,
+        "bottom": 631,
+        "right": 390,
+        "width": 390,
+        "height": 390
+      },
+      "headline": {
+        "top": 185.296875,
+        "left": 22,
+        "bottom": 344.671875,
+        "right": 368,
+        "width": 346,
+        "height": 159.375
+      },
+      "copy": {
+        "top": 566.96875,
+        "left": 22,
+        "bottom": 611.15625,
+        "right": 307,
+        "width": 285,
+        "height": 44.1875
+      },
+      "buttons": [
+        {
+          "top": 635.15625,
+          "left": 22,
+          "bottom": 688.15625,
+          "right": 292,
+          "width": 270,
+          "height": 53
+        },
+        {
+          "top": 700.15625,
+          "left": 22,
+          "bottom": 750.15625,
+          "right": 292,
+          "width": 270,
+          "height": 50
+        }
+      ],
+      "strip": {
+        "top": 774.15625,
+        "left": 22,
+        "bottom": 804.953125,
+        "right": 368,
+        "width": 346,
+        "height": 30.796875
+      },
+      "focal": "50% 50%",
+      "overflow": false,
+      "naturalWidth": 390,
+      "axeViolations": 0,
+      "headerSticky": true,
+      "navigationPassed": true,
+      "errors": [],
+      "screenshot": "source-audit/home-hero/screens/hero-390.jpg"
+    },
+    {
+      "width": 430,
+      "hero": {
+        "top": 101,
+        "left": 0,
+        "bottom": 868.109375,
+        "right": 430,
+        "width": 430,
+        "height": 767.109375
+      },
+      "media": {
+        "top": 241,
+        "left": 0,
+        "bottom": 671,
+        "right": 430,
+        "width": 430,
+        "height": 430
+      },
+      "headline": {
+        "top": 185.296875,
+        "left": 22,
+        "bottom": 361.03125,
+        "right": 408,
+        "width": 386,
+        "height": 175.734375
+      },
+      "copy": {
+        "top": 606.125,
+        "left": 22,
+        "bottom": 650.3125,
+        "right": 307,
+        "width": 285,
+        "height": 44.1875
+      },
+      "buttons": [
+        {
+          "top": 674.3125,
+          "left": 22,
+          "bottom": 727.3125,
+          "right": 292,
+          "width": 270,
+          "height": 53
+        },
+        {
+          "top": 739.3125,
+          "left": 22,
+          "bottom": 789.3125,
+          "right": 292,
+          "width": 270,
+          "height": 50
+        }
+      ],
+      "strip": {
+        "top": 813.3125,
+        "left": 22,
+        "bottom": 844.109375,
+        "right": 408,
+        "width": 386,
+        "height": 30.796875
+      },
+      "focal": "50% 50%",
+      "overflow": false,
+      "naturalWidth": 430,
+      "axeViolations": null,
+      "headerSticky": true,
+      "navigationPassed": true,
+      "errors": [],
+      "screenshot": "source-audit/home-hero/screens/hero-430.jpg"
+    },
+    {
+      "width": 768,
+      "hero": {
+        "top": 115,
+        "left": 0,
+        "bottom": 770,
+        "right": 768,
+        "width": 768,
+        "height": 655
+      },
+      "media": {
+        "top": 45,
+        "left": 224.296875,
+        "bottom": 588.6875,
+        "right": 767.984375,
+        "width": 543.6875,
+        "height": 543.6875
+      },
+      "headline": {
+        "top": 215,
+        "left": 36.859375,
+        "bottom": 390.96875,
+        "right": 460.359375,
+        "width": 423.5,
+        "height": 175.96875
+      },
+      "copy": {
+        "top": 415.96875,
+        "left": 36.859375,
+        "bottom": 463.5625,
+        "right": 476.859375,
+        "width": 440,
+        "height": 47.59375
+      },
+      "buttons": [
+        {
+          "top": 492.5625,
+          "left": 36.859375,
+          "bottom": 545.5625,
+          "right": 255.765625,
+          "width": 218.90625,
+          "height": 53
+        },
+        {
+          "top": 493.0625,
+          "left": 271.765625,
+          "bottom": 545.0625,
+          "right": 444.609375,
+          "width": 172.84375,
+          "height": 52
+        }
+      ],
+      "strip": {
+        "top": 600.5625,
+        "left": 36.859375,
+        "bottom": 657.859375,
+        "right": 731.125,
+        "width": 694.265625,
+        "height": 57.296875
+      },
+      "focal": "48% 55%",
+      "overflow": false,
+      "naturalWidth": 537,
+      "axeViolations": null,
+      "headerSticky": true,
+      "navigationPassed": true,
+      "errors": [],
+      "screenshot": "source-audit/home-hero/screens/hero-768.jpg"
+    },
+    {
+      "width": 1024,
+      "hero": {
+        "top": 115,
+        "left": 0,
+        "bottom": 765,
+        "right": 1024,
+        "width": 1024,
+        "height": 650
+      },
+      "media": {
+        "top": 75,
+        "left": 345.375,
+        "bottom": 765,
+        "right": 1023.984375,
+        "width": 678.609375,
+        "height": 690
+      },
+      "headline": {
+        "top": 215,
+        "left": 49.15625,
+        "bottom": 449.609375,
+        "right": 613.8125,
+        "width": 564.65625,
+        "height": 234.609375
+      },
+      "copy": {
+        "top": 474.609375,
+        "left": 49.15625,
+        "bottom": 522.203125,
+        "right": 489.15625,
+        "width": 440,
+        "height": 47.59375
+      },
+      "buttons": [
+        {
+          "top": 551.203125,
+          "left": 49.15625,
+          "bottom": 604.203125,
+          "right": 268.0625,
+          "width": 218.90625,
+          "height": 53
+        },
+        {
+          "top": 551.703125,
+          "left": 284.0625,
+          "bottom": 603.703125,
+          "right": 456.90625,
+          "width": 172.84375,
+          "height": 52
+        }
+      ],
+      "strip": {
+        "top": 657.203125,
+        "left": 49.15625,
+        "bottom": 714.5,
+        "right": 974.84375,
+        "width": 925.6875,
+        "height": 57.296875
+      },
+      "focal": "50% 40%",
+      "overflow": false,
+      "naturalWidth": 716,
+      "axeViolations": null,
+      "headerSticky": true,
+      "navigationPassed": true,
+      "errors": [],
+      "screenshot": "source-audit/home-hero/screens/hero-1024.jpg"
+    },
+    {
+      "width": 1440,
+      "hero": {
+        "top": 115,
+        "left": 0,
+        "bottom": 849.390625,
+        "right": 1440,
+        "width": 1440,
+        "height": 734.390625
+      },
+      "media": {
+        "top": 115,
+        "left": 485.671875,
+        "bottom": 849.390625,
+        "right": 1439.984375,
+        "width": 954.3125,
+        "height": 734.390625
+      },
+      "headline": {
+        "top": 215,
+        "left": 69.125,
+        "bottom": 544.953125,
+        "right": 859.125,
+        "width": 790,
+        "height": 329.953125
+      },
+      "copy": {
+        "top": 569.953125,
+        "left": 69.125,
+        "bottom": 617.546875,
+        "right": 509.125,
+        "width": 440,
+        "height": 47.59375
+      },
+      "buttons": [
+        {
+          "top": 646.546875,
+          "left": 69.125,
+          "bottom": 699.546875,
+          "right": 288.03125,
+          "width": 218.90625,
+          "height": 53
+        },
+        {
+          "top": 647.046875,
+          "left": 304.03125,
+          "bottom": 699.046875,
+          "right": 476.875,
+          "width": 172.84375,
+          "height": 52
+        }
+      ],
+      "strip": {
+        "top": 752.546875,
+        "left": 69.125,
+        "bottom": 809.84375,
+        "right": 1370.875,
+        "width": 1301.75,
+        "height": 57.296875
+      },
+      "focal": "50% 40%",
+      "overflow": false,
+      "naturalWidth": 1008,
+      "axeViolations": 0,
+      "headerSticky": true,
+      "navigationPassed": true,
+      "errors": [],
+      "screenshot": "source-audit/home-hero/screens/hero-1440.jpg"
+    }
+  ],
+  "protectedFiles": 81,
+  "changed": [],
+  "originalImageUnchanged": true
+}

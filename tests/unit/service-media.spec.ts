@@ -8,8 +8,21 @@ const read = (path: string) => JSON.parse(readFileSync(path, 'utf8'));
 const baseline = read('source-audit/pass-06c/preserved-baseline.json');
 
 test('media enrichment preserves commerce, configurators, focus, Gallery routing, styles and all Cerakote entries', () => {
-  for (const [file, hash] of Object.entries(baseline.hashes))
+  // A later approved hero pass changes only its source image and scoped composition.
+  const homeFile = 'src/components/home/home-page.tsx';
+  for (const [file, hash] of Object.entries(baseline.hashes).filter(([file]) => file !== homeFile))
     expect(createHash('sha256').update(readFileSync(file)).digest('hex'), file).toBe(hash);
+  const home = readFileSync(homeFile, 'utf8').replace(
+    "import styles from './home-hero.module.css';\n",
+    '',
+  );
+  const preserved = read('source-audit/home-hero/preserved-content.json');
+  const hash = (value: string) => createHash('sha256').update(value).digest('hex');
+  expect(hash(home.slice(0, home.indexOf('<section className=')))).toBe(preserved.beforeHeroHash);
+  expect(
+    hash(home.slice(home.indexOf('<div className="hero-topline">'), home.indexOf('</section>'))),
+  ).toBe(preserved.heroCopyHash);
+  expect(hash(home.slice(home.indexOf('<div className="proof-bar')))).toBe(preserved.afterHeroHash);
   expect(gallery.filter((item) => item.service === 'Cerakote')).toEqual(baseline.cerakote);
 });
 
