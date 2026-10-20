@@ -17,7 +17,7 @@ export default async function CustomizePage({
       <PageIntro
         eyebrow="Configure / Review / Build"
         title="Make it personally yours."
-        description="One platform. Your choice of services. Configure the details, review the work, and keep every part of your project together."
+        description="Configure the details, review the work, and keep every part of your project together."
       />
       <div className="wrap section-tight">
         <Configurator

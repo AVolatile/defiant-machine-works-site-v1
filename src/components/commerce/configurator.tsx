@@ -24,6 +24,9 @@ import { BuildSummary, ServiceDetails } from './build-summary';
 import { GalleryReference } from './gallery-reference';
 import { OptionCard } from './option-card';
 import { ServiceFields } from './service-fields';
+import { CoatingConfigurator } from './coating-configurator';
+import { isStandaloneCoatingId } from '@/lib/commerce/coating-context';
+import { useConfiguratorStepFocus } from './use-configurator-step-focus';
 const steps = ['Platform', 'Services', 'Service details', 'Review'];
 const blank = (): BuildConfiguration => ({
   schemaVersion: 3,
@@ -38,7 +41,36 @@ const blank = (): BuildConfiguration => ({
   services: [],
   createdAt: '2000-01-01T00:00:00.000Z',
 });
-export function Configurator({
+type ConfiguratorProps = { editId?: string; product?: string; service?: string };
+
+export function Configurator(props: ConfiguratorProps) {
+  const cart = useCart();
+  const saved = cart.items.find((item) => item.kind === 'build' && item.id === props.editId);
+  const entry =
+    serviceById.get(props.product || '') ||
+    serviceCatalog.find((entry) => entry.displayName === props.product);
+  const coatingEdit =
+    saved?.kind === 'build' &&
+    saved.build.services.length === 1 &&
+    isStandaloneCoatingId(saved.build.services[0].serviceId);
+  if (!cart.ready) return <p role="status">Loading your configuration…</p>;
+  if (
+    coatingEdit ||
+    (!props.editId &&
+      (props.service?.toLowerCase() === 'cerakote' ||
+        (entry && isStandaloneCoatingId(entry.serviceId))))
+  )
+    return (
+      <CoatingConfigurator
+        key={props.editId || entry?.serviceId || 'cerakote'}
+        initialBuild={coatingEdit && saved.kind === 'build' ? saved.build : undefined}
+        product={entry?.serviceId}
+      />
+    );
+  return <PlatformConfigurator {...props} />;
+}
+
+function PlatformConfigurator({
   editId = '',
   product = '',
   service = '',
@@ -55,8 +87,8 @@ export function Configurator({
     [messages, setMessages] = useState<string[]>([]),
     [initialized, setInitialized] = useState(false),
     [activeService, setActiveService] = useState('');
-  const heading = useRef<HTMLHeadingElement>(null),
-    errorRef = useRef<HTMLDivElement>(null);
+  const { heading, panel } = useConfiguratorStepFocus(step);
+  const errorRef = useRef<HTMLDivElement>(null);
   useEffect(() => {
     if (!cart.ready || initialized) return;
     const saved = cart.items.find((i) => i.kind === 'build' && i.id === editId);
@@ -164,7 +196,6 @@ export function Configurator({
     }
     setErrors([]);
     setStep((s) => s + 1);
-    requestAnimationFrame(() => heading.current?.focus());
   }
   function save() {
     if (priced.errors.length) {
@@ -194,7 +225,7 @@ export function Configurator({
         ))}
       </ol>
       <div className="commerce-layout">
-        <section className="configuration-panel">
+        <section className="configuration-panel" ref={panel}>
           <span className="eyebrow">
             {editId ? 'Edit build' : 'Configure your work'} / 0{step + 1}
           </span>
@@ -228,6 +259,13 @@ export function Configurator({
           )}
           {step === 0 && (
             <>
+              {!editId && !build.services.length && (
+                <p className="notice">
+                  <Link className="text-link" href="/customize?service=cerakote">
+                    Cerakote only? Choose scope and finish
+                  </Link>
+                </p>
+              )}
               <div className="form-grid">
                 <div>
                   <label htmlFor="manufacturer">Manufacturer</label>
@@ -537,7 +575,6 @@ export function Configurator({
               onClick={() => {
                 setStep((s) => s - 1);
                 setErrors([]);
-                requestAnimationFrame(() => heading.current?.focus());
               }}
             >
               Back

@@ -1,0 +1,340 @@
+{
+  "recordedAt": "2026-10-20T15:02:38.983Z",
+  "scope": "Standalone cosmetic Cerakote only",
+  "fullPass06Complete": false,
+  "exclusions": [
+    "Other service-first branches",
+    "Add Compatible Work expansion",
+    "Performance-modification configuration and purchase development"
+  ],
+  "checks": {
+    "lint": {
+      "result": "passed",
+      "log": "pass-06/lint.log"
+    },
+    "strictTypecheck": {
+      "result": "passed",
+      "log": "pass-06/typecheck.log"
+    },
+    "productionBuild": {
+      "result": "passed",
+      "staticOutputs": 95,
+      "log": "pass-06/build.log"
+    },
+    "relevantSuite": {
+      "command": "PLAYWRIGHT_BASE_URL=http://127.0.0.1:3002 npx playwright test tests/unit tests/e2e tests/accessibility",
+      "startTime": "2026-10-20T14:55:47.155Z",
+      "duration": 59985.724,
+      "expected": 167,
+      "skipped": 0,
+      "unexpected": 0,
+      "flaky": 0,
+      "unitCases": 97,
+      "workflowCases": 60,
+      "accessibilityCases": 10,
+      "log": "pass-06/relevant-suite.log",
+      "note": "Before final presentation-only refinements; all affected coating cases rechecked below."
+    },
+    "finalFocusedSuite": {
+      "command": "PLAYWRIGHT_BASE_URL=http://127.0.0.1:3002 npx playwright test tests/unit/coating-context.spec.ts tests/e2e/coating.spec.ts",
+      "startTime": "2026-10-20T15:01:04.327Z",
+      "duration": 12810.429,
+      "expected": 18,
+      "skipped": 0,
+      "unexpected": 0,
+      "flaky": 0,
+      "unitCases": 6,
+      "browserCases": 12,
+      "newCoatingAxeStateScans": 6,
+      "log": "pass-06/coating-final.log"
+    },
+    "responsive": {
+      "widths": [
+        390,
+        1440
+      ],
+      "screens": 6,
+      "manualInspection": "passed",
+      "finishOverflowAssertions": "passed",
+      "largeVisualMatrixRerun": false
+    },
+    "canonicalData": {
+      "catalogVersion": "dmw-dd3ca0aec896",
+      "configurableServices": 32,
+      "fields": 180,
+      "optionRecords": 1280,
+      "comingSoonReferences": 8,
+      "unchanged": true
+    },
+    "preservation": {
+      "protectedFilesUnchanged": 25,
+      "documentedContextChanges": [
+        "src/lib/commerce/catalog.ts",
+        "src/lib/commerce/pricing.ts",
+        "src/lib/commerce/schema.ts",
+        "src/components/commerce/build-summary.tsx"
+      ],
+      "hashes": [
+        {
+          "path": "src/lib/commerce/build-rules.ts",
+          "before": "b21320dc650cca4923944819a363d206803fe1471d0f988e5705caa4badc36b4",
+          "after": "b21320dc650cca4923944819a363d206803fe1471d0f988e5705caa4badc36b4",
+          "unchanged": true,
+          "documentedCoatingContextChange": false
+        },
+        {
+          "path": "src/lib/commerce/cart-envelope.ts",
+          "before": "27ff4fa70b9bb37ace16ad0c99d3d64eb24cde6cd0c483c5be19b3b10c35b086",
+          "after": "27ff4fa70b9bb37ace16ad0c99d3d64eb24cde6cd0c483c5be19b3b10c35b086",
+          "unchanged": true,
+          "documentedCoatingContextChange": false
+        },
+        {
+          "path": "src/lib/commerce/cart-migration.ts",
+          "before": "0ccc83b1496199136dc05a7a8fb84df8ff8d9b72e1e7afc48b71879cf6231719",
+          "after": "0ccc83b1496199136dc05a7a8fb84df8ff8d9b72e1e7afc48b71879cf6231719",
+          "unchanged": true,
+          "documentedCoatingContextChange": false
+        },
+        {
+          "path": "src/lib/commerce/catalog-schema.ts",
+          "before": "29a4d5715bacb78c6f7d48bde9f3c771baf4be4442126571a26cb38f8ee08c86",
+          "after": "29a4d5715bacb78c6f7d48bde9f3c771baf4be4442126571a26cb38f8ee08c86",
+          "unchanged": true,
+          "documentedCoatingContextChange": false
+        },
+        {
+          "path": "src/lib/commerce/catalog.ts",
+          "before": "597899ad7c118b240324bd9535039c028add793e9803e6b5bd80e10e7aef5e7a",
+          "after": "3f954d9e4d0e22238d23ab8a2ee91d7e8f8e083e7a93230fa4210cb5593ef33b",
+          "unchanged": false,
+          "documentedCoatingContextChange": true
+        },
+        {
+          "path": "src/lib/commerce/communications.ts",
+          "before": "21281500f948b65886ee73fa9598430bf8b206b39e98ebd23bb8f284d190e465",
+          "after": "21281500f948b65886ee73fa9598430bf8b206b39e98ebd23bb8f284d190e465",
+          "unchanged": true,
+          "documentedCoatingContextChange": false
+        },
+        {
+          "path": "src/lib/commerce/eligibility.ts",
+          "before": "95c8b47beabe396bc146688f10c45bee9be7166a71917c86e085be0775d83b7c",
+          "after": "95c8b47beabe396bc146688f10c45bee9be7166a71917c86e085be0775d83b7c",
+          "unchanged": true,
+          "documentedCoatingContextChange": false
+        },
+        {
+          "path": "src/lib/commerce/http.ts",
+          "before": "f6c8cc013152cd4bb5c70d95788f835d97a935aafff148649d19e643d3df71f5",
+          "after": "f6c8cc013152cd4bb5c70d95788f835d97a935aafff148649d19e643d3df71f5",
+          "unchanged": true,
+          "documentedCoatingContextChange": false
+        },
+        {
+          "path": "src/lib/commerce/order-repository.ts",
+          "before": "c363eb1ccac7aa3243a661ca9e9926aa5c4d892ff53ebd05a4b7b8b8afc6a3fc",
+          "after": "c363eb1ccac7aa3243a661ca9e9926aa5c4d892ff53ebd05a4b7b8b8afc6a3fc",
+          "unchanged": true,
+          "documentedCoatingContextChange": false
+        },
+        {
+          "path": "src/lib/commerce/payment.ts",
+          "before": "2b35533d778a9f0bd9193e50fc2c7843b015a0cbf83039ec1a3119ed154499d9",
+          "after": "2b35533d778a9f0bd9193e50fc2c7843b015a0cbf83039ec1a3119ed154499d9",
+          "unchanged": true,
+          "documentedCoatingContextChange": false
+        },
+        {
+          "path": "src/lib/commerce/pricing.ts",
+          "before": "04dc172a52cc279ca5ad3b0b7f169fc753c494940164f2ff2a257bb302588608",
+          "after": "f2149b4246a7dde032353e1e421507f65199485585513d4e9b9f0e831f531fb5",
+          "unchanged": false,
+          "documentedCoatingContextChange": true
+        },
+        {
+          "path": "src/lib/commerce/schema.ts",
+          "before": "01ebabf08834ceb6ad31418cc4dd306e225993206e9e45d6261e7e7e4532f9a4",
+          "after": "7a49f63211451293a0516e395e05d678bb0566254ce6effe6c1b2d7a8a4ff370",
+          "unchanged": false,
+          "documentedCoatingContextChange": true
+        },
+        {
+          "path": "src/lib/commerce/service-configuration.ts",
+          "before": "12ecf0c00cec6cd2b5da9951f72f66c6bd566ed9bbfc15faf3354aefa7468f36",
+          "after": "12ecf0c00cec6cd2b5da9951f72f66c6bd566ed9bbfc15faf3354aefa7468f36",
+          "unchanged": true,
+          "documentedCoatingContextChange": false
+        },
+        {
+          "path": "src/components/commerce/address-fields.tsx",
+          "before": "c7f14651f2d9399eca107ad0bd1ca178f79e03491841d1952c4d41f6bd08c3ea",
+          "after": "c7f14651f2d9399eca107ad0bd1ca178f79e03491841d1952c4d41f6bd08c3ea",
+          "unchanged": true,
+          "documentedCoatingContextChange": false
+        },
+        {
+          "path": "src/components/commerce/build-summary.tsx",
+          "before": "1ea14dc5bdab28f2804f59023b5fa4121451fc59228d89fd73736059930e7e7f",
+          "after": "f2fe182539e8f9204409bc29345f64a45722946b15919a470fe430fc26f95965",
+          "unchanged": false,
+          "documentedCoatingContextChange": true
+        },
+        {
+          "path": "src/components/commerce/cart-store.tsx",
+          "before": "c31bc940339183bc9289678c4d2fd610fbef29d8872db4738df81ca543c23615",
+          "after": "c31bc940339183bc9289678c4d2fd610fbef29d8872db4738df81ca543c23615",
+          "unchanged": true,
+          "documentedCoatingContextChange": false
+        },
+        {
+          "path": "src/components/commerce/cart.tsx",
+          "before": "6575a96443ce7a5fabed23560a33823d9bc69e1b9c9ad207a5c4237bd3f414df",
+          "after": "6575a96443ce7a5fabed23560a33823d9bc69e1b9c9ad207a5c4237bd3f414df",
+          "unchanged": true,
+          "documentedCoatingContextChange": false
+        },
+        {
+          "path": "src/components/commerce/checkout.tsx",
+          "before": "ce16ae9ae9df2e4307039f399a38fa5c146b84ed3ed2b2a720b44bac4fbd4d5a",
+          "after": "ce16ae9ae9df2e4307039f399a38fa5c146b84ed3ed2b2a720b44bac4fbd4d5a",
+          "unchanged": true,
+          "documentedCoatingContextChange": false
+        },
+        {
+          "path": "src/data/service-matrix.json",
+          "before": "d22b6ae505a1ab56ab55e6ba3beef8a65242d1e63b8ef280fa95ca627a24aa4c",
+          "after": "d22b6ae505a1ab56ab55e6ba3beef8a65242d1e63b8ef280fa95ca627a24aa4c",
+          "unchanged": true,
+          "documentedCoatingContextChange": false
+        },
+        {
+          "path": "src/data/catalog-version.ts",
+          "before": "383cb97ec8f35f64fadae4e5dabcbb86d6d554ddc49174a67b443d089e7952c8",
+          "after": "383cb97ec8f35f64fadae4e5dabcbb86d6d554ddc49174a67b443d089e7952c8",
+          "unchanged": true,
+          "documentedCoatingContextChange": false
+        },
+        {
+          "path": "src/data/gallery.json",
+          "before": "d706be55e7a96b48c273c5e78e8ebe7fa1e588013775b647f71e8a64cb3ef739",
+          "after": "d706be55e7a96b48c273c5e78e8ebe7fa1e588013775b647f71e8a64cb3ef739",
+          "unchanged": true,
+          "documentedCoatingContextChange": false
+        },
+        {
+          "path": "src/app/api/commerce/orders/route.ts",
+          "before": "91113f078664dc77d7b5936690074f3edde5adbc6e196dbf46c17b692bca5b05",
+          "after": "91113f078664dc77d7b5936690074f3edde5adbc6e196dbf46c17b692bca5b05",
+          "unchanged": true,
+          "documentedCoatingContextChange": false
+        },
+        {
+          "path": "src/app/api/commerce/quote/route.ts",
+          "before": "bb66ce867168fb362e107d95a205903e637cbc1287bd6f1aa75d376e76160808",
+          "after": "bb66ce867168fb362e107d95a205903e637cbc1287bd6f1aa75d376e76160808",
+          "unchanged": true,
+          "documentedCoatingContextChange": false
+        },
+        {
+          "path": "src/app/order/[orderNumber]/confirmation/page.tsx",
+          "before": "46416ee6926352d6e895fa87a1397d27af040d5e6d8774f4539fb2c50cdf246a",
+          "after": "46416ee6926352d6e895fa87a1397d27af040d5e6d8774f4539fb2c50cdf246a",
+          "unchanged": true,
+          "documentedCoatingContextChange": false
+        },
+        {
+          "path": "src/components/home/home-page.tsx",
+          "before": "4b1c51d1155df85439cc2ae8cc2f01caf4fe06e30671fd3062c0f1ce21a1a471",
+          "after": "4b1c51d1155df85439cc2ae8cc2f01caf4fe06e30671fd3062c0f1ce21a1a471",
+          "unchanged": true,
+          "documentedCoatingContextChange": false
+        },
+        {
+          "path": "src/components/layout/header.tsx",
+          "before": "842253df65c896fb3835e767225c125bb783506995961e1795597263069553c7",
+          "after": "842253df65c896fb3835e767225c125bb783506995961e1795597263069553c7",
+          "unchanged": true,
+          "documentedCoatingContextChange": false
+        },
+        {
+          "path": "source-audit/SERVICE_COVERAGE.md",
+          "before": "15873dd32df8c00028f3b88b9b7222a162554bd28eed3c2f3d15f4e52868e091",
+          "after": "15873dd32df8c00028f3b88b9b7222a162554bd28eed3c2f3d15f4e52868e091",
+          "unchanged": true,
+          "documentedCoatingContextChange": false
+        },
+        {
+          "path": "source-audit/pass-03-verification.json",
+          "before": "919183630b115f55a28f19510307705ffe8a57b289ff8e0e73f181768b3e4cc2",
+          "after": "919183630b115f55a28f19510307705ffe8a57b289ff8e0e73f181768b3e4cc2",
+          "unchanged": true,
+          "documentedCoatingContextChange": false
+        },
+        {
+          "path": "tests/unit/catalog.spec.ts",
+          "before": "7f8c144509b03481a2c3d0d0f4aef81fe03fa71528f8254bd844172f1d635c2b",
+          "after": "7f8c144509b03481a2c3d0d0f4aef81fe03fa71528f8254bd844172f1d635c2b",
+          "unchanged": true,
+          "documentedCoatingContextChange": false
+        }
+      ]
+    },
+    "dependencyAudit": {
+      "run": false,
+      "reason": "No dependency changes; no earlier audit counts claimed as current."
+    }
+  },
+  "state": {
+    "storedSchemaVersion": 3,
+    "migrationRequired": false,
+    "catalogVersionChanged": false,
+    "platformIdentityForNewCoating": "Empty strings explicitly denote uncollected/non-applicable platform context.",
+    "oldPlatformSpecificCoatingIdentity": "Preserved on editing"
+  },
+  "source": {
+    "additionalLiveCrawl": false,
+    "evidence": [
+      "PASS_03_AUDIT.md",
+      "pass-04/pages.json",
+      "../src/data/service-matrix.json"
+    ],
+    "newCoatingUncertainty": false
+  },
+  "boundaries": {
+    "livePaymentDisabledByDefault": true,
+    "providerConnected": false,
+    "realBusinessOrder": false,
+    "externalEmail": false,
+    "commit": false,
+    "push": false,
+    "deployment": false,
+    "existingProductionDependenciesUnchanged": true
+  },
+  "screenshots": [
+    {
+      "path": "pass-06/screens/coating-scope-390.png",
+      "sha256": "b4163ec5d756668df482a8d66e60ead0a51a3aae6d83a92b63bc7fee70fefaf3"
+    },
+    {
+      "path": "pass-06/screens/coating-finish-390.png",
+      "sha256": "0088f9f5cdbfc79ca06e56d1bfbe214bd8061926362cd93b056b8756becd7614"
+    },
+    {
+      "path": "pass-06/screens/coating-review-390.png",
+      "sha256": "9239063d2214851df22f51e46b11e19a1e57825d6dc049de52d4d2e6b2666b73"
+    },
+    {
+      "path": "pass-06/screens/coating-scope-1440.png",
+      "sha256": "fd3c307b69b7e372587ed401bd40bb5da90c602bc3699c981d232e39cab753bb"
+    },
+    {
+      "path": "pass-06/screens/coating-finish-1440.png",
+      "sha256": "c3093e8695ef95c8b29439e3914d40e3c74a9c08115ecfb8e05f2705e9d797c2"
+    },
+    {
+      "path": "pass-06/screens/coating-review-1440.png",
+      "sha256": "b84b86534d7890ee373de65514aabd4a4fa97839d37f43cdb13f7eb43c21a546"
+    }
+  ]
+}

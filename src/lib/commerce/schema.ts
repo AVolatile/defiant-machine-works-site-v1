@@ -1,4 +1,5 @@
 import { z } from 'zod';
+import { hasScopeOnlyCoatingContext } from './coating-context';
 export const componentTypes = [
   'complete-firearm',
   'frame',
@@ -64,21 +65,32 @@ export const selectionSchema = z.object({
   optionIds: z.array(z.string().max(100)).max(20),
   attributes: z.record(z.string().max(100), z.string().max(150)).default({}),
 });
-export const buildSchema = z.object({
-  schemaVersion: z.literal(3),
-  id: z.uuid(),
-  firearm: z.object({
-    manufacturerId: z.string().min(1).max(80),
-    modelId: z.string().min(1).max(80),
-    variantId: z.string().min(1).max(80),
-    generationId: z
-      .enum(['unspecified', 'gen-3-or-earlier', 'gen-4-or-later'])
-      .default('unspecified'),
-    componentType: z.enum(componentTypes),
-  }),
-  services: z.array(selectionSchema).min(1).max(15),
-  createdAt: z.iso.datetime(),
-});
+export const buildSchema = z
+  .object({
+    schemaVersion: z.literal(3),
+    id: z.uuid(),
+    firearm: z.object({
+      manufacturerId: z.string().max(80),
+      modelId: z.string().max(80),
+      variantId: z.string().max(80),
+      generationId: z
+        .enum(['unspecified', 'gen-3-or-earlier', 'gen-4-or-later'])
+        .default('unspecified'),
+      componentType: z.enum(componentTypes),
+    }),
+    services: z.array(selectionSchema).min(1).max(15),
+    createdAt: z.iso.datetime(),
+  })
+  .superRefine((build, context) => {
+    if (hasScopeOnlyCoatingContext(build)) return;
+    for (const key of ['manufacturerId', 'modelId', 'variantId'] as const)
+      if (!build.firearm[key])
+        context.addIssue({
+          code: 'custom',
+          path: ['firearm', key],
+          message: 'Complete the platform information for this service.',
+        });
+  });
 export const cartItemSchema = z.discriminatedUnion('kind', [
   z.object({ kind: z.literal('build'), id: z.uuid(), build: buildSchema }),
   z.object({

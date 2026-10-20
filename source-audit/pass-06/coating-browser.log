@@ -1,0 +1,98 @@
+
+Running 11 tests using 3 workers
+
+(node:22557) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:22556) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:22558) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   1 [chromium] › tests/e2e/coating.spec.ts:36:7 › standalone cosmetic coating: Frame Only → finish → cart → edit without platform questions (3.4s)
+  ✓   2 [chromium] › tests/e2e/coating.spec.ts:36:7 › standalone cosmetic coating: Slide Only → finish → cart → edit without platform questions (3.4s)
+  ✘   5 [chromium] › tests/e2e/coating.spec.ts:65:5 › coating entry link, scope/finish errors, Gallery new tab and keyboard controls (795ms)
+(node:22580) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   4 [chromium] › tests/e2e/coating.spec.ts:36:7 › standalone cosmetic coating: Complete Pistol → finish → cart → edit without platform questions (2.2s)
+  ✓   7 [chromium] › tests/e2e/coating.spec.ts:121:5 › prior platform-specific cosmetic coating carts edit without data migration (2.0s)
+  ✓   6 [chromium] › tests/e2e/coating.spec.ts:98:5 › coating treatment change prunes hidden options and scope change resets finish choices (4.8s)
+  ✓   9 [chromium] › tests/e2e/coating.spec.ts:161:5 › coating quote independently rejects forged hidden fields and invalid scopes (16ms)
+  ✓   8 [chromium] › tests/e2e/coating.spec.ts:136:5 › scope-only cosmetic coating continues through existing test checkout and private confirmation (2.4s)
+  ✓  10 [chromium] › tests/e2e/coating.spec.ts:186:7 › cosmetic coating visual and Axe review at 390 (1.7s)
+  ✓  11 [chromium] › tests/e2e/coating.spec.ts:186:7 › cosmetic coating visual and Axe review at 1440 (1.7s)
+  ✘   3 [chromium] › tests/e2e/coating.spec.ts:12:5 › Cerakote service-page entry opens coating scope directly (1.0m)
+
+
+  1) [chromium] › tests/e2e/coating.spec.ts:12:5 › Cerakote service-page entry opens coating scope directly 
+
+    Test timeout of 60000ms exceeded.
+
+    Error: locator.click: Test timeout of 60000ms exceeded.
+    Call log:
+      - waiting for locator('main a[href="/customize?service=Cerakote"]')
+
+
+      13 |   await page.goto('/cerakote');
+      14 |   const link = page.locator('main a[href="/customize?service=Cerakote"]');
+    > 15 |   await link.click();
+         |              ^
+      16 |   await expect(page.getByRole('heading', { name: 'What are we coating?' })).toBeVisible();
+      17 | });
+      18 |
+        at /Users/avolatile/Desktop/Client Projects/Defiant Machine Works/defiant-machine-works-site/tests/e2e/coating.spec.ts:15:14
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/e2e-coating-Cerakote-servi-ab87a-pens-coating-scope-directly-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/e2e-coating-Cerakote-servi-ab87a-pens-coating-scope-directly-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/e2e-coating-Cerakote-servi-ab87a-pens-coating-scope-directly-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/e2e-coating-Cerakote-servi-ab87a-pens-coating-scope-directly-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2) [chromium] › tests/e2e/coating.spec.ts:65:5 › coating entry link, scope/finish errors, Gallery new tab and keyboard controls 
+
+    Error: expect(locator).toContainText(expected) failed
+
+    Locator: getByRole('alert')
+    Expected substring: "Choose a coating scope"
+    Error: strict mode violation: getByRole('alert') resolved to 2 elements:
+        1) <div role="alert" tabindex="-1" class="form-error">…</div> aka getByText('Check your coating choices.Choose a coating scope.')
+        2) <div role="alert" aria-live="assertive" id="__next-route-announcer__"></div> aka locator('[id="__next-route-announcer__"]')
+
+    Call log:
+      - Expect "toContainText" getByRole('alert') with timeout 10000ms
+      - waiting for getByRole('alert')
+
+
+      71 |     .click();
+      72 |   await page.getByRole('button', { name: 'Continue', exact: true }).click();
+    > 73 |   await expect(page.getByRole('alert')).toContainText('Choose a coating scope');
+         |                                         ^
+      74 |   const scope = page.getByRole('radio', { name: 'Slide Only', exact: true });
+      75 |   await scope.focus();
+      76 |   await page.keyboard.press('Space');
+        at /Users/avolatile/Desktop/Client Projects/Defiant Machine Works/defiant-machine-works-site/tests/e2e/coating.spec.ts:73:41
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/e2e-coating-coating-entry--9e4f7-w-tab-and-keyboard-controls-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/e2e-coating-coating-entry--9e4f7-w-tab-and-keyboard-controls-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/e2e-coating-coating-entry--9e4f7-w-tab-and-keyboard-controls-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/e2e-coating-coating-entry--9e4f7-w-tab-and-keyboard-controls-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2 failed
+    [chromium] › tests/e2e/coating.spec.ts:12:5 › Cerakote service-page entry opens coating scope directly 
+    [chromium] › tests/e2e/coating.spec.ts:65:5 › coating entry link, scope/finish errors, Gallery new tab and keyboard controls 
+  9 passed (1.0m)

@@ -243,3 +243,9 @@ The full suite still expects the local test and payment-disabled servers describ
 - [ ] Keep development checkout disabled on the public production site.
 
 # defiant-machine-works-site-v1
+
+## Pass 06 — standalone cosmetic coating (limited scope)
+
+The cosmetic Cerakote branch at `/customize?service=cerakote` asks for scope, treatment and finish directly. Existing Cerakote product/service links and single-coating cart edits use it. New scope-only coating records keep version 3 and use empty platform identity fields; existing platform-specific coating records retain their original data. No migration or catalog price change was introduced.
+
+This completes the cosmetic coating portion only. Other service-first branches and Add Compatible Work are outside this implementation. See [scope and source evidence](source-audit/PASS_06_SCOPE.md), [verification](source-audit/pass-06-verification.json) and the Pass 06 implementation report. Run `npx playwright test tests/unit tests/e2e tests/accessibility` against the documented test/default servers for relevant checks without repeating the large visual matrix.

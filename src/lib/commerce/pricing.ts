@@ -1,17 +1,20 @@
 import {
   catalogVersion,
   componentLabels,
+  componentFits,
   eligibleService,
   merchandise,
   platforms,
   serviceById,
   variantsFor,
-  platformTitle,
+  buildTitle,
 } from './catalog';
 import { normalizeBuild } from './build-rules';
 import { sourceConfiguration } from './service-configuration';
+import { hasScopeOnlyCoatingContext } from './coating-context';
 import type { BuildConfiguration, CartItem, CartQuote, PricedBuild, PricedService } from './schema';
 export function priceBuild(input: BuildConfiguration): PricedBuild {
+  const scopeOnlyCoating = hasScopeOnlyCoatingContext(input);
   const normalized = normalizeBuild(input),
     build = normalized.build,
     f = build.firearm;
@@ -20,8 +23,9 @@ export function priceBuild(input: BuildConfiguration): PricedBuild {
     selections: PricedService[] = [];
   const platform = platforms.find((p) => p.id === f.manufacturerId);
   if (
-    !platform?.models.some((m) => m.id === f.modelId) ||
-    !variantsFor(f.manufacturerId, f.modelId).some((v) => v.id === f.variantId)
+    !scopeOnlyCoating &&
+    (!platform?.models.some((m) => m.id === f.modelId) ||
+      !variantsFor(f.manufacturerId, f.modelId).some((v) => v.id === f.variantId))
   )
     errors.push(
       'This platform or variant is not supported by the verified catalog. Request a custom inquiry.',
@@ -33,7 +37,15 @@ export function priceBuild(input: BuildConfiguration): PricedBuild {
       errors.push('An unavailable or coming-soon service was selected.');
       continue;
     }
-    if (!eligibleService(service, f))
+    const compatible = scopeOnlyCoating
+      ? service.serviceFamily === 'cerakote' &&
+        !service.compatibleModels.length &&
+        !service.compatibleVariants.length &&
+        service.existingCutPolicy === 'any' &&
+        !service.fields.some((field) => field.role === 'model') &&
+        componentFits(service, f.componentType)
+      : eligibleService(service, f);
+    if (!compatible)
       errors.push(`${service.displayName} is not listed for this platform, variant or component.`);
     const config = sourceConfiguration(choice, build)!;
     errors.push(...config.errors.map((e) => `${service.displayName}: ${e}`));
@@ -86,7 +98,7 @@ export function quoteCart(items: CartItem[]): CartQuote {
       quoted.push({
         id: item.id,
         kind: 'build',
-        title: platformTitle(build.firearm),
+        title: buildTitle(build),
         subtotalCents: build.estimatedSubtotalCents,
         quantity: 1,
         build,
