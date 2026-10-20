@@ -80,7 +80,13 @@ for (const width of [390, 1440])
       );
       const items = gallery.filter((i) => i.service === galleryServiceLabels[family]);
       await expect(popup.locator('.gallery-tile')).toHaveCount(items.length);
-      await expect(popup.locator('.gallery-caption small')).toHaveText(items.map((i) => i.service));
+      await expect(popup.locator('.gallery-caption small')).toHaveText(
+        items.map(
+          (item) =>
+            item.service +
+            (item.referenceStatus === 'coming-soon' ? ' / Coming soon · Reference only' : ''),
+        ),
+      );
       await expect(popup.locator('.gallery-tile img').first()).toBeVisible();
       expect(page.url()).toBe(originalUrl);
       await popup.close();
@@ -183,7 +189,7 @@ test('service URL filters compose with the existing finish search and invalid va
   );
   await expect(page.locator('.gallery-tile')).toHaveCount(gallery.length);
 });
-test('protected data, rules, checkout, hero and navigation remain unchanged outside documented coating-context changes', () => {
+test('protected rules, checkout, hero and navigation remain unchanged outside documented context/media changes', () => {
   const baseline = JSON.parse(readFileSync('source-audit/pass-05/preserved-baseline.json', 'utf8'));
   // Pass 06 adds scope-only cosmetic coating context without changing stored shape or prices.
   // Its schema, pricing and summary behavior have dedicated coating-context regressions.
@@ -192,6 +198,8 @@ test('protected data, rules, checkout, hero and navigation remain unchanged outs
     'src/lib/commerce/pricing.ts',
     'src/lib/commerce/schema.ts',
     'src/components/commerce/build-summary.tsx',
+    // Pass 06C enriches Gallery media; its provenance and preserved Cerakote set are tested separately.
+    'src/data/gallery.json',
   ]);
   for (const [file, hash] of Object.entries(baseline.hashes).filter(
     ([file]) => !coatingContextFiles.has(file),

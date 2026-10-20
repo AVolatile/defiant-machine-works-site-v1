@@ -22,6 +22,9 @@ export type GalleryItem = {
   service: string;
   image: string;
   sourceUrl: string;
+  sourcePage?: string;
+  referenceStatus?: 'coming-soon';
+  servicePageExample?: boolean;
 };
 export type Article = {
   slug: string;
