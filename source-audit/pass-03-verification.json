@@ -1,0 +1,197 @@
+{
+  "pass": "04 (requested pass-03 artifact names)",
+  "verifiedAt": "2026-10-19T21:34:35.116Z",
+  "catalogVersion": "dmw-dd3ca0aec896",
+  "scope": "Local production build and synthetic test orders only",
+  "commands": {
+    "lint": {
+      "result": "passed",
+      "warnings": 0,
+      "log": "pass-04/lint.txt"
+    },
+    "strictTypecheck": {
+      "result": "passed",
+      "log": "pass-04/typecheck.txt"
+    },
+    "productionBuild": {
+      "result": "passed",
+      "staticOutputs": 95,
+      "log": "pass-04/build.txt"
+    },
+    "fullPlaywright": {
+      "result": "passed",
+      "startTime": "2026-10-19T21:31:40.436Z",
+      "duration": 84239.507,
+      "expected": 145,
+      "skipped": 0,
+      "unexpected": 0,
+      "flaky": 0,
+      "log": "pass-04/playwright.txt"
+    },
+    "responsive": {
+      "result": "passed",
+      "standardChecks": 69,
+      "log": "pass-04/responsive.txt"
+    },
+    "assets": {
+      "result": "passed",
+      "log": "pass-04/assets.txt"
+    }
+  },
+  "tests": {
+    "total": 145,
+    "unit": 91,
+    "browserAndApi": 36,
+    "accessibilityTests": 10,
+    "visualMatrixTests": 8,
+    "skipped": 0,
+    "flaky": 0,
+    "unexpected": 0
+  },
+  "axe": {
+    "checks": 21,
+    "violations": 0,
+    "breakdown": {
+      "corePages": 9,
+      "menuAndGalleryOverlays": 2,
+      "populatedCommerce": 3,
+      "visualOptions": 4,
+      "populatedMobileCheckout": 3
+    },
+    "certification": false
+  },
+  "responsive": {
+    "widths": [
+      375,
+      390,
+      430,
+      768,
+      1024,
+      1280,
+      1440,
+      1728
+    ],
+    "captureChecks": 139,
+    "standardRouteChecks": 69,
+    "standardWidths": [
+      320,
+      375,
+      1440
+    ],
+    "routeSmokeChecks": 100,
+    "overflow": 0,
+    "brokenImages": 0,
+    "index": "PASS_04_VISUAL_REVIEW.md"
+  },
+  "coverage": {
+    "storeProducts": 63,
+    "publicPages": 79,
+    "failedPublicPages": 0,
+    "activeServiceCount": 32,
+    "representedServices": 32,
+    "serviceCoveragePercent": 100,
+    "standardServiceRecords": 31,
+    "reviewRequiredServiceRecords": [
+      "cz-p-07"
+    ],
+    "sourceFields": 180,
+    "sourceOptions": 1280,
+    "comingSoonCount": 8,
+    "legacyAddOns": 23,
+    "unboundLegacyReviewItems": 13,
+    "cartableMerchandise": 5
+  },
+  "doubleChargeRegressions": {
+    "domain": [
+      "double charge: slide Cerakote and milling / reverse=false",
+      "double charge: complete pistol and slide coating / reverse=false",
+      "double charge: complete pistol and milling / reverse=false",
+      "package and included add-on / reverse=false",
+      "double charge: slide Cerakote and milling / reverse=true",
+      "double charge: complete pistol and slide coating / reverse=true",
+      "double charge: complete pistol and milling / reverse=true",
+      "package and included add-on / reverse=true",
+      "frame coating uses Core package upgrade instead of a second frame service",
+      "Viper and Bodyguard optic cut share finishing through the explicit source option",
+      "complete pistol and frame scope normalize once / reverse=false",
+      "Core frame upgrade and standalone frame normalize once / reverse=false",
+      "complete pistol and porting own separate coating scopes / reverse=false",
+      "porting finish transfers to new milling and is billed once / reverse=false",
+      "complete pistol and frame scope normalize once / reverse=true",
+      "Core frame upgrade and standalone frame normalize once / reverse=true",
+      "complete pistol and porting own separate coating scopes / reverse=true",
+      "porting finish transfers to new milling and is billed once / reverse=true"
+    ],
+    "browser": [
+      "human regression: Glock 17 Midnight Chocolate Chip / reverse=false",
+      "human regression: Glock 17 Midnight Chocolate Chip / reverse=true"
+    ],
+    "humanCase": {
+      "platform": "Glock 17 / slide / uncut OEM",
+      "optic": "C Series",
+      "buis": "Keep Factory",
+      "finish": "Midnight Chocolate Chip",
+      "canonicalCents": 28500,
+      "billableServices": 1,
+      "bothDirections": true
+    }
+  },
+  "assets": {
+    "originalHashes": 1854,
+    "contentReferences": 258,
+    "optimizedConfiguratorReferences": 915,
+    "knownSource404s": 3,
+    "generatedFirearmImages": 0,
+    "criticalHotlinks": 0
+  },
+  "dependencyAudit": {
+    "production": {
+      "info": 0,
+      "low": 0,
+      "moderate": 0,
+      "high": 0,
+      "critical": 0,
+      "total": 0
+    },
+    "all": {
+      "info": 0,
+      "low": 0,
+      "moderate": 0,
+      "high": 5,
+      "critical": 0,
+      "total": 5
+    },
+    "logs": [
+      "pass-04/production-dependency-audit.json",
+      "pass-04/dependency-audit.json"
+    ],
+    "notes": "Five inherited high-severity development-tooling entries through braces/micromatch/fast-glob/Next ESLint; zero production entries. No forced major downgrade or new dependency."
+  },
+  "boundaries": {
+    "livePaymentEnabled": false,
+    "deployed": false,
+    "committed": false,
+    "realOrderSubmitted": false,
+    "emailSent": false,
+    "sqlite": "Development/test only"
+  },
+  "uncertainties": [
+    "P-07/75 Series description conflict",
+    "Duplicate M&P RMR option",
+    "13 unbound legacy add-on prerequisite records",
+    "Unphotographed finishes and source naming aliases",
+    "Viper landing range $225–$305 vs explicit product-form camo total $325"
+  ],
+  "productionDependencies": [
+    "Approved payment provider and business eligibility",
+    "Server transaction confirmation, verified webhook, idempotency and reconciliation",
+    "Owner-confirmed pricing and compatibility matrix",
+    "Shipping process/costs and tax calculation",
+    "Configured order email and inquiry delivery",
+    "Fulfillment procedures",
+    "Shared durable repository and shared abuse controls",
+    "Encryption-key custody and backup/restore",
+    "Retention/deletion and legal policy approval",
+    "Manual accessibility and production-host verification"
+  ]
+}

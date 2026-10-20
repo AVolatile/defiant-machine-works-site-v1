@@ -1,0 +1,64 @@
+{
+  "date": "2026-10-19",
+  "scope": "Pass 02 local production build; no deployment or real payments",
+  "lint": "passed, no warnings",
+  "typecheck": "passed",
+  "productionBuild": {
+    "status": "passed",
+    "staticOutputs": 95,
+    "runtime": "Node.js 22.23.3"
+  },
+  "browserTests": {
+    "startTime": "2026-10-19T19:53:28.626Z",
+    "duration": 30978.355,
+    "expected": 33,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "browserEngine": "Playwright Chromium; in-app browser control unavailable",
+  "accessibility": "Axe WCAG 2.2 AA checks passed on nine pages, menu and gallery overlays, service-option controls and populated mobile checkout; not a compliance certification",
+  "responsiveVisualChecks": 22,
+  "heroWidths": [1728, 1440, 1280, 1024, 768, 430, 390, 375],
+  "overflowFindings": [],
+  "signatureArrowCounts": {
+    "home": 2,
+    "about": 1,
+    "resources": 1,
+    "merchandiseDetail": 1,
+    "commerce": 0,
+    "note": "Whole-page counts; signature CTAs are separated by page content"
+  },
+  "populatedOrderVisualWidths": [1440, 375],
+  "privateOrderConfirmation": "matching session succeeds; another browser receives 404; checkout PII is not stored in localStorage",
+  "defaultCheckout": {
+    "checkoutClosed": true,
+    "orderStatus": 503,
+    "response": {
+      "error": "Checkout is not yet open. Contact Defiant to arrange your order."
+    }
+  },
+  "regressionFixes": [
+    "Existing optic-cut variants are matched explicitly, so no-existing-cut selections retain valid milling choices",
+    "Source attribute control IDs remain valid and programmatically labelled",
+    "Build numbering ignores merchandise items preceding the first build"
+  ],
+  "sourceAssetHashesVerified": 1854,
+  "contentImageReferencesVerified": 258,
+  "knownSource404s": 3,
+  "servicePricing": "Verified base amounts; all service configurations require review and are not final quotes",
+  "payment": "Development adapter only; no real charge, shipment, service authorization or business order delivery",
+  "liveFormDelivery": "Not configured; real 503 failure path tested; accepted UI uses a mocked response",
+  "productionDependencies": [
+    "Approved payment provider, production adapter, webhooks and reconciliation",
+    "Confirmed option prices, combined-work compatibility, shipping and tax calculations",
+    "Shared durable repository and abuse controls for serverless or multi-instance hosting",
+    "Verified inquiry delivery, fulfillment, backups, key custody, retention and owner/legal policies"
+  ],
+  "evidence": {
+    "browserReport": "test-results/results.json",
+    "responsiveVisuals": "tests/visual/pass-02/results.json",
+    "orderVisuals": "tests/visual/pass-02/order-visual-results.json",
+    "defaultClosed": "tests/visual/pass-02/default-checkout.json"
+  }
+}

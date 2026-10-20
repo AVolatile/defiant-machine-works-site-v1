@@ -1,0 +1,158 @@
+{
+  "reviewDate": "2026-10-20",
+  "catalogVersion": "dmw-dd3ca0aec896",
+  "services": 32,
+  "fields": 180,
+  "options": 1280,
+  "comingSoon": 8,
+  "coveragePercent": 100,
+  "protectedFileCount": 29,
+  "allProtectedFilesUnchanged": true,
+  "files": [
+    {
+      "file": "src/lib/commerce/build-rules.ts",
+      "before": "b21320dc650cca4923944819a363d206803fe1471d0f988e5705caa4badc36b4",
+      "after": "b21320dc650cca4923944819a363d206803fe1471d0f988e5705caa4badc36b4"
+    },
+    {
+      "file": "src/lib/commerce/cart-envelope.ts",
+      "before": "27ff4fa70b9bb37ace16ad0c99d3d64eb24cde6cd0c483c5be19b3b10c35b086",
+      "after": "27ff4fa70b9bb37ace16ad0c99d3d64eb24cde6cd0c483c5be19b3b10c35b086"
+    },
+    {
+      "file": "src/lib/commerce/cart-migration.ts",
+      "before": "0ccc83b1496199136dc05a7a8fb84df8ff8d9b72e1e7afc48b71879cf6231719",
+      "after": "0ccc83b1496199136dc05a7a8fb84df8ff8d9b72e1e7afc48b71879cf6231719"
+    },
+    {
+      "file": "src/lib/commerce/catalog-schema.ts",
+      "before": "29a4d5715bacb78c6f7d48bde9f3c771baf4be4442126571a26cb38f8ee08c86",
+      "after": "29a4d5715bacb78c6f7d48bde9f3c771baf4be4442126571a26cb38f8ee08c86"
+    },
+    {
+      "file": "src/lib/commerce/catalog.ts",
+      "before": "597899ad7c118b240324bd9535039c028add793e9803e6b5bd80e10e7aef5e7a",
+      "after": "597899ad7c118b240324bd9535039c028add793e9803e6b5bd80e10e7aef5e7a"
+    },
+    {
+      "file": "src/lib/commerce/communications.ts",
+      "before": "21281500f948b65886ee73fa9598430bf8b206b39e98ebd23bb8f284d190e465",
+      "after": "21281500f948b65886ee73fa9598430bf8b206b39e98ebd23bb8f284d190e465"
+    },
+    {
+      "file": "src/lib/commerce/eligibility.ts",
+      "before": "95c8b47beabe396bc146688f10c45bee9be7166a71917c86e085be0775d83b7c",
+      "after": "95c8b47beabe396bc146688f10c45bee9be7166a71917c86e085be0775d83b7c"
+    },
+    {
+      "file": "src/lib/commerce/http.ts",
+      "before": "f6c8cc013152cd4bb5c70d95788f835d97a935aafff148649d19e643d3df71f5",
+      "after": "f6c8cc013152cd4bb5c70d95788f835d97a935aafff148649d19e643d3df71f5"
+    },
+    {
+      "file": "src/lib/commerce/order-repository.ts",
+      "before": "c363eb1ccac7aa3243a661ca9e9926aa5c4d892ff53ebd05a4b7b8b8afc6a3fc",
+      "after": "c363eb1ccac7aa3243a661ca9e9926aa5c4d892ff53ebd05a4b7b8b8afc6a3fc"
+    },
+    {
+      "file": "src/lib/commerce/payment.ts",
+      "before": "2b35533d778a9f0bd9193e50fc2c7843b015a0cbf83039ec1a3119ed154499d9",
+      "after": "2b35533d778a9f0bd9193e50fc2c7843b015a0cbf83039ec1a3119ed154499d9"
+    },
+    {
+      "file": "src/lib/commerce/pricing.ts",
+      "before": "04dc172a52cc279ca5ad3b0b7f169fc753c494940164f2ff2a257bb302588608",
+      "after": "04dc172a52cc279ca5ad3b0b7f169fc753c494940164f2ff2a257bb302588608"
+    },
+    {
+      "file": "src/lib/commerce/schema.ts",
+      "before": "01ebabf08834ceb6ad31418cc4dd306e225993206e9e45d6261e7e7e4532f9a4",
+      "after": "01ebabf08834ceb6ad31418cc4dd306e225993206e9e45d6261e7e7e4532f9a4"
+    },
+    {
+      "file": "src/lib/commerce/service-configuration.ts",
+      "before": "12ecf0c00cec6cd2b5da9951f72f66c6bd566ed9bbfc15faf3354aefa7468f36",
+      "after": "12ecf0c00cec6cd2b5da9951f72f66c6bd566ed9bbfc15faf3354aefa7468f36"
+    },
+    {
+      "file": "src/components/commerce/address-fields.tsx",
+      "before": "c7f14651f2d9399eca107ad0bd1ca178f79e03491841d1952c4d41f6bd08c3ea",
+      "after": "c7f14651f2d9399eca107ad0bd1ca178f79e03491841d1952c4d41f6bd08c3ea"
+    },
+    {
+      "file": "src/components/commerce/build-summary.tsx",
+      "before": "1ea14dc5bdab28f2804f59023b5fa4121451fc59228d89fd73736059930e7e7f",
+      "after": "1ea14dc5bdab28f2804f59023b5fa4121451fc59228d89fd73736059930e7e7f"
+    },
+    {
+      "file": "src/components/commerce/cart-store.tsx",
+      "before": "c31bc940339183bc9289678c4d2fd610fbef29d8872db4738df81ca543c23615",
+      "after": "c31bc940339183bc9289678c4d2fd610fbef29d8872db4738df81ca543c23615"
+    },
+    {
+      "file": "src/components/commerce/cart.tsx",
+      "before": "6575a96443ce7a5fabed23560a33823d9bc69e1b9c9ad207a5c4237bd3f414df",
+      "after": "6575a96443ce7a5fabed23560a33823d9bc69e1b9c9ad207a5c4237bd3f414df"
+    },
+    {
+      "file": "src/components/commerce/checkout.tsx",
+      "before": "ce16ae9ae9df2e4307039f399a38fa5c146b84ed3ed2b2a720b44bac4fbd4d5a",
+      "after": "ce16ae9ae9df2e4307039f399a38fa5c146b84ed3ed2b2a720b44bac4fbd4d5a"
+    },
+    {
+      "file": "src/data/service-matrix.json",
+      "before": "d22b6ae505a1ab56ab55e6ba3beef8a65242d1e63b8ef280fa95ca627a24aa4c",
+      "after": "d22b6ae505a1ab56ab55e6ba3beef8a65242d1e63b8ef280fa95ca627a24aa4c"
+    },
+    {
+      "file": "src/data/catalog-version.ts",
+      "before": "383cb97ec8f35f64fadae4e5dabcbb86d6d554ddc49174a67b443d089e7952c8",
+      "after": "383cb97ec8f35f64fadae4e5dabcbb86d6d554ddc49174a67b443d089e7952c8"
+    },
+    {
+      "file": "src/data/gallery.json",
+      "before": "d706be55e7a96b48c273c5e78e8ebe7fa1e588013775b647f71e8a64cb3ef739",
+      "after": "d706be55e7a96b48c273c5e78e8ebe7fa1e588013775b647f71e8a64cb3ef739"
+    },
+    {
+      "file": "src/app/api/commerce/orders/route.ts",
+      "before": "91113f078664dc77d7b5936690074f3edde5adbc6e196dbf46c17b692bca5b05",
+      "after": "91113f078664dc77d7b5936690074f3edde5adbc6e196dbf46c17b692bca5b05"
+    },
+    {
+      "file": "src/app/api/commerce/quote/route.ts",
+      "before": "bb66ce867168fb362e107d95a205903e637cbc1287bd6f1aa75d376e76160808",
+      "after": "bb66ce867168fb362e107d95a205903e637cbc1287bd6f1aa75d376e76160808"
+    },
+    {
+      "file": "src/app/order/[orderNumber]/confirmation/page.tsx",
+      "before": "46416ee6926352d6e895fa87a1397d27af040d5e6d8774f4539fb2c50cdf246a",
+      "after": "46416ee6926352d6e895fa87a1397d27af040d5e6d8774f4539fb2c50cdf246a"
+    },
+    {
+      "file": "src/components/home/home-page.tsx",
+      "before": "4b1c51d1155df85439cc2ae8cc2f01caf4fe06e30671fd3062c0f1ce21a1a471",
+      "after": "4b1c51d1155df85439cc2ae8cc2f01caf4fe06e30671fd3062c0f1ce21a1a471"
+    },
+    {
+      "file": "src/components/layout/header.tsx",
+      "before": "842253df65c896fb3835e767225c125bb783506995961e1795597263069553c7",
+      "after": "842253df65c896fb3835e767225c125bb783506995961e1795597263069553c7"
+    },
+    {
+      "file": "source-audit/SERVICE_COVERAGE.md",
+      "before": "15873dd32df8c00028f3b88b9b7222a162554bd28eed3c2f3d15f4e52868e091",
+      "after": "15873dd32df8c00028f3b88b9b7222a162554bd28eed3c2f3d15f4e52868e091"
+    },
+    {
+      "file": "source-audit/pass-03-verification.json",
+      "before": "919183630b115f55a28f19510307705ffe8a57b289ff8e0e73f181768b3e4cc2",
+      "after": "919183630b115f55a28f19510307705ffe8a57b289ff8e0e73f181768b3e4cc2"
+    },
+    {
+      "file": "tests/unit/catalog.spec.ts",
+      "before": "7f8c144509b03481a2c3d0d0f4aef81fe03fa71528f8254bd844172f1d635c2b",
+      "after": "7f8c144509b03481a2c3d0d0f4aef81fe03fa71528f8254bd844172f1d635c2b"
+    }
+  ]
+}

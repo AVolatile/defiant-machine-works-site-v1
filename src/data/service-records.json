@@ -1,0 +1,58 @@
+[
+  {
+    "slug": "stippling",
+    "title": "Stippling",
+    "eyebrow": "A grip that feels like yours.",
+    "description": "Purposeful texture. Clean borders. A frame tailored to the way you carry and shoot.",
+    "benefit": "Texture, control, and a personal finish.",
+    "image": "/assets/dmw/optimized/7306141c4b870b.webp",
+    "platforms": [
+      "Glock",
+      "SIG Sauer",
+      "Smith & Wesson",
+      "CZ",
+      "Springfield Armory",
+      "FN",
+      "Ruger",
+      "Staccato",
+      "OA Defense",
+      "Beretta",
+      "PSA"
+    ],
+    "sourceUrl": "https://defiantmachineworks.com/stippling/",
+    "startingPrice": 245
+  },
+  {
+    "slug": "slide-milling",
+    "title": "Slide milling",
+    "eyebrow": "Precision, down to the cut.",
+    "description": "Optic cuts and custom slide work for source-listed Glock, SIG Sauer, Smith & Wesson, and CZ platforms.",
+    "benefit": "Machined detail. A build that works together.",
+    "image": "/assets/dmw/optimized/4e5c4110f85a22.webp",
+    "platforms": ["Glock", "SIG Sauer", "Smith & Wesson", "CZ"],
+    "sourceUrl": "https://defiantmachineworks.com/slide-milling-select-your-model/",
+    "startingPrice": 185
+  },
+  {
+    "slug": "cerakote",
+    "title": "Cerakote",
+    "eyebrow": "Protection with personality.",
+    "description": "Solid colors, custom mixes, and camouflage. Real finishes with the care and character your build deserves.",
+    "benefit": "Surface protection. An unmistakable finish.",
+    "image": "/assets/dmw/optimized/02d94e22381a7b.webp",
+    "platforms": ["Complete pistol", "Frame", "Slide", "Custom project"],
+    "sourceUrl": "https://defiantmachineworks.com/cerakote/",
+    "startingPrice": 90
+  },
+  {
+    "slug": "porting",
+    "title": "Porting",
+    "eyebrow": "Considered, platform-specific work.",
+    "description": "Explore Bodyguard 2.0 Viper Ports, and speak with Defiant about upcoming porting options.",
+    "benefit": "A dedicated service for your specific platform.",
+    "image": "/assets/dmw/optimized/14d8d89355c391.webp",
+    "platforms": ["Smith & Wesson Bodyguard 2.0"],
+    "sourceUrl": "https://defiantmachineworks.com/porting/",
+    "startingPrice": 225
+  }
+]

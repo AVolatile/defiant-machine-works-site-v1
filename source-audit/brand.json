@@ -1,0 +1,704 @@
+{
+  "logo": "public/assets/dmw/brand/DEFIANT-MACHINE-WORKS-ICON.png",
+  "rust": "#a23f00",
+  "extraction": "Exact unquantized opaque orange pixel frequency from original PNG",
+  "palette": [
+    {
+      "hex": "#a23f00",
+      "pixels": 338423
+    }
+  ],
+  "logos": [
+    {
+      "sourceUrl": "https://defiantmachineworks.com/wp-content/uploads/2023/09/Topo-Logo.png",
+      "sourcePage": "https://defiantmachineworks.com/product/dmw-sticker-pack/",
+      "alt": "DMW_topo_logo_sticker",
+      "role": "image",
+      "localPath": "public/assets/dmw/brand/Topo-Logo.png",
+      "type": "png",
+      "width": 2138,
+      "height": 2138,
+      "hash": "92e9421a06a6301f4838b54c6ca834479fabd3b703161830a7e3754bf2e49912",
+      "status": 200
+    },
+    {
+      "sourceUrl": "https://defiantmachineworks.com/wp-content/uploads/elementor/thumbs/DEFIANT-MACHINE-WORKS-LOGO-HORIZONTAL-2-rgzsbkbi04mbge9piyh3kx8ivy6ok7klr1ax8npzvg.png",
+      "sourcePage": "https://defiantmachineworks.com/",
+      "alt": "DEFIANT MACHINE WORKS LOGO ( HORIZONTAL ) (2)",
+      "role": "image",
+      "localPath": "public/assets/dmw/brand/DEFIANT-MACHINE-WORKS-LOGO-HORIZONTAL-2-rgzsbkbi04mbge9piyh3kx8ivy6ok7klr1ax8npzvg.png",
+      "type": "png",
+      "width": 300,
+      "height": 150,
+      "hash": "1a8091870a9655021bd30eb89a57277a2103e4095ff614da3917db02385d32c5",
+      "status": 200
+    },
+    {
+      "sourceUrl": "https://defiantmachineworks.com/wp-content/uploads/2025/07/DEFIANT-MACHINE-WORKS-ICON-1024x1024.png",
+      "sourcePage": "https://defiantmachineworks.com/",
+      "alt": "",
+      "role": "image",
+      "localPath": "public/assets/dmw/brand/DEFIANT-MACHINE-WORKS-ICON-1024x1024.png",
+      "type": "png",
+      "width": 1024,
+      "height": 1024,
+      "hash": "a7114c6911d930976848506ab5e8e952f0af62bf12578878ff42fe4e744211eb",
+      "status": 200
+    },
+    {
+      "sourceUrl": "https://defiantmachineworks.com/wp-content/uploads/2025/07/DEFIANT-MACHINE-WORKS-ICON-768x768.png",
+      "sourcePage": "https://defiantmachineworks.com/",
+      "alt": "",
+      "role": "image",
+      "localPath": "public/assets/dmw/brand/DEFIANT-MACHINE-WORKS-ICON-768x768.png",
+      "type": "png",
+      "width": 768,
+      "height": 768,
+      "hash": "55ef7b641deca1cc2c6ee9051c258ab417cad106d6198c337ccd858e8b44b852",
+      "status": 200
+    },
+    {
+      "sourceUrl": "https://defiantmachineworks.com/wp-content/uploads/2025/07/DEFIANT-MACHINE-WORKS-ICON-300x300.png",
+      "sourcePage": "https://defiantmachineworks.com/",
+      "alt": "",
+      "role": "image",
+      "localPath": "public/assets/dmw/brand/DEFIANT-MACHINE-WORKS-ICON-300x300.png",
+      "type": "png",
+      "width": 300,
+      "height": 300,
+      "hash": "630fb78ba7022ad7a98da8c6c214b02888e93b53035d4b54adda5c40b3150719",
+      "status": 200
+    },
+    {
+      "sourceUrl": "https://defiantmachineworks.com/wp-content/uploads/2025/07/DEFIANT-MACHINE-WORKS-ICON-150x150.png",
+      "sourcePage": "https://defiantmachineworks.com/",
+      "alt": "",
+      "role": "image",
+      "localPath": "public/assets/dmw/brand/DEFIANT-MACHINE-WORKS-ICON-150x150.png",
+      "type": "png",
+      "width": 150,
+      "height": 150,
+      "hash": "41dbac07a1a699fbbeb5276178ee19f8de7aa64b7127902483164aac767537d5",
+      "status": 200
+    },
+    {
+      "sourceUrl": "https://defiantmachineworks.com/wp-content/uploads/2025/07/DEFIANT-MACHINE-WORKS-ICON-100x100.png",
+      "sourcePage": "https://defiantmachineworks.com/",
+      "alt": "",
+      "role": "image",
+      "localPath": "public/assets/dmw/brand/DEFIANT-MACHINE-WORKS-ICON-100x100.png",
+      "type": "png",
+      "width": 100,
+      "height": 100,
+      "hash": "717752f40edd3bf09868bf270fae9c55b3df673c4d5f0d84e6b143d9a290884d",
+      "status": 200
+    },
+    {
+      "sourceUrl": "https://defiantmachineworks.com/wp-content/uploads/2025/07/DEFIANT-MACHINE-WORKS-ICON-50x50.png",
+      "sourcePage": "https://defiantmachineworks.com/",
+      "alt": "",
+      "role": "image",
+      "localPath": "public/assets/dmw/brand/DEFIANT-MACHINE-WORKS-ICON-50x50.png",
+      "type": "png",
+      "width": 50,
+      "height": 50,
+      "hash": "3ae42d31bebec634064499346cb28c231dad89b3f0ae8682bd1528802c0bb492",
+      "status": 200
+    },
+    {
+      "sourceUrl": "https://defiantmachineworks.com/wp-content/uploads/2025/07/DEFIANT-MACHINE-WORKS-ICON-600x600.png",
+      "sourcePage": "https://defiantmachineworks.com/",
+      "alt": "",
+      "role": "image",
+      "localPath": "public/assets/dmw/brand/DEFIANT-MACHINE-WORKS-ICON-600x600.png",
+      "type": "png",
+      "width": 600,
+      "height": 600,
+      "hash": "85010165fef48b93479a144e1328b3dbe9732fb419b634461b3e8d2cbf1b5ee4",
+      "status": 200
+    },
+    {
+      "sourceUrl": "https://defiantmachineworks.com/wp-content/uploads/2025/07/DEFIANT-MACHINE-WORKS-ICON.png",
+      "sourcePage": "https://defiantmachineworks.com/",
+      "alt": "",
+      "role": "image",
+      "localPath": "public/assets/dmw/brand/DEFIANT-MACHINE-WORKS-ICON.png",
+      "type": "png",
+      "width": 1500,
+      "height": 1500,
+      "hash": "2fa1a3e11c89a8350ea5e0dc946c5a286c8241ccc822f1658da3efc7c6820978",
+      "status": 200
+    },
+    {
+      "sourceUrl": "https://defiantmachineworks.com/wp-content/uploads/2023/09/Topo-Logo-300x300.png",
+      "sourcePage": "https://defiantmachineworks.com/shop/page/2/",
+      "alt": "DMW_topo_logo_sticker",
+      "role": "image",
+      "localPath": "public/assets/dmw/brand/Topo-Logo-300x300.png",
+      "type": "png",
+      "width": 300,
+      "height": 300,
+      "hash": "36629e46e73ce9e833c63c5187fd7f932d1bbf94feb281982a839e4001c3f9cb",
+      "status": 200
+    },
+    {
+      "sourceUrl": "https://defiantmachineworks.com/wp-content/uploads/2023/09/Topo-Logo-150x150.png",
+      "sourcePage": "https://defiantmachineworks.com/shop/page/2/",
+      "alt": "DMW_topo_logo_sticker",
+      "role": "image",
+      "localPath": "public/assets/dmw/brand/Topo-Logo-150x150.png",
+      "type": "png",
+      "width": 150,
+      "height": 150,
+      "hash": "fbf85d07d541b90f0adefb78dc469f28def7ddb548c18c9ae378b4be10181ade",
+      "status": 200
+    },
+    {
+      "sourceUrl": "https://defiantmachineworks.com/wp-content/uploads/2023/09/Topo-Logo-600x600.png",
+      "sourcePage": "https://defiantmachineworks.com/shop/page/2/",
+      "alt": "DMW_topo_logo_sticker",
+      "role": "image",
+      "localPath": "public/assets/dmw/brand/Topo-Logo-600x600.png",
+      "type": "png",
+      "width": 600,
+      "height": 600,
+      "hash": "7c0ad59bab4909b78b0767a875cc09e5a65a6a2418e52587b83770230704b8a3",
+      "status": 200
+    },
+    {
+      "sourceUrl": "https://defiantmachineworks.com/wp-content/uploads/2023/09/Topo-Logo-1024x1024.png",
+      "sourcePage": "https://defiantmachineworks.com/shop/page/2/",
+      "alt": "DMW_topo_logo_sticker",
+      "role": "image",
+      "localPath": "public/assets/dmw/brand/Topo-Logo-1024x1024.png",
+      "type": "png",
+      "width": 1024,
+      "height": 1024,
+      "hash": "95a5407382e98a28af44efbd26bd829d213a05b2a5a502ca789749e5cc826885",
+      "status": 200
+    },
+    {
+      "sourceUrl": "https://defiantmachineworks.com/wp-content/uploads/2023/09/Topo-Logo-768x768.png",
+      "sourcePage": "https://defiantmachineworks.com/shop/page/2/",
+      "alt": "DMW_topo_logo_sticker",
+      "role": "image",
+      "localPath": "public/assets/dmw/brand/Topo-Logo-768x768.png",
+      "type": "png",
+      "width": 768,
+      "height": 768,
+      "hash": "784ce69028a4ae8ad751d8bade5e84805df81e3f4ac75f467c9ced70021334f8",
+      "status": 200
+    },
+    {
+      "sourceUrl": "https://defiantmachineworks.com/wp-content/uploads/2023/09/Topo-Logo-1536x1536.png",
+      "sourcePage": "https://defiantmachineworks.com/shop/page/2/",
+      "alt": "DMW_topo_logo_sticker",
+      "role": "image",
+      "localPath": "public/assets/dmw/brand/Topo-Logo-1536x1536.png",
+      "type": "png",
+      "width": 1536,
+      "height": 1536,
+      "hash": "886a14c83590f99305db561f3e127cca03dfc51c7209f77028cf7a1122caf826",
+      "status": 200
+    },
+    {
+      "sourceUrl": "https://defiantmachineworks.com/wp-content/uploads/2023/09/Topo-Logo-2048x2048.png",
+      "sourcePage": "https://defiantmachineworks.com/shop/page/2/",
+      "alt": "DMW_topo_logo_sticker",
+      "role": "image",
+      "localPath": "public/assets/dmw/brand/Topo-Logo-2048x2048.png",
+      "type": "png",
+      "width": 2048,
+      "height": 2048,
+      "hash": "9654e5e45afba6f5e2777c26bfabb5b3baa476a7eb6d1557061f314d501f2206",
+      "status": 200
+    },
+    {
+      "sourceUrl": "https://defiantmachineworks.com/wp-content/uploads/2025/07/LOGO.svg",
+      "sourcePage": "https://defiantmachineworks.com/gallery/",
+      "alt": "",
+      "role": "image",
+      "localPath": "public/assets/dmw/brand/LOGO.svg",
+      "type": "svg",
+      "width": 600,
+      "height": 400,
+      "hash": "fc346f2b1ebaaebc40a37209e40331387eb931aba4dad8ce55b7d3ec6863a749",
+      "status": 200
+    }
+  ],
+  "black": "#0a0a0a",
+  "white": "#ffffff",
+  "fontFamilies": [
+    "inherit",
+    "Archivo,sans-serif",
+    "Inter",
+    "star",
+    "jkiticon",
+    "WooCommerce",
+    "slick",
+    "dashicons",
+    "-apple-system, BlinkMacSystemFont, segoe ui, Roboto,\n    helvetica neue, Arial, noto sans, sans-serif, apple color emoji,\n    segoe ui emoji, segoe ui symbol, noto color emoji",
+    "\"Source Sans Pro\", \"HelveticaNeue-Light\", \"Helvetica Neue Light\",\n    \"Helvetica Neue\", Helvetica, Arial, \"Lucida Grande\", sans-serif",
+    "eicons",
+    "\"Oswald\"",
+    "\"Montserrat\"",
+    "\"Heebo\"",
+    "\"Teko\"",
+    "\"Alegreya\"",
+    "var( --e-global-typography-b2ce6af-font-family ), Sans-serif",
+    "var( --e-global-typography-583e54c-font-family ), Sans-serif",
+    "var( --e-global-typography-5d167aa-font-family ), Sans-serif",
+    "var( --e-global-typography-d3dae9a-font-family ), Sans-serif",
+    "var( --e-global-typography-83682a1-font-family ), Sans-serif",
+    "var( --e-global-typography-7044a64-font-family ), Sans-serif",
+    "var( --e-global-typography-84ca66e-font-family ), Sans-serif",
+    "var( --e-global-typography-520c191-font-family ), Sans-serif",
+    "swiper-icons",
+    "\"Montserrat\", Sans-serif",
+    "\"Oswald\", Sans-serif",
+    "var( --e-global-typography-text-font-family ), Sans-serif",
+    "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji",
+    "monospace",
+    "'Oswald'",
+    "'Montserrat'",
+    "'Heebo'",
+    "'Teko'",
+    "'Alegreya'",
+    "var( --e-global-typography-112b6c4-font-family ), Sans-serif",
+    "serif",
+    "\"Font Awesome 5 Free\"",
+    "var( --e-global-typography-secondary-font-family ), Sans-serif",
+    "elementskit",
+    "elementskit!important",
+    "ElegantIcons",
+    "consolas,monospace",
+    "\"Font Awesome 5 Brands\"",
+    "var( --e-global-typography-69c152f-font-family ), Sans-serif",
+    "Arial,Baskerville,monospace",
+    "'themify'",
+    "\"Roboto\", Sans-serif",
+    "\"Alegreya\", Sans-serif",
+    "'Roboto'",
+    "var( --e-global-typography-primary-font-family ), Sans-serif",
+    "ProductReviewsPro",
+    "Roboto,sans-serif"
+  ],
+  "fontWeights": [
+    "600",
+    "700",
+    "500",
+    "400",
+    "normal",
+    "300",
+    "inherit",
+    "200",
+    "var( --e-global-typography-b2ce6af-font-weight )",
+    "var( --e-global-typography-583e54c-font-weight )",
+    "var( --e-global-typography-5d167aa-font-weight )",
+    "var( --e-global-typography-d3dae9a-font-weight )",
+    "var( --e-global-typography-83682a1-font-weight )",
+    "var( --e-global-typography-7044a64-font-weight )",
+    "var( --e-global-typography-84ca66e-font-weight )",
+    "var( --e-global-typography-520c191-font-weight )",
+    "var( --e-global-typography-text-font-weight )",
+    "bolder",
+    "100",
+    "800",
+    "900",
+    "var( --e-global-typography-112b6c4-font-weight )",
+    "bold",
+    "var( --e-global-typography-secondary-font-weight )",
+    "var( --e-global-typography-69c152f-font-weight )",
+    "var( --e-global-typography-primary-font-weight )",
+    "400!important"
+  ],
+  "sourceHeadingStyling": [
+    {
+      "sourceUrl": "https://defiantmachineworks.com/wp-content/plugins/jeg-elementor-kit/assets/css/elements/main.css?ver=3.1.0",
+      "selector": ".jeg-elementor-kit.jkit-heading .heading-title",
+      "declarations": "font-size:28px;font-weight:500"
+    },
+    {
+      "sourceUrl": "https://defiantmachineworks.com/wp-content/plugins/jeg-elementor-kit/assets/css/elements/main.css?ver=3.1.0",
+      "selector": ".jeg-elementor-kit.jkit-heading .heading-title>span",
+      "declarations": "display:inline-block;font-weight:700"
+    },
+    {
+      "sourceUrl": "https://defiantmachineworks.com/wp-content/plugins/elementor/assets/css/widget-heading.min.css?ver=4.3.5",
+      "selector": ".elementor-widget-heading .elementor-heading-title[class*=elementor-size-]>a",
+      "declarations": "color:inherit;font-size:inherit;line-height:inherit"
+    },
+    {
+      "sourceUrl": "https://defiantmachineworks.com/wp-content/plugins/elementor/assets/css/widget-heading.min.css?ver=4.3.5",
+      "selector": ".elementor-widget-heading .elementor-heading-title.elementor-size-small",
+      "declarations": "font-size:15px"
+    },
+    {
+      "sourceUrl": "https://defiantmachineworks.com/wp-content/plugins/elementor/assets/css/widget-heading.min.css?ver=4.3.5",
+      "selector": ".elementor-widget-heading .elementor-heading-title.elementor-size-medium",
+      "declarations": "font-size:19px"
+    },
+    {
+      "sourceUrl": "https://defiantmachineworks.com/wp-content/plugins/elementor/assets/css/widget-heading.min.css?ver=4.3.5",
+      "selector": ".elementor-widget-heading .elementor-heading-title.elementor-size-large",
+      "declarations": "font-size:29px"
+    },
+    {
+      "sourceUrl": "https://defiantmachineworks.com/wp-content/plugins/elementor/assets/css/widget-heading.min.css?ver=4.3.5",
+      "selector": ".elementor-widget-heading .elementor-heading-title.elementor-size-xl",
+      "declarations": "font-size:39px"
+    },
+    {
+      "sourceUrl": "https://defiantmachineworks.com/wp-content/plugins/elementor/assets/css/widget-heading.min.css?ver=4.3.5",
+      "selector": ".elementor-widget-heading .elementor-heading-title.elementor-size-xxl",
+      "declarations": "font-size:59px"
+    },
+    {
+      "sourceUrl": "https://defiantmachineworks.com/wp-content/themes/hello-elementor/assets/css/reset.css?ver=3.5.1",
+      "selector": "h1,h2,h3,h4,h5,h6",
+      "declarations": "color:inherit;font-family:inherit;font-weight:500;line-height:1.2;margin-block-end:1rem;margin-block-start:.5rem"
+    },
+    {
+      "sourceUrl": "https://defiantmachineworks.com/wp-content/themes/hello-elementor/assets/css/reset.css?ver=3.5.1",
+      "selector": "h1",
+      "declarations": "font-size:2.5rem"
+    },
+    {
+      "sourceUrl": "https://defiantmachineworks.com/wp-content/themes/hello-elementor/assets/css/reset.css?ver=3.5.1",
+      "selector": "h2",
+      "declarations": "font-size:2rem"
+    },
+    {
+      "sourceUrl": "https://defiantmachineworks.com/wp-content/themes/hello-elementor/assets/css/reset.css?ver=3.5.1",
+      "selector": "h3",
+      "declarations": "font-size:1.75rem"
+    },
+    {
+      "sourceUrl": "https://defiantmachineworks.com/wp-content/themes/hello-elementor/assets/css/reset.css?ver=3.5.1",
+      "selector": "h4",
+      "declarations": "font-size:1.5rem"
+    },
+    {
+      "sourceUrl": "https://defiantmachineworks.com/wp-content/themes/hello-elementor/assets/css/reset.css?ver=3.5.1",
+      "selector": "h5",
+      "declarations": "font-size:1.25rem"
+    },
+    {
+      "sourceUrl": "https://defiantmachineworks.com/wp-content/themes/hello-elementor/assets/css/reset.css?ver=3.5.1",
+      "selector": "h6",
+      "declarations": "font-size:1rem"
+    },
+    {
+      "sourceUrl": "https://defiantmachineworks.com/wp-content/uploads/elementor/css/post-21.css?ver=1792296465",
+      "selector": ".elementor-21 .elementor-element.elementor-element-b0be7bc .elementor-heading-title",
+      "declarations": "font-family:var( --e-global-typography-583e54c-font-family ), Sans-serif;font-size:var( --e-global-typography-583e54c-font-size );font-weight:var( --e-global-typography-583e54c-font-weight );line-height:var( --e-global-typography-583e54c-line-height );color:var( --e-global-color-f85a088 );"
+    },
+    {
+      "sourceUrl": "https://defiantmachineworks.com/wp-content/uploads/elementor/css/post-21.css?ver=1792296465",
+      "selector": ".elementor-21 .elementor-element.elementor-element-2dc89f9 .elementor-heading-title",
+      "declarations": "font-family:\"Montserrat\", Sans-serif;font-size:18px;color:var( --e-global-color-f85a088 );"
+    },
+    {
+      "sourceUrl": "https://defiantmachineworks.com/wp-content/uploads/elementor/css/post-21.css?ver=1792296465",
+      "selector": ".elementor-21 .elementor-element.elementor-element-780bb58 .elementor-heading-title",
+      "declarations": "font-family:\"Oswald\", Sans-serif;font-size:32px;font-weight:400;line-height:1.1em;letter-spacing:0px;color:var( --e-global-color-f85a088 );"
+    },
+    {
+      "sourceUrl": "https://defiantmachineworks.com/wp-content/uploads/elementor/css/post-21.css?ver=1792296465",
+      "selector": ".elementor-21 .elementor-element.elementor-element-768107a .elementor-heading-title",
+      "declarations": "font-family:\"Montserrat\", Sans-serif;font-size:20px;font-weight:400;letter-spacing:0px;color:var( --e-global-color-f85a088 );"
+    },
+    {
+      "sourceUrl": "https://defiantmachineworks.com/wp-content/uploads/elementor/css/post-21.css?ver=1792296465",
+      "selector": ".elementor-21 .elementor-element.elementor-element-daab0df .elementor-heading-title",
+      "declarations": "font-family:\"Oswald\", Sans-serif;font-size:32px;font-weight:400;line-height:1.1em;letter-spacing:0px;color:var( --e-global-color-f85a088 );"
+    },
+    {
+      "sourceUrl": "https://defiantmachineworks.com/wp-content/uploads/elementor/css/post-21.css?ver=1792296465",
+      "selector": ".elementor-21 .elementor-element.elementor-element-ac331d0 .elementor-heading-title",
+      "declarations": "font-family:\"Oswald\", Sans-serif;font-size:40px;font-weight:400;text-transform:uppercase;line-height:1em;letter-spacing:0px;color:var( --e-global-color-d748ed9 );"
+    },
+    {
+      "sourceUrl": "https://defiantmachineworks.com/wp-content/uploads/elementor/css/post-21.css?ver=1792296465",
+      "selector": ".elementor-21 .elementor-element.elementor-element-b0be7bc .elementor-heading-title",
+      "declarations": "font-size:var( --e-global-typography-583e54c-font-size );line-height:var( --e-global-typography-583e54c-line-height );"
+    },
+    {
+      "sourceUrl": "https://defiantmachineworks.com/wp-content/uploads/elementor/css/post-21.css?ver=1792296465",
+      "selector": ".elementor-21 .elementor-element.elementor-element-780bb58 .elementor-heading-title",
+      "declarations": "font-size:43.95px;"
+    },
+    {
+      "sourceUrl": "https://defiantmachineworks.com/wp-content/uploads/elementor/css/post-21.css?ver=1792296465",
+      "selector": ".elementor-21 .elementor-element.elementor-element-768107a .elementor-heading-title",
+      "declarations": "font-size:15px;"
+    },
+    {
+      "sourceUrl": "https://defiantmachineworks.com/wp-content/uploads/elementor/css/post-21.css?ver=1792296465",
+      "selector": ".elementor-21 .elementor-element.elementor-element-daab0df .elementor-heading-title",
+      "declarations": "font-size:43.95px;"
+    },
+    {
+      "sourceUrl": "https://defiantmachineworks.com/wp-content/uploads/elementor/css/post-21.css?ver=1792296465",
+      "selector": ".elementor-21 .elementor-element.elementor-element-ac331d0 .elementor-heading-title",
+      "declarations": "font-size:54.93px;"
+    },
+    {
+      "sourceUrl": "https://defiantmachineworks.com/wp-content/uploads/elementor/css/post-21.css?ver=1792296465",
+      "selector": ".elementor-21 .elementor-element.elementor-element-b0be7bc .elementor-heading-title",
+      "declarations": "font-size:var( --e-global-typography-583e54c-font-size );line-height:var( --e-global-typography-583e54c-line-height );"
+    },
+    {
+      "sourceUrl": "https://defiantmachineworks.com/wp-content/uploads/elementor/css/post-21.css?ver=1792296465",
+      "selector": ".elementor-21 .elementor-element.elementor-element-780bb58 .elementor-heading-title",
+      "declarations": "font-size:33.18px;"
+    },
+    {
+      "sourceUrl": "https://defiantmachineworks.com/wp-content/uploads/elementor/css/post-21.css?ver=1792296465",
+      "selector": ".elementor-21 .elementor-element.elementor-element-768107a .elementor-heading-title",
+      "declarations": "font-size:14px;"
+    },
+    {
+      "sourceUrl": "https://defiantmachineworks.com/wp-content/uploads/elementor/css/post-21.css?ver=1792296465",
+      "selector": ".elementor-21 .elementor-element.elementor-element-daab0df .elementor-heading-title",
+      "declarations": "font-size:33.18px;"
+    },
+    {
+      "sourceUrl": "https://defiantmachineworks.com/wp-content/uploads/elementor/css/post-21.css?ver=1792296465",
+      "selector": ".elementor-21 .elementor-element.elementor-element-ac331d0 .elementor-heading-title",
+      "declarations": "font-size:60px;"
+    },
+    {
+      "sourceUrl": "https://defiantmachineworks.com/wp-content/uploads/elementor/css/post-7119.css?ver=1792296466",
+      "selector": ".elementor-7119 .elementor-element.elementor-element-5efe48b .elementor-heading-title",
+      "declarations": "font-family:\"Oswald\", Sans-serif;font-size:22px;color:var( --e-global-color-d748ed9 );"
+    },
+    {
+      "sourceUrl": "https://defiantmachineworks.com/wp-content/uploads/elementor/css/post-7119.css?ver=1792296466",
+      "selector": ".elementor-7119 .elementor-element.elementor-element-0c2ed3c .elementor-heading-title",
+      "declarations": "font-family:\"Oswald\", Sans-serif;font-size:22px;color:var( --e-global-color-d748ed9 );"
+    },
+    {
+      "sourceUrl": "https://defiantmachineworks.com/wp-content/uploads/elementor/css/post-7119.css?ver=1792296466",
+      "selector": ".elementor-7119 .elementor-element.elementor-element-be9f9b0 .elementor-heading-title",
+      "declarations": "font-family:var( --e-global-typography-112b6c4-font-family ), Sans-serif;font-size:var( --e-global-typography-112b6c4-font-size );font-weight:var( --e-global-typography-112b6c4-font-weight );color:#000000;"
+    },
+    {
+      "sourceUrl": "https://defiantmachineworks.com/wp-content/uploads/elementor/css/post-7119.css?ver=1792296466",
+      "selector": ".elementor-7119 .elementor-element.elementor-element-be9f9b0 .elementor-heading-title",
+      "declarations": "font-size:var( --e-global-typography-112b6c4-font-size );"
+    },
+    {
+      "sourceUrl": "https://defiantmachineworks.com/wp-content/uploads/elementor/css/post-7119.css?ver=1792296466",
+      "selector": ".elementor-7119 .elementor-element.elementor-element-be9f9b0 .elementor-heading-title",
+      "declarations": "font-size:var( --e-global-typography-112b6c4-font-size );"
+    }
+  ],
+  "sourceBorderTreatments": [
+    {
+      "sourceUrl": "https://defiantmachineworks.com/wp-content/plugins/jeg-elementor-kit/assets/css/elements/main.css?ver=3.1.0",
+      "selector": ".jeg-elementor-kit.jkit-accordion .card-wrapper .card-header .card-header-button",
+      "declarations": "border:1px solid transparent"
+    },
+    {
+      "sourceUrl": "https://defiantmachineworks.com/wp-content/plugins/jeg-elementor-kit/assets/css/elements/main.css?ver=3.1.0",
+      "selector": ".jeg-elementor-kit.jkit-accordion.style-curve .card-wrapper .card-header .card-header-button",
+      "declarations": "border:0"
+    },
+    {
+      "sourceUrl": "https://defiantmachineworks.com/wp-content/plugins/jeg-elementor-kit/assets/css/elements/main.css?ver=3.1.0",
+      "selector": ".jeg-elementor-kit.jkit-accordion.style-box .card-wrapper .card-header .card-header-button",
+      "declarations": "border:1px solid var(--jkit-border-color);border-bottom:1px solid var(--jkit-element-bg-color)"
+    },
+    {
+      "sourceUrl": "https://defiantmachineworks.com/wp-content/plugins/jeg-elementor-kit/assets/css/elements/main.css?ver=3.1.0",
+      "selector": ".jeg-elementor-kit.jkit-accordion.style-shadow .card-wrapper .card-header .card-header-button",
+      "declarations": "border-radius:0 0 5px 5px"
+    },
+    {
+      "sourceUrl": "https://defiantmachineworks.com/wp-content/plugins/jeg-elementor-kit/assets/css/elements/main.css?ver=3.1.0",
+      "selector": ".jeg-elementor-kit.jkit-button .jkit-button-wrapper",
+      "declarations": "border-radius:5px"
+    },
+    {
+      "sourceUrl": "https://defiantmachineworks.com/wp-content/plugins/jeg-elementor-kit/assets/css/elements/main.css?ver=3.1.0",
+      "selector": ".jeg-elementor-kit.jkit-client-logo .tns-nav button",
+      "declarations": "border-radius:50%;border:0"
+    },
+    {
+      "sourceUrl": "https://defiantmachineworks.com/wp-content/plugins/jeg-elementor-kit/assets/css/elements/main.css?ver=3.1.0",
+      "selector": ".jeg-elementor-kit.jkit-client-logo .tns-controls button",
+      "declarations": "border:0"
+    },
+    {
+      "sourceUrl": "https://defiantmachineworks.com/wp-content/plugins/jeg-elementor-kit/assets/css/elements/main.css?ver=3.1.0",
+      "selector": ".jeg-elementor-kit.jkit-dual-button .jkit-dual-button-wrapper .jkit-dual-button-middle-text",
+      "declarations": "border-radius:100%"
+    },
+    {
+      "sourceUrl": "https://defiantmachineworks.com/wp-content/plugins/jeg-elementor-kit/assets/css/elements/main.css?ver=3.1.0",
+      "selector": ".jeg-elementor-kit.jkit-gallery .search-filters-wrap .filter-wrap button.search-filter-trigger",
+      "declarations": "border:0 solid;border-right:1px solid var(--jkit-element-bg-color);border-radius:0;border-radius:10px 0 0 10px"
+    },
+    {
+      "sourceUrl": "https://defiantmachineworks.com/wp-content/plugins/jeg-elementor-kit/assets/css/elements/main.css?ver=3.1.0",
+      "selector": ".jeg-elementor-kit.jkit-gallery .gallery-items .gallery-item-wrap .grid-item .caption-button .item-buttons a span",
+      "declarations": "border-radius:50%"
+    },
+    {
+      "sourceUrl": "https://defiantmachineworks.com/wp-content/plugins/jeg-elementor-kit/assets/css/elements/main.css?ver=3.1.0",
+      "selector": ".jeg-elementor-kit.jkit-gallery .gallery-items .gallery-item-wrap .grid-item .caption-wrap .item-caption-over .item-buttons a span",
+      "declarations": "border-radius:50%"
+    },
+    {
+      "sourceUrl": "https://defiantmachineworks.com/wp-content/plugins/jeg-elementor-kit/assets/css/elements/main.css?ver=3.1.0",
+      "selector": ".jeg-elementor-kit.jkit-heading .heading-section-subtitle.outline-enable",
+      "declarations": "border-radius:2em 2em 2em 2em"
+    },
+    {
+      "sourceUrl": "https://defiantmachineworks.com/wp-content/plugins/jeg-elementor-kit/assets/css/elements/main.css?ver=3.1.0",
+      "selector": ".jeg-elementor-kit.jkit-heading .separator-wrapper.style-dotted",
+      "declarations": "border-radius:2px"
+    },
+    {
+      "sourceUrl": "https://defiantmachineworks.com/wp-content/plugins/jeg-elementor-kit/assets/css/elements/main.css?ver=3.1.0",
+      "selector": ".jeg-elementor-kit.jkit-heading .separator-wrapper.style-dotted:after",
+      "declarations": "border-radius:50%"
+    },
+    {
+      "sourceUrl": "https://defiantmachineworks.com/wp-content/plugins/jeg-elementor-kit/assets/css/elements/main.css?ver=3.1.0",
+      "selector": ".jeg-elementor-kit.jkit-heading .separator-wrapper.style-solid",
+      "declarations": "border-radius:0"
+    },
+    {
+      "sourceUrl": "https://defiantmachineworks.com/wp-content/plugins/jeg-elementor-kit/assets/css/elements/main.css?ver=3.1.0",
+      "selector": ".jeg-elementor-kit.jkit-heading .separator-wrapper.style-solid-bullet:after",
+      "declarations": "border-radius:50%"
+    },
+    {
+      "sourceUrl": "https://defiantmachineworks.com/wp-content/plugins/jeg-elementor-kit/assets/css/elements/main.css?ver=3.1.0",
+      "selector": ".jeg-elementor-kit.jkit-icon-box .icon-box.icon-box-body .icon-box-button .btn-wrapper .icon-box-link",
+      "declarations": "border-radius:5px"
+    },
+    {
+      "sourceUrl": "https://defiantmachineworks.com/wp-content/plugins/jeg-elementor-kit/assets/css/elements/main.css?ver=3.1.0",
+      "selector": ".jeg-elementor-kit.jkit-image-box .button-box .button-wrapper a",
+      "declarations": "border-radius:5px"
+    },
+    {
+      "sourceUrl": "https://defiantmachineworks.com/wp-content/plugins/jeg-elementor-kit/assets/css/elements/main.css?ver=3.1.0",
+      "selector": ".jeg-elementor-kit .jkit-block-pagination button",
+      "declarations": "border:0"
+    },
+    {
+      "sourceUrl": "https://defiantmachineworks.com/wp-content/plugins/jeg-elementor-kit/assets/css/elements/main.css?ver=3.1.0",
+      "selector": ".jeg-elementor-kit .jkit-block-pagination .jkit-block-nextprev button.disabled",
+      "declarations": "border-color:#eee"
+    },
+    {
+      "sourceUrl": "https://defiantmachineworks.com/wp-content/plugins/jeg-elementor-kit/assets/css/elements/main.css?ver=3.1.0",
+      "selector": ".jeg-elementor-kit button:active,.jeg-elementor-kit button:hover",
+      "declarations": "border:none"
+    },
+    {
+      "sourceUrl": "https://defiantmachineworks.com/wp-content/plugins/jeg-elementor-kit/assets/css/elements/main.css?ver=3.1.0",
+      "selector": "body[data-elementor-device-mode=laptop] .jeg-elementor-kit.jkit-nav-menu.break-point-laptop .jkit-menu-wrapper,body[data-elementor-device-mode=mobile] .jeg-elementor-kit.jkit-nav-menu.break-point-laptop .jkit-menu-wrapper,body[data-elementor-device-mode=mobile_extra] .jeg-elementor-kit.jkit-nav-menu.break-point-laptop .jkit-menu-wrapper,body[data-elementor-device-mode=tablet] .jeg-elementor-kit.jkit-nav-menu.break-point-laptop .jkit-menu-wrapper,body[data-elementor-device-mode=tablet_extra] .jeg-elementor-kit.jkit-nav-menu.break-point-laptop .jkit-menu-wrapper",
+      "declarations": "border-radius:0"
+    },
+    {
+      "sourceUrl": "https://defiantmachineworks.com/wp-content/plugins/jeg-elementor-kit/assets/css/elements/main.css?ver=3.1.0",
+      "selector": "body[data-elementor-device-mode=laptop] .jeg-elementor-kit.jkit-nav-menu.break-point-laptop .jkit-menu-wrapper .jkit-menu li.has-mega-menu>a i,body[data-elementor-device-mode=laptop] .jeg-elementor-kit.jkit-nav-menu.break-point-laptop .jkit-menu-wrapper .jkit-menu li.has-mega-menu>a svg,body[data-elementor-device-mode=laptop] .jeg-elementor-kit.jkit-nav-menu.break-point-laptop .jkit-menu-wrapper .jkit-menu li.menu-item-has-children>a i,body[data-elementor-device-mode=laptop] .jeg-elementor-kit.jkit-nav-menu.break-point-laptop .jkit-menu-wrapper .jkit-menu li.menu-item-has-children>a svg,body[data-elementor-device-mode=mobile] .jeg-elementor-kit.jkit-nav-menu.break-point-laptop .jkit-menu-wrapper .jkit-menu li.has-mega-menu>a i,body[data-elementor-device-mode=mobile] .jeg-elementor-kit.jkit-nav-menu.break-point-laptop .jkit-menu-wrapper .jkit-menu li.has-mega-menu>a svg,body[data-elementor-device-mode=mobile] .jeg-elementor-kit.jkit-nav-menu.break-point-laptop .jkit-menu-wrapper .jkit-menu li.menu-item-has-children>a i,body[data-elementor-device-mode=mobile] .jeg-elementor-kit.jkit-nav-menu.break-point-laptop .jkit-menu-wrapper .jkit-menu li.menu-item-has-children>a svg,body[data-elementor-device-mode=mobile_extra] .jeg-elementor-kit.jkit-nav-menu.break-point-laptop .jkit-menu-wrapper .jkit-menu li.has-mega-menu>a i,body[data-elementor-device-mode=mobile_extra] .jeg-elementor-kit.jkit-nav-menu.break-point-laptop .jkit-menu-wrapper .jkit-menu li.has-mega-menu>a svg,body[data-elementor-device-mode=mobile_extra] .jeg-elementor-kit.jkit-nav-menu.break-point-laptop .jkit-menu-wrapper .jkit-menu li.menu-item-has-children>a i,body[data-elementor-device-mode=mobile_extra] .jeg-elementor-kit.jkit-nav-menu.break-point-laptop .jkit-menu-wrapper .jkit-menu li.menu-item-has-children>a svg,body[data-elementor-device-mode=tablet] .jeg-elementor-kit.jkit-nav-menu.break-point-laptop .jkit-menu-wrapper .jkit-menu li.has-mega-menu>a i,body[data-elementor-device-mode=tablet] .jeg-elementor-kit.jkit-nav-menu.break-point-laptop .jkit-menu-wrapper .jkit-menu li.has-mega-menu>a svg,body[data-elementor-device-mode=tablet] .jeg-elementor-kit.jkit-nav-menu.break-point-laptop .jkit-menu-wrapper .jkit-menu li.menu-item-has-children>a i,body[data-elementor-device-mode=tablet] .jeg-elementor-kit.jkit-nav-menu.break-point-laptop .jkit-menu-wrapper .jkit-menu li.menu-item-has-children>a svg,body[data-elementor-device-mode=tablet_extra] .jeg-elementor-kit.jkit-nav-menu.break-point-laptop .jkit-menu-wrapper .jkit-menu li.has-mega-menu>a i,body[data-elementor-device-mode=tablet_extra] .jeg-elementor-kit.jkit-nav-menu.break-point-laptop .jkit-menu-wrapper .jkit-menu li.has-mega-menu>a svg,body[data-elementor-device-mode=tablet_extra] .jeg-elementor-kit.jkit-nav-menu.break-point-laptop .jkit-menu-wrapper .jkit-menu li.menu-item-has-children>a i,body[data-elementor-device-mode=tablet_extra] .jeg-elementor-kit.jkit-nav-menu.break-point-laptop .jkit-menu-wrapper .jkit-menu li.menu-item-has-children>a svg",
+      "declarations": "border:1px solid var(--jkit-border-color);border-radius:3px"
+    },
+    {
+      "sourceUrl": "https://defiantmachineworks.com/wp-content/plugins/jeg-elementor-kit/assets/css/elements/main.css?ver=3.1.0",
+      "selector": "body[data-elementor-device-mode=laptop] .jeg-elementor-kit.jkit-nav-menu.break-point-laptop .jkit-menu-wrapper .jkit-menu li.has-mega-menu>a i,body[data-elementor-device-mode=laptop] .jeg-elementor-kit.jkit-nav-menu.break-point-laptop .jkit-menu-wrapper .jkit-menu li.has-mega-menu>a svg,body[data-elementor-device-mode=mobile] .jeg-elementor-kit.jkit-nav-menu.break-point-laptop .jkit-menu-wrapper .jkit-menu li.has-mega-menu>a i,body[data-elementor-device-mode=mobile] .jeg-elementor-kit.jkit-nav-menu.break-point-laptop .jkit-menu-wrapper .jkit-menu li.has-mega-menu>a svg,body[data-elementor-device-mode=mobile_extra] .jeg-elementor-kit.jkit-nav-menu.break-point-laptop .jkit-menu-wrapper .jkit-menu li.has-mega-menu>a i,body[data-elementor-device-mode=mobile_extra] .jeg-elementor-kit.jkit-nav-menu.break-point-laptop .jkit-menu-wrapper .jkit-menu li.has-mega-menu>a svg,body[data-elementor-device-mode=tablet] .jeg-elementor-kit.jkit-nav-menu.break-point-laptop .jkit-menu-wrapper .jkit-menu li.has-mega-menu>a i,body[data-elementor-device-mode=tablet] .jeg-elementor-kit.jkit-nav-menu.break-point-laptop .jkit-menu-wrapper .jkit-menu li.has-mega-menu>a svg,body[data-elementor-device-mode=tablet_extra] .jeg-elementor-kit.jkit-nav-menu.break-point-laptop .jkit-menu-wrapper .jkit-menu li.has-mega-menu>a i,body[data-elementor-device-mode=tablet_extra] .jeg-elementor-kit.jkit-nav-menu.break-point-laptop .jkit-menu-wrapper .jkit-menu li.has-mega-menu>a svg",
+      "declarations": "border:1px solid var(--jkit-border-color);border-radius:3px"
+    },
+    {
+      "sourceUrl": "https://defiantmachineworks.com/wp-content/plugins/jeg-elementor-kit/assets/css/elements/main.css?ver=3.1.0",
+      "selector": "body[data-elementor-device-mode=mobile] .jeg-elementor-kit.jkit-nav-menu.break-point-tablet_extra .jkit-menu-wrapper,body[data-elementor-device-mode=mobile_extra] .jeg-elementor-kit.jkit-nav-menu.break-point-tablet_extra .jkit-menu-wrapper,body[data-elementor-device-mode=tablet] .jeg-elementor-kit.jkit-nav-menu.break-point-tablet_extra .jkit-menu-wrapper,body[data-elementor-device-mode=tablet_extra] .jeg-elementor-kit.jkit-nav-menu.break-point-tablet_extra .jkit-menu-wrapper",
+      "declarations": "border-radius:0"
+    },
+    {
+      "sourceUrl": "https://defiantmachineworks.com/wp-content/plugins/jeg-elementor-kit/assets/css/elements/main.css?ver=3.1.0",
+      "selector": "body[data-elementor-device-mode=mobile] .jeg-elementor-kit.jkit-nav-menu.break-point-tablet_extra .jkit-menu-wrapper .jkit-menu li.has-mega-menu>a i,body[data-elementor-device-mode=mobile] .jeg-elementor-kit.jkit-nav-menu.break-point-tablet_extra .jkit-menu-wrapper .jkit-menu li.has-mega-menu>a svg,body[data-elementor-device-mode=mobile] .jeg-elementor-kit.jkit-nav-menu.break-point-tablet_extra .jkit-menu-wrapper .jkit-menu li.menu-item-has-children>a i,body[data-elementor-device-mode=mobile] .jeg-elementor-kit.jkit-nav-menu.break-point-tablet_extra .jkit-menu-wrapper .jkit-menu li.menu-item-has-children>a svg,body[data-elementor-device-mode=mobile_extra] .jeg-elementor-kit.jkit-nav-menu.break-point-tablet_extra .jkit-menu-wrapper .jkit-menu li.has-mega-menu>a i,body[data-elementor-device-mode=mobile_extra] .jeg-elementor-kit.jkit-nav-menu.break-point-tablet_extra .jkit-menu-wrapper .jkit-menu li.has-mega-menu>a svg,body[data-elementor-device-mode=mobile_extra] .jeg-elementor-kit.jkit-nav-menu.break-point-tablet_extra .jkit-menu-wrapper .jkit-menu li.menu-item-has-children>a i,body[data-elementor-device-mode=mobile_extra] .jeg-elementor-kit.jkit-nav-menu.break-point-tablet_extra .jkit-menu-wrapper .jkit-menu li.menu-item-has-children>a svg,body[data-elementor-device-mode=tablet] .jeg-elementor-kit.jkit-nav-menu.break-point-tablet_extra .jkit-menu-wrapper .jkit-menu li.has-mega-menu>a i,body[data-elementor-device-mode=tablet] .jeg-elementor-kit.jkit-nav-menu.break-point-tablet_extra .jkit-menu-wrapper .jkit-menu li.has-mega-menu>a svg,body[data-elementor-device-mode=tablet] .jeg-elementor-kit.jkit-nav-menu.break-point-tablet_extra .jkit-menu-wrapper .jkit-menu li.menu-item-has-children>a i,body[data-elementor-device-mode=tablet] .jeg-elementor-kit.jkit-nav-menu.break-point-tablet_extra .jkit-menu-wrapper .jkit-menu li.menu-item-has-children>a svg,body[data-elementor-device-mode=tablet_extra] .jeg-elementor-kit.jkit-nav-menu.break-point-tablet_extra .jkit-menu-wrapper .jkit-menu li.has-mega-menu>a i,body[data-elementor-device-mode=tablet_extra] .jeg-elementor-kit.jkit-nav-menu.break-point-tablet_extra .jkit-menu-wrapper .jkit-menu li.has-mega-menu>a svg,body[data-elementor-device-mode=tablet_extra] .jeg-elementor-kit.jkit-nav-menu.break-point-tablet_extra .jkit-menu-wrapper .jkit-menu li.menu-item-has-children>a i,body[data-elementor-device-mode=tablet_extra] .jeg-elementor-kit.jkit-nav-menu.break-point-tablet_extra .jkit-menu-wrapper .jkit-menu li.menu-item-has-children>a svg",
+      "declarations": "border:1px solid var(--jkit-border-color);border-radius:3px"
+    },
+    {
+      "sourceUrl": "https://defiantmachineworks.com/wp-content/plugins/jeg-elementor-kit/assets/css/elements/main.css?ver=3.1.0",
+      "selector": "body[data-elementor-device-mode=mobile] .jeg-elementor-kit.jkit-nav-menu.break-point-tablet_extra .jkit-menu-wrapper .jkit-menu li.has-mega-menu>a i,body[data-elementor-device-mode=mobile] .jeg-elementor-kit.jkit-nav-menu.break-point-tablet_extra .jkit-menu-wrapper .jkit-menu li.has-mega-menu>a svg,body[data-elementor-device-mode=mobile_extra] .jeg-elementor-kit.jkit-nav-menu.break-point-tablet_extra .jkit-menu-wrapper .jkit-menu li.has-mega-menu>a i,body[data-elementor-device-mode=mobile_extra] .jeg-elementor-kit.jkit-nav-menu.break-point-tablet_extra .jkit-menu-wrapper .jkit-menu li.has-mega-menu>a svg,body[data-elementor-device-mode=tablet] .jeg-elementor-kit.jkit-nav-menu.break-point-tablet_extra .jkit-menu-wrapper .jkit-menu li.has-mega-menu>a i,body[data-elementor-device-mode=tablet] .jeg-elementor-kit.jkit-nav-menu.break-point-tablet_extra .jkit-menu-wrapper .jkit-menu li.has-mega-menu>a svg,body[data-elementor-device-mode=tablet_extra] .jeg-elementor-kit.jkit-nav-menu.break-point-tablet_extra .jkit-menu-wrapper .jkit-menu li.has-mega-menu>a i,body[data-elementor-device-mode=tablet_extra] .jeg-elementor-kit.jkit-nav-menu.break-point-tablet_extra .jkit-menu-wrapper .jkit-menu li.has-mega-menu>a svg",
+      "declarations": "border:1px solid var(--jkit-border-color);border-radius:3px"
+    },
+    {
+      "sourceUrl": "https://defiantmachineworks.com/wp-content/plugins/jeg-elementor-kit/assets/css/elements/main.css?ver=3.1.0",
+      "selector": "body[data-elementor-device-mode=mobile] .jeg-elementor-kit.jkit-nav-menu.break-point-tablet .jkit-menu-wrapper,body[data-elementor-device-mode=mobile_extra] .jeg-elementor-kit.jkit-nav-menu.break-point-tablet .jkit-menu-wrapper,body[data-elementor-device-mode=tablet] .jeg-elementor-kit.jkit-nav-menu.break-point-tablet .jkit-menu-wrapper",
+      "declarations": "border-radius:0"
+    },
+    {
+      "sourceUrl": "https://defiantmachineworks.com/wp-content/plugins/jeg-elementor-kit/assets/css/elements/main.css?ver=3.1.0",
+      "selector": "body[data-elementor-device-mode=mobile] .jeg-elementor-kit.jkit-nav-menu.break-point-tablet .jkit-menu-wrapper .jkit-menu li.has-mega-menu>a i,body[data-elementor-device-mode=mobile] .jeg-elementor-kit.jkit-nav-menu.break-point-tablet .jkit-menu-wrapper .jkit-menu li.has-mega-menu>a svg,body[data-elementor-device-mode=mobile] .jeg-elementor-kit.jkit-nav-menu.break-point-tablet .jkit-menu-wrapper .jkit-menu li.menu-item-has-children>a i,body[data-elementor-device-mode=mobile] .jeg-elementor-kit.jkit-nav-menu.break-point-tablet .jkit-menu-wrapper .jkit-menu li.menu-item-has-children>a svg,body[data-elementor-device-mode=mobile_extra] .jeg-elementor-kit.jkit-nav-menu.break-point-tablet .jkit-menu-wrapper .jkit-menu li.has-mega-menu>a i,body[data-elementor-device-mode=mobile_extra] .jeg-elementor-kit.jkit-nav-menu.break-point-tablet .jkit-menu-wrapper .jkit-menu li.has-mega-menu>a svg,body[data-elementor-device-mode=mobile_extra] .jeg-elementor-kit.jkit-nav-menu.break-point-tablet .jkit-menu-wrapper .jkit-menu li.menu-item-has-children>a i,body[data-elementor-device-mode=mobile_extra] .jeg-elementor-kit.jkit-nav-menu.break-point-tablet .jkit-menu-wrapper .jkit-menu li.menu-item-has-children>a svg,body[data-elementor-device-mode=tablet] .jeg-elementor-kit.jkit-nav-menu.break-point-tablet .jkit-menu-wrapper .jkit-menu li.has-mega-menu>a i,body[data-elementor-device-mode=tablet] .jeg-elementor-kit.jkit-nav-menu.break-point-tablet .jkit-menu-wrapper .jkit-menu li.has-mega-menu>a svg,body[data-elementor-device-mode=tablet] .jeg-elementor-kit.jkit-nav-menu.break-point-tablet .jkit-menu-wrapper .jkit-menu li.menu-item-has-children>a i,body[data-elementor-device-mode=tablet] .jeg-elementor-kit.jkit-nav-menu.break-point-tablet .jkit-menu-wrapper .jkit-menu li.menu-item-has-children>a svg",
+      "declarations": "border:1px solid var(--jkit-border-color);border-radius:3px"
+    },
+    {
+      "sourceUrl": "https://defiantmachineworks.com/wp-content/plugins/jeg-elementor-kit/assets/css/elements/main.css?ver=3.1.0",
+      "selector": "body[data-elementor-device-mode=mobile] .jeg-elementor-kit.jkit-nav-menu.break-point-tablet .jkit-menu-wrapper .jkit-menu li.has-mega-menu>a i,body[data-elementor-device-mode=mobile] .jeg-elementor-kit.jkit-nav-menu.break-point-tablet .jkit-menu-wrapper .jkit-menu li.has-mega-menu>a svg,body[data-elementor-device-mode=mobile_extra] .jeg-elementor-kit.jkit-nav-menu.break-point-tablet .jkit-menu-wrapper .jkit-menu li.has-mega-menu>a i,body[data-elementor-device-mode=mobile_extra] .jeg-elementor-kit.jkit-nav-menu.break-point-tablet .jkit-menu-wrapper .jkit-menu li.has-mega-menu>a svg,body[data-elementor-device-mode=tablet] .jeg-elementor-kit.jkit-nav-menu.break-point-tablet .jkit-menu-wrapper .jkit-menu li.has-mega-menu>a i,body[data-elementor-device-mode=tablet] .jeg-elementor-kit.jkit-nav-menu.break-point-tablet .jkit-menu-wrapper .jkit-menu li.has-mega-menu>a svg",
+      "declarations": "border:1px solid var(--jkit-border-color);border-radius:3px"
+    },
+    {
+      "sourceUrl": "https://defiantmachineworks.com/wp-content/plugins/jeg-elementor-kit/assets/css/elements/main.css?ver=3.1.0",
+      "selector": "body[data-elementor-device-mode=mobile] .jeg-elementor-kit.jkit-nav-menu.break-point-mobile_extra .jkit-menu-wrapper,body[data-elementor-device-mode=mobile_extra] .jeg-elementor-kit.jkit-nav-menu.break-point-mobile_extra .jkit-menu-wrapper",
+      "declarations": "border-radius:0"
+    },
+    {
+      "sourceUrl": "https://defiantmachineworks.com/wp-content/plugins/jeg-elementor-kit/assets/css/elements/main.css?ver=3.1.0",
+      "selector": "body[data-elementor-device-mode=mobile] .jeg-elementor-kit.jkit-nav-menu.break-point-mobile_extra .jkit-menu-wrapper .jkit-menu li.has-mega-menu>a i,body[data-elementor-device-mode=mobile] .jeg-elementor-kit.jkit-nav-menu.break-point-mobile_extra .jkit-menu-wrapper .jkit-menu li.has-mega-menu>a svg,body[data-elementor-device-mode=mobile] .jeg-elementor-kit.jkit-nav-menu.break-point-mobile_extra .jkit-menu-wrapper .jkit-menu li.menu-item-has-children>a i,body[data-elementor-device-mode=mobile] .jeg-elementor-kit.jkit-nav-menu.break-point-mobile_extra .jkit-menu-wrapper .jkit-menu li.menu-item-has-children>a svg,body[data-elementor-device-mode=mobile_extra] .jeg-elementor-kit.jkit-nav-menu.break-point-mobile_extra .jkit-menu-wrapper .jkit-menu li.has-mega-menu>a i,body[data-elementor-device-mode=mobile_extra] .jeg-elementor-kit.jkit-nav-menu.break-point-mobile_extra .jkit-menu-wrapper .jkit-menu li.has-mega-menu>a svg,body[data-elementor-device-mode=mobile_extra] .jeg-elementor-kit.jkit-nav-menu.break-point-mobile_extra .jkit-menu-wrapper .jkit-menu li.menu-item-has-children>a i,body[data-elementor-device-mode=mobile_extra] .jeg-elementor-kit.jkit-nav-menu.break-point-mobile_extra .jkit-menu-wrapper .jkit-menu li.menu-item-has-children>a svg",
+      "declarations": "border:1px solid var(--jkit-border-color);border-radius:3px"
+    },
+    {
+      "sourceUrl": "https://defiantmachineworks.com/wp-content/plugins/jeg-elementor-kit/assets/css/elements/main.css?ver=3.1.0",
+      "selector": "body[data-elementor-device-mode=mobile] .jeg-elementor-kit.jkit-nav-menu.break-point-mobile_extra .jkit-menu-wrapper .jkit-menu li.has-mega-menu>a i,body[data-elementor-device-mode=mobile] .jeg-elementor-kit.jkit-nav-menu.break-point-mobile_extra .jkit-menu-wrapper .jkit-menu li.has-mega-menu>a svg,body[data-elementor-device-mode=mobile_extra] .jeg-elementor-kit.jkit-nav-menu.break-point-mobile_extra .jkit-menu-wrapper .jkit-menu li.has-mega-menu>a i,body[data-elementor-device-mode=mobile_extra] .jeg-elementor-kit.jkit-nav-menu.break-point-mobile_extra .jkit-menu-wrapper .jkit-menu li.has-mega-menu>a svg",
+      "declarations": "border:1px solid var(--jkit-border-color);border-radius:3px"
+    },
+    {
+      "sourceUrl": "https://defiantmachineworks.com/wp-content/plugins/jeg-elementor-kit/assets/css/elements/main.css?ver=3.1.0",
+      "selector": "body[data-elementor-device-mode=mobile] .jeg-elementor-kit.jkit-nav-menu.break-point-mobile .jkit-menu-wrapper",
+      "declarations": "border-radius:0"
+    },
+    {
+      "sourceUrl": "https://defiantmachineworks.com/wp-content/plugins/jeg-elementor-kit/assets/css/elements/main.css?ver=3.1.0",
+      "selector": "body[data-elementor-device-mode=mobile] .jeg-elementor-kit.jkit-nav-menu.break-point-mobile .jkit-menu-wrapper .jkit-menu li.has-mega-menu>a i,body[data-elementor-device-mode=mobile] .jeg-elementor-kit.jkit-nav-menu.break-point-mobile .jkit-menu-wrapper .jkit-menu li.has-mega-menu>a svg,body[data-elementor-device-mode=mobile] .jeg-elementor-kit.jkit-nav-menu.break-point-mobile .jkit-menu-wrapper .jkit-menu li.menu-item-has-children>a i,body[data-elementor-device-mode=mobile] .jeg-elementor-kit.jkit-nav-menu.break-point-mobile .jkit-menu-wrapper .jkit-menu li.menu-item-has-children>a svg",
+      "declarations": "border:1px solid var(--jkit-border-color);border-radius:3px"
+    },
+    {
+      "sourceUrl": "https://defiantmachineworks.com/wp-content/plugins/jeg-elementor-kit/assets/css/elements/main.css?ver=3.1.0",
+      "selector": "body[data-elementor-device-mode=mobile] .jeg-elementor-kit.jkit-nav-menu.break-point-mobile .jkit-menu-wrapper .jkit-menu li.has-mega-menu>a i,body[data-elementor-device-mode=mobile] .jeg-elementor-kit.jkit-nav-menu.break-point-mobile .jkit-menu-wrapper .jkit-menu li.has-mega-menu>a svg",
+      "declarations": "border:1px solid var(--jkit-border-color);border-radius:3px"
+    },
+    {
+      "sourceUrl": "https://defiantmachineworks.com/wp-content/plugins/jeg-elementor-kit/assets/css/elements/main.css?ver=3.1.0",
+      "selector": ".jeg-elementor-kit.jkit-product-carousel .jkit-products .jkit-product-block .button",
+      "declarations": "border-radius:3px;border:0"
+    },
+    {
+      "sourceUrl": "https://defiantmachineworks.com/wp-content/plugins/jeg-elementor-kit/assets/css/elements/main.css?ver=3.1.0",
+      "selector": ".jeg-elementor-kit.jkit-product-carousel .tns-nav button",
+      "declarations": "border-radius:50%;border:0"
+    },
+    {
+      "sourceUrl": "https://defiantmachineworks.com/wp-content/plugins/jeg-elementor-kit/assets/css/elements/main.css?ver=3.1.0",
+      "selector": ".jeg-elementor-kit.jkit-product-carousel .tns-controls button",
+      "declarations": "border:0"
+    },
+    {
+      "sourceUrl": "https://defiantmachineworks.com/wp-content/plugins/jeg-elementor-kit/assets/css/elements/main.css?ver=3.1.0",
+      "selector": ".jeg-elementor-kit.jkit-product-grid .woocommerce .jkit-products .jkit-product-block .button",
+      "declarations": "border-radius:0"
+    }
+  ],
+  "rebuildFonts": {
+    "display": "Oswald",
+    "body": "Heebo",
+    "reason": "Two recovered source families retained; competing source font systems removed."
+  }
+}

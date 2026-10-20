@@ -1,0 +1,516 @@
+{
+  "services": [
+    "/stippling/",
+    "/stippling-info/",
+    "/slide-milling-select-your-model/",
+    "/cerakote/",
+    "/porting/"
+  ],
+  "catalog": [
+    {
+      "slug": "d95-compensator-for-glock-gen-5-6",
+      "source": "https://defiantmachineworks.com/product/d95-compensator-for-glock-gen-5-6/",
+      "priceAuthority": "Public WooCommerce Store API"
+    },
+    {
+      "slug": "bodyguard-2-0-viper-ports",
+      "source": "https://defiantmachineworks.com/product/bodyguard-2-0-viper-ports/",
+      "priceAuthority": "Public WooCommerce Store API"
+    },
+    {
+      "slug": "psa-dagger-stippling-package",
+      "source": "https://defiantmachineworks.com/product/psa-dagger-stippling-package/",
+      "priceAuthority": "Public WooCommerce Store API"
+    },
+    {
+      "slug": "smith-wesson-bodyguard-2-0-stippling-package",
+      "source": "https://defiantmachineworks.com/product/smith-wesson-bodyguard-2-0-stippling-package/",
+      "priceAuthority": "Public WooCommerce Store API"
+    },
+    {
+      "slug": "glock-crown-lvl-3-stippling-package",
+      "source": "https://defiantmachineworks.com/product/glock-crown-lvl-3-stippling-package/",
+      "priceAuthority": "Public WooCommerce Store API"
+    },
+    {
+      "slug": "glock-core-lvl-stippling-package",
+      "source": "https://defiantmachineworks.com/product/glock-core-lvl-stippling-package/",
+      "priceAuthority": "Public WooCommerce Store API"
+    },
+    {
+      "slug": "glock-base-lvl-stippling-package",
+      "source": "https://defiantmachineworks.com/product/glock-base-lvl-stippling-package/",
+      "priceAuthority": "Public WooCommerce Store API"
+    },
+    {
+      "slug": "mag-extension-stippling",
+      "source": "https://defiantmachineworks.com/product/mag-extension-stippling/",
+      "priceAuthority": "Public WooCommerce Store API"
+    },
+    {
+      "slug": "sig-sauer-p365-stippling-package-mod-2",
+      "source": "https://defiantmachineworks.com/product/sig-sauer-p365-stippling-package-mod-2/",
+      "priceAuthority": "Public WooCommerce Store API"
+    },
+    {
+      "slug": "sig-sauer-p365-stippling-package-mod-1",
+      "source": "https://defiantmachineworks.com/product/sig-sauer-p365-stippling-package-mod-1/",
+      "priceAuthority": "Public WooCommerce Store API"
+    },
+    {
+      "slug": "staccato-stippling-package",
+      "source": "https://defiantmachineworks.com/product/staccato-stippling-package/",
+      "priceAuthority": "Public WooCommerce Store API"
+    },
+    {
+      "slug": "cz-p10c-stippling-package",
+      "source": "https://defiantmachineworks.com/product/cz-p10c-stippling-package/",
+      "priceAuthority": "Public WooCommerce Store API"
+    },
+    {
+      "slug": "sw-mp-stippling-package",
+      "source": "https://defiantmachineworks.com/product/sw-mp-stippling-package/",
+      "priceAuthority": "Public WooCommerce Store API"
+    },
+    {
+      "slug": "fn-reflex-stippling-package",
+      "source": "https://defiantmachineworks.com/product/fn-reflex-stippling-package/",
+      "priceAuthority": "Public WooCommerce Store API"
+    },
+    {
+      "slug": "springfield-armory-echlon-stippling-package",
+      "source": "https://defiantmachineworks.com/product/springfield-armory-echlon-stippling-package/",
+      "priceAuthority": "Public WooCommerce Store API"
+    },
+    {
+      "slug": "springfield-armory-prodigy-stippling-package",
+      "source": "https://defiantmachineworks.com/product/springfield-armory-prodigy-stippling-package/",
+      "priceAuthority": "Public WooCommerce Store API"
+    },
+    {
+      "slug": "ruger-rxm-stippling-package",
+      "source": "https://defiantmachineworks.com/product/ruger-rxm-stippling-package/",
+      "priceAuthority": "Public WooCommerce Store API"
+    },
+    {
+      "slug": "oa-defense-2311-stipple-package",
+      "source": "https://defiantmachineworks.com/product/oa-defense-2311-stipple-package/",
+      "priceAuthority": "Public WooCommerce Store API"
+    },
+    {
+      "slug": "cz-p-07",
+      "source": "https://defiantmachineworks.com/product/cz-p-07/",
+      "priceAuthority": "Public WooCommerce Store API"
+    },
+    {
+      "slug": "cz-75-series-optic-cut",
+      "source": "https://defiantmachineworks.com/product/cz-75-series-optic-cut/",
+      "priceAuthority": "Public WooCommerce Store API"
+    },
+    {
+      "slug": "smith-wesson-bodyguard-2-0-optic-cut",
+      "source": "https://defiantmachineworks.com/product/smith-wesson-bodyguard-2-0-optic-cut/",
+      "priceAuthority": "Public WooCommerce Store API"
+    },
+    {
+      "slug": "beretta-px4-stipple-package-2",
+      "source": "https://defiantmachineworks.com/product/beretta-px4-stipple-package-2/",
+      "priceAuthority": "Public WooCommerce Store API"
+    },
+    {
+      "slug": "free-bible",
+      "source": "https://defiantmachineworks.com/product/free-bible/",
+      "priceAuthority": "Public WooCommerce Store API"
+    },
+    {
+      "slug": "p365-tiger-shark",
+      "source": "https://defiantmachineworks.com/product/p365-tiger-shark/",
+      "priceAuthority": "Public WooCommerce Store API"
+    },
+    {
+      "slug": "saber-slide-mill",
+      "source": "https://defiantmachineworks.com/product/saber-slide-mill/",
+      "priceAuthority": "Public WooCommerce Store API"
+    },
+    {
+      "slug": "genesis-oem-slide-mill",
+      "source": "https://defiantmachineworks.com/product/genesis-oem-slide-mill/",
+      "priceAuthority": "Public WooCommerce Store API"
+    },
+    {
+      "slug": "dmw-sticker-pack",
+      "source": "https://defiantmachineworks.com/product/dmw-sticker-pack/",
+      "priceAuthority": "Public WooCommerce Store API"
+    },
+    {
+      "slug": "sdrt-sticker",
+      "source": "https://defiantmachineworks.com/product/sdrt-sticker/",
+      "priceAuthority": "Public WooCommerce Store API"
+    },
+    {
+      "slug": "longboi-sticker",
+      "source": "https://defiantmachineworks.com/product/longboi-sticker/",
+      "priceAuthority": "Public WooCommerce Store API"
+    },
+    {
+      "slug": "coffin-pattern",
+      "source": "https://defiantmachineworks.com/product/coffin-pattern/",
+      "priceAuthority": "Public WooCommerce Store API"
+    },
+    {
+      "slug": "slide-only-cerakote",
+      "source": "https://defiantmachineworks.com/product/slide-only-cerakote/",
+      "priceAuthority": "Public WooCommerce Store API"
+    },
+    {
+      "slug": "frame-only-cerakote",
+      "source": "https://defiantmachineworks.com/product/frame-only-cerakote/",
+      "priceAuthority": "Public WooCommerce Store API"
+    },
+    {
+      "slug": "pistol-cerakote",
+      "source": "https://defiantmachineworks.com/product/pistol-cerakote/",
+      "priceAuthority": "Public WooCommerce Store API"
+    },
+    {
+      "slug": "bear-bones-iron-sights",
+      "source": "https://defiantmachineworks.com/product/bear-bones-iron-sights/",
+      "priceAuthority": "Public WooCommerce Store API"
+    },
+    {
+      "slug": "cz-p10c-cut",
+      "source": "https://defiantmachineworks.com/product/cz-p10c-cut/",
+      "priceAuthority": "Public WooCommerce Store API"
+    },
+    {
+      "slug": "smith-wesson-mp-optic-cut",
+      "source": "https://defiantmachineworks.com/product/smith-wesson-mp-optic-cut/",
+      "priceAuthority": "Public WooCommerce Store API"
+    },
+    {
+      "slug": "sig-p365-optic-cut",
+      "source": "https://defiantmachineworks.com/product/sig-p365-optic-cut/",
+      "priceAuthority": "Public WooCommerce Store API"
+    },
+    {
+      "slug": "glock-optic-cut-slimline",
+      "source": "https://defiantmachineworks.com/product/glock-optic-cut-slimline/",
+      "priceAuthority": "Public WooCommerce Store API"
+    },
+    {
+      "slug": "glock-optic-cut-full-size",
+      "source": "https://defiantmachineworks.com/product/glock-optic-cut-full-size/",
+      "priceAuthority": "Public WooCommerce Store API"
+    },
+    {
+      "slug": "electric-topo-sticker",
+      "source": "https://defiantmachineworks.com/product/electric-topo-sticker/",
+      "priceAuthority": "Public WooCommerce Store API"
+    },
+    {
+      "slug": "defiant-machine-works-sticker",
+      "source": "https://defiantmachineworks.com/product/defiant-machine-works-sticker/",
+      "priceAuthority": "Public WooCommerce Store API"
+    },
+    {
+      "slug": "chainmail-pattern",
+      "source": "https://defiantmachineworks.com/product/chainmail-pattern/",
+      "priceAuthority": "Public WooCommerce Store API"
+    },
+    {
+      "slug": "palm-swell-mod",
+      "source": "https://defiantmachineworks.com/product/palm-swell-mod/",
+      "priceAuthority": "Public WooCommerce Store API"
+    },
+    {
+      "slug": "keep-glock-symbol",
+      "source": "https://defiantmachineworks.com/product/keep-glock-symbol/",
+      "priceAuthority": "Public WooCommerce Store API"
+    },
+    {
+      "slug": "backstrap-vein-mod",
+      "source": "https://defiantmachineworks.com/product/backstrap-vein-mod/",
+      "priceAuthority": "Public WooCommerce Store API"
+    },
+    {
+      "slug": "19x-magwell-lip-delete-mod",
+      "source": "https://defiantmachineworks.com/product/19x-magwell-lip-delete-mod/",
+      "priceAuthority": "Public WooCommerce Store API"
+    },
+    {
+      "slug": "blended-backstrap-mod",
+      "source": "https://defiantmachineworks.com/product/blended-backstrap-mod/",
+      "priceAuthority": "Public WooCommerce Store API"
+    },
+    {
+      "slug": "finger-groove-removal-mod",
+      "source": "https://defiantmachineworks.com/product/finger-groove-removal-mod/",
+      "priceAuthority": "Public WooCommerce Store API"
+    },
+    {
+      "slug": "undercut-scallop-mod",
+      "source": "https://defiantmachineworks.com/product/undercut-scallop-mod/",
+      "priceAuthority": "Public WooCommerce Store API"
+    },
+    {
+      "slug": "blended-undercut-mod",
+      "source": "https://defiantmachineworks.com/product/blended-undercut-mod/",
+      "priceAuthority": "Public WooCommerce Store API"
+    },
+    {
+      "slug": "double-undercut-mod",
+      "source": "https://defiantmachineworks.com/product/double-undercut-mod/",
+      "priceAuthority": "Public WooCommerce Store API"
+    },
+    {
+      "slug": "mag-release-bevel-mod",
+      "source": "https://defiantmachineworks.com/product/mag-release-bevel-mod/",
+      "priceAuthority": "Public WooCommerce Store API"
+    },
+    {
+      "slug": "single-undercut-mod",
+      "source": "https://defiantmachineworks.com/product/single-undercut-mod/",
+      "priceAuthority": "Public WooCommerce Store API"
+    },
+    {
+      "slug": "accelerator-cut",
+      "source": "https://defiantmachineworks.com/product/accelerator-cut/",
+      "priceAuthority": "Public WooCommerce Store API"
+    },
+    {
+      "slug": "shooters-ledge",
+      "source": "https://defiantmachineworks.com/product/shooters-ledge/",
+      "priceAuthority": "Public WooCommerce Store API"
+    },
+    {
+      "slug": "machine-cut",
+      "source": "https://defiantmachineworks.com/product/machine-cut/",
+      "priceAuthority": "Public WooCommerce Store API"
+    },
+    {
+      "slug": "the-elite-cut",
+      "source": "https://defiantmachineworks.com/product/the-elite-cut/",
+      "priceAuthority": "Public WooCommerce Store API"
+    },
+    {
+      "slug": "shooters-cut",
+      "source": "https://defiantmachineworks.com/product/shooters-cut/",
+      "priceAuthority": "Public WooCommerce Store API"
+    },
+    {
+      "slug": "full-cut",
+      "source": "https://defiantmachineworks.com/product/full-cut/",
+      "priceAuthority": "Public WooCommerce Store API"
+    },
+    {
+      "slug": "executive-cut",
+      "source": "https://defiantmachineworks.com/product/executive-cut/",
+      "priceAuthority": "Public WooCommerce Store API"
+    },
+    {
+      "slug": "edc-cut",
+      "source": "https://defiantmachineworks.com/product/edc-cut/",
+      "priceAuthority": "Public WooCommerce Store API"
+    },
+    {
+      "slug": "gravel-pattern",
+      "source": "https://defiantmachineworks.com/product/gravel-pattern/",
+      "priceAuthority": "Public WooCommerce Store API"
+    },
+    {
+      "slug": "kevlar-pattern",
+      "source": "https://defiantmachineworks.com/product/kevlar-pattern/",
+      "priceAuthority": "Public WooCommerce Store API"
+    }
+  ],
+  "gallery": [
+    {
+      "title": "Flectarn",
+      "source": "https://defiantmachineworks.com/wp-content/uploads/2025/09/14.png",
+      "labelAuthority": "Label embedded in source-owned photograph, visually verified"
+    },
+    {
+      "title": "M90 Swedish",
+      "source": "https://defiantmachineworks.com/wp-content/uploads/2025/09/13.png",
+      "labelAuthority": "Label embedded in source-owned photograph, visually verified"
+    },
+    {
+      "title": "Midnight Chocolate Chip",
+      "source": "https://defiantmachineworks.com/wp-content/uploads/2025/09/12.png",
+      "labelAuthority": "Label embedded in source-owned photograph, visually verified"
+    },
+    {
+      "title": "Tropic Chip",
+      "source": "https://defiantmachineworks.com/wp-content/uploads/2025/09/11.png",
+      "labelAuthority": "Label embedded in source-owned photograph, visually verified"
+    },
+    {
+      "title": "Pumpkin Spice",
+      "source": "https://defiantmachineworks.com/wp-content/uploads/2025/09/10.png",
+      "labelAuthority": "Label embedded in source-owned photograph, visually verified"
+    },
+    {
+      "title": "Nautical Camo",
+      "source": "https://defiantmachineworks.com/wp-content/uploads/2025/09/9.png",
+      "labelAuthority": "Label embedded in source-owned photograph, visually verified"
+    },
+    {
+      "title": "Wood Chip",
+      "source": "https://defiantmachineworks.com/wp-content/uploads/2025/09/3.png",
+      "labelAuthority": "Label embedded in source-owned photograph, visually verified"
+    },
+    {
+      "title": "Black Multicam",
+      "source": "https://defiantmachineworks.com/wp-content/uploads/2025/09/4.png",
+      "labelAuthority": "Label embedded in source-owned photograph, visually verified"
+    },
+    {
+      "title": "DCU Chocolate Chip",
+      "source": "https://defiantmachineworks.com/wp-content/uploads/2025/09/5.png",
+      "labelAuthority": "Label embedded in source-owned photograph, visually verified"
+    },
+    {
+      "title": "Arctic Multicam",
+      "source": "https://defiantmachineworks.com/wp-content/uploads/2025/09/6.png",
+      "labelAuthority": "Label embedded in source-owned photograph, visually verified"
+    },
+    {
+      "title": "Blueberry Chocolate Chip",
+      "source": "https://defiantmachineworks.com/wp-content/uploads/2025/09/7.png",
+      "labelAuthority": "Label embedded in source-owned photograph, visually verified"
+    },
+    {
+      "title": "Rocky Road",
+      "source": "https://defiantmachineworks.com/wp-content/uploads/2025/09/8.png",
+      "labelAuthority": "Label embedded in source-owned photograph, visually verified"
+    },
+    {
+      "title": "Woodland Tigerstripe",
+      "source": "https://defiantmachineworks.com/wp-content/uploads/2025/09/2-1.png",
+      "labelAuthority": "Label embedded in source-owned photograph, visually verified"
+    },
+    {
+      "title": "Woodland",
+      "source": "https://defiantmachineworks.com/wp-content/uploads/2025/09/1-1.png",
+      "labelAuthority": "Label embedded in source-owned photograph, visually verified"
+    },
+    {
+      "title": "USMC Red H-167",
+      "source": "https://defiantmachineworks.com/wp-content/uploads/2026/01/15.png",
+      "labelAuthority": "Label embedded in source-owned photograph, visually verified"
+    },
+    {
+      "title": "Jesse James Eastern Front H-400",
+      "source": "https://defiantmachineworks.com/wp-content/uploads/2026/01/14.png",
+      "labelAuthority": "Label embedded in source-owned photograph, visually verified"
+    },
+    {
+      "title": "Sniper Grey H-234",
+      "source": "https://defiantmachineworks.com/wp-content/uploads/2026/01/13.png",
+      "labelAuthority": "Label embedded in source-owned photograph, visually verified"
+    },
+    {
+      "title": "Rose Gold H-327",
+      "source": "https://defiantmachineworks.com/wp-content/uploads/2026/01/12.png",
+      "labelAuthority": "Label embedded in source-owned photograph, visually verified"
+    },
+    {
+      "title": "Sniper Green H-229",
+      "source": "https://defiantmachineworks.com/wp-content/uploads/2026/01/11.png",
+      "labelAuthority": "Label embedded in source-owned photograph, visually verified"
+    },
+    {
+      "title": "Tungsten H-237",
+      "source": "https://defiantmachineworks.com/wp-content/uploads/2026/01/10.png",
+      "labelAuthority": "Label embedded in source-owned photograph, visually verified"
+    },
+    {
+      "title": "Sig Dark Grey H-210",
+      "source": "https://defiantmachineworks.com/wp-content/uploads/2026/01/4.png",
+      "labelAuthority": "Label embedded in source-owned photograph, visually verified"
+    },
+    {
+      "title": "Midnight Bronze H-294",
+      "source": "https://defiantmachineworks.com/wp-content/uploads/2026/01/5.png",
+      "labelAuthority": "Label embedded in source-owned photograph, visually verified"
+    },
+    {
+      "title": "Burnt Bronze H-148",
+      "source": "https://defiantmachineworks.com/wp-content/uploads/2026/01/6.png",
+      "labelAuthority": "Label embedded in source-owned photograph, visually verified"
+    },
+    {
+      "title": "Phantom Teal DMW Custom",
+      "source": "https://defiantmachineworks.com/wp-content/uploads/2026/01/7.png",
+      "labelAuthority": "Label embedded in source-owned photograph, visually verified"
+    },
+    {
+      "title": "Black Cherry H-319",
+      "source": "https://defiantmachineworks.com/wp-content/uploads/2026/01/8.png",
+      "labelAuthority": "Label embedded in source-owned photograph, visually verified"
+    },
+    {
+      "title": "Blue Titanium H-185",
+      "source": "https://defiantmachineworks.com/wp-content/uploads/2026/01/9.png",
+      "labelAuthority": "Label embedded in source-owned photograph, visually verified"
+    },
+    {
+      "title": "OD Green F-105",
+      "source": "https://defiantmachineworks.com/wp-content/uploads/2026/01/3.png",
+      "labelAuthority": "Label embedded in source-owned photograph, visually verified"
+    },
+    {
+      "title": "Flat Dark Earth F-106",
+      "source": "https://defiantmachineworks.com/wp-content/uploads/2026/01/2.png",
+      "labelAuthority": "Label embedded in source-owned photograph, visually verified"
+    },
+    {
+      "title": "Carbon Black F-102",
+      "source": "https://defiantmachineworks.com/wp-content/uploads/2026/01/1.png",
+      "labelAuthority": "Label embedded in source-owned photograph, visually verified"
+    },
+    {
+      "title": "Custom frame work",
+      "source": "https://defiantmachineworks.com/stippling/",
+      "labelAuthority": "Label embedded in source-owned photograph, visually verified"
+    },
+    {
+      "title": "Custom slide detail",
+      "source": "https://defiantmachineworks.com/slide-milling-select-your-model/",
+      "labelAuthority": "Label embedded in source-owned photograph, visually verified"
+    },
+    {
+      "title": "Bodyguard 2.0 Viper Ports",
+      "source": "https://defiantmachineworks.com/porting/",
+      "labelAuthority": "Label embedded in source-owned photograph, visually verified"
+    }
+  ],
+  "articles": [
+    {
+      "title": "Unlocking the Power of Cerakote",
+      "source": "https://defiantmachineworks.com/2025/09/30/unlocking-the-power-of-cerakote-what-is-cerakote-and-why-you-should-choose-it/"
+    },
+    {
+      "title": "The Art of Stippling: What is it and why does it matter? What is Stippling?",
+      "source": "https://defiantmachineworks.com/2025/09/22/what-is-stippling-2/"
+    },
+    {
+      "title": "Understanding Optic Cuts for Pistols: What They Are, Why You Need One, and the Benefits of Direct Milling.",
+      "source": "https://defiantmachineworks.com/2025/09/30/understanding-optic-cuts-for-pistols-what-they-are-why-you-need-one-and-the-benefits-of-direct-milling/"
+    }
+  ],
+  "operationalPolicies": [
+    "/faq/",
+    "/guarantees/"
+  ],
+  "faithValues": "Explicit project brief supplied by owner; no founder history claimed",
+  "reviews": [
+    {
+      "name": "Darwin Cruz",
+      "quote": "Excellent work and good communication about the process.",
+      "date": "2026-10-04",
+      "source": "https://defiantmachineworks.com/",
+      "originalPlatform": "Google / Trustindex source homepage"
+    }
+  ]
+}

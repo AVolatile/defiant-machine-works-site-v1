@@ -1,0 +1,6 @@
+
+> defiant-machine-works@1.0.0 verify:assets
+> node scripts/verify-assets.mjs
+
+Verified 1854 original asset hashes and 258 content image references. Known source 404s: 3.
+Verified 915 optimized configurator image references with Defiant provenance.

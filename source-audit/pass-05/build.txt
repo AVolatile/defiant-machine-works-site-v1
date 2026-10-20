@@ -1,0 +1,60 @@
+
+> defiant-machine-works@1.0.0 build
+> next build
+
+▲ Next.js 16.4.2 (Turbopack)
+✓ Running next.config.ts took 69ms
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 700ms
+  Running TypeScript ...
+  Finished TypeScript in 2.2s ...
+  Collecting page data using 7 workers ...
+(node:96124) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:96123) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+  Generating static pages using 7 workers (0/95) ...
+  Generating static pages using 7 workers (23/95) 
+(node:96122) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+  Generating static pages using 7 workers (47/95) 
+  Generating static pages using 7 workers (71/95) 
+✓ Generating static pages using 7 workers (95/95) in 1001ms
+  Finalizing page optimization ...
+
+Route (app)
+┌ ○ /
+├ ○ /_not-found
+├   /[slug]
+│ ├ ● /services
+│ ├ ● /products
+│ ├ ● /resources
+│ └ ● [+14 more paths]
+├ ƒ /api/commerce/orders
+├ ƒ /api/commerce/quote
+├ ƒ /api/inquiry
+├   /blog/[slug]
+│ ├ ● /blog/unlocking-the-power-of-cerakote-what-is-cerakote-and-why-you-should-choose-it
+│ ├ ● /blog/what-is-stippling-2
+│ └ ● /blog/understanding-optic-cuts-for-pistols-what-they-are-why-you-need-one-and-the-benefits-of-direct-milling
+├ ƒ /cart
+├ ƒ /checkout
+├ ƒ /custom-inquiry
+├ ƒ /customize
+├ ƒ /gallery
+├ ƒ /order/[orderNumber]/confirmation
+├   /products/[slug]
+│ ├ ● /products/d95-compensator-for-glock-gen-5-6
+│ ├ ● /products/bodyguard-2-0-viper-ports
+│ ├ ● /products/psa-dagger-stippling-package
+│ └ ● [+60 more paths]
+├ ○ /resources/stippling-guide
+├ ○ /robots.txt
+└ ○ /sitemap.xml
+
+
+○  (Static)   prerendered as static content
+●  (SSG)      prerendered as static HTML (uses generateStaticParams)
+ƒ  (Dynamic)  server-rendered on demand
+

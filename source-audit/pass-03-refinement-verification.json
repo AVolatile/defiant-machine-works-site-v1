@@ -1,0 +1,192 @@
+{
+  "date": "2026-10-19",
+  "scope": "Pass 03 local source implementation and production-build validation; no deployment, live provider or external communication",
+  "lint": "passed without warnings",
+  "typecheck": "passed",
+  "productionBuild": {
+    "status": "passed",
+    "staticOutputs": 95,
+    "node": "22.23.3",
+    "note": "Built-in SQLite emits its documented experimental warning"
+  },
+  "browserTests": {
+    "startTime": "2026-10-19T20:46:36.035Z",
+    "duration": 34999.323,
+    "expected": 44,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "browserEngine": "Playwright Chromium; in-app browser execution tool unavailable",
+  "accessibility": "Axe WCAG 2.2 AA checks passed on nine routes, mobile navigation/gallery overlays, source option controls, populated mobile checkout and default final review. Not a compliance certification.",
+  "responsiveVisuals": {
+    "checks": 35,
+    "heroWidths": [1728, 1440, 1280, 1024, 768, 430, 390, 375],
+    "menuWidths": [430, 390, 375],
+    "menuStates": ["open", "scrolled submenu hierarchy", "closing transition endpoint"],
+    "commerceAndContentWidths": [1440, 390],
+    "screens": [
+      "configurator platform",
+      "configurator source-option details",
+      "cart",
+      "checkout contact",
+      "checkout billing/return address",
+      "checkout payment/review",
+      "private order confirmation",
+      "service detail",
+      "About"
+    ],
+    "overflowFindings": [],
+    "brokenImages": [],
+    "humanInspected": [
+      "all eight hero captures",
+      "mobile menu upper/lower hierarchy",
+      "mobile configuration/cart/address/review/confirmation/About overview",
+      "desktop checkout review",
+      "final narrow hero and checkout details"
+    ]
+  },
+  "sourceAudit": {
+    "liveMillingBuilders": 11,
+    "retainedMatches": 11,
+    "allRetainedBuildersMatched": true,
+    "evidence": "source-audit/pass-03-live-options.json",
+    "normalizedData": "src/data/milling-options.json",
+    "workflow": "Public service descriptions and FAQ establish purchase → confirmation → emailed shipping instructions → customer-supplied component → receipt-based lead time. No live cart/order action performed.",
+    "uncertainties": [
+      "Public checkout could not be read without an established live cart; no checkout bypass or order attempt made",
+      "Unaudited services, ambiguous modifications/model scope and combined-service pricing remain review-only",
+      "Shipping charges, tax rules and live provider eligibility remain unconfigured"
+    ]
+  },
+  "orderability": "Independent service-price/compatibility readiness (ready/requires-review/invalid), separate from environment payment availability",
+  "defaultPaymentMode": {
+    "contactAndAddressFlow": true,
+    "finalReview": true,
+    "normalOrderQuoteFallback": false,
+    "placeOrderDisabled": true,
+    "ordersEndpointStatus": 503
+  },
+  "errorAndSecurityChecks": [
+    "invalid contact and billing/return-address fields",
+    "back navigation retains in-memory fields",
+    "server price recalculation and forged-total 409",
+    "unsupported/conditional hidden-option rejection",
+    "review-only order rejection with 422",
+    "test decline and same-order retry",
+    "concurrent request reservation and stable idempotent order number",
+    "rapid double clicks execute one client request",
+    "server failure retains fields and cart",
+    "private confirmation is 404 from a different browser",
+    "checkout personal data absent from localStorage",
+    "same-host/cross-site rejection",
+    "missing communication provider reports not-configured; injected failure reports failed"
+  ],
+  "orderPersistence": "Encrypted local SQLite repository, explicitly test-only; version 2 snapshots, atomic payment claim, matching session required",
+  "communication": "Provider-neutral confirmation/shipping-instructions/status boundaries only. No email sent; shipping instructions pending.",
+  "sourceAssetHashesVerified": 1854,
+  "contentImageReferencesVerified": 258,
+  "knownSource404s": 3,
+  "dependencyAudit": {
+    "production": {
+      "info": 0,
+      "low": 0,
+      "moderate": 0,
+      "high": 0,
+      "critical": 0,
+      "total": 0
+    },
+    "allDependencies": {
+      "info": 0,
+      "low": 0,
+      "moderate": 0,
+      "high": 5,
+      "critical": 0,
+      "total": 5
+    },
+    "findings": [
+      {
+        "name": "@next/eslint-plugin-next",
+        "severity": "high",
+        "direct": false,
+        "via": ["fast-glob"],
+        "fixAvailable": {
+          "name": "eslint-config-next",
+          "version": "14.2.35",
+          "isSemVerMajor": true
+        }
+      },
+      {
+        "name": "braces",
+        "severity": "high",
+        "direct": false,
+        "via": [
+          {
+            "title": "braces vulnerable to stack-exhaustion denial of service through deeply nested patterns",
+            "url": "https://github.com/advisories/GHSA-vfj7-8cjw-p6xm",
+            "range": "<=3.0.3"
+          }
+        ],
+        "fixAvailable": {
+          "name": "eslint-config-next",
+          "version": "14.2.35",
+          "isSemVerMajor": true
+        }
+      },
+      {
+        "name": "eslint-config-next",
+        "severity": "high",
+        "direct": true,
+        "via": ["@next/eslint-plugin-next"],
+        "fixAvailable": {
+          "name": "eslint-config-next",
+          "version": "14.2.35",
+          "isSemVerMajor": true
+        }
+      },
+      {
+        "name": "fast-glob",
+        "severity": "high",
+        "direct": false,
+        "via": ["micromatch"],
+        "fixAvailable": {
+          "name": "eslint-config-next",
+          "version": "14.2.35",
+          "isSemVerMajor": true
+        }
+      },
+      {
+        "name": "micromatch",
+        "severity": "high",
+        "direct": false,
+        "via": ["braces"],
+        "fixAvailable": {
+          "name": "eslint-config-next",
+          "version": "14.2.35",
+          "isSemVerMajor": true
+        }
+      }
+    ],
+    "decision": "Five inherited development-tooling advisories through braces/micromatch/fast-glob/Next ESLint. No production vulnerabilities. Registry proposed a major Next tooling downgrade, which was not applied."
+  },
+  "productionDependencies": [
+    "Approved payment provider and verified production adapter",
+    "Server-side payment verification, transaction identity, webhook/reconciliation and recovery",
+    "Complete service/optic option pricing and compatibility matrix",
+    "Shipping charges/policy and tax calculation",
+    "Order notification delivery and fulfillment workflow",
+    "Shared durable repository and shared abuse controls",
+    "Encryption-key custody, backup/restore and retention/deletion policy",
+    "Owner/legal approval of Terms and Privacy",
+    "Configured and verified inquiry delivery"
+  ],
+  "evidence": {
+    "tests": "test-results/results.json",
+    "visuals": "tests/visual/pass-03/results.json",
+    "audit": "source-audit/PASS_03_AUDIT.md",
+    "report": "IMPLEMENTATION_REPORT.md"
+  },
+  "deployment": "not performed",
+  "realPayments": "not enabled",
+  "emailsSent": 0
+}

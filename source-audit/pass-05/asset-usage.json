@@ -1,0 +1,6540 @@
+{
+  "reviewDate": "2026-10-20",
+  "packageReferences": 32,
+  "optionReferences": 833,
+  "uniquePriorWizardImages": 66,
+  "allCatalogVisualReferencesRetained": 915,
+  "deletedAssets": 0,
+  "assets": [
+    {
+      "image": "/assets/dmw/optimized/0393ff840a3ed4.webp",
+      "bytesRetained": 284598,
+      "requestedByConfigurator": false,
+      "priorWizardUses": [
+        {
+          "serviceId": "bodyguard-2-0-viper-ports",
+          "kind": "option",
+          "fieldId": "field_4",
+          "optionId": "29"
+        },
+        {
+          "serviceId": "glock-crown-lvl-3-stippling-package",
+          "kind": "option",
+          "fieldId": "field_15",
+          "optionId": "11"
+        },
+        {
+          "serviceId": "glock-core-lvl-stippling-package",
+          "kind": "option",
+          "fieldId": "field_15",
+          "optionId": "11"
+        },
+        {
+          "serviceId": "cz-p-07",
+          "kind": "option",
+          "fieldId": "field_10",
+          "optionId": "46"
+        },
+        {
+          "serviceId": "cz-75-series-optic-cut",
+          "kind": "option",
+          "fieldId": "field_10",
+          "optionId": "46"
+        },
+        {
+          "serviceId": "smith-wesson-bodyguard-2-0-optic-cut",
+          "kind": "option",
+          "fieldId": "field_10",
+          "optionId": "46"
+        },
+        {
+          "serviceId": "p365-tiger-shark",
+          "kind": "option",
+          "fieldId": "field_8",
+          "optionId": "46"
+        },
+        {
+          "serviceId": "saber-slide-mill",
+          "kind": "option",
+          "fieldId": "field_8",
+          "optionId": "46"
+        },
+        {
+          "serviceId": "genesis-oem-slide-mill",
+          "kind": "option",
+          "fieldId": "field_8",
+          "optionId": "46"
+        },
+        {
+          "serviceId": "slide-only-cerakote",
+          "kind": "option",
+          "fieldId": "field_4",
+          "optionId": "29"
+        },
+        {
+          "serviceId": "pistol-cerakote",
+          "kind": "option",
+          "fieldId": "field_4",
+          "optionId": "17"
+        },
+        {
+          "serviceId": "cz-p10c-cut",
+          "kind": "option",
+          "fieldId": "field_9",
+          "optionId": "47"
+        },
+        {
+          "serviceId": "smith-wesson-mp-optic-cut",
+          "kind": "option",
+          "fieldId": "field_10",
+          "optionId": "46"
+        },
+        {
+          "serviceId": "sig-p365-optic-cut",
+          "kind": "option",
+          "fieldId": "field_8",
+          "optionId": "46"
+        },
+        {
+          "serviceId": "glock-optic-cut-slimline",
+          "kind": "option",
+          "fieldId": "field_8",
+          "optionId": "46"
+        },
+        {
+          "serviceId": "glock-optic-cut-full-size",
+          "kind": "option",
+          "fieldId": "field_11",
+          "optionId": "48"
+        }
+      ],
+      "sourceUrls": [
+        "https://defiantmachineworks.com/wp-content/uploads/2025/09/5.png"
+      ],
+      "retainedUses": {
+        "gallery": [
+          "DCU Chocolate Chip"
+        ],
+        "productDetails": [],
+        "servicePages": [],
+        "stipplingGuide": [],
+        "editorial": [],
+        "archiveAndProvenance": true
+      }
+    },
+    {
+      "image": "/assets/dmw/optimized/05ad5a7a311ba1.webp",
+      "bytesRetained": 379654,
+      "requestedByConfigurator": false,
+      "priorWizardUses": [
+        {
+          "serviceId": "bodyguard-2-0-viper-ports",
+          "kind": "option",
+          "fieldId": "field_2",
+          "optionId": "47"
+        },
+        {
+          "serviceId": "bodyguard-2-0-viper-ports",
+          "kind": "option",
+          "fieldId": "field_3",
+          "optionId": "47"
+        },
+        {
+          "serviceId": "glock-crown-lvl-3-stippling-package",
+          "kind": "option",
+          "fieldId": "field_16",
+          "optionId": "47"
+        },
+        {
+          "serviceId": "glock-crown-lvl-3-stippling-package",
+          "kind": "option",
+          "fieldId": "field_17",
+          "optionId": "47"
+        },
+        {
+          "serviceId": "glock-core-lvl-stippling-package",
+          "kind": "option",
+          "fieldId": "field_16",
+          "optionId": "47"
+        },
+        {
+          "serviceId": "glock-core-lvl-stippling-package",
+          "kind": "option",
+          "fieldId": "field_17",
+          "optionId": "47"
+        },
+        {
+          "serviceId": "cz-p-07",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "47"
+        },
+        {
+          "serviceId": "cz-p-07",
+          "kind": "option",
+          "fieldId": "field_8",
+          "optionId": "47"
+        },
+        {
+          "serviceId": "cz-75-series-optic-cut",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "47"
+        },
+        {
+          "serviceId": "cz-75-series-optic-cut",
+          "kind": "option",
+          "fieldId": "field_8",
+          "optionId": "47"
+        },
+        {
+          "serviceId": "smith-wesson-bodyguard-2-0-optic-cut",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "47"
+        },
+        {
+          "serviceId": "smith-wesson-bodyguard-2-0-optic-cut",
+          "kind": "option",
+          "fieldId": "field_8",
+          "optionId": "47"
+        },
+        {
+          "serviceId": "p365-tiger-shark",
+          "kind": "option",
+          "fieldId": "field_5",
+          "optionId": "47"
+        },
+        {
+          "serviceId": "p365-tiger-shark",
+          "kind": "option",
+          "fieldId": "field_7",
+          "optionId": "47"
+        },
+        {
+          "serviceId": "saber-slide-mill",
+          "kind": "option",
+          "fieldId": "field_4",
+          "optionId": "47"
+        },
+        {
+          "serviceId": "saber-slide-mill",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "47"
+        },
+        {
+          "serviceId": "genesis-oem-slide-mill",
+          "kind": "option",
+          "fieldId": "field_4",
+          "optionId": "47"
+        },
+        {
+          "serviceId": "genesis-oem-slide-mill",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "47"
+        },
+        {
+          "serviceId": "slide-only-cerakote",
+          "kind": "option",
+          "fieldId": "field_2",
+          "optionId": "47"
+        },
+        {
+          "serviceId": "slide-only-cerakote",
+          "kind": "option",
+          "fieldId": "field_3",
+          "optionId": "47"
+        },
+        {
+          "serviceId": "frame-only-cerakote",
+          "kind": "option",
+          "fieldId": "field_2",
+          "optionId": "47"
+        },
+        {
+          "serviceId": "frame-only-cerakote",
+          "kind": "option",
+          "fieldId": "field_3",
+          "optionId": "47"
+        },
+        {
+          "serviceId": "pistol-cerakote",
+          "kind": "option",
+          "fieldId": "field_2",
+          "optionId": "47"
+        },
+        {
+          "serviceId": "pistol-cerakote",
+          "kind": "option",
+          "fieldId": "field_3",
+          "optionId": "47"
+        },
+        {
+          "serviceId": "cz-p10c-cut",
+          "kind": "option",
+          "fieldId": "field_5",
+          "optionId": "47"
+        },
+        {
+          "serviceId": "cz-p10c-cut",
+          "kind": "option",
+          "fieldId": "field_7",
+          "optionId": "47"
+        },
+        {
+          "serviceId": "smith-wesson-mp-optic-cut",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "47"
+        },
+        {
+          "serviceId": "smith-wesson-mp-optic-cut",
+          "kind": "option",
+          "fieldId": "field_8",
+          "optionId": "47"
+        },
+        {
+          "serviceId": "sig-p365-optic-cut",
+          "kind": "option",
+          "fieldId": "field_5",
+          "optionId": "47"
+        },
+        {
+          "serviceId": "sig-p365-optic-cut",
+          "kind": "option",
+          "fieldId": "field_7",
+          "optionId": "47"
+        },
+        {
+          "serviceId": "glock-optic-cut-slimline",
+          "kind": "option",
+          "fieldId": "field_4",
+          "optionId": "47"
+        },
+        {
+          "serviceId": "glock-optic-cut-slimline",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "47"
+        },
+        {
+          "serviceId": "glock-optic-cut-full-size",
+          "kind": "option",
+          "fieldId": "field_7",
+          "optionId": "47"
+        },
+        {
+          "serviceId": "glock-optic-cut-full-size",
+          "kind": "option",
+          "fieldId": "field_9",
+          "optionId": "47"
+        }
+      ],
+      "sourceUrls": [
+        "https://defiantmachineworks.com/wp-content/uploads/2026/01/15.png"
+      ],
+      "retainedUses": {
+        "gallery": [
+          "USMC Red H-167"
+        ],
+        "productDetails": [],
+        "servicePages": [],
+        "stipplingGuide": [],
+        "editorial": [],
+        "archiveAndProvenance": true
+      }
+    },
+    {
+      "image": "/assets/dmw/optimized/05d06ee0e8e60c.webp",
+      "bytesRetained": 613060,
+      "requestedByConfigurator": false,
+      "priorWizardUses": [
+        {
+          "serviceId": "smith-wesson-bodyguard-2-0-optic-cut",
+          "kind": "package",
+          "fieldId": null,
+          "optionId": null
+        }
+      ],
+      "sourceUrls": [
+        "https://defiantmachineworks.com/wp-content/uploads/2025/09/DSC03149.jpg"
+      ],
+      "retainedUses": {
+        "gallery": [],
+        "productDetails": [
+          "smith-wesson-bodyguard-2-0-optic-cut"
+        ],
+        "servicePages": [],
+        "stipplingGuide": [],
+        "editorial": [],
+        "archiveAndProvenance": true
+      }
+    },
+    {
+      "image": "/assets/dmw/optimized/0bf7e14b089637.webp",
+      "bytesRetained": 235316,
+      "requestedByConfigurator": false,
+      "priorWizardUses": [
+        {
+          "serviceId": "sig-sauer-p365-stippling-package-mod-2",
+          "kind": "package",
+          "fieldId": null,
+          "optionId": null
+        }
+      ],
+      "sourceUrls": [
+        "https://defiantmachineworks.com/wp-content/uploads/2025/09/325.00-9.png"
+      ],
+      "retainedUses": {
+        "gallery": [],
+        "productDetails": [
+          "sig-sauer-p365-stippling-package-mod-2"
+        ],
+        "servicePages": [],
+        "stipplingGuide": [],
+        "editorial": [],
+        "archiveAndProvenance": true
+      }
+    },
+    {
+      "image": "/assets/dmw/optimized/121dcb2f08e4ea.webp",
+      "bytesRetained": 385142,
+      "requestedByConfigurator": false,
+      "priorWizardUses": [
+        {
+          "serviceId": "bodyguard-2-0-viper-ports",
+          "kind": "option",
+          "fieldId": "field_4",
+          "optionId": "37"
+        },
+        {
+          "serviceId": "glock-crown-lvl-3-stippling-package",
+          "kind": "option",
+          "fieldId": "field_15",
+          "optionId": "19"
+        },
+        {
+          "serviceId": "glock-core-lvl-stippling-package",
+          "kind": "option",
+          "fieldId": "field_15",
+          "optionId": "19"
+        },
+        {
+          "serviceId": "cz-p-07",
+          "kind": "option",
+          "fieldId": "field_10",
+          "optionId": "54"
+        },
+        {
+          "serviceId": "cz-75-series-optic-cut",
+          "kind": "option",
+          "fieldId": "field_10",
+          "optionId": "54"
+        },
+        {
+          "serviceId": "smith-wesson-bodyguard-2-0-optic-cut",
+          "kind": "option",
+          "fieldId": "field_10",
+          "optionId": "54"
+        },
+        {
+          "serviceId": "p365-tiger-shark",
+          "kind": "option",
+          "fieldId": "field_8",
+          "optionId": "54"
+        },
+        {
+          "serviceId": "saber-slide-mill",
+          "kind": "option",
+          "fieldId": "field_8",
+          "optionId": "54"
+        },
+        {
+          "serviceId": "genesis-oem-slide-mill",
+          "kind": "option",
+          "fieldId": "field_8",
+          "optionId": "54"
+        },
+        {
+          "serviceId": "slide-only-cerakote",
+          "kind": "option",
+          "fieldId": "field_4",
+          "optionId": "37"
+        },
+        {
+          "serviceId": "frame-only-cerakote",
+          "kind": "option",
+          "fieldId": "field_4",
+          "optionId": "42"
+        },
+        {
+          "serviceId": "pistol-cerakote",
+          "kind": "option",
+          "fieldId": "field_4",
+          "optionId": "25"
+        },
+        {
+          "serviceId": "cz-p10c-cut",
+          "kind": "option",
+          "fieldId": "field_9",
+          "optionId": "55"
+        },
+        {
+          "serviceId": "smith-wesson-mp-optic-cut",
+          "kind": "option",
+          "fieldId": "field_10",
+          "optionId": "54"
+        },
+        {
+          "serviceId": "sig-p365-optic-cut",
+          "kind": "option",
+          "fieldId": "field_8",
+          "optionId": "54"
+        },
+        {
+          "serviceId": "glock-optic-cut-slimline",
+          "kind": "option",
+          "fieldId": "field_8",
+          "optionId": "54"
+        },
+        {
+          "serviceId": "glock-optic-cut-full-size",
+          "kind": "option",
+          "fieldId": "field_11",
+          "optionId": "56"
+        }
+      ],
+      "sourceUrls": [
+        "https://defiantmachineworks.com/wp-content/uploads/2025/09/13.png"
+      ],
+      "retainedUses": {
+        "gallery": [
+          "M90 Swedish"
+        ],
+        "productDetails": [],
+        "servicePages": [],
+        "stipplingGuide": [],
+        "editorial": [
+          "src/components/home/home-page.tsx (featured Gallery work)"
+        ],
+        "archiveAndProvenance": true
+      }
+    },
+    {
+      "image": "/assets/dmw/optimized/14d8d89355c391.webp",
+      "bytesRetained": 51310,
+      "requestedByConfigurator": false,
+      "priorWizardUses": [
+        {
+          "serviceId": "bodyguard-2-0-viper-ports",
+          "kind": "package",
+          "fieldId": null,
+          "optionId": null
+        }
+      ],
+      "sourceUrls": [
+        "https://defiantmachineworks.com/wp-content/uploads/2026/02/1.png"
+      ],
+      "retainedUses": {
+        "gallery": [
+          "Bodyguard 2.0 Viper Ports"
+        ],
+        "productDetails": [
+          "bodyguard-2-0-viper-ports"
+        ],
+        "servicePages": [
+          "porting"
+        ],
+        "stipplingGuide": [],
+        "editorial": [],
+        "archiveAndProvenance": true
+      }
+    },
+    {
+      "image": "/assets/dmw/optimized/2256b22efea6ad.webp",
+      "bytesRetained": 31142,
+      "requestedByConfigurator": false,
+      "priorWizardUses": [
+        {
+          "serviceId": "oa-defense-2311-stipple-package",
+          "kind": "package",
+          "fieldId": null,
+          "optionId": null
+        }
+      ],
+      "sourceUrls": [
+        "https://defiantmachineworks.com/wp-content/uploads/2025/09/1-2.png"
+      ],
+      "retainedUses": {
+        "gallery": [],
+        "productDetails": [
+          "oa-defense-2311-stipple-package"
+        ],
+        "servicePages": [],
+        "stipplingGuide": [],
+        "editorial": [],
+        "archiveAndProvenance": true
+      }
+    },
+    {
+      "image": "/assets/dmw/optimized/24f1008091467d.webp",
+      "bytesRetained": 901358,
+      "requestedByConfigurator": false,
+      "priorWizardUses": [
+        {
+          "serviceId": "slide-only-cerakote",
+          "kind": "package",
+          "fieldId": null,
+          "optionId": null
+        }
+      ],
+      "sourceUrls": [
+        "https://defiantmachineworks.com/wp-content/uploads/2024/02/DSC04636.jpg"
+      ],
+      "retainedUses": {
+        "gallery": [],
+        "productDetails": [
+          "slide-only-cerakote"
+        ],
+        "servicePages": [],
+        "stipplingGuide": [],
+        "editorial": [],
+        "archiveAndProvenance": true
+      }
+    },
+    {
+      "image": "/assets/dmw/optimized/26aecabb1699e2.webp",
+      "bytesRetained": 84796,
+      "requestedByConfigurator": false,
+      "priorWizardUses": [
+        {
+          "serviceId": "psa-dagger-stippling-package",
+          "kind": "package",
+          "fieldId": null,
+          "optionId": null
+        }
+      ],
+      "sourceUrls": [
+        "https://defiantmachineworks.com/wp-content/uploads/2025/11/2-4.png"
+      ],
+      "retainedUses": {
+        "gallery": [],
+        "productDetails": [
+          "psa-dagger-stippling-package"
+        ],
+        "servicePages": [],
+        "stipplingGuide": [],
+        "editorial": [],
+        "archiveAndProvenance": true
+      }
+    },
+    {
+      "image": "/assets/dmw/optimized/2e447ce97e40a8.webp",
+      "bytesRetained": 769592,
+      "requestedByConfigurator": false,
+      "priorWizardUses": [
+        {
+          "serviceId": "saber-slide-mill",
+          "kind": "package",
+          "fieldId": null,
+          "optionId": null
+        }
+      ],
+      "sourceUrls": [
+        "https://defiantmachineworks.com/wp-content/uploads/2024/10/Saber-Slide-6.jpg"
+      ],
+      "retainedUses": {
+        "gallery": [],
+        "productDetails": [
+          "saber-slide-mill"
+        ],
+        "servicePages": [],
+        "stipplingGuide": [],
+        "editorial": [],
+        "archiveAndProvenance": true
+      }
+    },
+    {
+      "image": "/assets/dmw/optimized/301709503d48ef.webp",
+      "bytesRetained": 273160,
+      "requestedByConfigurator": false,
+      "priorWizardUses": [
+        {
+          "serviceId": "cz-p-07",
+          "kind": "package",
+          "fieldId": null,
+          "optionId": null
+        }
+      ],
+      "sourceUrls": [
+        "https://defiantmachineworks.com/wp-content/uploads/2025/09/IGOPTIC-CUT-POST-2.jpg"
+      ],
+      "retainedUses": {
+        "gallery": [],
+        "productDetails": [
+          "cz-p-07"
+        ],
+        "servicePages": [],
+        "stipplingGuide": [],
+        "editorial": [],
+        "archiveAndProvenance": true
+      }
+    },
+    {
+      "image": "/assets/dmw/optimized/340e4e26936c1f.webp",
+      "bytesRetained": 254886,
+      "requestedByConfigurator": false,
+      "priorWizardUses": [
+        {
+          "serviceId": "bodyguard-2-0-viper-ports",
+          "kind": "option",
+          "fieldId": "field_4",
+          "optionId": "32"
+        },
+        {
+          "serviceId": "glock-crown-lvl-3-stippling-package",
+          "kind": "option",
+          "fieldId": "field_15",
+          "optionId": "14"
+        },
+        {
+          "serviceId": "glock-core-lvl-stippling-package",
+          "kind": "option",
+          "fieldId": "field_15",
+          "optionId": "14"
+        },
+        {
+          "serviceId": "cz-p-07",
+          "kind": "option",
+          "fieldId": "field_10",
+          "optionId": "49"
+        },
+        {
+          "serviceId": "cz-75-series-optic-cut",
+          "kind": "option",
+          "fieldId": "field_10",
+          "optionId": "49"
+        },
+        {
+          "serviceId": "smith-wesson-bodyguard-2-0-optic-cut",
+          "kind": "option",
+          "fieldId": "field_10",
+          "optionId": "49"
+        },
+        {
+          "serviceId": "p365-tiger-shark",
+          "kind": "option",
+          "fieldId": "field_8",
+          "optionId": "49"
+        },
+        {
+          "serviceId": "saber-slide-mill",
+          "kind": "option",
+          "fieldId": "field_8",
+          "optionId": "49"
+        },
+        {
+          "serviceId": "genesis-oem-slide-mill",
+          "kind": "option",
+          "fieldId": "field_8",
+          "optionId": "49"
+        },
+        {
+          "serviceId": "slide-only-cerakote",
+          "kind": "option",
+          "fieldId": "field_4",
+          "optionId": "32"
+        },
+        {
+          "serviceId": "frame-only-cerakote",
+          "kind": "option",
+          "fieldId": "field_4",
+          "optionId": "37"
+        },
+        {
+          "serviceId": "pistol-cerakote",
+          "kind": "option",
+          "fieldId": "field_4",
+          "optionId": "20"
+        },
+        {
+          "serviceId": "cz-p10c-cut",
+          "kind": "option",
+          "fieldId": "field_9",
+          "optionId": "50"
+        },
+        {
+          "serviceId": "smith-wesson-mp-optic-cut",
+          "kind": "option",
+          "fieldId": "field_10",
+          "optionId": "49"
+        },
+        {
+          "serviceId": "sig-p365-optic-cut",
+          "kind": "option",
+          "fieldId": "field_8",
+          "optionId": "49"
+        },
+        {
+          "serviceId": "glock-optic-cut-slimline",
+          "kind": "option",
+          "fieldId": "field_8",
+          "optionId": "49"
+        },
+        {
+          "serviceId": "glock-optic-cut-full-size",
+          "kind": "option",
+          "fieldId": "field_11",
+          "optionId": "51"
+        }
+      ],
+      "sourceUrls": [
+        "https://defiantmachineworks.com/wp-content/uploads/2025/09/7.png"
+      ],
+      "retainedUses": {
+        "gallery": [
+          "Blueberry Chocolate Chip"
+        ],
+        "productDetails": [],
+        "servicePages": [],
+        "stipplingGuide": [],
+        "editorial": [],
+        "archiveAndProvenance": true
+      }
+    },
+    {
+      "image": "/assets/dmw/optimized/3707dce996db39.webp",
+      "bytesRetained": 173220,
+      "requestedByConfigurator": false,
+      "priorWizardUses": [
+        {
+          "serviceId": "cz-p10c-stippling-package",
+          "kind": "package",
+          "fieldId": null,
+          "optionId": null
+        }
+      ],
+      "sourceUrls": [
+        "https://defiantmachineworks.com/wp-content/uploads/2025/09/325.00-6.png"
+      ],
+      "retainedUses": {
+        "gallery": [],
+        "productDetails": [
+          "cz-p10c-stippling-package"
+        ],
+        "servicePages": [],
+        "stipplingGuide": [],
+        "editorial": [],
+        "archiveAndProvenance": true
+      }
+    },
+    {
+      "image": "/assets/dmw/optimized/3cd03226596b88.webp",
+      "bytesRetained": 121022,
+      "requestedByConfigurator": false,
+      "priorWizardUses": [
+        {
+          "serviceId": "staccato-stippling-package",
+          "kind": "package",
+          "fieldId": null,
+          "optionId": null
+        }
+      ],
+      "sourceUrls": [
+        "https://defiantmachineworks.com/wp-content/uploads/2025/09/325.00-7.png"
+      ],
+      "retainedUses": {
+        "gallery": [],
+        "productDetails": [
+          "staccato-stippling-package"
+        ],
+        "servicePages": [],
+        "stipplingGuide": [],
+        "editorial": [],
+        "archiveAndProvenance": true
+      }
+    },
+    {
+      "image": "/assets/dmw/optimized/421fd5b4fecafd.webp",
+      "bytesRetained": 311356,
+      "requestedByConfigurator": false,
+      "priorWizardUses": [
+        {
+          "serviceId": "glock-optic-cut-slimline",
+          "kind": "package",
+          "fieldId": null,
+          "optionId": null
+        }
+      ],
+      "sourceUrls": [
+        "https://defiantmachineworks.com/wp-content/uploads/2024/02/GSL-507407-FI-1.jpg"
+      ],
+      "retainedUses": {
+        "gallery": [],
+        "productDetails": [
+          "glock-optic-cut-slimline"
+        ],
+        "servicePages": [],
+        "stipplingGuide": [],
+        "editorial": [],
+        "archiveAndProvenance": true
+      }
+    },
+    {
+      "image": "/assets/dmw/optimized/4419261133a102.webp",
+      "bytesRetained": 391082,
+      "requestedByConfigurator": false,
+      "priorWizardUses": [
+        {
+          "serviceId": "pistol-cerakote",
+          "kind": "package",
+          "fieldId": null,
+          "optionId": null
+        }
+      ],
+      "sourceUrls": [
+        "https://defiantmachineworks.com/wp-content/uploads/2024/02/Pistol-cerakote-17.jpg"
+      ],
+      "retainedUses": {
+        "gallery": [],
+        "productDetails": [
+          "pistol-cerakote"
+        ],
+        "servicePages": [],
+        "stipplingGuide": [],
+        "editorial": [],
+        "archiveAndProvenance": true
+      }
+    },
+    {
+      "image": "/assets/dmw/optimized/44f22de12dd825.webp",
+      "bytesRetained": 314468,
+      "requestedByConfigurator": false,
+      "priorWizardUses": [
+        {
+          "serviceId": "mag-extension-stippling",
+          "kind": "package",
+          "fieldId": null,
+          "optionId": null
+        },
+        {
+          "serviceId": "fn-reflex-stippling-package",
+          "kind": "package",
+          "fieldId": null,
+          "optionId": null
+        }
+      ],
+      "sourceUrls": [
+        "https://defiantmachineworks.com/wp-content/uploads/2025/09/325.00-4.png"
+      ],
+      "retainedUses": {
+        "gallery": [],
+        "productDetails": [
+          "mag-extension-stippling",
+          "fn-reflex-stippling-package"
+        ],
+        "servicePages": [],
+        "stipplingGuide": [],
+        "editorial": [],
+        "archiveAndProvenance": true
+      }
+    },
+    {
+      "image": "/assets/dmw/optimized/46b3f2ba38fec9.webp",
+      "bytesRetained": 968,
+      "requestedByConfigurator": false,
+      "priorWizardUses": [
+        {
+          "serviceId": "cz-p10c-cut",
+          "kind": "package",
+          "fieldId": null,
+          "optionId": null
+        }
+      ],
+      "sourceUrls": [
+        "https://defiantmachineworks.com/wp-content/uploads/2024/02/DMW_SLIDE_MILLING-03.png"
+      ],
+      "retainedUses": {
+        "gallery": [],
+        "productDetails": [
+          "cz-p10c-cut"
+        ],
+        "servicePages": [],
+        "stipplingGuide": [],
+        "editorial": [],
+        "archiveAndProvenance": true
+      }
+    },
+    {
+      "image": "/assets/dmw/optimized/4b877711a6142d.webp",
+      "bytesRetained": 324252,
+      "requestedByConfigurator": false,
+      "priorWizardUses": [
+        {
+          "serviceId": "frame-only-cerakote",
+          "kind": "package",
+          "fieldId": null,
+          "optionId": null
+        }
+      ],
+      "sourceUrls": [
+        "https://defiantmachineworks.com/wp-content/uploads/2024/02/Pistol-cerakote-11-e1790812401532.jpg"
+      ],
+      "retainedUses": {
+        "gallery": [],
+        "productDetails": [
+          "frame-only-cerakote"
+        ],
+        "servicePages": [],
+        "stipplingGuide": [],
+        "editorial": [],
+        "archiveAndProvenance": true
+      }
+    },
+    {
+      "image": "/assets/dmw/optimized/5476a75a8f527d.webp",
+      "bytesRetained": 273708,
+      "requestedByConfigurator": false,
+      "priorWizardUses": [
+        {
+          "serviceId": "bodyguard-2-0-viper-ports",
+          "kind": "option",
+          "fieldId": "field_2",
+          "optionId": "45"
+        },
+        {
+          "serviceId": "bodyguard-2-0-viper-ports",
+          "kind": "option",
+          "fieldId": "field_3",
+          "optionId": "45"
+        },
+        {
+          "serviceId": "glock-crown-lvl-3-stippling-package",
+          "kind": "option",
+          "fieldId": "field_16",
+          "optionId": "45"
+        },
+        {
+          "serviceId": "glock-crown-lvl-3-stippling-package",
+          "kind": "option",
+          "fieldId": "field_17",
+          "optionId": "45"
+        },
+        {
+          "serviceId": "glock-core-lvl-stippling-package",
+          "kind": "option",
+          "fieldId": "field_16",
+          "optionId": "45"
+        },
+        {
+          "serviceId": "glock-core-lvl-stippling-package",
+          "kind": "option",
+          "fieldId": "field_17",
+          "optionId": "45"
+        },
+        {
+          "serviceId": "cz-p-07",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "45"
+        },
+        {
+          "serviceId": "cz-p-07",
+          "kind": "option",
+          "fieldId": "field_8",
+          "optionId": "45"
+        },
+        {
+          "serviceId": "cz-75-series-optic-cut",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "45"
+        },
+        {
+          "serviceId": "cz-75-series-optic-cut",
+          "kind": "option",
+          "fieldId": "field_8",
+          "optionId": "45"
+        },
+        {
+          "serviceId": "smith-wesson-bodyguard-2-0-optic-cut",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "45"
+        },
+        {
+          "serviceId": "smith-wesson-bodyguard-2-0-optic-cut",
+          "kind": "option",
+          "fieldId": "field_8",
+          "optionId": "45"
+        },
+        {
+          "serviceId": "p365-tiger-shark",
+          "kind": "option",
+          "fieldId": "field_5",
+          "optionId": "45"
+        },
+        {
+          "serviceId": "p365-tiger-shark",
+          "kind": "option",
+          "fieldId": "field_7",
+          "optionId": "45"
+        },
+        {
+          "serviceId": "saber-slide-mill",
+          "kind": "option",
+          "fieldId": "field_4",
+          "optionId": "45"
+        },
+        {
+          "serviceId": "saber-slide-mill",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "45"
+        },
+        {
+          "serviceId": "genesis-oem-slide-mill",
+          "kind": "option",
+          "fieldId": "field_4",
+          "optionId": "45"
+        },
+        {
+          "serviceId": "genesis-oem-slide-mill",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "45"
+        },
+        {
+          "serviceId": "slide-only-cerakote",
+          "kind": "option",
+          "fieldId": "field_2",
+          "optionId": "45"
+        },
+        {
+          "serviceId": "slide-only-cerakote",
+          "kind": "option",
+          "fieldId": "field_3",
+          "optionId": "45"
+        },
+        {
+          "serviceId": "frame-only-cerakote",
+          "kind": "option",
+          "fieldId": "field_2",
+          "optionId": "45"
+        },
+        {
+          "serviceId": "frame-only-cerakote",
+          "kind": "option",
+          "fieldId": "field_3",
+          "optionId": "45"
+        },
+        {
+          "serviceId": "pistol-cerakote",
+          "kind": "option",
+          "fieldId": "field_2",
+          "optionId": "45"
+        },
+        {
+          "serviceId": "pistol-cerakote",
+          "kind": "option",
+          "fieldId": "field_3",
+          "optionId": "45"
+        },
+        {
+          "serviceId": "cz-p10c-cut",
+          "kind": "option",
+          "fieldId": "field_5",
+          "optionId": "45"
+        },
+        {
+          "serviceId": "cz-p10c-cut",
+          "kind": "option",
+          "fieldId": "field_7",
+          "optionId": "45"
+        },
+        {
+          "serviceId": "smith-wesson-mp-optic-cut",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "45"
+        },
+        {
+          "serviceId": "smith-wesson-mp-optic-cut",
+          "kind": "option",
+          "fieldId": "field_8",
+          "optionId": "45"
+        },
+        {
+          "serviceId": "sig-p365-optic-cut",
+          "kind": "option",
+          "fieldId": "field_5",
+          "optionId": "45"
+        },
+        {
+          "serviceId": "sig-p365-optic-cut",
+          "kind": "option",
+          "fieldId": "field_7",
+          "optionId": "45"
+        },
+        {
+          "serviceId": "glock-optic-cut-slimline",
+          "kind": "option",
+          "fieldId": "field_4",
+          "optionId": "45"
+        },
+        {
+          "serviceId": "glock-optic-cut-slimline",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "45"
+        },
+        {
+          "serviceId": "glock-optic-cut-full-size",
+          "kind": "option",
+          "fieldId": "field_7",
+          "optionId": "45"
+        },
+        {
+          "serviceId": "glock-optic-cut-full-size",
+          "kind": "option",
+          "fieldId": "field_9",
+          "optionId": "45"
+        }
+      ],
+      "sourceUrls": [
+        "https://defiantmachineworks.com/wp-content/uploads/2026/01/13.png"
+      ],
+      "retainedUses": {
+        "gallery": [
+          "Sniper Grey H-234"
+        ],
+        "productDetails": [],
+        "servicePages": [],
+        "stipplingGuide": [],
+        "editorial": [],
+        "archiveAndProvenance": true
+      }
+    },
+    {
+      "image": "/assets/dmw/optimized/563fdc4105f972.webp",
+      "bytesRetained": 725158,
+      "requestedByConfigurator": false,
+      "priorWizardUses": [
+        {
+          "serviceId": "cz-75-series-optic-cut",
+          "kind": "package",
+          "fieldId": null,
+          "optionId": null
+        }
+      ],
+      "sourceUrls": [
+        "https://defiantmachineworks.com/wp-content/uploads/2025/09/IGOPTIC-CUT-POST-09.jpg"
+      ],
+      "retainedUses": {
+        "gallery": [],
+        "productDetails": [
+          "cz-75-series-optic-cut"
+        ],
+        "servicePages": [],
+        "stipplingGuide": [],
+        "editorial": [],
+        "archiveAndProvenance": true
+      }
+    },
+    {
+      "image": "/assets/dmw/optimized/57abb1d57b1e7d.webp",
+      "bytesRetained": 348546,
+      "requestedByConfigurator": false,
+      "priorWizardUses": [
+        {
+          "serviceId": "bodyguard-2-0-viper-ports",
+          "kind": "option",
+          "fieldId": "field_2",
+          "optionId": "39"
+        },
+        {
+          "serviceId": "bodyguard-2-0-viper-ports",
+          "kind": "option",
+          "fieldId": "field_3",
+          "optionId": "39"
+        },
+        {
+          "serviceId": "glock-crown-lvl-3-stippling-package",
+          "kind": "option",
+          "fieldId": "field_16",
+          "optionId": "39"
+        },
+        {
+          "serviceId": "glock-crown-lvl-3-stippling-package",
+          "kind": "option",
+          "fieldId": "field_17",
+          "optionId": "39"
+        },
+        {
+          "serviceId": "glock-core-lvl-stippling-package",
+          "kind": "option",
+          "fieldId": "field_16",
+          "optionId": "39"
+        },
+        {
+          "serviceId": "glock-core-lvl-stippling-package",
+          "kind": "option",
+          "fieldId": "field_17",
+          "optionId": "39"
+        },
+        {
+          "serviceId": "cz-p-07",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "39"
+        },
+        {
+          "serviceId": "cz-p-07",
+          "kind": "option",
+          "fieldId": "field_8",
+          "optionId": "39"
+        },
+        {
+          "serviceId": "cz-75-series-optic-cut",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "39"
+        },
+        {
+          "serviceId": "cz-75-series-optic-cut",
+          "kind": "option",
+          "fieldId": "field_8",
+          "optionId": "39"
+        },
+        {
+          "serviceId": "smith-wesson-bodyguard-2-0-optic-cut",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "39"
+        },
+        {
+          "serviceId": "smith-wesson-bodyguard-2-0-optic-cut",
+          "kind": "option",
+          "fieldId": "field_8",
+          "optionId": "39"
+        },
+        {
+          "serviceId": "p365-tiger-shark",
+          "kind": "option",
+          "fieldId": "field_5",
+          "optionId": "39"
+        },
+        {
+          "serviceId": "p365-tiger-shark",
+          "kind": "option",
+          "fieldId": "field_7",
+          "optionId": "39"
+        },
+        {
+          "serviceId": "saber-slide-mill",
+          "kind": "option",
+          "fieldId": "field_4",
+          "optionId": "39"
+        },
+        {
+          "serviceId": "saber-slide-mill",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "39"
+        },
+        {
+          "serviceId": "genesis-oem-slide-mill",
+          "kind": "option",
+          "fieldId": "field_4",
+          "optionId": "39"
+        },
+        {
+          "serviceId": "genesis-oem-slide-mill",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "39"
+        },
+        {
+          "serviceId": "slide-only-cerakote",
+          "kind": "option",
+          "fieldId": "field_2",
+          "optionId": "39"
+        },
+        {
+          "serviceId": "slide-only-cerakote",
+          "kind": "option",
+          "fieldId": "field_3",
+          "optionId": "39"
+        },
+        {
+          "serviceId": "frame-only-cerakote",
+          "kind": "option",
+          "fieldId": "field_2",
+          "optionId": "39"
+        },
+        {
+          "serviceId": "frame-only-cerakote",
+          "kind": "option",
+          "fieldId": "field_3",
+          "optionId": "39"
+        },
+        {
+          "serviceId": "pistol-cerakote",
+          "kind": "option",
+          "fieldId": "field_2",
+          "optionId": "39"
+        },
+        {
+          "serviceId": "pistol-cerakote",
+          "kind": "option",
+          "fieldId": "field_3",
+          "optionId": "39"
+        },
+        {
+          "serviceId": "cz-p10c-cut",
+          "kind": "option",
+          "fieldId": "field_5",
+          "optionId": "39"
+        },
+        {
+          "serviceId": "cz-p10c-cut",
+          "kind": "option",
+          "fieldId": "field_7",
+          "optionId": "39"
+        },
+        {
+          "serviceId": "smith-wesson-mp-optic-cut",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "39"
+        },
+        {
+          "serviceId": "smith-wesson-mp-optic-cut",
+          "kind": "option",
+          "fieldId": "field_8",
+          "optionId": "39"
+        },
+        {
+          "serviceId": "sig-p365-optic-cut",
+          "kind": "option",
+          "fieldId": "field_5",
+          "optionId": "39"
+        },
+        {
+          "serviceId": "sig-p365-optic-cut",
+          "kind": "option",
+          "fieldId": "field_7",
+          "optionId": "39"
+        },
+        {
+          "serviceId": "glock-optic-cut-slimline",
+          "kind": "option",
+          "fieldId": "field_4",
+          "optionId": "39"
+        },
+        {
+          "serviceId": "glock-optic-cut-slimline",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "39"
+        },
+        {
+          "serviceId": "glock-optic-cut-full-size",
+          "kind": "option",
+          "fieldId": "field_7",
+          "optionId": "39"
+        },
+        {
+          "serviceId": "glock-optic-cut-full-size",
+          "kind": "option",
+          "fieldId": "field_9",
+          "optionId": "39"
+        }
+      ],
+      "sourceUrls": [
+        "https://defiantmachineworks.com/wp-content/uploads/2026/01/8.png"
+      ],
+      "retainedUses": {
+        "gallery": [
+          "Black Cherry H-319"
+        ],
+        "productDetails": [],
+        "servicePages": [],
+        "stipplingGuide": [],
+        "editorial": [],
+        "archiveAndProvenance": true
+      }
+    },
+    {
+      "image": "/assets/dmw/optimized/59342ac6068482.webp",
+      "bytesRetained": 206184,
+      "requestedByConfigurator": false,
+      "priorWizardUses": [
+        {
+          "serviceId": "bodyguard-2-0-viper-ports",
+          "kind": "option",
+          "fieldId": "field_2",
+          "optionId": "35"
+        },
+        {
+          "serviceId": "bodyguard-2-0-viper-ports",
+          "kind": "option",
+          "fieldId": "field_3",
+          "optionId": "35"
+        },
+        {
+          "serviceId": "glock-crown-lvl-3-stippling-package",
+          "kind": "option",
+          "fieldId": "field_16",
+          "optionId": "35"
+        },
+        {
+          "serviceId": "glock-crown-lvl-3-stippling-package",
+          "kind": "option",
+          "fieldId": "field_17",
+          "optionId": "35"
+        },
+        {
+          "serviceId": "glock-core-lvl-stippling-package",
+          "kind": "option",
+          "fieldId": "field_16",
+          "optionId": "35"
+        },
+        {
+          "serviceId": "glock-core-lvl-stippling-package",
+          "kind": "option",
+          "fieldId": "field_17",
+          "optionId": "35"
+        },
+        {
+          "serviceId": "cz-p-07",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "35"
+        },
+        {
+          "serviceId": "cz-p-07",
+          "kind": "option",
+          "fieldId": "field_8",
+          "optionId": "35"
+        },
+        {
+          "serviceId": "cz-75-series-optic-cut",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "35"
+        },
+        {
+          "serviceId": "cz-75-series-optic-cut",
+          "kind": "option",
+          "fieldId": "field_8",
+          "optionId": "35"
+        },
+        {
+          "serviceId": "smith-wesson-bodyguard-2-0-optic-cut",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "35"
+        },
+        {
+          "serviceId": "smith-wesson-bodyguard-2-0-optic-cut",
+          "kind": "option",
+          "fieldId": "field_8",
+          "optionId": "35"
+        },
+        {
+          "serviceId": "p365-tiger-shark",
+          "kind": "option",
+          "fieldId": "field_5",
+          "optionId": "35"
+        },
+        {
+          "serviceId": "p365-tiger-shark",
+          "kind": "option",
+          "fieldId": "field_7",
+          "optionId": "35"
+        },
+        {
+          "serviceId": "saber-slide-mill",
+          "kind": "option",
+          "fieldId": "field_4",
+          "optionId": "35"
+        },
+        {
+          "serviceId": "saber-slide-mill",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "35"
+        },
+        {
+          "serviceId": "genesis-oem-slide-mill",
+          "kind": "option",
+          "fieldId": "field_4",
+          "optionId": "35"
+        },
+        {
+          "serviceId": "genesis-oem-slide-mill",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "35"
+        },
+        {
+          "serviceId": "slide-only-cerakote",
+          "kind": "option",
+          "fieldId": "field_2",
+          "optionId": "35"
+        },
+        {
+          "serviceId": "slide-only-cerakote",
+          "kind": "option",
+          "fieldId": "field_3",
+          "optionId": "35"
+        },
+        {
+          "serviceId": "frame-only-cerakote",
+          "kind": "option",
+          "fieldId": "field_2",
+          "optionId": "35"
+        },
+        {
+          "serviceId": "frame-only-cerakote",
+          "kind": "option",
+          "fieldId": "field_3",
+          "optionId": "35"
+        },
+        {
+          "serviceId": "pistol-cerakote",
+          "kind": "option",
+          "fieldId": "field_2",
+          "optionId": "35"
+        },
+        {
+          "serviceId": "pistol-cerakote",
+          "kind": "option",
+          "fieldId": "field_3",
+          "optionId": "35"
+        },
+        {
+          "serviceId": "cz-p10c-cut",
+          "kind": "option",
+          "fieldId": "field_5",
+          "optionId": "35"
+        },
+        {
+          "serviceId": "cz-p10c-cut",
+          "kind": "option",
+          "fieldId": "field_7",
+          "optionId": "35"
+        },
+        {
+          "serviceId": "smith-wesson-mp-optic-cut",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "35"
+        },
+        {
+          "serviceId": "smith-wesson-mp-optic-cut",
+          "kind": "option",
+          "fieldId": "field_8",
+          "optionId": "35"
+        },
+        {
+          "serviceId": "sig-p365-optic-cut",
+          "kind": "option",
+          "fieldId": "field_5",
+          "optionId": "35"
+        },
+        {
+          "serviceId": "sig-p365-optic-cut",
+          "kind": "option",
+          "fieldId": "field_7",
+          "optionId": "35"
+        },
+        {
+          "serviceId": "glock-optic-cut-slimline",
+          "kind": "option",
+          "fieldId": "field_4",
+          "optionId": "35"
+        },
+        {
+          "serviceId": "glock-optic-cut-slimline",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "35"
+        },
+        {
+          "serviceId": "glock-optic-cut-full-size",
+          "kind": "option",
+          "fieldId": "field_7",
+          "optionId": "35"
+        },
+        {
+          "serviceId": "glock-optic-cut-full-size",
+          "kind": "option",
+          "fieldId": "field_9",
+          "optionId": "35"
+        }
+      ],
+      "sourceUrls": [
+        "https://defiantmachineworks.com/wp-content/uploads/2026/01/3.png"
+      ],
+      "retainedUses": {
+        "gallery": [
+          "OD Green F-105"
+        ],
+        "productDetails": [],
+        "servicePages": [],
+        "stipplingGuide": [],
+        "editorial": [],
+        "archiveAndProvenance": true
+      }
+    },
+    {
+      "image": "/assets/dmw/optimized/5deba0ccb010dd.webp",
+      "bytesRetained": 143778,
+      "requestedByConfigurator": false,
+      "priorWizardUses": [
+        {
+          "serviceId": "bodyguard-2-0-viper-ports",
+          "kind": "option",
+          "fieldId": "field_2",
+          "optionId": "44"
+        },
+        {
+          "serviceId": "bodyguard-2-0-viper-ports",
+          "kind": "option",
+          "fieldId": "field_3",
+          "optionId": "44"
+        },
+        {
+          "serviceId": "glock-crown-lvl-3-stippling-package",
+          "kind": "option",
+          "fieldId": "field_16",
+          "optionId": "44"
+        },
+        {
+          "serviceId": "glock-crown-lvl-3-stippling-package",
+          "kind": "option",
+          "fieldId": "field_17",
+          "optionId": "44"
+        },
+        {
+          "serviceId": "glock-core-lvl-stippling-package",
+          "kind": "option",
+          "fieldId": "field_16",
+          "optionId": "44"
+        },
+        {
+          "serviceId": "glock-core-lvl-stippling-package",
+          "kind": "option",
+          "fieldId": "field_17",
+          "optionId": "44"
+        },
+        {
+          "serviceId": "cz-p-07",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "44"
+        },
+        {
+          "serviceId": "cz-p-07",
+          "kind": "option",
+          "fieldId": "field_8",
+          "optionId": "44"
+        },
+        {
+          "serviceId": "cz-75-series-optic-cut",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "44"
+        },
+        {
+          "serviceId": "cz-75-series-optic-cut",
+          "kind": "option",
+          "fieldId": "field_8",
+          "optionId": "44"
+        },
+        {
+          "serviceId": "smith-wesson-bodyguard-2-0-optic-cut",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "44"
+        },
+        {
+          "serviceId": "smith-wesson-bodyguard-2-0-optic-cut",
+          "kind": "option",
+          "fieldId": "field_8",
+          "optionId": "44"
+        },
+        {
+          "serviceId": "p365-tiger-shark",
+          "kind": "option",
+          "fieldId": "field_5",
+          "optionId": "44"
+        },
+        {
+          "serviceId": "p365-tiger-shark",
+          "kind": "option",
+          "fieldId": "field_7",
+          "optionId": "44"
+        },
+        {
+          "serviceId": "saber-slide-mill",
+          "kind": "option",
+          "fieldId": "field_4",
+          "optionId": "44"
+        },
+        {
+          "serviceId": "saber-slide-mill",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "44"
+        },
+        {
+          "serviceId": "genesis-oem-slide-mill",
+          "kind": "option",
+          "fieldId": "field_4",
+          "optionId": "44"
+        },
+        {
+          "serviceId": "genesis-oem-slide-mill",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "44"
+        },
+        {
+          "serviceId": "slide-only-cerakote",
+          "kind": "option",
+          "fieldId": "field_2",
+          "optionId": "44"
+        },
+        {
+          "serviceId": "slide-only-cerakote",
+          "kind": "option",
+          "fieldId": "field_3",
+          "optionId": "44"
+        },
+        {
+          "serviceId": "frame-only-cerakote",
+          "kind": "option",
+          "fieldId": "field_2",
+          "optionId": "44"
+        },
+        {
+          "serviceId": "frame-only-cerakote",
+          "kind": "option",
+          "fieldId": "field_3",
+          "optionId": "44"
+        },
+        {
+          "serviceId": "pistol-cerakote",
+          "kind": "option",
+          "fieldId": "field_2",
+          "optionId": "44"
+        },
+        {
+          "serviceId": "pistol-cerakote",
+          "kind": "option",
+          "fieldId": "field_3",
+          "optionId": "44"
+        },
+        {
+          "serviceId": "cz-p10c-cut",
+          "kind": "option",
+          "fieldId": "field_5",
+          "optionId": "44"
+        },
+        {
+          "serviceId": "cz-p10c-cut",
+          "kind": "option",
+          "fieldId": "field_7",
+          "optionId": "44"
+        },
+        {
+          "serviceId": "smith-wesson-mp-optic-cut",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "44"
+        },
+        {
+          "serviceId": "smith-wesson-mp-optic-cut",
+          "kind": "option",
+          "fieldId": "field_8",
+          "optionId": "44"
+        },
+        {
+          "serviceId": "sig-p365-optic-cut",
+          "kind": "option",
+          "fieldId": "field_5",
+          "optionId": "44"
+        },
+        {
+          "serviceId": "sig-p365-optic-cut",
+          "kind": "option",
+          "fieldId": "field_7",
+          "optionId": "44"
+        },
+        {
+          "serviceId": "glock-optic-cut-slimline",
+          "kind": "option",
+          "fieldId": "field_4",
+          "optionId": "44"
+        },
+        {
+          "serviceId": "glock-optic-cut-slimline",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "44"
+        },
+        {
+          "serviceId": "glock-optic-cut-full-size",
+          "kind": "option",
+          "fieldId": "field_7",
+          "optionId": "44"
+        },
+        {
+          "serviceId": "glock-optic-cut-full-size",
+          "kind": "option",
+          "fieldId": "field_9",
+          "optionId": "44"
+        }
+      ],
+      "sourceUrls": [
+        "https://defiantmachineworks.com/wp-content/uploads/2026/01/12.png"
+      ],
+      "retainedUses": {
+        "gallery": [
+          "Rose Gold H-327"
+        ],
+        "productDetails": [],
+        "servicePages": [],
+        "stipplingGuide": [],
+        "editorial": [
+          "src/components/home/home-page.tsx (featured Gallery work)"
+        ],
+        "archiveAndProvenance": true
+      }
+    },
+    {
+      "image": "/assets/dmw/optimized/6067aec99e1ee4.webp",
+      "bytesRetained": 280868,
+      "requestedByConfigurator": false,
+      "priorWizardUses": [
+        {
+          "serviceId": "bodyguard-2-0-viper-ports",
+          "kind": "option",
+          "fieldId": "field_2",
+          "optionId": "33"
+        },
+        {
+          "serviceId": "bodyguard-2-0-viper-ports",
+          "kind": "option",
+          "fieldId": "field_3",
+          "optionId": "33"
+        },
+        {
+          "serviceId": "glock-crown-lvl-3-stippling-package",
+          "kind": "option",
+          "fieldId": "field_16",
+          "optionId": "33"
+        },
+        {
+          "serviceId": "glock-crown-lvl-3-stippling-package",
+          "kind": "option",
+          "fieldId": "field_17",
+          "optionId": "33"
+        },
+        {
+          "serviceId": "glock-core-lvl-stippling-package",
+          "kind": "option",
+          "fieldId": "field_16",
+          "optionId": "33"
+        },
+        {
+          "serviceId": "glock-core-lvl-stippling-package",
+          "kind": "option",
+          "fieldId": "field_17",
+          "optionId": "33"
+        },
+        {
+          "serviceId": "cz-p-07",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "33"
+        },
+        {
+          "serviceId": "cz-p-07",
+          "kind": "option",
+          "fieldId": "field_8",
+          "optionId": "33"
+        },
+        {
+          "serviceId": "cz-75-series-optic-cut",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "33"
+        },
+        {
+          "serviceId": "cz-75-series-optic-cut",
+          "kind": "option",
+          "fieldId": "field_8",
+          "optionId": "33"
+        },
+        {
+          "serviceId": "smith-wesson-bodyguard-2-0-optic-cut",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "33"
+        },
+        {
+          "serviceId": "smith-wesson-bodyguard-2-0-optic-cut",
+          "kind": "option",
+          "fieldId": "field_8",
+          "optionId": "33"
+        },
+        {
+          "serviceId": "p365-tiger-shark",
+          "kind": "option",
+          "fieldId": "field_5",
+          "optionId": "33"
+        },
+        {
+          "serviceId": "p365-tiger-shark",
+          "kind": "option",
+          "fieldId": "field_7",
+          "optionId": "33"
+        },
+        {
+          "serviceId": "saber-slide-mill",
+          "kind": "option",
+          "fieldId": "field_4",
+          "optionId": "33"
+        },
+        {
+          "serviceId": "saber-slide-mill",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "33"
+        },
+        {
+          "serviceId": "genesis-oem-slide-mill",
+          "kind": "option",
+          "fieldId": "field_4",
+          "optionId": "33"
+        },
+        {
+          "serviceId": "genesis-oem-slide-mill",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "33"
+        },
+        {
+          "serviceId": "slide-only-cerakote",
+          "kind": "option",
+          "fieldId": "field_2",
+          "optionId": "33"
+        },
+        {
+          "serviceId": "slide-only-cerakote",
+          "kind": "option",
+          "fieldId": "field_3",
+          "optionId": "33"
+        },
+        {
+          "serviceId": "frame-only-cerakote",
+          "kind": "option",
+          "fieldId": "field_2",
+          "optionId": "33"
+        },
+        {
+          "serviceId": "frame-only-cerakote",
+          "kind": "option",
+          "fieldId": "field_3",
+          "optionId": "33"
+        },
+        {
+          "serviceId": "pistol-cerakote",
+          "kind": "option",
+          "fieldId": "field_2",
+          "optionId": "33"
+        },
+        {
+          "serviceId": "pistol-cerakote",
+          "kind": "option",
+          "fieldId": "field_3",
+          "optionId": "33"
+        },
+        {
+          "serviceId": "cz-p10c-cut",
+          "kind": "option",
+          "fieldId": "field_5",
+          "optionId": "33"
+        },
+        {
+          "serviceId": "cz-p10c-cut",
+          "kind": "option",
+          "fieldId": "field_7",
+          "optionId": "33"
+        },
+        {
+          "serviceId": "smith-wesson-mp-optic-cut",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "33"
+        },
+        {
+          "serviceId": "smith-wesson-mp-optic-cut",
+          "kind": "option",
+          "fieldId": "field_8",
+          "optionId": "33"
+        },
+        {
+          "serviceId": "sig-p365-optic-cut",
+          "kind": "option",
+          "fieldId": "field_5",
+          "optionId": "33"
+        },
+        {
+          "serviceId": "sig-p365-optic-cut",
+          "kind": "option",
+          "fieldId": "field_7",
+          "optionId": "33"
+        },
+        {
+          "serviceId": "glock-optic-cut-slimline",
+          "kind": "option",
+          "fieldId": "field_4",
+          "optionId": "33"
+        },
+        {
+          "serviceId": "glock-optic-cut-slimline",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "33"
+        },
+        {
+          "serviceId": "glock-optic-cut-full-size",
+          "kind": "option",
+          "fieldId": "field_7",
+          "optionId": "33"
+        },
+        {
+          "serviceId": "glock-optic-cut-full-size",
+          "kind": "option",
+          "fieldId": "field_9",
+          "optionId": "33"
+        }
+      ],
+      "sourceUrls": [
+        "https://defiantmachineworks.com/wp-content/uploads/2026/01/1.png"
+      ],
+      "retainedUses": {
+        "gallery": [
+          "Carbon Black F-102"
+        ],
+        "productDetails": [],
+        "servicePages": [],
+        "stipplingGuide": [],
+        "editorial": [],
+        "archiveAndProvenance": true
+      }
+    },
+    {
+      "image": "/assets/dmw/optimized/66ddfa9991d0be.webp",
+      "bytesRetained": 170790,
+      "requestedByConfigurator": false,
+      "priorWizardUses": [
+        {
+          "serviceId": "bodyguard-2-0-viper-ports",
+          "kind": "option",
+          "fieldId": "field_4",
+          "optionId": "30"
+        },
+        {
+          "serviceId": "glock-crown-lvl-3-stippling-package",
+          "kind": "option",
+          "fieldId": "field_15",
+          "optionId": "12"
+        },
+        {
+          "serviceId": "glock-core-lvl-stippling-package",
+          "kind": "option",
+          "fieldId": "field_15",
+          "optionId": "12"
+        },
+        {
+          "serviceId": "cz-p-07",
+          "kind": "option",
+          "fieldId": "field_10",
+          "optionId": "47"
+        },
+        {
+          "serviceId": "cz-75-series-optic-cut",
+          "kind": "option",
+          "fieldId": "field_10",
+          "optionId": "47"
+        },
+        {
+          "serviceId": "smith-wesson-bodyguard-2-0-optic-cut",
+          "kind": "option",
+          "fieldId": "field_10",
+          "optionId": "47"
+        },
+        {
+          "serviceId": "p365-tiger-shark",
+          "kind": "option",
+          "fieldId": "field_8",
+          "optionId": "47"
+        },
+        {
+          "serviceId": "saber-slide-mill",
+          "kind": "option",
+          "fieldId": "field_8",
+          "optionId": "47"
+        },
+        {
+          "serviceId": "genesis-oem-slide-mill",
+          "kind": "option",
+          "fieldId": "field_8",
+          "optionId": "47"
+        },
+        {
+          "serviceId": "slide-only-cerakote",
+          "kind": "option",
+          "fieldId": "field_4",
+          "optionId": "30"
+        },
+        {
+          "serviceId": "frame-only-cerakote",
+          "kind": "option",
+          "fieldId": "field_4",
+          "optionId": "35"
+        },
+        {
+          "serviceId": "pistol-cerakote",
+          "kind": "option",
+          "fieldId": "field_4",
+          "optionId": "18"
+        },
+        {
+          "serviceId": "cz-p10c-cut",
+          "kind": "option",
+          "fieldId": "field_9",
+          "optionId": "48"
+        },
+        {
+          "serviceId": "smith-wesson-mp-optic-cut",
+          "kind": "option",
+          "fieldId": "field_10",
+          "optionId": "47"
+        },
+        {
+          "serviceId": "sig-p365-optic-cut",
+          "kind": "option",
+          "fieldId": "field_8",
+          "optionId": "47"
+        },
+        {
+          "serviceId": "glock-optic-cut-slimline",
+          "kind": "option",
+          "fieldId": "field_8",
+          "optionId": "47"
+        },
+        {
+          "serviceId": "glock-optic-cut-full-size",
+          "kind": "option",
+          "fieldId": "field_11",
+          "optionId": "49"
+        }
+      ],
+      "sourceUrls": [
+        "https://defiantmachineworks.com/wp-content/uploads/2025/09/3.png"
+      ],
+      "retainedUses": {
+        "gallery": [
+          "Wood Chip"
+        ],
+        "productDetails": [],
+        "servicePages": [],
+        "stipplingGuide": [],
+        "editorial": [],
+        "archiveAndProvenance": true
+      }
+    },
+    {
+      "image": "/assets/dmw/optimized/6ac4cf9942e3cc.webp",
+      "bytesRetained": 752652,
+      "requestedByConfigurator": false,
+      "priorWizardUses": [
+        {
+          "serviceId": "glock-optic-cut-full-size",
+          "kind": "package",
+          "fieldId": null,
+          "optionId": null
+        }
+      ],
+      "sourceUrls": [
+        "https://defiantmachineworks.com/wp-content/uploads/2025/09/IGOPTIC-CUT-POST-6.jpg"
+      ],
+      "retainedUses": {
+        "gallery": [],
+        "productDetails": [
+          "glock-optic-cut-full-size"
+        ],
+        "servicePages": [],
+        "stipplingGuide": [],
+        "editorial": [],
+        "archiveAndProvenance": true
+      }
+    },
+    {
+      "image": "/assets/dmw/optimized/7306141c4b870b.webp",
+      "bytesRetained": 619700,
+      "requestedByConfigurator": false,
+      "priorWizardUses": [
+        {
+          "serviceId": "glock-crown-lvl-3-stippling-package",
+          "kind": "package",
+          "fieldId": null,
+          "optionId": null
+        }
+      ],
+      "sourceUrls": [
+        "https://defiantmachineworks.com/wp-content/uploads/2025/09/crownlvlpkg.jpg"
+      ],
+      "retainedUses": {
+        "gallery": [],
+        "productDetails": [
+          "glock-crown-lvl-3-stippling-package"
+        ],
+        "servicePages": [
+          "stippling"
+        ],
+        "stipplingGuide": [],
+        "editorial": [],
+        "archiveAndProvenance": true
+      }
+    },
+    {
+      "image": "/assets/dmw/optimized/73e724c6a464fb.webp",
+      "bytesRetained": 48892,
+      "requestedByConfigurator": false,
+      "priorWizardUses": [
+        {
+          "serviceId": "beretta-px4-stipple-package-2",
+          "kind": "package",
+          "fieldId": null,
+          "optionId": null
+        }
+      ],
+      "sourceUrls": [
+        "https://defiantmachineworks.com/wp-content/uploads/2025/08/1.png"
+      ],
+      "retainedUses": {
+        "gallery": [],
+        "productDetails": [
+          "beretta-px4-stipple-package-2"
+        ],
+        "servicePages": [],
+        "stipplingGuide": [],
+        "editorial": [],
+        "archiveAndProvenance": true
+      }
+    },
+    {
+      "image": "/assets/dmw/optimized/7be68b86d81dc9.webp",
+      "bytesRetained": 198628,
+      "requestedByConfigurator": false,
+      "priorWizardUses": [
+        {
+          "serviceId": "smith-wesson-bodyguard-2-0-stippling-package",
+          "kind": "package",
+          "fieldId": null,
+          "optionId": null
+        }
+      ],
+      "sourceUrls": [
+        "https://defiantmachineworks.com/wp-content/uploads/2025/11/1-4.png"
+      ],
+      "retainedUses": {
+        "gallery": [],
+        "productDetails": [
+          "smith-wesson-bodyguard-2-0-stippling-package"
+        ],
+        "servicePages": [],
+        "stipplingGuide": [],
+        "editorial": [],
+        "archiveAndProvenance": true
+      }
+    },
+    {
+      "image": "/assets/dmw/optimized/7d2e54bb275df8.webp",
+      "bytesRetained": 130660,
+      "requestedByConfigurator": false,
+      "priorWizardUses": [
+        {
+          "serviceId": "bodyguard-2-0-viper-ports",
+          "kind": "option",
+          "fieldId": "field_2",
+          "optionId": "37"
+        },
+        {
+          "serviceId": "bodyguard-2-0-viper-ports",
+          "kind": "option",
+          "fieldId": "field_3",
+          "optionId": "37"
+        },
+        {
+          "serviceId": "glock-crown-lvl-3-stippling-package",
+          "kind": "option",
+          "fieldId": "field_16",
+          "optionId": "37"
+        },
+        {
+          "serviceId": "glock-crown-lvl-3-stippling-package",
+          "kind": "option",
+          "fieldId": "field_17",
+          "optionId": "37"
+        },
+        {
+          "serviceId": "glock-core-lvl-stippling-package",
+          "kind": "option",
+          "fieldId": "field_16",
+          "optionId": "37"
+        },
+        {
+          "serviceId": "glock-core-lvl-stippling-package",
+          "kind": "option",
+          "fieldId": "field_17",
+          "optionId": "37"
+        },
+        {
+          "serviceId": "cz-p-07",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "37"
+        },
+        {
+          "serviceId": "cz-p-07",
+          "kind": "option",
+          "fieldId": "field_8",
+          "optionId": "37"
+        },
+        {
+          "serviceId": "cz-75-series-optic-cut",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "37"
+        },
+        {
+          "serviceId": "cz-75-series-optic-cut",
+          "kind": "option",
+          "fieldId": "field_8",
+          "optionId": "37"
+        },
+        {
+          "serviceId": "smith-wesson-bodyguard-2-0-optic-cut",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "37"
+        },
+        {
+          "serviceId": "smith-wesson-bodyguard-2-0-optic-cut",
+          "kind": "option",
+          "fieldId": "field_8",
+          "optionId": "37"
+        },
+        {
+          "serviceId": "p365-tiger-shark",
+          "kind": "option",
+          "fieldId": "field_5",
+          "optionId": "37"
+        },
+        {
+          "serviceId": "p365-tiger-shark",
+          "kind": "option",
+          "fieldId": "field_7",
+          "optionId": "37"
+        },
+        {
+          "serviceId": "saber-slide-mill",
+          "kind": "option",
+          "fieldId": "field_4",
+          "optionId": "37"
+        },
+        {
+          "serviceId": "saber-slide-mill",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "37"
+        },
+        {
+          "serviceId": "genesis-oem-slide-mill",
+          "kind": "option",
+          "fieldId": "field_4",
+          "optionId": "37"
+        },
+        {
+          "serviceId": "genesis-oem-slide-mill",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "37"
+        },
+        {
+          "serviceId": "slide-only-cerakote",
+          "kind": "option",
+          "fieldId": "field_2",
+          "optionId": "37"
+        },
+        {
+          "serviceId": "slide-only-cerakote",
+          "kind": "option",
+          "fieldId": "field_3",
+          "optionId": "37"
+        },
+        {
+          "serviceId": "frame-only-cerakote",
+          "kind": "option",
+          "fieldId": "field_2",
+          "optionId": "37"
+        },
+        {
+          "serviceId": "frame-only-cerakote",
+          "kind": "option",
+          "fieldId": "field_3",
+          "optionId": "37"
+        },
+        {
+          "serviceId": "pistol-cerakote",
+          "kind": "option",
+          "fieldId": "field_2",
+          "optionId": "37"
+        },
+        {
+          "serviceId": "pistol-cerakote",
+          "kind": "option",
+          "fieldId": "field_3",
+          "optionId": "37"
+        },
+        {
+          "serviceId": "cz-p10c-cut",
+          "kind": "option",
+          "fieldId": "field_5",
+          "optionId": "37"
+        },
+        {
+          "serviceId": "cz-p10c-cut",
+          "kind": "option",
+          "fieldId": "field_7",
+          "optionId": "37"
+        },
+        {
+          "serviceId": "smith-wesson-mp-optic-cut",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "37"
+        },
+        {
+          "serviceId": "smith-wesson-mp-optic-cut",
+          "kind": "option",
+          "fieldId": "field_8",
+          "optionId": "37"
+        },
+        {
+          "serviceId": "sig-p365-optic-cut",
+          "kind": "option",
+          "fieldId": "field_5",
+          "optionId": "37"
+        },
+        {
+          "serviceId": "sig-p365-optic-cut",
+          "kind": "option",
+          "fieldId": "field_7",
+          "optionId": "37"
+        },
+        {
+          "serviceId": "glock-optic-cut-slimline",
+          "kind": "option",
+          "fieldId": "field_4",
+          "optionId": "37"
+        },
+        {
+          "serviceId": "glock-optic-cut-slimline",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "37"
+        },
+        {
+          "serviceId": "glock-optic-cut-full-size",
+          "kind": "option",
+          "fieldId": "field_7",
+          "optionId": "37"
+        },
+        {
+          "serviceId": "glock-optic-cut-full-size",
+          "kind": "option",
+          "fieldId": "field_9",
+          "optionId": "37"
+        }
+      ],
+      "sourceUrls": [
+        "https://defiantmachineworks.com/wp-content/uploads/2026/01/5.png"
+      ],
+      "retainedUses": {
+        "gallery": [
+          "Midnight Bronze H-294"
+        ],
+        "productDetails": [],
+        "servicePages": [],
+        "stipplingGuide": [],
+        "editorial": [
+          "src/components/home/home-page.tsx (featured Gallery work)"
+        ],
+        "archiveAndProvenance": true
+      }
+    },
+    {
+      "image": "/assets/dmw/optimized/8e9e956f0d47f2.webp",
+      "bytesRetained": 57034,
+      "requestedByConfigurator": false,
+      "priorWizardUses": [
+        {
+          "serviceId": "bodyguard-2-0-viper-ports",
+          "kind": "option",
+          "fieldId": "field_4",
+          "optionId": "39"
+        },
+        {
+          "serviceId": "glock-crown-lvl-3-stippling-package",
+          "kind": "option",
+          "fieldId": "field_15",
+          "optionId": "21"
+        },
+        {
+          "serviceId": "glock-core-lvl-stippling-package",
+          "kind": "option",
+          "fieldId": "field_15",
+          "optionId": "21"
+        },
+        {
+          "serviceId": "cz-p-07",
+          "kind": "option",
+          "fieldId": "field_10",
+          "optionId": "56"
+        },
+        {
+          "serviceId": "cz-75-series-optic-cut",
+          "kind": "option",
+          "fieldId": "field_10",
+          "optionId": "56"
+        },
+        {
+          "serviceId": "smith-wesson-bodyguard-2-0-optic-cut",
+          "kind": "option",
+          "fieldId": "field_10",
+          "optionId": "56"
+        },
+        {
+          "serviceId": "p365-tiger-shark",
+          "kind": "option",
+          "fieldId": "field_8",
+          "optionId": "56"
+        },
+        {
+          "serviceId": "saber-slide-mill",
+          "kind": "option",
+          "fieldId": "field_8",
+          "optionId": "56"
+        },
+        {
+          "serviceId": "genesis-oem-slide-mill",
+          "kind": "option",
+          "fieldId": "field_8",
+          "optionId": "56"
+        },
+        {
+          "serviceId": "slide-only-cerakote",
+          "kind": "option",
+          "fieldId": "field_4",
+          "optionId": "39"
+        },
+        {
+          "serviceId": "frame-only-cerakote",
+          "kind": "option",
+          "fieldId": "field_4",
+          "optionId": "44"
+        },
+        {
+          "serviceId": "pistol-cerakote",
+          "kind": "option",
+          "fieldId": "field_4",
+          "optionId": "27"
+        },
+        {
+          "serviceId": "cz-p10c-cut",
+          "kind": "option",
+          "fieldId": "field_9",
+          "optionId": "57"
+        },
+        {
+          "serviceId": "smith-wesson-mp-optic-cut",
+          "kind": "option",
+          "fieldId": "field_10",
+          "optionId": "56"
+        },
+        {
+          "serviceId": "sig-p365-optic-cut",
+          "kind": "option",
+          "fieldId": "field_8",
+          "optionId": "56"
+        },
+        {
+          "serviceId": "glock-optic-cut-slimline",
+          "kind": "option",
+          "fieldId": "field_8",
+          "optionId": "56"
+        },
+        {
+          "serviceId": "glock-optic-cut-full-size",
+          "kind": "option",
+          "fieldId": "field_11",
+          "optionId": "58"
+        }
+      ],
+      "sourceUrls": [
+        "https://defiantmachineworks.com/wp-content/uploads/2025/09/9.png"
+      ],
+      "retainedUses": {
+        "gallery": [
+          "Nautical Camo"
+        ],
+        "productDetails": [],
+        "servicePages": [],
+        "stipplingGuide": [],
+        "editorial": [],
+        "archiveAndProvenance": true
+      }
+    },
+    {
+      "image": "/assets/dmw/optimized/911cfa08c62384.webp",
+      "bytesRetained": 148912,
+      "requestedByConfigurator": false,
+      "priorWizardUses": [
+        {
+          "serviceId": "bodyguard-2-0-viper-ports",
+          "kind": "option",
+          "fieldId": "field_4",
+          "optionId": "34"
+        },
+        {
+          "serviceId": "glock-crown-lvl-3-stippling-package",
+          "kind": "option",
+          "fieldId": "field_15",
+          "optionId": "16"
+        },
+        {
+          "serviceId": "glock-core-lvl-stippling-package",
+          "kind": "option",
+          "fieldId": "field_15",
+          "optionId": "16"
+        },
+        {
+          "serviceId": "cz-p-07",
+          "kind": "option",
+          "fieldId": "field_10",
+          "optionId": "51"
+        },
+        {
+          "serviceId": "cz-75-series-optic-cut",
+          "kind": "option",
+          "fieldId": "field_10",
+          "optionId": "51"
+        },
+        {
+          "serviceId": "smith-wesson-bodyguard-2-0-optic-cut",
+          "kind": "option",
+          "fieldId": "field_10",
+          "optionId": "51"
+        },
+        {
+          "serviceId": "p365-tiger-shark",
+          "kind": "option",
+          "fieldId": "field_8",
+          "optionId": "51"
+        },
+        {
+          "serviceId": "saber-slide-mill",
+          "kind": "option",
+          "fieldId": "field_8",
+          "optionId": "51"
+        },
+        {
+          "serviceId": "genesis-oem-slide-mill",
+          "kind": "option",
+          "fieldId": "field_8",
+          "optionId": "51"
+        },
+        {
+          "serviceId": "slide-only-cerakote",
+          "kind": "option",
+          "fieldId": "field_4",
+          "optionId": "34"
+        },
+        {
+          "serviceId": "frame-only-cerakote",
+          "kind": "option",
+          "fieldId": "field_4",
+          "optionId": "39"
+        },
+        {
+          "serviceId": "pistol-cerakote",
+          "kind": "option",
+          "fieldId": "field_4",
+          "optionId": "22"
+        },
+        {
+          "serviceId": "cz-p10c-cut",
+          "kind": "option",
+          "fieldId": "field_9",
+          "optionId": "52"
+        },
+        {
+          "serviceId": "smith-wesson-mp-optic-cut",
+          "kind": "option",
+          "fieldId": "field_10",
+          "optionId": "51"
+        },
+        {
+          "serviceId": "sig-p365-optic-cut",
+          "kind": "option",
+          "fieldId": "field_8",
+          "optionId": "51"
+        },
+        {
+          "serviceId": "glock-optic-cut-slimline",
+          "kind": "option",
+          "fieldId": "field_8",
+          "optionId": "51"
+        },
+        {
+          "serviceId": "glock-optic-cut-full-size",
+          "kind": "option",
+          "fieldId": "field_11",
+          "optionId": "53"
+        }
+      ],
+      "sourceUrls": [
+        "https://defiantmachineworks.com/wp-content/uploads/2025/09/2-1.png"
+      ],
+      "retainedUses": {
+        "gallery": [
+          "Woodland Tigerstripe"
+        ],
+        "productDetails": [],
+        "servicePages": [],
+        "stipplingGuide": [],
+        "editorial": [
+          "src/components/home/home-page.tsx (featured Gallery work)"
+        ],
+        "archiveAndProvenance": true
+      }
+    },
+    {
+      "image": "/assets/dmw/optimized/917270eb671a2e.webp",
+      "bytesRetained": 243886,
+      "requestedByConfigurator": false,
+      "priorWizardUses": [
+        {
+          "serviceId": "bodyguard-2-0-viper-ports",
+          "kind": "option",
+          "fieldId": "field_2",
+          "optionId": "40"
+        },
+        {
+          "serviceId": "bodyguard-2-0-viper-ports",
+          "kind": "option",
+          "fieldId": "field_3",
+          "optionId": "40"
+        },
+        {
+          "serviceId": "glock-crown-lvl-3-stippling-package",
+          "kind": "option",
+          "fieldId": "field_16",
+          "optionId": "40"
+        },
+        {
+          "serviceId": "glock-crown-lvl-3-stippling-package",
+          "kind": "option",
+          "fieldId": "field_17",
+          "optionId": "40"
+        },
+        {
+          "serviceId": "glock-core-lvl-stippling-package",
+          "kind": "option",
+          "fieldId": "field_16",
+          "optionId": "40"
+        },
+        {
+          "serviceId": "glock-core-lvl-stippling-package",
+          "kind": "option",
+          "fieldId": "field_17",
+          "optionId": "40"
+        },
+        {
+          "serviceId": "cz-p-07",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "40"
+        },
+        {
+          "serviceId": "cz-p-07",
+          "kind": "option",
+          "fieldId": "field_8",
+          "optionId": "40"
+        },
+        {
+          "serviceId": "cz-75-series-optic-cut",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "40"
+        },
+        {
+          "serviceId": "cz-75-series-optic-cut",
+          "kind": "option",
+          "fieldId": "field_8",
+          "optionId": "40"
+        },
+        {
+          "serviceId": "smith-wesson-bodyguard-2-0-optic-cut",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "40"
+        },
+        {
+          "serviceId": "smith-wesson-bodyguard-2-0-optic-cut",
+          "kind": "option",
+          "fieldId": "field_8",
+          "optionId": "40"
+        },
+        {
+          "serviceId": "p365-tiger-shark",
+          "kind": "option",
+          "fieldId": "field_5",
+          "optionId": "40"
+        },
+        {
+          "serviceId": "p365-tiger-shark",
+          "kind": "option",
+          "fieldId": "field_7",
+          "optionId": "40"
+        },
+        {
+          "serviceId": "saber-slide-mill",
+          "kind": "option",
+          "fieldId": "field_4",
+          "optionId": "40"
+        },
+        {
+          "serviceId": "saber-slide-mill",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "40"
+        },
+        {
+          "serviceId": "genesis-oem-slide-mill",
+          "kind": "option",
+          "fieldId": "field_4",
+          "optionId": "40"
+        },
+        {
+          "serviceId": "genesis-oem-slide-mill",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "40"
+        },
+        {
+          "serviceId": "slide-only-cerakote",
+          "kind": "option",
+          "fieldId": "field_2",
+          "optionId": "40"
+        },
+        {
+          "serviceId": "slide-only-cerakote",
+          "kind": "option",
+          "fieldId": "field_3",
+          "optionId": "40"
+        },
+        {
+          "serviceId": "frame-only-cerakote",
+          "kind": "option",
+          "fieldId": "field_2",
+          "optionId": "40"
+        },
+        {
+          "serviceId": "frame-only-cerakote",
+          "kind": "option",
+          "fieldId": "field_3",
+          "optionId": "40"
+        },
+        {
+          "serviceId": "pistol-cerakote",
+          "kind": "option",
+          "fieldId": "field_2",
+          "optionId": "40"
+        },
+        {
+          "serviceId": "pistol-cerakote",
+          "kind": "option",
+          "fieldId": "field_3",
+          "optionId": "40"
+        },
+        {
+          "serviceId": "cz-p10c-cut",
+          "kind": "option",
+          "fieldId": "field_5",
+          "optionId": "40"
+        },
+        {
+          "serviceId": "cz-p10c-cut",
+          "kind": "option",
+          "fieldId": "field_7",
+          "optionId": "40"
+        },
+        {
+          "serviceId": "smith-wesson-mp-optic-cut",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "40"
+        },
+        {
+          "serviceId": "smith-wesson-mp-optic-cut",
+          "kind": "option",
+          "fieldId": "field_8",
+          "optionId": "40"
+        },
+        {
+          "serviceId": "sig-p365-optic-cut",
+          "kind": "option",
+          "fieldId": "field_5",
+          "optionId": "40"
+        },
+        {
+          "serviceId": "sig-p365-optic-cut",
+          "kind": "option",
+          "fieldId": "field_7",
+          "optionId": "40"
+        },
+        {
+          "serviceId": "glock-optic-cut-slimline",
+          "kind": "option",
+          "fieldId": "field_4",
+          "optionId": "40"
+        },
+        {
+          "serviceId": "glock-optic-cut-slimline",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "40"
+        },
+        {
+          "serviceId": "glock-optic-cut-full-size",
+          "kind": "option",
+          "fieldId": "field_7",
+          "optionId": "40"
+        },
+        {
+          "serviceId": "glock-optic-cut-full-size",
+          "kind": "option",
+          "fieldId": "field_9",
+          "optionId": "40"
+        }
+      ],
+      "sourceUrls": [
+        "https://defiantmachineworks.com/wp-content/uploads/2026/01/9.png"
+      ],
+      "retainedUses": {
+        "gallery": [
+          "Blue Titanium H-185"
+        ],
+        "productDetails": [],
+        "servicePages": [],
+        "stipplingGuide": [],
+        "editorial": [],
+        "archiveAndProvenance": true
+      }
+    },
+    {
+      "image": "/assets/dmw/optimized/9241f6015c126b.webp",
+      "bytesRetained": 234960,
+      "requestedByConfigurator": false,
+      "priorWizardUses": [
+        {
+          "serviceId": "bodyguard-2-0-viper-ports",
+          "kind": "option",
+          "fieldId": "field_2",
+          "optionId": "34"
+        },
+        {
+          "serviceId": "bodyguard-2-0-viper-ports",
+          "kind": "option",
+          "fieldId": "field_3",
+          "optionId": "34"
+        },
+        {
+          "serviceId": "glock-crown-lvl-3-stippling-package",
+          "kind": "option",
+          "fieldId": "field_16",
+          "optionId": "34"
+        },
+        {
+          "serviceId": "glock-crown-lvl-3-stippling-package",
+          "kind": "option",
+          "fieldId": "field_17",
+          "optionId": "34"
+        },
+        {
+          "serviceId": "glock-core-lvl-stippling-package",
+          "kind": "option",
+          "fieldId": "field_16",
+          "optionId": "34"
+        },
+        {
+          "serviceId": "glock-core-lvl-stippling-package",
+          "kind": "option",
+          "fieldId": "field_17",
+          "optionId": "34"
+        },
+        {
+          "serviceId": "cz-p-07",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "34"
+        },
+        {
+          "serviceId": "cz-p-07",
+          "kind": "option",
+          "fieldId": "field_8",
+          "optionId": "34"
+        },
+        {
+          "serviceId": "cz-75-series-optic-cut",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "34"
+        },
+        {
+          "serviceId": "cz-75-series-optic-cut",
+          "kind": "option",
+          "fieldId": "field_8",
+          "optionId": "34"
+        },
+        {
+          "serviceId": "smith-wesson-bodyguard-2-0-optic-cut",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "34"
+        },
+        {
+          "serviceId": "smith-wesson-bodyguard-2-0-optic-cut",
+          "kind": "option",
+          "fieldId": "field_8",
+          "optionId": "34"
+        },
+        {
+          "serviceId": "p365-tiger-shark",
+          "kind": "option",
+          "fieldId": "field_5",
+          "optionId": "34"
+        },
+        {
+          "serviceId": "p365-tiger-shark",
+          "kind": "option",
+          "fieldId": "field_7",
+          "optionId": "34"
+        },
+        {
+          "serviceId": "saber-slide-mill",
+          "kind": "option",
+          "fieldId": "field_4",
+          "optionId": "34"
+        },
+        {
+          "serviceId": "saber-slide-mill",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "34"
+        },
+        {
+          "serviceId": "genesis-oem-slide-mill",
+          "kind": "option",
+          "fieldId": "field_4",
+          "optionId": "34"
+        },
+        {
+          "serviceId": "genesis-oem-slide-mill",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "34"
+        },
+        {
+          "serviceId": "slide-only-cerakote",
+          "kind": "option",
+          "fieldId": "field_2",
+          "optionId": "34"
+        },
+        {
+          "serviceId": "slide-only-cerakote",
+          "kind": "option",
+          "fieldId": "field_3",
+          "optionId": "34"
+        },
+        {
+          "serviceId": "frame-only-cerakote",
+          "kind": "option",
+          "fieldId": "field_2",
+          "optionId": "34"
+        },
+        {
+          "serviceId": "frame-only-cerakote",
+          "kind": "option",
+          "fieldId": "field_3",
+          "optionId": "34"
+        },
+        {
+          "serviceId": "pistol-cerakote",
+          "kind": "option",
+          "fieldId": "field_2",
+          "optionId": "34"
+        },
+        {
+          "serviceId": "pistol-cerakote",
+          "kind": "option",
+          "fieldId": "field_3",
+          "optionId": "34"
+        },
+        {
+          "serviceId": "cz-p10c-cut",
+          "kind": "option",
+          "fieldId": "field_5",
+          "optionId": "34"
+        },
+        {
+          "serviceId": "cz-p10c-cut",
+          "kind": "option",
+          "fieldId": "field_7",
+          "optionId": "34"
+        },
+        {
+          "serviceId": "smith-wesson-mp-optic-cut",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "34"
+        },
+        {
+          "serviceId": "smith-wesson-mp-optic-cut",
+          "kind": "option",
+          "fieldId": "field_8",
+          "optionId": "34"
+        },
+        {
+          "serviceId": "sig-p365-optic-cut",
+          "kind": "option",
+          "fieldId": "field_5",
+          "optionId": "34"
+        },
+        {
+          "serviceId": "sig-p365-optic-cut",
+          "kind": "option",
+          "fieldId": "field_7",
+          "optionId": "34"
+        },
+        {
+          "serviceId": "glock-optic-cut-slimline",
+          "kind": "option",
+          "fieldId": "field_4",
+          "optionId": "34"
+        },
+        {
+          "serviceId": "glock-optic-cut-slimline",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "34"
+        },
+        {
+          "serviceId": "glock-optic-cut-full-size",
+          "kind": "option",
+          "fieldId": "field_7",
+          "optionId": "34"
+        },
+        {
+          "serviceId": "glock-optic-cut-full-size",
+          "kind": "option",
+          "fieldId": "field_9",
+          "optionId": "34"
+        }
+      ],
+      "sourceUrls": [
+        "https://defiantmachineworks.com/wp-content/uploads/2026/01/2.png"
+      ],
+      "retainedUses": {
+        "gallery": [
+          "Flat Dark Earth F-106"
+        ],
+        "productDetails": [],
+        "servicePages": [],
+        "stipplingGuide": [],
+        "editorial": [],
+        "archiveAndProvenance": true
+      }
+    },
+    {
+      "image": "/assets/dmw/optimized/9863dcd1712502.webp",
+      "bytesRetained": 238076,
+      "requestedByConfigurator": false,
+      "priorWizardUses": [
+        {
+          "serviceId": "ruger-rxm-stippling-package",
+          "kind": "package",
+          "fieldId": null,
+          "optionId": null
+        }
+      ],
+      "sourceUrls": [
+        "https://defiantmachineworks.com/wp-content/uploads/2025/09/325.00-1.png"
+      ],
+      "retainedUses": {
+        "gallery": [],
+        "productDetails": [
+          "ruger-rxm-stippling-package"
+        ],
+        "servicePages": [],
+        "stipplingGuide": [],
+        "editorial": [],
+        "archiveAndProvenance": true
+      }
+    },
+    {
+      "image": "/assets/dmw/optimized/9d2650a968f5a9.webp",
+      "bytesRetained": 1048518,
+      "requestedByConfigurator": false,
+      "priorWizardUses": [
+        {
+          "serviceId": "glock-base-lvl-stippling-package",
+          "kind": "package",
+          "fieldId": null,
+          "optionId": null
+        }
+      ],
+      "sourceUrls": [
+        "https://defiantmachineworks.com/wp-content/uploads/2025/09/GLKLVL1-3.jpg"
+      ],
+      "retainedUses": {
+        "gallery": [],
+        "productDetails": [
+          "glock-base-lvl-stippling-package"
+        ],
+        "servicePages": [],
+        "stipplingGuide": [],
+        "editorial": [],
+        "archiveAndProvenance": true
+      }
+    },
+    {
+      "image": "/assets/dmw/optimized/9dee4802330a5e.webp",
+      "bytesRetained": 59234,
+      "requestedByConfigurator": false,
+      "priorWizardUses": [
+        {
+          "serviceId": "bodyguard-2-0-viper-ports",
+          "kind": "option",
+          "fieldId": "field_2",
+          "optionId": "46"
+        },
+        {
+          "serviceId": "bodyguard-2-0-viper-ports",
+          "kind": "option",
+          "fieldId": "field_3",
+          "optionId": "46"
+        },
+        {
+          "serviceId": "glock-crown-lvl-3-stippling-package",
+          "kind": "option",
+          "fieldId": "field_16",
+          "optionId": "46"
+        },
+        {
+          "serviceId": "glock-crown-lvl-3-stippling-package",
+          "kind": "option",
+          "fieldId": "field_17",
+          "optionId": "46"
+        },
+        {
+          "serviceId": "glock-core-lvl-stippling-package",
+          "kind": "option",
+          "fieldId": "field_16",
+          "optionId": "46"
+        },
+        {
+          "serviceId": "glock-core-lvl-stippling-package",
+          "kind": "option",
+          "fieldId": "field_17",
+          "optionId": "46"
+        },
+        {
+          "serviceId": "cz-p-07",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "46"
+        },
+        {
+          "serviceId": "cz-p-07",
+          "kind": "option",
+          "fieldId": "field_8",
+          "optionId": "46"
+        },
+        {
+          "serviceId": "cz-75-series-optic-cut",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "46"
+        },
+        {
+          "serviceId": "cz-75-series-optic-cut",
+          "kind": "option",
+          "fieldId": "field_8",
+          "optionId": "46"
+        },
+        {
+          "serviceId": "smith-wesson-bodyguard-2-0-optic-cut",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "46"
+        },
+        {
+          "serviceId": "smith-wesson-bodyguard-2-0-optic-cut",
+          "kind": "option",
+          "fieldId": "field_8",
+          "optionId": "46"
+        },
+        {
+          "serviceId": "p365-tiger-shark",
+          "kind": "option",
+          "fieldId": "field_5",
+          "optionId": "46"
+        },
+        {
+          "serviceId": "p365-tiger-shark",
+          "kind": "option",
+          "fieldId": "field_7",
+          "optionId": "46"
+        },
+        {
+          "serviceId": "saber-slide-mill",
+          "kind": "option",
+          "fieldId": "field_4",
+          "optionId": "46"
+        },
+        {
+          "serviceId": "saber-slide-mill",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "46"
+        },
+        {
+          "serviceId": "genesis-oem-slide-mill",
+          "kind": "option",
+          "fieldId": "field_4",
+          "optionId": "46"
+        },
+        {
+          "serviceId": "genesis-oem-slide-mill",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "46"
+        },
+        {
+          "serviceId": "slide-only-cerakote",
+          "kind": "option",
+          "fieldId": "field_2",
+          "optionId": "46"
+        },
+        {
+          "serviceId": "slide-only-cerakote",
+          "kind": "option",
+          "fieldId": "field_3",
+          "optionId": "46"
+        },
+        {
+          "serviceId": "frame-only-cerakote",
+          "kind": "option",
+          "fieldId": "field_2",
+          "optionId": "46"
+        },
+        {
+          "serviceId": "frame-only-cerakote",
+          "kind": "option",
+          "fieldId": "field_3",
+          "optionId": "46"
+        },
+        {
+          "serviceId": "pistol-cerakote",
+          "kind": "option",
+          "fieldId": "field_2",
+          "optionId": "46"
+        },
+        {
+          "serviceId": "pistol-cerakote",
+          "kind": "option",
+          "fieldId": "field_3",
+          "optionId": "46"
+        },
+        {
+          "serviceId": "cz-p10c-cut",
+          "kind": "option",
+          "fieldId": "field_5",
+          "optionId": "46"
+        },
+        {
+          "serviceId": "cz-p10c-cut",
+          "kind": "option",
+          "fieldId": "field_7",
+          "optionId": "46"
+        },
+        {
+          "serviceId": "smith-wesson-mp-optic-cut",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "46"
+        },
+        {
+          "serviceId": "smith-wesson-mp-optic-cut",
+          "kind": "option",
+          "fieldId": "field_8",
+          "optionId": "46"
+        },
+        {
+          "serviceId": "sig-p365-optic-cut",
+          "kind": "option",
+          "fieldId": "field_5",
+          "optionId": "46"
+        },
+        {
+          "serviceId": "sig-p365-optic-cut",
+          "kind": "option",
+          "fieldId": "field_7",
+          "optionId": "46"
+        },
+        {
+          "serviceId": "glock-optic-cut-slimline",
+          "kind": "option",
+          "fieldId": "field_4",
+          "optionId": "46"
+        },
+        {
+          "serviceId": "glock-optic-cut-slimline",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "46"
+        },
+        {
+          "serviceId": "glock-optic-cut-full-size",
+          "kind": "option",
+          "fieldId": "field_7",
+          "optionId": "46"
+        },
+        {
+          "serviceId": "glock-optic-cut-full-size",
+          "kind": "option",
+          "fieldId": "field_9",
+          "optionId": "46"
+        }
+      ],
+      "sourceUrls": [
+        "https://defiantmachineworks.com/wp-content/uploads/2026/01/14.png"
+      ],
+      "retainedUses": {
+        "gallery": [
+          "Jesse James Eastern Front H-400"
+        ],
+        "productDetails": [],
+        "servicePages": [],
+        "stipplingGuide": [],
+        "editorial": [],
+        "archiveAndProvenance": true
+      }
+    },
+    {
+      "image": "/assets/dmw/optimized/ab4775e7bcb1c4.webp",
+      "bytesRetained": 110526,
+      "requestedByConfigurator": false,
+      "priorWizardUses": [
+        {
+          "serviceId": "sig-sauer-p365-stippling-package-mod-1",
+          "kind": "package",
+          "fieldId": null,
+          "optionId": null
+        }
+      ],
+      "sourceUrls": [
+        "https://defiantmachineworks.com/wp-content/uploads/2025/09/325.00-8.png"
+      ],
+      "retainedUses": {
+        "gallery": [],
+        "productDetails": [
+          "sig-sauer-p365-stippling-package-mod-1"
+        ],
+        "servicePages": [],
+        "stipplingGuide": [],
+        "editorial": [],
+        "archiveAndProvenance": true
+      }
+    },
+    {
+      "image": "/assets/dmw/optimized/ac929365f01a1a.webp",
+      "bytesRetained": 155270,
+      "requestedByConfigurator": false,
+      "priorWizardUses": [
+        {
+          "serviceId": "bodyguard-2-0-viper-ports",
+          "kind": "option",
+          "fieldId": "field_4",
+          "optionId": "25"
+        },
+        {
+          "serviceId": "glock-crown-lvl-3-stippling-package",
+          "kind": "option",
+          "fieldId": "field_15",
+          "optionId": "7"
+        },
+        {
+          "serviceId": "glock-core-lvl-stippling-package",
+          "kind": "option",
+          "fieldId": "field_15",
+          "optionId": "7"
+        },
+        {
+          "serviceId": "cz-p-07",
+          "kind": "option",
+          "fieldId": "field_10",
+          "optionId": "42"
+        },
+        {
+          "serviceId": "cz-75-series-optic-cut",
+          "kind": "option",
+          "fieldId": "field_10",
+          "optionId": "42"
+        },
+        {
+          "serviceId": "smith-wesson-bodyguard-2-0-optic-cut",
+          "kind": "option",
+          "fieldId": "field_10",
+          "optionId": "42"
+        },
+        {
+          "serviceId": "p365-tiger-shark",
+          "kind": "option",
+          "fieldId": "field_8",
+          "optionId": "42"
+        },
+        {
+          "serviceId": "saber-slide-mill",
+          "kind": "option",
+          "fieldId": "field_8",
+          "optionId": "42"
+        },
+        {
+          "serviceId": "genesis-oem-slide-mill",
+          "kind": "option",
+          "fieldId": "field_8",
+          "optionId": "42"
+        },
+        {
+          "serviceId": "slide-only-cerakote",
+          "kind": "option",
+          "fieldId": "field_4",
+          "optionId": "25"
+        },
+        {
+          "serviceId": "frame-only-cerakote",
+          "kind": "option",
+          "fieldId": "field_4",
+          "optionId": "30"
+        },
+        {
+          "serviceId": "pistol-cerakote",
+          "kind": "option",
+          "fieldId": "field_4",
+          "optionId": "13"
+        },
+        {
+          "serviceId": "cz-p10c-cut",
+          "kind": "option",
+          "fieldId": "field_9",
+          "optionId": "43"
+        },
+        {
+          "serviceId": "smith-wesson-mp-optic-cut",
+          "kind": "option",
+          "fieldId": "field_10",
+          "optionId": "42"
+        },
+        {
+          "serviceId": "sig-p365-optic-cut",
+          "kind": "option",
+          "fieldId": "field_8",
+          "optionId": "42"
+        },
+        {
+          "serviceId": "glock-optic-cut-slimline",
+          "kind": "option",
+          "fieldId": "field_8",
+          "optionId": "42"
+        },
+        {
+          "serviceId": "glock-optic-cut-full-size",
+          "kind": "option",
+          "fieldId": "field_11",
+          "optionId": "44"
+        }
+      ],
+      "sourceUrls": [
+        "https://defiantmachineworks.com/wp-content/uploads/2025/09/4.png"
+      ],
+      "retainedUses": {
+        "gallery": [
+          "Black Multicam"
+        ],
+        "productDetails": [],
+        "servicePages": [],
+        "stipplingGuide": [],
+        "editorial": [
+          "src/components/home/home-page.tsx (featured Gallery work)"
+        ],
+        "archiveAndProvenance": true
+      }
+    },
+    {
+      "image": "/assets/dmw/optimized/acf3bdf71ee0dd.webp",
+      "bytesRetained": 89158,
+      "requestedByConfigurator": false,
+      "priorWizardUses": [
+        {
+          "serviceId": "sw-mp-stippling-package",
+          "kind": "package",
+          "fieldId": null,
+          "optionId": null
+        }
+      ],
+      "sourceUrls": [
+        "https://defiantmachineworks.com/wp-content/uploads/2025/09/325.00-5.png"
+      ],
+      "retainedUses": {
+        "gallery": [],
+        "productDetails": [
+          "sw-mp-stippling-package"
+        ],
+        "servicePages": [],
+        "stipplingGuide": [],
+        "editorial": [],
+        "archiveAndProvenance": true
+      }
+    },
+    {
+      "image": "/assets/dmw/optimized/b0cea9e391b93d.webp",
+      "bytesRetained": 125874,
+      "requestedByConfigurator": false,
+      "priorWizardUses": [
+        {
+          "serviceId": "bodyguard-2-0-viper-ports",
+          "kind": "option",
+          "fieldId": "field_2",
+          "optionId": "42"
+        },
+        {
+          "serviceId": "bodyguard-2-0-viper-ports",
+          "kind": "option",
+          "fieldId": "field_3",
+          "optionId": "42"
+        },
+        {
+          "serviceId": "glock-crown-lvl-3-stippling-package",
+          "kind": "option",
+          "fieldId": "field_16",
+          "optionId": "42"
+        },
+        {
+          "serviceId": "glock-crown-lvl-3-stippling-package",
+          "kind": "option",
+          "fieldId": "field_17",
+          "optionId": "42"
+        },
+        {
+          "serviceId": "glock-core-lvl-stippling-package",
+          "kind": "option",
+          "fieldId": "field_16",
+          "optionId": "42"
+        },
+        {
+          "serviceId": "glock-core-lvl-stippling-package",
+          "kind": "option",
+          "fieldId": "field_17",
+          "optionId": "42"
+        },
+        {
+          "serviceId": "cz-p-07",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "42"
+        },
+        {
+          "serviceId": "cz-p-07",
+          "kind": "option",
+          "fieldId": "field_8",
+          "optionId": "42"
+        },
+        {
+          "serviceId": "cz-75-series-optic-cut",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "42"
+        },
+        {
+          "serviceId": "cz-75-series-optic-cut",
+          "kind": "option",
+          "fieldId": "field_8",
+          "optionId": "42"
+        },
+        {
+          "serviceId": "smith-wesson-bodyguard-2-0-optic-cut",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "42"
+        },
+        {
+          "serviceId": "smith-wesson-bodyguard-2-0-optic-cut",
+          "kind": "option",
+          "fieldId": "field_8",
+          "optionId": "42"
+        },
+        {
+          "serviceId": "p365-tiger-shark",
+          "kind": "option",
+          "fieldId": "field_5",
+          "optionId": "42"
+        },
+        {
+          "serviceId": "p365-tiger-shark",
+          "kind": "option",
+          "fieldId": "field_7",
+          "optionId": "42"
+        },
+        {
+          "serviceId": "saber-slide-mill",
+          "kind": "option",
+          "fieldId": "field_4",
+          "optionId": "42"
+        },
+        {
+          "serviceId": "saber-slide-mill",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "42"
+        },
+        {
+          "serviceId": "genesis-oem-slide-mill",
+          "kind": "option",
+          "fieldId": "field_4",
+          "optionId": "42"
+        },
+        {
+          "serviceId": "genesis-oem-slide-mill",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "42"
+        },
+        {
+          "serviceId": "slide-only-cerakote",
+          "kind": "option",
+          "fieldId": "field_2",
+          "optionId": "42"
+        },
+        {
+          "serviceId": "slide-only-cerakote",
+          "kind": "option",
+          "fieldId": "field_3",
+          "optionId": "42"
+        },
+        {
+          "serviceId": "frame-only-cerakote",
+          "kind": "option",
+          "fieldId": "field_2",
+          "optionId": "42"
+        },
+        {
+          "serviceId": "frame-only-cerakote",
+          "kind": "option",
+          "fieldId": "field_3",
+          "optionId": "42"
+        },
+        {
+          "serviceId": "pistol-cerakote",
+          "kind": "option",
+          "fieldId": "field_2",
+          "optionId": "42"
+        },
+        {
+          "serviceId": "pistol-cerakote",
+          "kind": "option",
+          "fieldId": "field_3",
+          "optionId": "42"
+        },
+        {
+          "serviceId": "cz-p10c-cut",
+          "kind": "option",
+          "fieldId": "field_5",
+          "optionId": "42"
+        },
+        {
+          "serviceId": "cz-p10c-cut",
+          "kind": "option",
+          "fieldId": "field_7",
+          "optionId": "42"
+        },
+        {
+          "serviceId": "smith-wesson-mp-optic-cut",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "42"
+        },
+        {
+          "serviceId": "smith-wesson-mp-optic-cut",
+          "kind": "option",
+          "fieldId": "field_8",
+          "optionId": "42"
+        },
+        {
+          "serviceId": "sig-p365-optic-cut",
+          "kind": "option",
+          "fieldId": "field_5",
+          "optionId": "42"
+        },
+        {
+          "serviceId": "sig-p365-optic-cut",
+          "kind": "option",
+          "fieldId": "field_7",
+          "optionId": "42"
+        },
+        {
+          "serviceId": "glock-optic-cut-slimline",
+          "kind": "option",
+          "fieldId": "field_4",
+          "optionId": "42"
+        },
+        {
+          "serviceId": "glock-optic-cut-slimline",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "42"
+        },
+        {
+          "serviceId": "glock-optic-cut-full-size",
+          "kind": "option",
+          "fieldId": "field_7",
+          "optionId": "42"
+        },
+        {
+          "serviceId": "glock-optic-cut-full-size",
+          "kind": "option",
+          "fieldId": "field_9",
+          "optionId": "42"
+        }
+      ],
+      "sourceUrls": [
+        "https://defiantmachineworks.com/wp-content/uploads/2026/01/11.png"
+      ],
+      "retainedUses": {
+        "gallery": [
+          "Sniper Green H-229"
+        ],
+        "productDetails": [],
+        "servicePages": [],
+        "stipplingGuide": [],
+        "editorial": [],
+        "archiveAndProvenance": true
+      }
+    },
+    {
+      "image": "/assets/dmw/optimized/b28768c1605847.webp",
+      "bytesRetained": 159592,
+      "requestedByConfigurator": false,
+      "priorWizardUses": [
+        {
+          "serviceId": "bodyguard-2-0-viper-ports",
+          "kind": "option",
+          "fieldId": "field_4",
+          "optionId": "38"
+        },
+        {
+          "serviceId": "glock-crown-lvl-3-stippling-package",
+          "kind": "option",
+          "fieldId": "field_15",
+          "optionId": "20"
+        },
+        {
+          "serviceId": "glock-core-lvl-stippling-package",
+          "kind": "option",
+          "fieldId": "field_15",
+          "optionId": "20"
+        },
+        {
+          "serviceId": "cz-p-07",
+          "kind": "option",
+          "fieldId": "field_10",
+          "optionId": "55"
+        },
+        {
+          "serviceId": "cz-75-series-optic-cut",
+          "kind": "option",
+          "fieldId": "field_10",
+          "optionId": "55"
+        },
+        {
+          "serviceId": "smith-wesson-bodyguard-2-0-optic-cut",
+          "kind": "option",
+          "fieldId": "field_10",
+          "optionId": "55"
+        },
+        {
+          "serviceId": "p365-tiger-shark",
+          "kind": "option",
+          "fieldId": "field_8",
+          "optionId": "55"
+        },
+        {
+          "serviceId": "saber-slide-mill",
+          "kind": "option",
+          "fieldId": "field_8",
+          "optionId": "55"
+        },
+        {
+          "serviceId": "genesis-oem-slide-mill",
+          "kind": "option",
+          "fieldId": "field_8",
+          "optionId": "55"
+        },
+        {
+          "serviceId": "slide-only-cerakote",
+          "kind": "option",
+          "fieldId": "field_4",
+          "optionId": "38"
+        },
+        {
+          "serviceId": "frame-only-cerakote",
+          "kind": "option",
+          "fieldId": "field_4",
+          "optionId": "43"
+        },
+        {
+          "serviceId": "pistol-cerakote",
+          "kind": "option",
+          "fieldId": "field_4",
+          "optionId": "26"
+        },
+        {
+          "serviceId": "cz-p10c-cut",
+          "kind": "option",
+          "fieldId": "field_9",
+          "optionId": "56"
+        },
+        {
+          "serviceId": "smith-wesson-mp-optic-cut",
+          "kind": "option",
+          "fieldId": "field_10",
+          "optionId": "55"
+        },
+        {
+          "serviceId": "sig-p365-optic-cut",
+          "kind": "option",
+          "fieldId": "field_8",
+          "optionId": "55"
+        },
+        {
+          "serviceId": "glock-optic-cut-slimline",
+          "kind": "option",
+          "fieldId": "field_8",
+          "optionId": "55"
+        },
+        {
+          "serviceId": "glock-optic-cut-full-size",
+          "kind": "option",
+          "fieldId": "field_11",
+          "optionId": "57"
+        }
+      ],
+      "sourceUrls": [
+        "https://defiantmachineworks.com/wp-content/uploads/2025/09/10.png"
+      ],
+      "retainedUses": {
+        "gallery": [
+          "Pumpkin Spice"
+        ],
+        "productDetails": [],
+        "servicePages": [],
+        "stipplingGuide": [],
+        "editorial": [],
+        "archiveAndProvenance": true
+      }
+    },
+    {
+      "image": "/assets/dmw/optimized/ba8dbb6445fd36.webp",
+      "bytesRetained": 99486,
+      "requestedByConfigurator": false,
+      "priorWizardUses": [
+        {
+          "serviceId": "bodyguard-2-0-viper-ports",
+          "kind": "option",
+          "fieldId": "field_2",
+          "optionId": "41"
+        },
+        {
+          "serviceId": "bodyguard-2-0-viper-ports",
+          "kind": "option",
+          "fieldId": "field_3",
+          "optionId": "41"
+        },
+        {
+          "serviceId": "glock-crown-lvl-3-stippling-package",
+          "kind": "option",
+          "fieldId": "field_16",
+          "optionId": "41"
+        },
+        {
+          "serviceId": "glock-crown-lvl-3-stippling-package",
+          "kind": "option",
+          "fieldId": "field_17",
+          "optionId": "41"
+        },
+        {
+          "serviceId": "glock-core-lvl-stippling-package",
+          "kind": "option",
+          "fieldId": "field_16",
+          "optionId": "41"
+        },
+        {
+          "serviceId": "glock-core-lvl-stippling-package",
+          "kind": "option",
+          "fieldId": "field_17",
+          "optionId": "41"
+        },
+        {
+          "serviceId": "cz-p-07",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "41"
+        },
+        {
+          "serviceId": "cz-p-07",
+          "kind": "option",
+          "fieldId": "field_8",
+          "optionId": "41"
+        },
+        {
+          "serviceId": "cz-75-series-optic-cut",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "41"
+        },
+        {
+          "serviceId": "cz-75-series-optic-cut",
+          "kind": "option",
+          "fieldId": "field_8",
+          "optionId": "41"
+        },
+        {
+          "serviceId": "smith-wesson-bodyguard-2-0-optic-cut",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "41"
+        },
+        {
+          "serviceId": "smith-wesson-bodyguard-2-0-optic-cut",
+          "kind": "option",
+          "fieldId": "field_8",
+          "optionId": "41"
+        },
+        {
+          "serviceId": "p365-tiger-shark",
+          "kind": "option",
+          "fieldId": "field_5",
+          "optionId": "41"
+        },
+        {
+          "serviceId": "p365-tiger-shark",
+          "kind": "option",
+          "fieldId": "field_7",
+          "optionId": "41"
+        },
+        {
+          "serviceId": "saber-slide-mill",
+          "kind": "option",
+          "fieldId": "field_4",
+          "optionId": "41"
+        },
+        {
+          "serviceId": "saber-slide-mill",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "41"
+        },
+        {
+          "serviceId": "genesis-oem-slide-mill",
+          "kind": "option",
+          "fieldId": "field_4",
+          "optionId": "41"
+        },
+        {
+          "serviceId": "genesis-oem-slide-mill",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "41"
+        },
+        {
+          "serviceId": "slide-only-cerakote",
+          "kind": "option",
+          "fieldId": "field_2",
+          "optionId": "41"
+        },
+        {
+          "serviceId": "slide-only-cerakote",
+          "kind": "option",
+          "fieldId": "field_3",
+          "optionId": "41"
+        },
+        {
+          "serviceId": "frame-only-cerakote",
+          "kind": "option",
+          "fieldId": "field_2",
+          "optionId": "41"
+        },
+        {
+          "serviceId": "frame-only-cerakote",
+          "kind": "option",
+          "fieldId": "field_3",
+          "optionId": "41"
+        },
+        {
+          "serviceId": "pistol-cerakote",
+          "kind": "option",
+          "fieldId": "field_2",
+          "optionId": "41"
+        },
+        {
+          "serviceId": "pistol-cerakote",
+          "kind": "option",
+          "fieldId": "field_3",
+          "optionId": "41"
+        },
+        {
+          "serviceId": "cz-p10c-cut",
+          "kind": "option",
+          "fieldId": "field_5",
+          "optionId": "41"
+        },
+        {
+          "serviceId": "cz-p10c-cut",
+          "kind": "option",
+          "fieldId": "field_7",
+          "optionId": "41"
+        },
+        {
+          "serviceId": "smith-wesson-mp-optic-cut",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "41"
+        },
+        {
+          "serviceId": "smith-wesson-mp-optic-cut",
+          "kind": "option",
+          "fieldId": "field_8",
+          "optionId": "41"
+        },
+        {
+          "serviceId": "sig-p365-optic-cut",
+          "kind": "option",
+          "fieldId": "field_5",
+          "optionId": "41"
+        },
+        {
+          "serviceId": "sig-p365-optic-cut",
+          "kind": "option",
+          "fieldId": "field_7",
+          "optionId": "41"
+        },
+        {
+          "serviceId": "glock-optic-cut-slimline",
+          "kind": "option",
+          "fieldId": "field_4",
+          "optionId": "41"
+        },
+        {
+          "serviceId": "glock-optic-cut-slimline",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "41"
+        },
+        {
+          "serviceId": "glock-optic-cut-full-size",
+          "kind": "option",
+          "fieldId": "field_7",
+          "optionId": "41"
+        },
+        {
+          "serviceId": "glock-optic-cut-full-size",
+          "kind": "option",
+          "fieldId": "field_9",
+          "optionId": "41"
+        }
+      ],
+      "sourceUrls": [
+        "https://defiantmachineworks.com/wp-content/uploads/2026/01/10.png"
+      ],
+      "retainedUses": {
+        "gallery": [
+          "Tungsten H-237"
+        ],
+        "productDetails": [],
+        "servicePages": [],
+        "stipplingGuide": [],
+        "editorial": [],
+        "archiveAndProvenance": true
+      }
+    },
+    {
+      "image": "/assets/dmw/optimized/c01517831e6c06.webp",
+      "bytesRetained": 180176,
+      "requestedByConfigurator": false,
+      "priorWizardUses": [
+        {
+          "serviceId": "p365-tiger-shark",
+          "kind": "package",
+          "fieldId": null,
+          "optionId": null
+        }
+      ],
+      "sourceUrls": [
+        "https://defiantmachineworks.com/wp-content/uploads/2024/10/Tiger-Shark-1.jpg"
+      ],
+      "retainedUses": {
+        "gallery": [],
+        "productDetails": [
+          "p365-tiger-shark"
+        ],
+        "servicePages": [],
+        "stipplingGuide": [],
+        "editorial": [],
+        "archiveAndProvenance": true
+      }
+    },
+    {
+      "image": "/assets/dmw/optimized/c49e2765607bb7.webp",
+      "bytesRetained": 348944,
+      "requestedByConfigurator": false,
+      "priorWizardUses": [
+        {
+          "serviceId": "springfield-armory-echlon-stippling-package",
+          "kind": "package",
+          "fieldId": null,
+          "optionId": null
+        }
+      ],
+      "sourceUrls": [
+        "https://defiantmachineworks.com/wp-content/uploads/2025/09/325.00-3.png"
+      ],
+      "retainedUses": {
+        "gallery": [],
+        "productDetails": [
+          "springfield-armory-echlon-stippling-package"
+        ],
+        "servicePages": [],
+        "stipplingGuide": [],
+        "editorial": [],
+        "archiveAndProvenance": true
+      }
+    },
+    {
+      "image": "/assets/dmw/optimized/c85d714cae0dc4.webp",
+      "bytesRetained": 183188,
+      "requestedByConfigurator": false,
+      "priorWizardUses": [
+        {
+          "serviceId": "bodyguard-2-0-viper-ports",
+          "kind": "option",
+          "fieldId": "field_2",
+          "optionId": "38"
+        },
+        {
+          "serviceId": "bodyguard-2-0-viper-ports",
+          "kind": "option",
+          "fieldId": "field_3",
+          "optionId": "38"
+        },
+        {
+          "serviceId": "glock-crown-lvl-3-stippling-package",
+          "kind": "option",
+          "fieldId": "field_16",
+          "optionId": "38"
+        },
+        {
+          "serviceId": "glock-crown-lvl-3-stippling-package",
+          "kind": "option",
+          "fieldId": "field_17",
+          "optionId": "38"
+        },
+        {
+          "serviceId": "glock-core-lvl-stippling-package",
+          "kind": "option",
+          "fieldId": "field_16",
+          "optionId": "38"
+        },
+        {
+          "serviceId": "glock-core-lvl-stippling-package",
+          "kind": "option",
+          "fieldId": "field_17",
+          "optionId": "38"
+        },
+        {
+          "serviceId": "cz-p-07",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "38"
+        },
+        {
+          "serviceId": "cz-p-07",
+          "kind": "option",
+          "fieldId": "field_8",
+          "optionId": "38"
+        },
+        {
+          "serviceId": "cz-75-series-optic-cut",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "38"
+        },
+        {
+          "serviceId": "cz-75-series-optic-cut",
+          "kind": "option",
+          "fieldId": "field_8",
+          "optionId": "38"
+        },
+        {
+          "serviceId": "smith-wesson-bodyguard-2-0-optic-cut",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "38"
+        },
+        {
+          "serviceId": "smith-wesson-bodyguard-2-0-optic-cut",
+          "kind": "option",
+          "fieldId": "field_8",
+          "optionId": "38"
+        },
+        {
+          "serviceId": "p365-tiger-shark",
+          "kind": "option",
+          "fieldId": "field_5",
+          "optionId": "38"
+        },
+        {
+          "serviceId": "p365-tiger-shark",
+          "kind": "option",
+          "fieldId": "field_7",
+          "optionId": "38"
+        },
+        {
+          "serviceId": "saber-slide-mill",
+          "kind": "option",
+          "fieldId": "field_4",
+          "optionId": "38"
+        },
+        {
+          "serviceId": "saber-slide-mill",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "38"
+        },
+        {
+          "serviceId": "genesis-oem-slide-mill",
+          "kind": "option",
+          "fieldId": "field_4",
+          "optionId": "38"
+        },
+        {
+          "serviceId": "genesis-oem-slide-mill",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "38"
+        },
+        {
+          "serviceId": "slide-only-cerakote",
+          "kind": "option",
+          "fieldId": "field_2",
+          "optionId": "38"
+        },
+        {
+          "serviceId": "slide-only-cerakote",
+          "kind": "option",
+          "fieldId": "field_3",
+          "optionId": "38"
+        },
+        {
+          "serviceId": "frame-only-cerakote",
+          "kind": "option",
+          "fieldId": "field_2",
+          "optionId": "38"
+        },
+        {
+          "serviceId": "frame-only-cerakote",
+          "kind": "option",
+          "fieldId": "field_3",
+          "optionId": "38"
+        },
+        {
+          "serviceId": "pistol-cerakote",
+          "kind": "option",
+          "fieldId": "field_2",
+          "optionId": "38"
+        },
+        {
+          "serviceId": "pistol-cerakote",
+          "kind": "option",
+          "fieldId": "field_3",
+          "optionId": "38"
+        },
+        {
+          "serviceId": "cz-p10c-cut",
+          "kind": "option",
+          "fieldId": "field_5",
+          "optionId": "38"
+        },
+        {
+          "serviceId": "cz-p10c-cut",
+          "kind": "option",
+          "fieldId": "field_7",
+          "optionId": "38"
+        },
+        {
+          "serviceId": "smith-wesson-mp-optic-cut",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "38"
+        },
+        {
+          "serviceId": "smith-wesson-mp-optic-cut",
+          "kind": "option",
+          "fieldId": "field_8",
+          "optionId": "38"
+        },
+        {
+          "serviceId": "sig-p365-optic-cut",
+          "kind": "option",
+          "fieldId": "field_5",
+          "optionId": "38"
+        },
+        {
+          "serviceId": "sig-p365-optic-cut",
+          "kind": "option",
+          "fieldId": "field_7",
+          "optionId": "38"
+        },
+        {
+          "serviceId": "glock-optic-cut-slimline",
+          "kind": "option",
+          "fieldId": "field_4",
+          "optionId": "38"
+        },
+        {
+          "serviceId": "glock-optic-cut-slimline",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "38"
+        },
+        {
+          "serviceId": "glock-optic-cut-full-size",
+          "kind": "option",
+          "fieldId": "field_7",
+          "optionId": "38"
+        },
+        {
+          "serviceId": "glock-optic-cut-full-size",
+          "kind": "option",
+          "fieldId": "field_9",
+          "optionId": "38"
+        }
+      ],
+      "sourceUrls": [
+        "https://defiantmachineworks.com/wp-content/uploads/2026/01/7.png"
+      ],
+      "retainedUses": {
+        "gallery": [
+          "Phantom Teal DMW Custom"
+        ],
+        "productDetails": [],
+        "servicePages": [],
+        "stipplingGuide": [],
+        "editorial": [],
+        "archiveAndProvenance": true
+      }
+    },
+    {
+      "image": "/assets/dmw/optimized/c9d9cd8161efb8.webp",
+      "bytesRetained": 282968,
+      "requestedByConfigurator": false,
+      "priorWizardUses": [
+        {
+          "serviceId": "bodyguard-2-0-viper-ports",
+          "kind": "option",
+          "fieldId": "field_4",
+          "optionId": "33"
+        },
+        {
+          "serviceId": "glock-crown-lvl-3-stippling-package",
+          "kind": "option",
+          "fieldId": "field_15",
+          "optionId": "15"
+        },
+        {
+          "serviceId": "glock-core-lvl-stippling-package",
+          "kind": "option",
+          "fieldId": "field_15",
+          "optionId": "15"
+        },
+        {
+          "serviceId": "cz-p-07",
+          "kind": "option",
+          "fieldId": "field_10",
+          "optionId": "50"
+        },
+        {
+          "serviceId": "cz-75-series-optic-cut",
+          "kind": "option",
+          "fieldId": "field_10",
+          "optionId": "50"
+        },
+        {
+          "serviceId": "smith-wesson-bodyguard-2-0-optic-cut",
+          "kind": "option",
+          "fieldId": "field_10",
+          "optionId": "50"
+        },
+        {
+          "serviceId": "p365-tiger-shark",
+          "kind": "option",
+          "fieldId": "field_8",
+          "optionId": "50"
+        },
+        {
+          "serviceId": "saber-slide-mill",
+          "kind": "option",
+          "fieldId": "field_8",
+          "optionId": "50"
+        },
+        {
+          "serviceId": "genesis-oem-slide-mill",
+          "kind": "option",
+          "fieldId": "field_8",
+          "optionId": "50"
+        },
+        {
+          "serviceId": "slide-only-cerakote",
+          "kind": "option",
+          "fieldId": "field_4",
+          "optionId": "33"
+        },
+        {
+          "serviceId": "frame-only-cerakote",
+          "kind": "option",
+          "fieldId": "field_4",
+          "optionId": "38"
+        },
+        {
+          "serviceId": "pistol-cerakote",
+          "kind": "option",
+          "fieldId": "field_4",
+          "optionId": "21"
+        },
+        {
+          "serviceId": "cz-p10c-cut",
+          "kind": "option",
+          "fieldId": "field_9",
+          "optionId": "51"
+        },
+        {
+          "serviceId": "smith-wesson-mp-optic-cut",
+          "kind": "option",
+          "fieldId": "field_10",
+          "optionId": "50"
+        },
+        {
+          "serviceId": "sig-p365-optic-cut",
+          "kind": "option",
+          "fieldId": "field_8",
+          "optionId": "50"
+        },
+        {
+          "serviceId": "glock-optic-cut-slimline",
+          "kind": "option",
+          "fieldId": "field_8",
+          "optionId": "50"
+        },
+        {
+          "serviceId": "glock-optic-cut-full-size",
+          "kind": "option",
+          "fieldId": "field_11",
+          "optionId": "52"
+        }
+      ],
+      "sourceUrls": [
+        "https://defiantmachineworks.com/wp-content/uploads/2025/09/12.png"
+      ],
+      "retainedUses": {
+        "gallery": [
+          "Midnight Chocolate Chip"
+        ],
+        "productDetails": [],
+        "servicePages": [],
+        "stipplingGuide": [],
+        "editorial": [],
+        "archiveAndProvenance": true
+      }
+    },
+    {
+      "image": "/assets/dmw/optimized/cada8b502bf018.webp",
+      "bytesRetained": 226482,
+      "requestedByConfigurator": false,
+      "priorWizardUses": [
+        {
+          "serviceId": "bodyguard-2-0-viper-ports",
+          "kind": "option",
+          "fieldId": "field_4",
+          "optionId": "36"
+        },
+        {
+          "serviceId": "glock-crown-lvl-3-stippling-package",
+          "kind": "option",
+          "fieldId": "field_15",
+          "optionId": "18"
+        },
+        {
+          "serviceId": "glock-core-lvl-stippling-package",
+          "kind": "option",
+          "fieldId": "field_15",
+          "optionId": "18"
+        },
+        {
+          "serviceId": "cz-p-07",
+          "kind": "option",
+          "fieldId": "field_10",
+          "optionId": "53"
+        },
+        {
+          "serviceId": "cz-75-series-optic-cut",
+          "kind": "option",
+          "fieldId": "field_10",
+          "optionId": "53"
+        },
+        {
+          "serviceId": "smith-wesson-bodyguard-2-0-optic-cut",
+          "kind": "option",
+          "fieldId": "field_10",
+          "optionId": "53"
+        },
+        {
+          "serviceId": "p365-tiger-shark",
+          "kind": "option",
+          "fieldId": "field_8",
+          "optionId": "53"
+        },
+        {
+          "serviceId": "saber-slide-mill",
+          "kind": "option",
+          "fieldId": "field_8",
+          "optionId": "53"
+        },
+        {
+          "serviceId": "genesis-oem-slide-mill",
+          "kind": "option",
+          "fieldId": "field_8",
+          "optionId": "53"
+        },
+        {
+          "serviceId": "slide-only-cerakote",
+          "kind": "option",
+          "fieldId": "field_4",
+          "optionId": "36"
+        },
+        {
+          "serviceId": "frame-only-cerakote",
+          "kind": "option",
+          "fieldId": "field_4",
+          "optionId": "41"
+        },
+        {
+          "serviceId": "pistol-cerakote",
+          "kind": "option",
+          "fieldId": "field_4",
+          "optionId": "24"
+        },
+        {
+          "serviceId": "cz-p10c-cut",
+          "kind": "option",
+          "fieldId": "field_9",
+          "optionId": "54"
+        },
+        {
+          "serviceId": "smith-wesson-mp-optic-cut",
+          "kind": "option",
+          "fieldId": "field_10",
+          "optionId": "53"
+        },
+        {
+          "serviceId": "sig-p365-optic-cut",
+          "kind": "option",
+          "fieldId": "field_8",
+          "optionId": "53"
+        },
+        {
+          "serviceId": "glock-optic-cut-slimline",
+          "kind": "option",
+          "fieldId": "field_8",
+          "optionId": "53"
+        },
+        {
+          "serviceId": "glock-optic-cut-full-size",
+          "kind": "option",
+          "fieldId": "field_11",
+          "optionId": "55"
+        }
+      ],
+      "sourceUrls": [
+        "https://defiantmachineworks.com/wp-content/uploads/2025/09/14.png"
+      ],
+      "retainedUses": {
+        "gallery": [
+          "Flectarn"
+        ],
+        "productDetails": [],
+        "servicePages": [],
+        "stipplingGuide": [],
+        "editorial": [
+          "src/components/home/home-page.tsx (featured Gallery work)"
+        ],
+        "archiveAndProvenance": true
+      }
+    },
+    {
+      "image": "/assets/dmw/optimized/d526af3ba31ef9.webp",
+      "bytesRetained": 469888,
+      "requestedByConfigurator": false,
+      "priorWizardUses": [
+        {
+          "serviceId": "bodyguard-2-0-viper-ports",
+          "kind": "option",
+          "fieldId": "field_2",
+          "optionId": "43"
+        },
+        {
+          "serviceId": "bodyguard-2-0-viper-ports",
+          "kind": "option",
+          "fieldId": "field_3",
+          "optionId": "43"
+        },
+        {
+          "serviceId": "glock-crown-lvl-3-stippling-package",
+          "kind": "option",
+          "fieldId": "field_16",
+          "optionId": "43"
+        },
+        {
+          "serviceId": "glock-crown-lvl-3-stippling-package",
+          "kind": "option",
+          "fieldId": "field_17",
+          "optionId": "43"
+        },
+        {
+          "serviceId": "glock-core-lvl-stippling-package",
+          "kind": "option",
+          "fieldId": "field_16",
+          "optionId": "43"
+        },
+        {
+          "serviceId": "glock-core-lvl-stippling-package",
+          "kind": "option",
+          "fieldId": "field_17",
+          "optionId": "43"
+        },
+        {
+          "serviceId": "cz-p-07",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "43"
+        },
+        {
+          "serviceId": "cz-p-07",
+          "kind": "option",
+          "fieldId": "field_8",
+          "optionId": "43"
+        },
+        {
+          "serviceId": "cz-75-series-optic-cut",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "43"
+        },
+        {
+          "serviceId": "cz-75-series-optic-cut",
+          "kind": "option",
+          "fieldId": "field_8",
+          "optionId": "43"
+        },
+        {
+          "serviceId": "smith-wesson-bodyguard-2-0-optic-cut",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "43"
+        },
+        {
+          "serviceId": "smith-wesson-bodyguard-2-0-optic-cut",
+          "kind": "option",
+          "fieldId": "field_8",
+          "optionId": "43"
+        },
+        {
+          "serviceId": "p365-tiger-shark",
+          "kind": "option",
+          "fieldId": "field_5",
+          "optionId": "43"
+        },
+        {
+          "serviceId": "p365-tiger-shark",
+          "kind": "option",
+          "fieldId": "field_7",
+          "optionId": "43"
+        },
+        {
+          "serviceId": "saber-slide-mill",
+          "kind": "option",
+          "fieldId": "field_4",
+          "optionId": "43"
+        },
+        {
+          "serviceId": "saber-slide-mill",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "43"
+        },
+        {
+          "serviceId": "genesis-oem-slide-mill",
+          "kind": "option",
+          "fieldId": "field_4",
+          "optionId": "43"
+        },
+        {
+          "serviceId": "genesis-oem-slide-mill",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "43"
+        },
+        {
+          "serviceId": "slide-only-cerakote",
+          "kind": "option",
+          "fieldId": "field_2",
+          "optionId": "43"
+        },
+        {
+          "serviceId": "slide-only-cerakote",
+          "kind": "option",
+          "fieldId": "field_3",
+          "optionId": "43"
+        },
+        {
+          "serviceId": "frame-only-cerakote",
+          "kind": "option",
+          "fieldId": "field_2",
+          "optionId": "43"
+        },
+        {
+          "serviceId": "frame-only-cerakote",
+          "kind": "option",
+          "fieldId": "field_3",
+          "optionId": "43"
+        },
+        {
+          "serviceId": "pistol-cerakote",
+          "kind": "option",
+          "fieldId": "field_2",
+          "optionId": "43"
+        },
+        {
+          "serviceId": "pistol-cerakote",
+          "kind": "option",
+          "fieldId": "field_3",
+          "optionId": "43"
+        },
+        {
+          "serviceId": "cz-p10c-cut",
+          "kind": "option",
+          "fieldId": "field_5",
+          "optionId": "43"
+        },
+        {
+          "serviceId": "cz-p10c-cut",
+          "kind": "option",
+          "fieldId": "field_7",
+          "optionId": "43"
+        },
+        {
+          "serviceId": "smith-wesson-mp-optic-cut",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "43"
+        },
+        {
+          "serviceId": "smith-wesson-mp-optic-cut",
+          "kind": "option",
+          "fieldId": "field_8",
+          "optionId": "43"
+        },
+        {
+          "serviceId": "sig-p365-optic-cut",
+          "kind": "option",
+          "fieldId": "field_5",
+          "optionId": "43"
+        },
+        {
+          "serviceId": "sig-p365-optic-cut",
+          "kind": "option",
+          "fieldId": "field_7",
+          "optionId": "43"
+        },
+        {
+          "serviceId": "glock-optic-cut-slimline",
+          "kind": "option",
+          "fieldId": "field_4",
+          "optionId": "43"
+        },
+        {
+          "serviceId": "glock-optic-cut-slimline",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "43"
+        },
+        {
+          "serviceId": "glock-optic-cut-full-size",
+          "kind": "option",
+          "fieldId": "field_7",
+          "optionId": "43"
+        },
+        {
+          "serviceId": "glock-optic-cut-full-size",
+          "kind": "option",
+          "fieldId": "field_9",
+          "optionId": "43"
+        }
+      ],
+      "sourceUrls": [
+        "https://defiantmachineworks.com/wp-content/uploads/2026/01/6.png"
+      ],
+      "retainedUses": {
+        "gallery": [
+          "Burnt Bronze H-148"
+        ],
+        "productDetails": [],
+        "servicePages": [],
+        "stipplingGuide": [],
+        "editorial": [],
+        "archiveAndProvenance": true
+      }
+    },
+    {
+      "image": "/assets/dmw/optimized/dedcf68c73a4f0.webp",
+      "bytesRetained": 106530,
+      "requestedByConfigurator": false,
+      "priorWizardUses": [
+        {
+          "serviceId": "bodyguard-2-0-viper-ports",
+          "kind": "option",
+          "fieldId": "field_4",
+          "optionId": "27"
+        },
+        {
+          "serviceId": "glock-crown-lvl-3-stippling-package",
+          "kind": "option",
+          "fieldId": "field_15",
+          "optionId": "9"
+        },
+        {
+          "serviceId": "glock-core-lvl-stippling-package",
+          "kind": "option",
+          "fieldId": "field_15",
+          "optionId": "9"
+        },
+        {
+          "serviceId": "cz-p-07",
+          "kind": "option",
+          "fieldId": "field_10",
+          "optionId": "44"
+        },
+        {
+          "serviceId": "cz-75-series-optic-cut",
+          "kind": "option",
+          "fieldId": "field_10",
+          "optionId": "44"
+        },
+        {
+          "serviceId": "smith-wesson-bodyguard-2-0-optic-cut",
+          "kind": "option",
+          "fieldId": "field_10",
+          "optionId": "44"
+        },
+        {
+          "serviceId": "p365-tiger-shark",
+          "kind": "option",
+          "fieldId": "field_8",
+          "optionId": "44"
+        },
+        {
+          "serviceId": "saber-slide-mill",
+          "kind": "option",
+          "fieldId": "field_8",
+          "optionId": "44"
+        },
+        {
+          "serviceId": "genesis-oem-slide-mill",
+          "kind": "option",
+          "fieldId": "field_8",
+          "optionId": "44"
+        },
+        {
+          "serviceId": "slide-only-cerakote",
+          "kind": "option",
+          "fieldId": "field_4",
+          "optionId": "27"
+        },
+        {
+          "serviceId": "frame-only-cerakote",
+          "kind": "option",
+          "fieldId": "field_4",
+          "optionId": "32"
+        },
+        {
+          "serviceId": "pistol-cerakote",
+          "kind": "option",
+          "fieldId": "field_4",
+          "optionId": "15"
+        },
+        {
+          "serviceId": "cz-p10c-cut",
+          "kind": "option",
+          "fieldId": "field_9",
+          "optionId": "45"
+        },
+        {
+          "serviceId": "smith-wesson-mp-optic-cut",
+          "kind": "option",
+          "fieldId": "field_10",
+          "optionId": "44"
+        },
+        {
+          "serviceId": "sig-p365-optic-cut",
+          "kind": "option",
+          "fieldId": "field_8",
+          "optionId": "44"
+        },
+        {
+          "serviceId": "glock-optic-cut-slimline",
+          "kind": "option",
+          "fieldId": "field_8",
+          "optionId": "44"
+        },
+        {
+          "serviceId": "glock-optic-cut-full-size",
+          "kind": "option",
+          "fieldId": "field_11",
+          "optionId": "46"
+        }
+      ],
+      "sourceUrls": [
+        "https://defiantmachineworks.com/wp-content/uploads/2025/09/1-1.png"
+      ],
+      "retainedUses": {
+        "gallery": [
+          "Woodland"
+        ],
+        "productDetails": [],
+        "servicePages": [],
+        "stipplingGuide": [],
+        "editorial": [],
+        "archiveAndProvenance": true
+      }
+    },
+    {
+      "image": "/assets/dmw/optimized/e277cfad6c60f2.webp",
+      "bytesRetained": 340902,
+      "requestedByConfigurator": false,
+      "priorWizardUses": [
+        {
+          "serviceId": "glock-core-lvl-stippling-package",
+          "kind": "package",
+          "fieldId": null,
+          "optionId": null
+        }
+      ],
+      "sourceUrls": [
+        "https://defiantmachineworks.com/wp-content/uploads/2025/09/GLKLVL2-2.jpg"
+      ],
+      "retainedUses": {
+        "gallery": [],
+        "productDetails": [
+          "glock-core-lvl-stippling-package"
+        ],
+        "servicePages": [],
+        "stipplingGuide": [],
+        "editorial": [],
+        "archiveAndProvenance": true
+      }
+    },
+    {
+      "image": "/assets/dmw/optimized/e32b08c0690425.webp",
+      "bytesRetained": 633850,
+      "requestedByConfigurator": false,
+      "priorWizardUses": [
+        {
+          "serviceId": "genesis-oem-slide-mill",
+          "kind": "package",
+          "fieldId": null,
+          "optionId": null
+        }
+      ],
+      "sourceUrls": [
+        "https://defiantmachineworks.com/wp-content/uploads/2024/04/Slide-Photos-7.jpg"
+      ],
+      "retainedUses": {
+        "gallery": [],
+        "productDetails": [
+          "genesis-oem-slide-mill"
+        ],
+        "servicePages": [],
+        "stipplingGuide": [],
+        "editorial": [],
+        "archiveAndProvenance": true
+      }
+    },
+    {
+      "image": "/assets/dmw/optimized/e79cb17e141656.webp",
+      "bytesRetained": 362648,
+      "requestedByConfigurator": false,
+      "priorWizardUses": [
+        {
+          "serviceId": "bodyguard-2-0-viper-ports",
+          "kind": "option",
+          "fieldId": "field_2",
+          "optionId": "36"
+        },
+        {
+          "serviceId": "bodyguard-2-0-viper-ports",
+          "kind": "option",
+          "fieldId": "field_3",
+          "optionId": "36"
+        },
+        {
+          "serviceId": "glock-crown-lvl-3-stippling-package",
+          "kind": "option",
+          "fieldId": "field_16",
+          "optionId": "36"
+        },
+        {
+          "serviceId": "glock-crown-lvl-3-stippling-package",
+          "kind": "option",
+          "fieldId": "field_17",
+          "optionId": "36"
+        },
+        {
+          "serviceId": "glock-core-lvl-stippling-package",
+          "kind": "option",
+          "fieldId": "field_16",
+          "optionId": "36"
+        },
+        {
+          "serviceId": "glock-core-lvl-stippling-package",
+          "kind": "option",
+          "fieldId": "field_17",
+          "optionId": "36"
+        },
+        {
+          "serviceId": "cz-p-07",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "36"
+        },
+        {
+          "serviceId": "cz-p-07",
+          "kind": "option",
+          "fieldId": "field_8",
+          "optionId": "36"
+        },
+        {
+          "serviceId": "cz-75-series-optic-cut",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "36"
+        },
+        {
+          "serviceId": "cz-75-series-optic-cut",
+          "kind": "option",
+          "fieldId": "field_8",
+          "optionId": "36"
+        },
+        {
+          "serviceId": "smith-wesson-bodyguard-2-0-optic-cut",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "36"
+        },
+        {
+          "serviceId": "smith-wesson-bodyguard-2-0-optic-cut",
+          "kind": "option",
+          "fieldId": "field_8",
+          "optionId": "36"
+        },
+        {
+          "serviceId": "p365-tiger-shark",
+          "kind": "option",
+          "fieldId": "field_5",
+          "optionId": "36"
+        },
+        {
+          "serviceId": "p365-tiger-shark",
+          "kind": "option",
+          "fieldId": "field_7",
+          "optionId": "36"
+        },
+        {
+          "serviceId": "saber-slide-mill",
+          "kind": "option",
+          "fieldId": "field_4",
+          "optionId": "36"
+        },
+        {
+          "serviceId": "saber-slide-mill",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "36"
+        },
+        {
+          "serviceId": "genesis-oem-slide-mill",
+          "kind": "option",
+          "fieldId": "field_4",
+          "optionId": "36"
+        },
+        {
+          "serviceId": "genesis-oem-slide-mill",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "36"
+        },
+        {
+          "serviceId": "slide-only-cerakote",
+          "kind": "option",
+          "fieldId": "field_2",
+          "optionId": "36"
+        },
+        {
+          "serviceId": "slide-only-cerakote",
+          "kind": "option",
+          "fieldId": "field_3",
+          "optionId": "36"
+        },
+        {
+          "serviceId": "frame-only-cerakote",
+          "kind": "option",
+          "fieldId": "field_2",
+          "optionId": "36"
+        },
+        {
+          "serviceId": "frame-only-cerakote",
+          "kind": "option",
+          "fieldId": "field_3",
+          "optionId": "36"
+        },
+        {
+          "serviceId": "pistol-cerakote",
+          "kind": "option",
+          "fieldId": "field_2",
+          "optionId": "36"
+        },
+        {
+          "serviceId": "pistol-cerakote",
+          "kind": "option",
+          "fieldId": "field_3",
+          "optionId": "36"
+        },
+        {
+          "serviceId": "cz-p10c-cut",
+          "kind": "option",
+          "fieldId": "field_5",
+          "optionId": "36"
+        },
+        {
+          "serviceId": "cz-p10c-cut",
+          "kind": "option",
+          "fieldId": "field_7",
+          "optionId": "36"
+        },
+        {
+          "serviceId": "smith-wesson-mp-optic-cut",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "36"
+        },
+        {
+          "serviceId": "smith-wesson-mp-optic-cut",
+          "kind": "option",
+          "fieldId": "field_8",
+          "optionId": "36"
+        },
+        {
+          "serviceId": "sig-p365-optic-cut",
+          "kind": "option",
+          "fieldId": "field_5",
+          "optionId": "36"
+        },
+        {
+          "serviceId": "sig-p365-optic-cut",
+          "kind": "option",
+          "fieldId": "field_7",
+          "optionId": "36"
+        },
+        {
+          "serviceId": "glock-optic-cut-slimline",
+          "kind": "option",
+          "fieldId": "field_4",
+          "optionId": "36"
+        },
+        {
+          "serviceId": "glock-optic-cut-slimline",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "36"
+        },
+        {
+          "serviceId": "glock-optic-cut-full-size",
+          "kind": "option",
+          "fieldId": "field_7",
+          "optionId": "36"
+        },
+        {
+          "serviceId": "glock-optic-cut-full-size",
+          "kind": "option",
+          "fieldId": "field_9",
+          "optionId": "36"
+        }
+      ],
+      "sourceUrls": [
+        "https://defiantmachineworks.com/wp-content/uploads/2026/01/4.png"
+      ],
+      "retainedUses": {
+        "gallery": [
+          "Sig Dark Grey H-210"
+        ],
+        "productDetails": [],
+        "servicePages": [],
+        "stipplingGuide": [],
+        "editorial": [],
+        "archiveAndProvenance": true
+      }
+    },
+    {
+      "image": "/assets/dmw/optimized/ef4d0cc2a00a27.webp",
+      "bytesRetained": 667118,
+      "requestedByConfigurator": false,
+      "priorWizardUses": [
+        {
+          "serviceId": "sig-p365-optic-cut",
+          "kind": "package",
+          "fieldId": null,
+          "optionId": null
+        }
+      ],
+      "sourceUrls": [
+        "https://defiantmachineworks.com/wp-content/uploads/2025/09/IGOPTIC-CUT-POST-3.jpg"
+      ],
+      "retainedUses": {
+        "gallery": [],
+        "productDetails": [
+          "p365-tiger-shark",
+          "sig-p365-optic-cut"
+        ],
+        "servicePages": [],
+        "stipplingGuide": [],
+        "editorial": [],
+        "archiveAndProvenance": true
+      }
+    },
+    {
+      "image": "/assets/dmw/optimized/f0e3c88e877b4c.webp",
+      "bytesRetained": 188856,
+      "requestedByConfigurator": false,
+      "priorWizardUses": [
+        {
+          "serviceId": "bodyguard-2-0-viper-ports",
+          "kind": "option",
+          "fieldId": "field_4",
+          "optionId": "24"
+        },
+        {
+          "serviceId": "glock-crown-lvl-3-stippling-package",
+          "kind": "option",
+          "fieldId": "field_15",
+          "optionId": "6"
+        },
+        {
+          "serviceId": "glock-core-lvl-stippling-package",
+          "kind": "option",
+          "fieldId": "field_15",
+          "optionId": "6"
+        },
+        {
+          "serviceId": "cz-p-07",
+          "kind": "option",
+          "fieldId": "field_10",
+          "optionId": "41"
+        },
+        {
+          "serviceId": "cz-75-series-optic-cut",
+          "kind": "option",
+          "fieldId": "field_10",
+          "optionId": "41"
+        },
+        {
+          "serviceId": "smith-wesson-bodyguard-2-0-optic-cut",
+          "kind": "option",
+          "fieldId": "field_10",
+          "optionId": "41"
+        },
+        {
+          "serviceId": "p365-tiger-shark",
+          "kind": "option",
+          "fieldId": "field_8",
+          "optionId": "41"
+        },
+        {
+          "serviceId": "saber-slide-mill",
+          "kind": "option",
+          "fieldId": "field_8",
+          "optionId": "41"
+        },
+        {
+          "serviceId": "genesis-oem-slide-mill",
+          "kind": "option",
+          "fieldId": "field_8",
+          "optionId": "41"
+        },
+        {
+          "serviceId": "slide-only-cerakote",
+          "kind": "option",
+          "fieldId": "field_4",
+          "optionId": "24"
+        },
+        {
+          "serviceId": "frame-only-cerakote",
+          "kind": "option",
+          "fieldId": "field_4",
+          "optionId": "29"
+        },
+        {
+          "serviceId": "pistol-cerakote",
+          "kind": "option",
+          "fieldId": "field_4",
+          "optionId": "12"
+        },
+        {
+          "serviceId": "cz-p10c-cut",
+          "kind": "option",
+          "fieldId": "field_9",
+          "optionId": "42"
+        },
+        {
+          "serviceId": "smith-wesson-mp-optic-cut",
+          "kind": "option",
+          "fieldId": "field_10",
+          "optionId": "41"
+        },
+        {
+          "serviceId": "sig-p365-optic-cut",
+          "kind": "option",
+          "fieldId": "field_8",
+          "optionId": "41"
+        },
+        {
+          "serviceId": "glock-optic-cut-slimline",
+          "kind": "option",
+          "fieldId": "field_8",
+          "optionId": "41"
+        },
+        {
+          "serviceId": "glock-optic-cut-full-size",
+          "kind": "option",
+          "fieldId": "field_11",
+          "optionId": "43"
+        }
+      ],
+      "sourceUrls": [
+        "https://defiantmachineworks.com/wp-content/uploads/2025/09/6.png"
+      ],
+      "retainedUses": {
+        "gallery": [
+          "Arctic Multicam"
+        ],
+        "productDetails": [],
+        "servicePages": [],
+        "stipplingGuide": [],
+        "editorial": [],
+        "archiveAndProvenance": true
+      }
+    },
+    {
+      "image": "/assets/dmw/optimized/f7405ef8fdcbeb.webp",
+      "bytesRetained": 576124,
+      "requestedByConfigurator": false,
+      "priorWizardUses": [
+        {
+          "serviceId": "smith-wesson-mp-optic-cut",
+          "kind": "package",
+          "fieldId": null,
+          "optionId": null
+        }
+      ],
+      "sourceUrls": [
+        "https://defiantmachineworks.com/wp-content/uploads/2025/09/IGOPTIC-CUT-POST-7.jpg"
+      ],
+      "retainedUses": {
+        "gallery": [],
+        "productDetails": [
+          "smith-wesson-mp-optic-cut"
+        ],
+        "servicePages": [],
+        "stipplingGuide": [],
+        "editorial": [],
+        "archiveAndProvenance": true
+      }
+    },
+    {
+      "image": "/assets/dmw/optimized/f8c62ae6b3e9ba.webp",
+      "bytesRetained": 91048,
+      "requestedByConfigurator": false,
+      "priorWizardUses": [
+        {
+          "serviceId": "springfield-armory-prodigy-stippling-package",
+          "kind": "package",
+          "fieldId": null,
+          "optionId": null
+        }
+      ],
+      "sourceUrls": [
+        "https://defiantmachineworks.com/wp-content/uploads/2025/09/325.00-2.png"
+      ],
+      "retainedUses": {
+        "gallery": [],
+        "productDetails": [
+          "springfield-armory-prodigy-stippling-package"
+        ],
+        "servicePages": [],
+        "stipplingGuide": [],
+        "editorial": [],
+        "archiveAndProvenance": true
+      }
+    },
+    {
+      "image": "/assets/dmw/optimized/fc0efc09bbb1a3.webp",
+      "bytesRetained": 118376,
+      "requestedByConfigurator": false,
+      "priorWizardUses": [
+        {
+          "serviceId": "bodyguard-2-0-viper-ports",
+          "kind": "option",
+          "fieldId": "field_4",
+          "optionId": "31"
+        },
+        {
+          "serviceId": "glock-crown-lvl-3-stippling-package",
+          "kind": "option",
+          "fieldId": "field_15",
+          "optionId": "13"
+        },
+        {
+          "serviceId": "glock-core-lvl-stippling-package",
+          "kind": "option",
+          "fieldId": "field_15",
+          "optionId": "13"
+        },
+        {
+          "serviceId": "cz-p-07",
+          "kind": "option",
+          "fieldId": "field_10",
+          "optionId": "48"
+        },
+        {
+          "serviceId": "cz-75-series-optic-cut",
+          "kind": "option",
+          "fieldId": "field_10",
+          "optionId": "48"
+        },
+        {
+          "serviceId": "smith-wesson-bodyguard-2-0-optic-cut",
+          "kind": "option",
+          "fieldId": "field_10",
+          "optionId": "48"
+        },
+        {
+          "serviceId": "p365-tiger-shark",
+          "kind": "option",
+          "fieldId": "field_8",
+          "optionId": "48"
+        },
+        {
+          "serviceId": "saber-slide-mill",
+          "kind": "option",
+          "fieldId": "field_8",
+          "optionId": "48"
+        },
+        {
+          "serviceId": "genesis-oem-slide-mill",
+          "kind": "option",
+          "fieldId": "field_8",
+          "optionId": "48"
+        },
+        {
+          "serviceId": "slide-only-cerakote",
+          "kind": "option",
+          "fieldId": "field_4",
+          "optionId": "31"
+        },
+        {
+          "serviceId": "frame-only-cerakote",
+          "kind": "option",
+          "fieldId": "field_4",
+          "optionId": "36"
+        },
+        {
+          "serviceId": "pistol-cerakote",
+          "kind": "option",
+          "fieldId": "field_4",
+          "optionId": "19"
+        },
+        {
+          "serviceId": "cz-p10c-cut",
+          "kind": "option",
+          "fieldId": "field_9",
+          "optionId": "49"
+        },
+        {
+          "serviceId": "smith-wesson-mp-optic-cut",
+          "kind": "option",
+          "fieldId": "field_10",
+          "optionId": "48"
+        },
+        {
+          "serviceId": "sig-p365-optic-cut",
+          "kind": "option",
+          "fieldId": "field_8",
+          "optionId": "48"
+        },
+        {
+          "serviceId": "glock-optic-cut-slimline",
+          "kind": "option",
+          "fieldId": "field_8",
+          "optionId": "48"
+        },
+        {
+          "serviceId": "glock-optic-cut-full-size",
+          "kind": "option",
+          "fieldId": "field_11",
+          "optionId": "50"
+        }
+      ],
+      "sourceUrls": [
+        "https://defiantmachineworks.com/wp-content/uploads/2025/09/11.png"
+      ],
+      "retainedUses": {
+        "gallery": [
+          "Tropic Chip"
+        ],
+        "productDetails": [],
+        "servicePages": [],
+        "stipplingGuide": [],
+        "editorial": [],
+        "archiveAndProvenance": true
+      }
+    },
+    {
+      "image": "/assets/dmw/optimized/texture-chainmail.webp",
+      "bytesRetained": 169086,
+      "requestedByConfigurator": false,
+      "priorWizardUses": [
+        {
+          "serviceId": "psa-dagger-stippling-package",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "4"
+        },
+        {
+          "serviceId": "smith-wesson-bodyguard-2-0-stippling-package",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "4"
+        },
+        {
+          "serviceId": "glock-crown-lvl-3-stippling-package",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "4"
+        },
+        {
+          "serviceId": "glock-core-lvl-stippling-package",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "4"
+        },
+        {
+          "serviceId": "glock-base-lvl-stippling-package",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "4"
+        },
+        {
+          "serviceId": "mag-extension-stippling",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "4"
+        },
+        {
+          "serviceId": "sig-sauer-p365-stippling-package-mod-2",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "4"
+        },
+        {
+          "serviceId": "sig-sauer-p365-stippling-package-mod-1",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "4"
+        },
+        {
+          "serviceId": "staccato-stippling-package",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "4"
+        },
+        {
+          "serviceId": "cz-p10c-stippling-package",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "4"
+        },
+        {
+          "serviceId": "sw-mp-stippling-package",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "4"
+        },
+        {
+          "serviceId": "fn-reflex-stippling-package",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "4"
+        },
+        {
+          "serviceId": "springfield-armory-echlon-stippling-package",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "4"
+        },
+        {
+          "serviceId": "springfield-armory-prodigy-stippling-package",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "4"
+        },
+        {
+          "serviceId": "ruger-rxm-stippling-package",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "4"
+        },
+        {
+          "serviceId": "oa-defense-2311-stipple-package",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "4"
+        },
+        {
+          "serviceId": "beretta-px4-stipple-package-2",
+          "kind": "option",
+          "fieldId": "field_2",
+          "optionId": "4"
+        }
+      ],
+      "sourceUrls": [
+        "https://defiantmachineworks.com/wp-content/uploads/2025/10/20.png"
+      ],
+      "retainedUses": {
+        "gallery": [],
+        "productDetails": [],
+        "servicePages": [],
+        "stipplingGuide": [
+          "Chainmail"
+        ],
+        "editorial": [],
+        "archiveAndProvenance": true
+      }
+    },
+    {
+      "image": "/assets/dmw/optimized/texture-cobblestone.webp",
+      "bytesRetained": 119036,
+      "requestedByConfigurator": false,
+      "priorWizardUses": [
+        {
+          "serviceId": "glock-crown-lvl-3-stippling-package",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "5"
+        },
+        {
+          "serviceId": "glock-core-lvl-stippling-package",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "5"
+        },
+        {
+          "serviceId": "glock-base-lvl-stippling-package",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "5"
+        }
+      ],
+      "sourceUrls": [
+        "https://defiantmachineworks.com/wp-content/uploads/2025/10/1.png"
+      ],
+      "retainedUses": {
+        "gallery": [],
+        "productDetails": [],
+        "servicePages": [],
+        "stipplingGuide": [
+          "Cobblestone"
+        ],
+        "editorial": [],
+        "archiveAndProvenance": true
+      }
+    },
+    {
+      "image": "/assets/dmw/optimized/texture-coffin.webp",
+      "bytesRetained": 123726,
+      "requestedByConfigurator": false,
+      "priorWizardUses": [
+        {
+          "serviceId": "psa-dagger-stippling-package",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "3"
+        },
+        {
+          "serviceId": "smith-wesson-bodyguard-2-0-stippling-package",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "3"
+        },
+        {
+          "serviceId": "glock-crown-lvl-3-stippling-package",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "3"
+        },
+        {
+          "serviceId": "glock-core-lvl-stippling-package",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "3"
+        },
+        {
+          "serviceId": "glock-base-lvl-stippling-package",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "3"
+        },
+        {
+          "serviceId": "mag-extension-stippling",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "3"
+        },
+        {
+          "serviceId": "sig-sauer-p365-stippling-package-mod-2",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "3"
+        },
+        {
+          "serviceId": "sig-sauer-p365-stippling-package-mod-1",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "3"
+        },
+        {
+          "serviceId": "staccato-stippling-package",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "3"
+        },
+        {
+          "serviceId": "cz-p10c-stippling-package",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "3"
+        },
+        {
+          "serviceId": "sw-mp-stippling-package",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "3"
+        },
+        {
+          "serviceId": "fn-reflex-stippling-package",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "3"
+        },
+        {
+          "serviceId": "springfield-armory-echlon-stippling-package",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "3"
+        },
+        {
+          "serviceId": "springfield-armory-prodigy-stippling-package",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "3"
+        },
+        {
+          "serviceId": "ruger-rxm-stippling-package",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "3"
+        },
+        {
+          "serviceId": "oa-defense-2311-stipple-package",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "3"
+        },
+        {
+          "serviceId": "beretta-px4-stipple-package-2",
+          "kind": "option",
+          "fieldId": "field_2",
+          "optionId": "3"
+        }
+      ],
+      "sourceUrls": [
+        "https://defiantmachineworks.com/wp-content/uploads/2025/10/2.png"
+      ],
+      "retainedUses": {
+        "gallery": [],
+        "productDetails": [],
+        "servicePages": [],
+        "stipplingGuide": [
+          "Coffin"
+        ],
+        "editorial": [],
+        "archiveAndProvenance": true
+      }
+    },
+    {
+      "image": "/assets/dmw/optimized/texture-gravel.webp",
+      "bytesRetained": 122016,
+      "requestedByConfigurator": false,
+      "priorWizardUses": [
+        {
+          "serviceId": "psa-dagger-stippling-package",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "1"
+        },
+        {
+          "serviceId": "smith-wesson-bodyguard-2-0-stippling-package",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "1"
+        },
+        {
+          "serviceId": "glock-crown-lvl-3-stippling-package",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "1"
+        },
+        {
+          "serviceId": "glock-core-lvl-stippling-package",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "1"
+        },
+        {
+          "serviceId": "glock-base-lvl-stippling-package",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "1"
+        },
+        {
+          "serviceId": "mag-extension-stippling",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "1"
+        },
+        {
+          "serviceId": "sig-sauer-p365-stippling-package-mod-2",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "1"
+        },
+        {
+          "serviceId": "sig-sauer-p365-stippling-package-mod-1",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "1"
+        },
+        {
+          "serviceId": "staccato-stippling-package",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "1"
+        },
+        {
+          "serviceId": "cz-p10c-stippling-package",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "1"
+        },
+        {
+          "serviceId": "sw-mp-stippling-package",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "1"
+        },
+        {
+          "serviceId": "fn-reflex-stippling-package",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "1"
+        },
+        {
+          "serviceId": "springfield-armory-echlon-stippling-package",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "1"
+        },
+        {
+          "serviceId": "springfield-armory-prodigy-stippling-package",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "1"
+        },
+        {
+          "serviceId": "ruger-rxm-stippling-package",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "1"
+        },
+        {
+          "serviceId": "oa-defense-2311-stipple-package",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "1"
+        },
+        {
+          "serviceId": "beretta-px4-stipple-package-2",
+          "kind": "option",
+          "fieldId": "field_2",
+          "optionId": "1"
+        }
+      ],
+      "sourceUrls": [
+        "https://defiantmachineworks.com/wp-content/uploads/2025/10/11.png"
+      ],
+      "retainedUses": {
+        "gallery": [],
+        "productDetails": [],
+        "servicePages": [],
+        "stipplingGuide": [
+          "Gravel"
+        ],
+        "editorial": [],
+        "archiveAndProvenance": true
+      }
+    },
+    {
+      "image": "/assets/dmw/optimized/texture-kevlar.webp",
+      "bytesRetained": 124654,
+      "requestedByConfigurator": false,
+      "priorWizardUses": [
+        {
+          "serviceId": "psa-dagger-stippling-package",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "2"
+        },
+        {
+          "serviceId": "smith-wesson-bodyguard-2-0-stippling-package",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "2"
+        },
+        {
+          "serviceId": "glock-crown-lvl-3-stippling-package",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "2"
+        },
+        {
+          "serviceId": "glock-core-lvl-stippling-package",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "2"
+        },
+        {
+          "serviceId": "glock-base-lvl-stippling-package",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "2"
+        },
+        {
+          "serviceId": "mag-extension-stippling",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "2"
+        },
+        {
+          "serviceId": "sig-sauer-p365-stippling-package-mod-2",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "2"
+        },
+        {
+          "serviceId": "sig-sauer-p365-stippling-package-mod-1",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "2"
+        },
+        {
+          "serviceId": "staccato-stippling-package",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "2"
+        },
+        {
+          "serviceId": "cz-p10c-stippling-package",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "2"
+        },
+        {
+          "serviceId": "sw-mp-stippling-package",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "2"
+        },
+        {
+          "serviceId": "fn-reflex-stippling-package",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "2"
+        },
+        {
+          "serviceId": "springfield-armory-echlon-stippling-package",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "2"
+        },
+        {
+          "serviceId": "springfield-armory-prodigy-stippling-package",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "2"
+        },
+        {
+          "serviceId": "ruger-rxm-stippling-package",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "2"
+        },
+        {
+          "serviceId": "oa-defense-2311-stipple-package",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "2"
+        },
+        {
+          "serviceId": "beretta-px4-stipple-package-2",
+          "kind": "option",
+          "fieldId": "field_2",
+          "optionId": "2"
+        }
+      ],
+      "sourceUrls": [
+        "https://defiantmachineworks.com/wp-content/uploads/2025/10/16.png"
+      ],
+      "retainedUses": {
+        "gallery": [],
+        "productDetails": [],
+        "servicePages": [],
+        "stipplingGuide": [
+          "Kevlar"
+        ],
+        "editorial": [],
+        "archiveAndProvenance": true
+      }
+    },
+    {
+      "image": "/assets/dmw/optimized/texture-rip-n-dots.webp",
+      "bytesRetained": 128338,
+      "requestedByConfigurator": false,
+      "priorWizardUses": [
+        {
+          "serviceId": "psa-dagger-stippling-package",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "6"
+        },
+        {
+          "serviceId": "smith-wesson-bodyguard-2-0-stippling-package",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "5"
+        },
+        {
+          "serviceId": "glock-crown-lvl-3-stippling-package",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "7"
+        },
+        {
+          "serviceId": "glock-core-lvl-stippling-package",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "7"
+        },
+        {
+          "serviceId": "glock-base-lvl-stippling-package",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "6"
+        },
+        {
+          "serviceId": "mag-extension-stippling",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "5"
+        },
+        {
+          "serviceId": "sig-sauer-p365-stippling-package-mod-2",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "6"
+        },
+        {
+          "serviceId": "sig-sauer-p365-stippling-package-mod-1",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "6"
+        },
+        {
+          "serviceId": "staccato-stippling-package",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "6"
+        },
+        {
+          "serviceId": "cz-p10c-stippling-package",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "6"
+        },
+        {
+          "serviceId": "sw-mp-stippling-package",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "6"
+        },
+        {
+          "serviceId": "fn-reflex-stippling-package",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "6"
+        },
+        {
+          "serviceId": "springfield-armory-echlon-stippling-package",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "6"
+        },
+        {
+          "serviceId": "springfield-armory-prodigy-stippling-package",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "6"
+        },
+        {
+          "serviceId": "ruger-rxm-stippling-package",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "6"
+        },
+        {
+          "serviceId": "oa-defense-2311-stipple-package",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "6"
+        }
+      ],
+      "sourceUrls": [
+        "https://defiantmachineworks.com/wp-content/uploads/2025/10/12.png"
+      ],
+      "retainedUses": {
+        "gallery": [],
+        "productDetails": [],
+        "servicePages": [],
+        "stipplingGuide": [
+          "Rip-N-Dots"
+        ],
+        "editorial": [],
+        "archiveAndProvenance": true
+      }
+    },
+    {
+      "image": "/assets/dmw/optimized/texture-tread.webp",
+      "bytesRetained": 153960,
+      "requestedByConfigurator": false,
+      "priorWizardUses": [
+        {
+          "serviceId": "psa-dagger-stippling-package",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "5"
+        },
+        {
+          "serviceId": "smith-wesson-bodyguard-2-0-stippling-package",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "6"
+        },
+        {
+          "serviceId": "glock-crown-lvl-3-stippling-package",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "6"
+        },
+        {
+          "serviceId": "glock-core-lvl-stippling-package",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "6"
+        },
+        {
+          "serviceId": "glock-base-lvl-stippling-package",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "7"
+        },
+        {
+          "serviceId": "mag-extension-stippling",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "6"
+        },
+        {
+          "serviceId": "sig-sauer-p365-stippling-package-mod-2",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "5"
+        },
+        {
+          "serviceId": "sig-sauer-p365-stippling-package-mod-1",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "5"
+        },
+        {
+          "serviceId": "staccato-stippling-package",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "5"
+        },
+        {
+          "serviceId": "cz-p10c-stippling-package",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "5"
+        },
+        {
+          "serviceId": "sw-mp-stippling-package",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "5"
+        },
+        {
+          "serviceId": "fn-reflex-stippling-package",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "5"
+        },
+        {
+          "serviceId": "springfield-armory-echlon-stippling-package",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "5"
+        },
+        {
+          "serviceId": "springfield-armory-prodigy-stippling-package",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "5"
+        },
+        {
+          "serviceId": "ruger-rxm-stippling-package",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "5"
+        },
+        {
+          "serviceId": "oa-defense-2311-stipple-package",
+          "kind": "option",
+          "fieldId": "field_6",
+          "optionId": "5"
+        }
+      ],
+      "sourceUrls": [
+        "https://defiantmachineworks.com/wp-content/uploads/2025/10/3.png"
+      ],
+      "retainedUses": {
+        "gallery": [],
+        "productDetails": [],
+        "servicePages": [],
+        "stipplingGuide": [
+          "Tread"
+        ],
+        "editorial": [],
+        "archiveAndProvenance": true
+      }
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 # Defiant Machine Works
 
-A Next.js rebuild of Defiant’s public website, using its existing identity and work photography. Pass 02 preserves the approved design while adding a grouped build configurator/cart, a separate custom inquiry, provider-agnostic development checkout, and private encrypted order snapshots. Live payment processing remains disabled.
+A Next.js rebuild of Defiant’s public website, using its existing identity and work photography. Pass 04 preserves the approved industrial design, accounts for all 32 current configurable services and corrects the service-purchase journey: grouped builds, cart, customer and billing/return-address review, provider-neutral payment, private test confirmation and post-purchase shipping steps. Custom inquiry stays separate. Live payment remains disabled.
 
 ## Setup
 
@@ -41,9 +41,11 @@ Start a production server before running browser checks:
 
 ```sh
 npm run build
-COMMERCE_MODE=test PAYMENT_PROVIDER=development npm run start -- --hostname 127.0.0.1
-# In another terminal:
-npm test
+COMMERCE_MODE=test PAYMENT_PROVIDER=development npm run start -- --hostname 127.0.0.1 --port 3002
+# In a second terminal, also run the default payment-disabled environment:
+COMMERCE_MODE=disabled PAYMENT_PROVIDER=disabled npm run start -- --hostname 127.0.0.1 --port 3003
+# In a third terminal:
+PLAYWRIGHT_BASE_URL=http://127.0.0.1:3002 npm test
 npm run verify:assets
 npm run qa:visual
 ```
@@ -95,7 +97,7 @@ tests/visual/                Visual captures and inspection results
 ## Updating content
 
 - **Products:** edit `src/data/products.json`. Preserve the `Product` type, `sourceUrl`, category, kind (`product`, `service`, `addon`), current price, regular/sale prices, attributes, local image paths, and `checkoutEnabled: false`. The source API is authoritative for current base prices; do not assume a complete configured service costs only its base price.
-- **Services:** edit `src/data/service-records.json`; package entries live in products. Texture ratings and upcoming porting options live in `src/data/services.ts`. Wizard platform/model suggestions must be updated with confirmed compatible options.
+- **Commerce services:** regenerate and review `src/data/service-matrix.json` through the Pass 04 audit/normalization workflow below. `service-records.json` and `services.ts` supply editorial landing-page content; they do not define checkout prices or compatibility.
 - **Gallery:** edit `src/data/gallery.json`, adding optimized local photography and its original source URL. Preserve finish labels exactly. The 29 Cerakote labels were visually checked against the labels embedded in the original photographs. Other entries classify real stippling, milling, and porting work.
 - **Texture photography:** `src/data/texture-images.json` maps the seven source textures to local optimized examples.
 - **Articles:** edit `src/data/articles.json`. Paragraphs are rendered as text, not unsanitized source HTML. Preserve title/date/author provenance.
@@ -127,7 +129,7 @@ The current price review found an explained regular/sale-price difference for El
 
 Migration scripts regenerate curated data. Preserve editorial changes before rerunning them. Source texture derivative generation is retained in `src/data/texture-images.json`; verify these paths after changing the audit snapshot.
 
-## Pass 02 commerce architecture
+## Pass 02 commerce architecture (historical implementation)
 
 `/customize` configures one platform/component with multiple services, while `/custom-inquiry` retains the separate quote workflow. `/cart` groups services under builds and supports editing, duplication, removal, quantities for merchandise, and browser persistence. The header exposes cart access without a diagonal-arrow badge.
 
@@ -146,7 +148,7 @@ COMMERCE_MODE=test PAYMENT_PROVIDER=development npm run start -- --hostname 127.
 
 The UI prominently labels development checkout. Use test contact and return-address details. Choose Approved or Declined to exercise the adapter. No card/bank fields, charge, carrier label, shipment, business order, or production status is created. Missing shipping/tax calculations stay explicitly uncalculated; the amount is a subtotal, not a final payable total. With the flags absent, checkout explains that ordering must be arranged with Defiant, and the order endpoint returns 503.
 
-`npm test` expects the explicitly enabled test server above. The regression suite covers the presentation routes, custom inquiry, service preselection, single/multiple-service builds, two builds, merchandise, edit/duplicate/remove, persistence, compatibility and coming-soon restrictions, checkout validation/back navigation, payment failure/retry, idempotency, private confirmations, and mobile/Axe checks.
+`npm test` now expects both servers listed in the Tests section above; the current suite verifies the payment-disabled environment separately. The regression suite covers the presentation routes, custom inquiry, service preselection, single/multiple-service builds, two builds, merchandise, edit/duplicate/remove, persistence, compatibility and coming-soon restrictions, checkout validation/back navigation, payment failure/retry, idempotency, private confirmations, and mobile/Axe checks.
 
 ### Payment boundary
 
@@ -158,17 +160,62 @@ The UI prominently labels development checkout. Use test contact and return-addr
 
 Snapshots containing contact/address information are encrypted with AES-256-GCM. For the test adapter only, a private random key is generated at `.data/development-order.key`; `.data/orders.sqlite` is the default database. Both are ignored by Git and excluded from server output tracing. Set `ORDER_DATABASE_PATH` to the private persistent host path. A configured `ORDER_ENCRYPTION_KEY` must contain 64 hex characters. Preserve the key with the database: losing it makes snapshots unreadable. Protect backups and define an owner-approved retention/deletion policy before handling real customer data.
 
-Confirmations require the matching HttpOnly same-site session cookie. Knowing an order number does not reveal its contents. Checkout fields remain in React memory and are not saved to localStorage. Cart clearing removes only the purchased item IDs after successful persistence/payment simulation.
+The following paragraphs describe the original Pass 02 implementation; the current implementation tightens the local repository to test mode only. Confirmations require the matching HttpOnly same-site session cookie. Knowing an order number does not reveal its contents. Checkout fields remain in React memory and are not saved to localStorage. Cart clearing removes only the purchased item IDs after successful persistence/payment simulation.
 
 [Node 22 SQLite documentation](https://nodejs.org/docs/latest-v22.x/api/sqlite.html) describes the built-in module, which is experimental on the tested Node 22 runtime. The repository requires a writable persistent Node host. For serverless/multi-instance deployment, replace the repository with a shared database and provision shared rate limits; do not rely on an ephemeral SQLite file. Payment success/failure UI is not a substitute for production provider/webhook certification.
 
-## Pass 02 visual refinements
+## Pass 02 visual refinements (historical implementation)
 
 The hero keeps the original photo, with a right-side desktop frame and local focal positioning. Mobile gives the photograph its own reading position so text does not conceal the subject. The existing typography, colors, spacing philosophy, service photography, and section compositions remain intact.
 
 Large diagonal SVG arrows are opt-in signature CTAs, not default decoration on every link. Dropdowns, cards, text links, utility actions and footer links no longer repeat them. Disclosure, cart, and proof symbols use one small SVG system; proof icons share 44px optical frames. The About hero now reads “Experience in the craft. Precision in every detail.”
 
 `node scripts/pass02-visual.mjs` captures the hero at 1728, 1440, 1280, 1024, 768, 430, 390 and 375, plus desktop/mobile page captures under `tests/visual/pass-02/`. These screenshots are local QA artifacts.
+
+## Pass 04 — complete catalog and configuration
+
+The superseding Pass 04 brief is implemented in the existing site. The fresh public GET audit retained 63 Store API records and 79 public pages. The canonical typed matrix accounts for all 32 configurable services, 180 package-specific fields, 23 legacy add-on/reference records, eight Coming Soon porting entries and five cartable sticker products. See [the audit](source-audit/PASS_03_AUDIT.md) and [service coverage](source-audit/SERVICE_COVERAGE.md). Requested artifact filenames retain `pass-03`; the earlier targeted refinement record is archived separately.
+
+`src/data/service-matrix.json` is the runtime catalog. Its Zod schema, stable manufacturer/model/variant/option IDs, conditional fields and verified integer-cent deltas drive both the browser and server. `service-configuration.ts` validates package choices; `build-rules.ts` normalizes dependencies and overlapping scopes; `pricing.ts` independently quotes the canonical result. All 32 services have deterministic complete fixtures and source-field/option parity checks. Source ambiguity stays review-only: P-07/75 Series copy, the duplicate M&P RMR option and unbound legacy add-on prerequisites. A missing implementation is not used to mark an entire service family review-only.
+
+Texture, finish and package selectors use optimized local Defiant photographs with source provenance. Unphotographed source options remain selectable text cards explicitly identified as lacking a published photograph. Only the selected service exposes its details. Native radios/selects provide keyboard operation, visible selection and associated required-field errors. Texture selection leads stippling details; smaller binary treatments remain compact.
+
+Milling owns its published slide-refinishing menu. Core/Crown frame-coating upgrades replace the equivalent standalone frame service. Complete-pistol coating absorbs component duplicates or becomes only the remaining standalone scope when a selected package owns another scope. Viper/Bodyguard optic work uses the explicit shared-coating source option. Equivalent legacy add-ons map into package choices; uncertain legacy work is excluded from the payable subtotal and needs review. Changes are announced and the price breakdown distinguishes base, included choices and paid deltas. The reported Glock 17 / C Series / Keep Factory / Midnight Chocolate Chip combination totals $285 once, regardless of service selection order.
+
+Cart payloads use schema version 3 and a catalog revision under `dmw-cart-v3`. Supported `dmw-cart-v2` builds migrate with explicit current-price review; incompatible or damaged records are retired with a message. A stale catalog revision blocks checkout until accepted or corrected. The server rejects stale revisions and tampered totals. Contact/address data remains in memory and encrypted private test-order snapshots, never browser storage.
+
+Standard source-complete configurations proceed through customer details, billing, return address, final review, provider boundary and private confirmation. Custom work uses `/custom-inquiry`. Default payment remains disabled; both `COMMERCE_MODE=test` and `PAYMENT_PROVIDER=development` are required for local test orders. The test adapter never charges, books service work or sends shipping email. Confirmation records the post-order shipping-instruction sequence honestly, and `OrderCommunicationProvider` supplies unconfigured confirmation/shipping/status boundaries.
+
+Rebuild and run both local servers using the commands above, then:
+
+```sh
+PLAYWRIGHT_BASE_URL=http://127.0.0.1:3002 npm test
+npm run verify:assets
+npm audit --omit=dev
+npm audit
+```
+
+The full suite includes domain tests, browser workflows, Axe checks and the responsive visual matrix. Run `PLAYWRIGHT_BASE_URL=http://127.0.0.1:3002 node scripts/pass04-mobile-a11y.mjs` for the additional populated mobile-checkout audits, then `node scripts/pass04-handoff.mjs` to regenerate the handoff from passing results. Captures are written to `tests/visual/pass-04/`; [the visual review index](source-audit/PASS_04_VISUAL_REVIEW.md) links the generated images. Use `PLAYWRIGHT_DISABLED_URL` to change the default disabled server on port 3003. Port 3002 keeps QA separate from an existing development server on port 3000.
+
+To refresh source data, run `node scripts/audit-service-matrix.mjs` (public read-only network access), inspect the findings, then `node scripts/normalize-service-matrix.mjs`. Normalization updates both matrix copies and the lightweight catalog-version module. Review source compatibility mappings and documented aliases before accepting a changed extraction. Tests use retained data and never depend on live site availability.
+
+Production requires an approved payment adapter with server confirmation, provider transaction IDs, verified webhooks, idempotency and reconciliation; reviewed pricing/compatibility, shipping and tax; actual order email delivery and fulfillment procedures; shared durable storage and abuse controls; key custody, backup/restore and retention/deletion; legal approval and production-host/manual accessibility verification. Local SQLite is test-only on every host. No deployment or live provider connection is included.
+
+## Pass 05 — current configurator presentation
+
+Service/package, texture and finish choices now use consistent text-first controls. Each service section has one supporting Gallery link opening a new tab, with the original build state preserved. Gallery URL filtering uses the existing category labels through `service=Stippling`, `service=Slide+Milling`, `service=Cerakote` or `service=Porting`; the existing `finish` search still works. Domain data, catalog revision, prices, overlap rules, cart schema and checkout are unchanged. The image-based presentation described in the historical Pass 04 section above is superseded by this pass.
+
+[Pass 05 verification](source-audit/pass-05-verification.json), [visual review](source-audit/PASS_05_VISUAL_REVIEW.md) and [retained asset report](source-audit/PASS_05_ASSETS.md) record the current checks. The existing service coverage report remains unchanged at 32/32 services.
+
+To preserve historical Pass 04 captures while running fresh regression QA:
+
+```sh
+PLAYWRIGHT_BASE_URL=http://127.0.0.1:3002 VISUAL_OUTPUT_DIR=tests/visual/pass-05/regression npm test
+PLAYWRIGHT_BASE_URL=http://127.0.0.1:3002 VISUAL_OUTPUT_DIR=tests/visual/pass-05/regression AUDIT_OUTPUT_DIR=source-audit/pass-05 node scripts/pass04-mobile-a11y.mjs
+node scripts/pass05-handoff.mjs
+```
+
+The full suite still expects the local test and payment-disabled servers described above. Screenshots under `tests/visual/pass-05/` cover the requested text-configurator and filtered-Gallery views. No image assets or provenance data were deleted, and no live payment or deployment was configured.
 
 ## Pre-launch checklist
 
@@ -194,4 +241,5 @@ Large diagonal SVG arrows are opt-in signature CTAs, not default decoration on e
 - [ ] Verify full service-option prices, combined-work compatibility, tax, shipping, fulfillment, backups and retention.
 - [ ] Provision a shared database/rate limiter for a serverless or multi-instance host.
 - [ ] Keep development checkout disabled on the public production site.
+
 # defiant-machine-works-site-v1

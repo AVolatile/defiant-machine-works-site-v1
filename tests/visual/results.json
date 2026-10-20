@@ -1,0 +1,899 @@
+[
+  {
+    "width": 375,
+    "route": "/",
+    "file": "tests/visual/screenshots/375-home.png",
+    "overflow": false,
+    "brokenImages": [],
+    "fonts": [
+      {
+        "name": "Oswald",
+        "status": "loaded"
+      },
+      {
+        "name": "Heebo",
+        "status": "loaded"
+      }
+    ]
+  },
+  {
+    "width": 375,
+    "route": "/services",
+    "file": "tests/visual/screenshots/375-services.png",
+    "overflow": false,
+    "brokenImages": [],
+    "fonts": [
+      {
+        "name": "Oswald",
+        "status": "loaded"
+      },
+      {
+        "name": "Heebo",
+        "status": "loaded"
+      }
+    ]
+  },
+  {
+    "width": 375,
+    "route": "/stippling",
+    "file": "tests/visual/screenshots/375-stippling.png",
+    "overflow": false,
+    "brokenImages": [],
+    "fonts": [
+      {
+        "name": "Oswald",
+        "status": "loaded"
+      },
+      {
+        "name": "Heebo",
+        "status": "loaded"
+      }
+    ]
+  },
+  {
+    "width": 375,
+    "route": "/slide-milling",
+    "file": "tests/visual/screenshots/375-slide-milling.png",
+    "overflow": false,
+    "brokenImages": [],
+    "fonts": [
+      {
+        "name": "Oswald",
+        "status": "loaded"
+      },
+      {
+        "name": "Heebo",
+        "status": "loaded"
+      }
+    ]
+  },
+  {
+    "width": 375,
+    "route": "/cerakote",
+    "file": "tests/visual/screenshots/375-cerakote.png",
+    "overflow": false,
+    "brokenImages": [],
+    "fonts": [
+      {
+        "name": "Oswald",
+        "status": "loaded"
+      },
+      {
+        "name": "Heebo",
+        "status": "loaded"
+      }
+    ]
+  },
+  {
+    "width": 375,
+    "route": "/porting",
+    "file": "tests/visual/screenshots/375-porting.png",
+    "overflow": false,
+    "brokenImages": [],
+    "fonts": [
+      {
+        "name": "Oswald",
+        "status": "loaded"
+      },
+      {
+        "name": "Heebo",
+        "status": "loaded"
+      }
+    ]
+  },
+  {
+    "width": 375,
+    "route": "/gallery",
+    "file": "tests/visual/screenshots/375-gallery.png",
+    "overflow": false,
+    "brokenImages": [],
+    "fonts": [
+      {
+        "name": "Oswald",
+        "status": "loaded"
+      },
+      {
+        "name": "Heebo",
+        "status": "loaded"
+      }
+    ]
+  },
+  {
+    "width": 375,
+    "route": "/products",
+    "file": "tests/visual/screenshots/375-products.png",
+    "overflow": false,
+    "brokenImages": [],
+    "fonts": [
+      {
+        "name": "Oswald",
+        "status": "loaded"
+      },
+      {
+        "name": "Heebo",
+        "status": "loaded"
+      }
+    ]
+  },
+  {
+    "width": 375,
+    "route": "/products/pistol-cerakote",
+    "file": "tests/visual/screenshots/375-products-pistol-cerakote.png",
+    "overflow": false,
+    "brokenImages": [],
+    "fonts": [
+      {
+        "name": "Oswald",
+        "status": "loaded"
+      },
+      {
+        "name": "Heebo",
+        "status": "loaded"
+      }
+    ]
+  },
+  {
+    "width": 375,
+    "route": "/customize",
+    "file": "tests/visual/screenshots/375-customize.png",
+    "overflow": false,
+    "brokenImages": [],
+    "fonts": [
+      {
+        "name": "Oswald",
+        "status": "loaded"
+      },
+      {
+        "name": "Heebo",
+        "status": "loaded"
+      }
+    ]
+  },
+  {
+    "width": 375,
+    "route": "/resources",
+    "file": "tests/visual/screenshots/375-resources.png",
+    "overflow": false,
+    "brokenImages": [],
+    "fonts": [
+      {
+        "name": "Oswald",
+        "status": "loaded"
+      },
+      {
+        "name": "Heebo",
+        "status": "loaded"
+      }
+    ]
+  },
+  {
+    "width": 375,
+    "route": "/blog/unlocking-the-power-of-cerakote-what-is-cerakote-and-why-you-should-choose-it",
+    "file": "tests/visual/screenshots/375-blog-unlocking-the-power-of-cerakote-what-is-cerakote-and-why-you-should-choose-it.png",
+    "overflow": false,
+    "brokenImages": [],
+    "fonts": [
+      {
+        "name": "Oswald",
+        "status": "loaded"
+      },
+      {
+        "name": "Heebo",
+        "status": "loaded"
+      }
+    ]
+  },
+  {
+    "width": 375,
+    "route": "/about",
+    "file": "tests/visual/screenshots/375-about.png",
+    "overflow": false,
+    "brokenImages": [],
+    "fonts": [
+      {
+        "name": "Oswald",
+        "status": "loaded"
+      },
+      {
+        "name": "Heebo",
+        "status": "loaded"
+      }
+    ]
+  },
+  {
+    "width": 375,
+    "route": "/contact",
+    "file": "tests/visual/screenshots/375-contact.png",
+    "overflow": false,
+    "brokenImages": [],
+    "fonts": [
+      {
+        "name": "Oswald",
+        "status": "loaded"
+      },
+      {
+        "name": "Heebo",
+        "status": "loaded"
+      }
+    ]
+  },
+  {
+    "width": 375,
+    "route": "/shipping",
+    "file": "tests/visual/screenshots/375-shipping.png",
+    "overflow": false,
+    "brokenImages": [],
+    "fonts": [
+      {
+        "name": "Oswald",
+        "status": "loaded"
+      },
+      {
+        "name": "Heebo",
+        "status": "loaded"
+      }
+    ]
+  },
+  {
+    "width": 375,
+    "route": "/warranty",
+    "file": "tests/visual/screenshots/375-warranty.png",
+    "overflow": false,
+    "brokenImages": [],
+    "fonts": [
+      {
+        "name": "Oswald",
+        "status": "loaded"
+      },
+      {
+        "name": "Heebo",
+        "status": "loaded"
+      }
+    ]
+  },
+  {
+    "width": 375,
+    "route": "/faq",
+    "file": "tests/visual/screenshots/375-faq.png",
+    "overflow": false,
+    "brokenImages": [],
+    "fonts": [
+      {
+        "name": "Oswald",
+        "status": "loaded"
+      },
+      {
+        "name": "Heebo",
+        "status": "loaded"
+      }
+    ]
+  },
+  {
+    "width": 375,
+    "route": "/blog",
+    "file": "tests/visual/screenshots/375-blog.png",
+    "overflow": false,
+    "brokenImages": [],
+    "fonts": [
+      {
+        "name": "Oswald",
+        "status": "loaded"
+      },
+      {
+        "name": "Heebo",
+        "status": "loaded"
+      }
+    ]
+  },
+  {
+    "width": 375,
+    "route": "/privacy",
+    "file": "tests/visual/screenshots/375-privacy.png",
+    "overflow": false,
+    "brokenImages": [],
+    "fonts": [
+      {
+        "name": "Oswald",
+        "status": "loaded"
+      },
+      {
+        "name": "Heebo",
+        "status": "loaded"
+      }
+    ]
+  },
+  {
+    "width": 375,
+    "route": "/terms",
+    "file": "tests/visual/screenshots/375-terms.png",
+    "overflow": false,
+    "brokenImages": [],
+    "fonts": [
+      {
+        "name": "Oswald",
+        "status": "loaded"
+      },
+      {
+        "name": "Heebo",
+        "status": "loaded"
+      }
+    ]
+  },
+  {
+    "width": 375,
+    "route": "/cookies",
+    "file": "tests/visual/screenshots/375-cookies.png",
+    "overflow": false,
+    "brokenImages": [],
+    "fonts": [
+      {
+        "name": "Oswald",
+        "status": "loaded"
+      },
+      {
+        "name": "Heebo",
+        "status": "loaded"
+      }
+    ]
+  },
+  {
+    "width": 375,
+    "route": "/accessibility",
+    "file": "tests/visual/screenshots/375-accessibility.png",
+    "overflow": false,
+    "brokenImages": [],
+    "fonts": [
+      {
+        "name": "Oswald",
+        "status": "loaded"
+      },
+      {
+        "name": "Heebo",
+        "status": "loaded"
+      }
+    ]
+  },
+  {
+    "width": 375,
+    "route": "/resources/stippling-guide",
+    "file": "tests/visual/screenshots/375-resources-stippling-guide.png",
+    "overflow": false,
+    "brokenImages": [],
+    "fonts": [
+      {
+        "name": "Oswald",
+        "status": "loaded"
+      },
+      {
+        "name": "Heebo",
+        "status": "loaded"
+      }
+    ]
+  },
+  {
+    "width": 1440,
+    "route": "/",
+    "file": "tests/visual/screenshots/1440-home.png",
+    "overflow": false,
+    "brokenImages": [],
+    "fonts": [
+      {
+        "name": "Oswald",
+        "status": "loaded"
+      },
+      {
+        "name": "Heebo",
+        "status": "loaded"
+      }
+    ]
+  },
+  {
+    "width": 1440,
+    "route": "/services",
+    "file": "tests/visual/screenshots/1440-services.png",
+    "overflow": false,
+    "brokenImages": [],
+    "fonts": [
+      {
+        "name": "Oswald",
+        "status": "loaded"
+      },
+      {
+        "name": "Heebo",
+        "status": "loaded"
+      }
+    ]
+  },
+  {
+    "width": 1440,
+    "route": "/stippling",
+    "file": "tests/visual/screenshots/1440-stippling.png",
+    "overflow": false,
+    "brokenImages": [],
+    "fonts": [
+      {
+        "name": "Oswald",
+        "status": "loaded"
+      },
+      {
+        "name": "Heebo",
+        "status": "loaded"
+      }
+    ]
+  },
+  {
+    "width": 1440,
+    "route": "/slide-milling",
+    "file": "tests/visual/screenshots/1440-slide-milling.png",
+    "overflow": false,
+    "brokenImages": [],
+    "fonts": [
+      {
+        "name": "Oswald",
+        "status": "loaded"
+      },
+      {
+        "name": "Heebo",
+        "status": "loaded"
+      }
+    ]
+  },
+  {
+    "width": 1440,
+    "route": "/cerakote",
+    "file": "tests/visual/screenshots/1440-cerakote.png",
+    "overflow": false,
+    "brokenImages": [],
+    "fonts": [
+      {
+        "name": "Oswald",
+        "status": "loaded"
+      },
+      {
+        "name": "Heebo",
+        "status": "loaded"
+      }
+    ]
+  },
+  {
+    "width": 1440,
+    "route": "/porting",
+    "file": "tests/visual/screenshots/1440-porting.png",
+    "overflow": false,
+    "brokenImages": [],
+    "fonts": [
+      {
+        "name": "Oswald",
+        "status": "loaded"
+      },
+      {
+        "name": "Heebo",
+        "status": "loaded"
+      }
+    ]
+  },
+  {
+    "width": 1440,
+    "route": "/gallery",
+    "file": "tests/visual/screenshots/1440-gallery.png",
+    "overflow": false,
+    "brokenImages": [],
+    "fonts": [
+      {
+        "name": "Oswald",
+        "status": "loaded"
+      },
+      {
+        "name": "Heebo",
+        "status": "loaded"
+      }
+    ]
+  },
+  {
+    "width": 1440,
+    "route": "/products",
+    "file": "tests/visual/screenshots/1440-products.png",
+    "overflow": false,
+    "brokenImages": [],
+    "fonts": [
+      {
+        "name": "Oswald",
+        "status": "loaded"
+      },
+      {
+        "name": "Heebo",
+        "status": "loaded"
+      }
+    ]
+  },
+  {
+    "width": 1440,
+    "route": "/products/pistol-cerakote",
+    "file": "tests/visual/screenshots/1440-products-pistol-cerakote.png",
+    "overflow": false,
+    "brokenImages": [],
+    "fonts": [
+      {
+        "name": "Oswald",
+        "status": "loaded"
+      },
+      {
+        "name": "Heebo",
+        "status": "loaded"
+      }
+    ]
+  },
+  {
+    "width": 1440,
+    "route": "/customize",
+    "file": "tests/visual/screenshots/1440-customize.png",
+    "overflow": false,
+    "brokenImages": [],
+    "fonts": [
+      {
+        "name": "Oswald",
+        "status": "loaded"
+      },
+      {
+        "name": "Heebo",
+        "status": "loaded"
+      }
+    ]
+  },
+  {
+    "width": 1440,
+    "route": "/resources",
+    "file": "tests/visual/screenshots/1440-resources.png",
+    "overflow": false,
+    "brokenImages": [],
+    "fonts": [
+      {
+        "name": "Oswald",
+        "status": "loaded"
+      },
+      {
+        "name": "Heebo",
+        "status": "loaded"
+      }
+    ]
+  },
+  {
+    "width": 1440,
+    "route": "/blog/unlocking-the-power-of-cerakote-what-is-cerakote-and-why-you-should-choose-it",
+    "file": "tests/visual/screenshots/1440-blog-unlocking-the-power-of-cerakote-what-is-cerakote-and-why-you-should-choose-it.png",
+    "overflow": false,
+    "brokenImages": [],
+    "fonts": [
+      {
+        "name": "Oswald",
+        "status": "loaded"
+      },
+      {
+        "name": "Heebo",
+        "status": "loaded"
+      }
+    ]
+  },
+  {
+    "width": 1440,
+    "route": "/about",
+    "file": "tests/visual/screenshots/1440-about.png",
+    "overflow": false,
+    "brokenImages": [],
+    "fonts": [
+      {
+        "name": "Oswald",
+        "status": "loaded"
+      },
+      {
+        "name": "Heebo",
+        "status": "loaded"
+      }
+    ]
+  },
+  {
+    "width": 1440,
+    "route": "/contact",
+    "file": "tests/visual/screenshots/1440-contact.png",
+    "overflow": false,
+    "brokenImages": [],
+    "fonts": [
+      {
+        "name": "Oswald",
+        "status": "loaded"
+      },
+      {
+        "name": "Heebo",
+        "status": "loaded"
+      }
+    ]
+  },
+  {
+    "width": 1440,
+    "route": "/shipping",
+    "file": "tests/visual/screenshots/1440-shipping.png",
+    "overflow": false,
+    "brokenImages": [],
+    "fonts": [
+      {
+        "name": "Oswald",
+        "status": "loaded"
+      },
+      {
+        "name": "Heebo",
+        "status": "loaded"
+      }
+    ]
+  },
+  {
+    "width": 1440,
+    "route": "/warranty",
+    "file": "tests/visual/screenshots/1440-warranty.png",
+    "overflow": false,
+    "brokenImages": [],
+    "fonts": [
+      {
+        "name": "Oswald",
+        "status": "loaded"
+      },
+      {
+        "name": "Heebo",
+        "status": "loaded"
+      }
+    ]
+  },
+  {
+    "width": 1440,
+    "route": "/faq",
+    "file": "tests/visual/screenshots/1440-faq.png",
+    "overflow": false,
+    "brokenImages": [],
+    "fonts": [
+      {
+        "name": "Oswald",
+        "status": "loaded"
+      },
+      {
+        "name": "Heebo",
+        "status": "loaded"
+      }
+    ]
+  },
+  {
+    "width": 1440,
+    "route": "/blog",
+    "file": "tests/visual/screenshots/1440-blog.png",
+    "overflow": false,
+    "brokenImages": [],
+    "fonts": [
+      {
+        "name": "Oswald",
+        "status": "loaded"
+      },
+      {
+        "name": "Heebo",
+        "status": "loaded"
+      }
+    ]
+  },
+  {
+    "width": 1440,
+    "route": "/privacy",
+    "file": "tests/visual/screenshots/1440-privacy.png",
+    "overflow": false,
+    "brokenImages": [],
+    "fonts": [
+      {
+        "name": "Oswald",
+        "status": "loaded"
+      },
+      {
+        "name": "Heebo",
+        "status": "loaded"
+      }
+    ]
+  },
+  {
+    "width": 1440,
+    "route": "/terms",
+    "file": "tests/visual/screenshots/1440-terms.png",
+    "overflow": false,
+    "brokenImages": [],
+    "fonts": [
+      {
+        "name": "Oswald",
+        "status": "loaded"
+      },
+      {
+        "name": "Heebo",
+        "status": "loaded"
+      }
+    ]
+  },
+  {
+    "width": 1440,
+    "route": "/cookies",
+    "file": "tests/visual/screenshots/1440-cookies.png",
+    "overflow": false,
+    "brokenImages": [],
+    "fonts": [
+      {
+        "name": "Oswald",
+        "status": "loaded"
+      },
+      {
+        "name": "Heebo",
+        "status": "loaded"
+      }
+    ]
+  },
+  {
+    "width": 1440,
+    "route": "/accessibility",
+    "file": "tests/visual/screenshots/1440-accessibility.png",
+    "overflow": false,
+    "brokenImages": [],
+    "fonts": [
+      {
+        "name": "Oswald",
+        "status": "loaded"
+      },
+      {
+        "name": "Heebo",
+        "status": "loaded"
+      }
+    ]
+  },
+  {
+    "width": 1440,
+    "route": "/resources/stippling-guide",
+    "file": "tests/visual/screenshots/1440-resources-stippling-guide.png",
+    "overflow": false,
+    "brokenImages": [],
+    "fonts": [
+      {
+        "name": "Oswald",
+        "status": "loaded"
+      },
+      {
+        "name": "Heebo",
+        "status": "loaded"
+      }
+    ]
+  },
+  {
+    "width": 320,
+    "route": "/",
+    "overflow": false
+  },
+  {
+    "width": 320,
+    "route": "/services",
+    "overflow": false
+  },
+  {
+    "width": 320,
+    "route": "/stippling",
+    "overflow": false
+  },
+  {
+    "width": 320,
+    "route": "/slide-milling",
+    "overflow": false
+  },
+  {
+    "width": 320,
+    "route": "/cerakote",
+    "overflow": false
+  },
+  {
+    "width": 320,
+    "route": "/porting",
+    "overflow": false
+  },
+  {
+    "width": 320,
+    "route": "/gallery",
+    "overflow": false
+  },
+  {
+    "width": 320,
+    "route": "/products",
+    "overflow": false
+  },
+  {
+    "width": 320,
+    "route": "/products/pistol-cerakote",
+    "overflow": false
+  },
+  {
+    "width": 320,
+    "route": "/customize",
+    "overflow": false
+  },
+  {
+    "width": 320,
+    "route": "/resources",
+    "overflow": false
+  },
+  {
+    "width": 320,
+    "route": "/blog/unlocking-the-power-of-cerakote-what-is-cerakote-and-why-you-should-choose-it",
+    "overflow": false
+  },
+  {
+    "width": 320,
+    "route": "/about",
+    "overflow": false
+  },
+  {
+    "width": 320,
+    "route": "/contact",
+    "overflow": false
+  },
+  {
+    "width": 320,
+    "route": "/shipping",
+    "overflow": false
+  },
+  {
+    "width": 320,
+    "route": "/warranty",
+    "overflow": false
+  },
+  {
+    "width": 320,
+    "route": "/faq",
+    "overflow": false
+  },
+  {
+    "width": 320,
+    "route": "/blog",
+    "overflow": false
+  },
+  {
+    "width": 320,
+    "route": "/privacy",
+    "overflow": false
+  },
+  {
+    "width": 320,
+    "route": "/terms",
+    "overflow": false
+  },
+  {
+    "width": 320,
+    "route": "/cookies",
+    "overflow": false
+  },
+  {
+    "width": 320,
+    "route": "/accessibility",
+    "overflow": false
+  },
+  {
+    "width": 320,
+    "route": "/resources/stippling-guide",
+    "overflow": false
+  }
+]

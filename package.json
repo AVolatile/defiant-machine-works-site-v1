@@ -1,0 +1,39 @@
+{
+  "name": "defiant-machine-works",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "format": "prettier --write src scripts tests *.json *.md",
+    "audit:source": "node scripts/source-audit.mjs",
+    "test": "playwright test",
+    "verify:assets": "node scripts/verify-assets.mjs",
+    "audit:reconcile": "node scripts/reconcile-source.mjs",
+    "qa:visual": "node scripts/visual-qa.mjs",
+    "content:migrate": "node scripts/migrate-content.mjs",
+    "qa:pass02": "node scripts/pass02-visual.mjs"
+  },
+  "dependencies": {
+    "next": "16.4.2",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "zod": "4.6.7"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "4.14.0",
+    "@playwright/test": "1.64.1",
+    "@types/node": "26.6.5",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "cheerio": "1.2.0",
+    "eslint": "9.39.5",
+    "eslint-config-next": "16.4.2",
+    "prettier": "3.9.10",
+    "sharp": "0.35.5",
+    "typescript": "6.0.3"
+  }
+}

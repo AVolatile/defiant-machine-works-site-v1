@@ -1,0 +1,737 @@
+{
+  "stats": {
+    "startTime": "2026-10-19T21:31:40.436Z",
+    "duration": 84239.507,
+    "expected": 145,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "specs": [
+    {
+      "file": "accessibility/a11y.spec.ts",
+      "title": "WCAG 2.2 AA automated audit: /",
+      "passed": true
+    },
+    {
+      "file": "accessibility/a11y.spec.ts",
+      "title": "WCAG 2.2 AA automated audit: /stippling",
+      "passed": true
+    },
+    {
+      "file": "accessibility/a11y.spec.ts",
+      "title": "WCAG 2.2 AA automated audit: /gallery",
+      "passed": true
+    },
+    {
+      "file": "accessibility/a11y.spec.ts",
+      "title": "WCAG 2.2 AA automated audit: /products/pistol-cerakote",
+      "passed": true
+    },
+    {
+      "file": "accessibility/a11y.spec.ts",
+      "title": "WCAG 2.2 AA automated audit: /customize",
+      "passed": true
+    },
+    {
+      "file": "accessibility/a11y.spec.ts",
+      "title": "WCAG 2.2 AA automated audit: /custom-inquiry",
+      "passed": true
+    },
+    {
+      "file": "accessibility/a11y.spec.ts",
+      "title": "WCAG 2.2 AA automated audit: /cart",
+      "passed": true
+    },
+    {
+      "file": "accessibility/a11y.spec.ts",
+      "title": "WCAG 2.2 AA automated audit: /checkout",
+      "passed": true
+    },
+    {
+      "file": "accessibility/a11y.spec.ts",
+      "title": "WCAG 2.2 AA automated audit: /contact",
+      "passed": true
+    },
+    {
+      "file": "accessibility/a11y.spec.ts",
+      "title": "mobile menu and gallery modal accessibility",
+      "passed": true
+    },
+    {
+      "file": "e2e/commerce.spec.ts",
+      "title": "cart groups multiple builds and merchandise; edit, duplicate, remove and persistence remain intact",
+      "passed": true
+    },
+    {
+      "file": "e2e/commerce.spec.ts",
+      "title": "customer and address validation, back navigation, decline/retry, private confirmation and frozen optic choices",
+      "passed": true
+    },
+    {
+      "file": "e2e/commerce.spec.ts",
+      "title": "server rejects tampered totals, stale catalog, bad fields, cross-site requests, duplicate mismatches and unapproved items",
+      "passed": true
+    },
+    {
+      "file": "e2e/commerce.spec.ts",
+      "title": "separate return address is validated and kept in memory through review",
+      "passed": true
+    },
+    {
+      "file": "e2e/commerce.spec.ts",
+      "title": "rapid duplicate clicks make one request and server failure retains progress",
+      "passed": true
+    },
+    {
+      "file": "e2e/commerce.spec.ts",
+      "title": "actual source conflict remains a review path and cannot produce a successful order",
+      "passed": true
+    },
+    {
+      "file": "e2e/commerce.spec.ts",
+      "title": "provider and communication boundaries remain honest when absent or failed",
+      "passed": true
+    },
+    {
+      "file": "e2e/commerce.spec.ts",
+      "title": "confirmed cart reaches customer, billing and final review without a quote fallback",
+      "passed": true
+    },
+    {
+      "file": "e2e/pass04.spec.ts",
+      "title": "visual service choices persist to cart and checkout: glock-core-lvl-stippling-package",
+      "passed": true
+    },
+    {
+      "file": "e2e/pass04.spec.ts",
+      "title": "visual service choices persist to cart and checkout: beretta-px4-stipple-package-2",
+      "passed": true
+    },
+    {
+      "file": "e2e/pass04.spec.ts",
+      "title": "visual service choices persist to cart and checkout: bodyguard-2-0-viper-ports",
+      "passed": true
+    },
+    {
+      "file": "e2e/pass04.spec.ts",
+      "title": "visual service choices persist to cart and checkout: genesis-oem-slide-mill",
+      "passed": true
+    },
+    {
+      "file": "e2e/pass04.spec.ts",
+      "title": "standalone Cerakote has a real visual finish and verified treatment delta",
+      "passed": true
+    },
+    {
+      "file": "e2e/pass04.spec.ts",
+      "title": "human regression: Glock 17 Midnight Chocolate Chip / reverse=false",
+      "passed": true
+    },
+    {
+      "file": "e2e/pass04.spec.ts",
+      "title": "human regression: Glock 17 Midnight Chocolate Chip / reverse=true",
+      "passed": true
+    },
+    {
+      "file": "e2e/pass04.spec.ts",
+      "title": "saved catalog changes require explicit review before checkout",
+      "passed": true
+    },
+    {
+      "file": "e2e/pass04.spec.ts",
+      "title": "legacy cart migrates safely and requires price acceptance",
+      "passed": true
+    },
+    {
+      "file": "e2e/pass04.spec.ts",
+      "title": "mobile visual controls, keyboard and continuous hero at 375",
+      "passed": true
+    },
+    {
+      "file": "e2e/pass04.spec.ts",
+      "title": "mobile visual controls, keyboard and continuous hero at 390",
+      "passed": true
+    },
+    {
+      "file": "e2e/pass04.spec.ts",
+      "title": "mobile visual controls, keyboard and continuous hero at 430",
+      "passed": true
+    },
+    {
+      "file": "e2e/pass04.spec.ts",
+      "title": "coming-soon porting cannot be selected or injected and model-specific choices stay relevant",
+      "passed": true
+    },
+    {
+      "file": "e2e/pass04.spec.ts",
+      "title": "breadcrumbs retain navigation without duplicate page eyebrows",
+      "passed": true
+    },
+    {
+      "file": "e2e/pass04.spec.ts",
+      "title": "mobile menu hierarchy, close animation and reduced motion preserve focus",
+      "passed": true
+    },
+    {
+      "file": "e2e/site.spec.ts",
+      "title": "routes, browser errors, and overflow at 375",
+      "passed": true
+    },
+    {
+      "file": "e2e/site.spec.ts",
+      "title": "routes, browser errors, and overflow at 768",
+      "passed": true
+    },
+    {
+      "file": "e2e/site.spec.ts",
+      "title": "routes, browser errors, and overflow at 1280",
+      "passed": true
+    },
+    {
+      "file": "e2e/site.spec.ts",
+      "title": "routes, browser errors, and overflow at 1440",
+      "passed": true
+    },
+    {
+      "file": "e2e/site.spec.ts",
+      "title": "all migrated detail pages and internal links resolve",
+      "passed": true
+    },
+    {
+      "file": "e2e/site.spec.ts",
+      "title": "legacy routes redirect, unknown routes are genuine 404s",
+      "passed": true
+    },
+    {
+      "file": "e2e/site.spec.ts",
+      "title": "mobile navigation, focus, and escape",
+      "passed": true
+    },
+    {
+      "file": "e2e/site.spec.ts",
+      "title": "catalog filters, search, empty reset and price sorting",
+      "passed": true
+    },
+    {
+      "file": "e2e/site.spec.ts",
+      "title": "gallery filtering, keyboard lightbox, focus restoration",
+      "passed": true
+    },
+    {
+      "file": "e2e/site.spec.ts",
+      "title": "contact validation, delivery error, and confirmed success state",
+      "passed": true
+    },
+    {
+      "file": "e2e/site.spec.ts",
+      "title": "build wizard preserves back/next state, draft, and completes reviewed inquiry",
+      "passed": true
+    },
+    {
+      "file": "e2e/site.spec.ts",
+      "title": "catalog service preselects the order configurator",
+      "passed": true
+    },
+    {
+      "file": "e2e/site.spec.ts",
+      "title": "server rejects malformed, cross-origin and invalid input; no delivery success without configuration",
+      "passed": true
+    },
+    {
+      "file": "unit/catalog.spec.ts",
+      "title": "canonical typed matrix accounts for every current configurable service and all source choices",
+      "passed": true
+    },
+    {
+      "file": "unit/catalog.spec.ts",
+      "title": "complete service fixture: bodyguard-2-0-viper-ports",
+      "passed": true
+    },
+    {
+      "file": "unit/catalog.spec.ts",
+      "title": "required field validation: bodyguard-2-0-viper-ports",
+      "passed": true
+    },
+    {
+      "file": "unit/catalog.spec.ts",
+      "title": "complete service fixture: psa-dagger-stippling-package",
+      "passed": true
+    },
+    {
+      "file": "unit/catalog.spec.ts",
+      "title": "required field validation: psa-dagger-stippling-package",
+      "passed": true
+    },
+    {
+      "file": "unit/catalog.spec.ts",
+      "title": "complete service fixture: smith-wesson-bodyguard-2-0-stippling-package",
+      "passed": true
+    },
+    {
+      "file": "unit/catalog.spec.ts",
+      "title": "required field validation: smith-wesson-bodyguard-2-0-stippling-package",
+      "passed": true
+    },
+    {
+      "file": "unit/catalog.spec.ts",
+      "title": "complete service fixture: glock-crown-lvl-3-stippling-package",
+      "passed": true
+    },
+    {
+      "file": "unit/catalog.spec.ts",
+      "title": "required field validation: glock-crown-lvl-3-stippling-package",
+      "passed": true
+    },
+    {
+      "file": "unit/catalog.spec.ts",
+      "title": "complete service fixture: glock-core-lvl-stippling-package",
+      "passed": true
+    },
+    {
+      "file": "unit/catalog.spec.ts",
+      "title": "required field validation: glock-core-lvl-stippling-package",
+      "passed": true
+    },
+    {
+      "file": "unit/catalog.spec.ts",
+      "title": "complete service fixture: glock-base-lvl-stippling-package",
+      "passed": true
+    },
+    {
+      "file": "unit/catalog.spec.ts",
+      "title": "required field validation: glock-base-lvl-stippling-package",
+      "passed": true
+    },
+    {
+      "file": "unit/catalog.spec.ts",
+      "title": "complete service fixture: mag-extension-stippling",
+      "passed": true
+    },
+    {
+      "file": "unit/catalog.spec.ts",
+      "title": "required field validation: mag-extension-stippling",
+      "passed": true
+    },
+    {
+      "file": "unit/catalog.spec.ts",
+      "title": "complete service fixture: sig-sauer-p365-stippling-package-mod-2",
+      "passed": true
+    },
+    {
+      "file": "unit/catalog.spec.ts",
+      "title": "required field validation: sig-sauer-p365-stippling-package-mod-2",
+      "passed": true
+    },
+    {
+      "file": "unit/catalog.spec.ts",
+      "title": "complete service fixture: sig-sauer-p365-stippling-package-mod-1",
+      "passed": true
+    },
+    {
+      "file": "unit/catalog.spec.ts",
+      "title": "required field validation: sig-sauer-p365-stippling-package-mod-1",
+      "passed": true
+    },
+    {
+      "file": "unit/catalog.spec.ts",
+      "title": "complete service fixture: staccato-stippling-package",
+      "passed": true
+    },
+    {
+      "file": "unit/catalog.spec.ts",
+      "title": "required field validation: staccato-stippling-package",
+      "passed": true
+    },
+    {
+      "file": "unit/catalog.spec.ts",
+      "title": "complete service fixture: cz-p10c-stippling-package",
+      "passed": true
+    },
+    {
+      "file": "unit/catalog.spec.ts",
+      "title": "required field validation: cz-p10c-stippling-package",
+      "passed": true
+    },
+    {
+      "file": "unit/catalog.spec.ts",
+      "title": "complete service fixture: sw-mp-stippling-package",
+      "passed": true
+    },
+    {
+      "file": "unit/catalog.spec.ts",
+      "title": "required field validation: sw-mp-stippling-package",
+      "passed": true
+    },
+    {
+      "file": "unit/catalog.spec.ts",
+      "title": "complete service fixture: fn-reflex-stippling-package",
+      "passed": true
+    },
+    {
+      "file": "unit/catalog.spec.ts",
+      "title": "required field validation: fn-reflex-stippling-package",
+      "passed": true
+    },
+    {
+      "file": "unit/catalog.spec.ts",
+      "title": "complete service fixture: springfield-armory-echlon-stippling-package",
+      "passed": true
+    },
+    {
+      "file": "unit/catalog.spec.ts",
+      "title": "required field validation: springfield-armory-echlon-stippling-package",
+      "passed": true
+    },
+    {
+      "file": "unit/catalog.spec.ts",
+      "title": "complete service fixture: springfield-armory-prodigy-stippling-package",
+      "passed": true
+    },
+    {
+      "file": "unit/catalog.spec.ts",
+      "title": "required field validation: springfield-armory-prodigy-stippling-package",
+      "passed": true
+    },
+    {
+      "file": "unit/catalog.spec.ts",
+      "title": "complete service fixture: ruger-rxm-stippling-package",
+      "passed": true
+    },
+    {
+      "file": "unit/catalog.spec.ts",
+      "title": "required field validation: ruger-rxm-stippling-package",
+      "passed": true
+    },
+    {
+      "file": "unit/catalog.spec.ts",
+      "title": "complete service fixture: oa-defense-2311-stipple-package",
+      "passed": true
+    },
+    {
+      "file": "unit/catalog.spec.ts",
+      "title": "required field validation: oa-defense-2311-stipple-package",
+      "passed": true
+    },
+    {
+      "file": "unit/catalog.spec.ts",
+      "title": "complete service fixture: cz-p-07",
+      "passed": true
+    },
+    {
+      "file": "unit/catalog.spec.ts",
+      "title": "required field validation: cz-p-07",
+      "passed": true
+    },
+    {
+      "file": "unit/catalog.spec.ts",
+      "title": "complete service fixture: cz-75-series-optic-cut",
+      "passed": true
+    },
+    {
+      "file": "unit/catalog.spec.ts",
+      "title": "required field validation: cz-75-series-optic-cut",
+      "passed": true
+    },
+    {
+      "file": "unit/catalog.spec.ts",
+      "title": "complete service fixture: smith-wesson-bodyguard-2-0-optic-cut",
+      "passed": true
+    },
+    {
+      "file": "unit/catalog.spec.ts",
+      "title": "required field validation: smith-wesson-bodyguard-2-0-optic-cut",
+      "passed": true
+    },
+    {
+      "file": "unit/catalog.spec.ts",
+      "title": "complete service fixture: beretta-px4-stipple-package-2",
+      "passed": true
+    },
+    {
+      "file": "unit/catalog.spec.ts",
+      "title": "required field validation: beretta-px4-stipple-package-2",
+      "passed": true
+    },
+    {
+      "file": "unit/catalog.spec.ts",
+      "title": "complete service fixture: p365-tiger-shark",
+      "passed": true
+    },
+    {
+      "file": "unit/catalog.spec.ts",
+      "title": "required field validation: p365-tiger-shark",
+      "passed": true
+    },
+    {
+      "file": "unit/catalog.spec.ts",
+      "title": "complete service fixture: saber-slide-mill",
+      "passed": true
+    },
+    {
+      "file": "unit/catalog.spec.ts",
+      "title": "required field validation: saber-slide-mill",
+      "passed": true
+    },
+    {
+      "file": "unit/catalog.spec.ts",
+      "title": "complete service fixture: genesis-oem-slide-mill",
+      "passed": true
+    },
+    {
+      "file": "unit/catalog.spec.ts",
+      "title": "required field validation: genesis-oem-slide-mill",
+      "passed": true
+    },
+    {
+      "file": "unit/catalog.spec.ts",
+      "title": "complete service fixture: slide-only-cerakote",
+      "passed": true
+    },
+    {
+      "file": "unit/catalog.spec.ts",
+      "title": "required field validation: slide-only-cerakote",
+      "passed": true
+    },
+    {
+      "file": "unit/catalog.spec.ts",
+      "title": "complete service fixture: frame-only-cerakote",
+      "passed": true
+    },
+    {
+      "file": "unit/catalog.spec.ts",
+      "title": "required field validation: frame-only-cerakote",
+      "passed": true
+    },
+    {
+      "file": "unit/catalog.spec.ts",
+      "title": "complete service fixture: pistol-cerakote",
+      "passed": true
+    },
+    {
+      "file": "unit/catalog.spec.ts",
+      "title": "required field validation: pistol-cerakote",
+      "passed": true
+    },
+    {
+      "file": "unit/catalog.spec.ts",
+      "title": "complete service fixture: cz-p10c-cut",
+      "passed": true
+    },
+    {
+      "file": "unit/catalog.spec.ts",
+      "title": "required field validation: cz-p10c-cut",
+      "passed": true
+    },
+    {
+      "file": "unit/catalog.spec.ts",
+      "title": "complete service fixture: smith-wesson-mp-optic-cut",
+      "passed": true
+    },
+    {
+      "file": "unit/catalog.spec.ts",
+      "title": "required field validation: smith-wesson-mp-optic-cut",
+      "passed": true
+    },
+    {
+      "file": "unit/catalog.spec.ts",
+      "title": "complete service fixture: sig-p365-optic-cut",
+      "passed": true
+    },
+    {
+      "file": "unit/catalog.spec.ts",
+      "title": "required field validation: sig-p365-optic-cut",
+      "passed": true
+    },
+    {
+      "file": "unit/catalog.spec.ts",
+      "title": "complete service fixture: glock-optic-cut-slimline",
+      "passed": true
+    },
+    {
+      "file": "unit/catalog.spec.ts",
+      "title": "required field validation: glock-optic-cut-slimline",
+      "passed": true
+    },
+    {
+      "file": "unit/catalog.spec.ts",
+      "title": "complete service fixture: glock-optic-cut-full-size",
+      "passed": true
+    },
+    {
+      "file": "unit/catalog.spec.ts",
+      "title": "required field validation: glock-optic-cut-full-size",
+      "passed": true
+    },
+    {
+      "file": "unit/catalog.spec.ts",
+      "title": "double charge: slide Cerakote and milling / reverse=false",
+      "passed": true
+    },
+    {
+      "file": "unit/catalog.spec.ts",
+      "title": "double charge: complete pistol and slide coating / reverse=false",
+      "passed": true
+    },
+    {
+      "file": "unit/catalog.spec.ts",
+      "title": "double charge: complete pistol and milling / reverse=false",
+      "passed": true
+    },
+    {
+      "file": "unit/catalog.spec.ts",
+      "title": "package and included add-on / reverse=false",
+      "passed": true
+    },
+    {
+      "file": "unit/catalog.spec.ts",
+      "title": "double charge: slide Cerakote and milling / reverse=true",
+      "passed": true
+    },
+    {
+      "file": "unit/catalog.spec.ts",
+      "title": "double charge: complete pistol and slide coating / reverse=true",
+      "passed": true
+    },
+    {
+      "file": "unit/catalog.spec.ts",
+      "title": "double charge: complete pistol and milling / reverse=true",
+      "passed": true
+    },
+    {
+      "file": "unit/catalog.spec.ts",
+      "title": "package and included add-on / reverse=true",
+      "passed": true
+    },
+    {
+      "file": "unit/catalog.spec.ts",
+      "title": "frame coating uses Core package upgrade instead of a second frame service",
+      "passed": true
+    },
+    {
+      "file": "unit/catalog.spec.ts",
+      "title": "Viper and Bodyguard optic cut share finishing through the explicit source option",
+      "passed": true
+    },
+    {
+      "file": "unit/catalog.spec.ts",
+      "title": "standalone porting shared-coating bypass is rejected",
+      "passed": true
+    },
+    {
+      "file": "unit/catalog.spec.ts",
+      "title": "generation-specific choices, wrong models, existing cuts and Coming Soon are independently rejected",
+      "passed": true
+    },
+    {
+      "file": "unit/catalog.spec.ts",
+      "title": "slimline MOS exception supports only the published rear-stud option",
+      "passed": true
+    },
+    {
+      "file": "unit/catalog.spec.ts",
+      "title": "mutually exclusive packages and contradictory legacy options cannot proceed",
+      "passed": true
+    },
+    {
+      "file": "unit/catalog.spec.ts",
+      "title": "unknown legacy charges remain review-only and are excluded from payable service amounts",
+      "passed": true
+    },
+    {
+      "file": "unit/catalog.spec.ts",
+      "title": "legacy carts migrate supported IDs and require explicit current-price review",
+      "passed": true
+    },
+    {
+      "file": "unit/catalog.spec.ts",
+      "title": "review-only source conflicts are explicit and structured prices never accept browser totals",
+      "passed": true
+    },
+    {
+      "file": "unit/catalog.spec.ts",
+      "title": "complete pistol and frame scope normalize once / reverse=false",
+      "passed": true
+    },
+    {
+      "file": "unit/catalog.spec.ts",
+      "title": "Core frame upgrade and standalone frame normalize once / reverse=false",
+      "passed": true
+    },
+    {
+      "file": "unit/catalog.spec.ts",
+      "title": "complete pistol and porting own separate coating scopes / reverse=false",
+      "passed": true
+    },
+    {
+      "file": "unit/catalog.spec.ts",
+      "title": "porting finish transfers to new milling and is billed once / reverse=false",
+      "passed": true
+    },
+    {
+      "file": "unit/catalog.spec.ts",
+      "title": "complete pistol and frame scope normalize once / reverse=true",
+      "passed": true
+    },
+    {
+      "file": "unit/catalog.spec.ts",
+      "title": "Core frame upgrade and standalone frame normalize once / reverse=true",
+      "passed": true
+    },
+    {
+      "file": "unit/catalog.spec.ts",
+      "title": "complete pistol and porting own separate coating scopes / reverse=true",
+      "passed": true
+    },
+    {
+      "file": "unit/catalog.spec.ts",
+      "title": "porting finish transfers to new milling and is billed once / reverse=true",
+      "passed": true
+    },
+    {
+      "file": "unit/catalog.spec.ts",
+      "title": "phone is optional until the business confirms a requirement, and provided numbers are validated",
+      "passed": true
+    },
+    {
+      "file": "visualreview/pass04.spec.ts",
+      "title": "visual review matrix 375",
+      "passed": true
+    },
+    {
+      "file": "visualreview/pass04.spec.ts",
+      "title": "visual review matrix 390",
+      "passed": true
+    },
+    {
+      "file": "visualreview/pass04.spec.ts",
+      "title": "visual review matrix 430",
+      "passed": true
+    },
+    {
+      "file": "visualreview/pass04.spec.ts",
+      "title": "visual review matrix 768",
+      "passed": true
+    },
+    {
+      "file": "visualreview/pass04.spec.ts",
+      "title": "visual review matrix 1024",
+      "passed": true
+    },
+    {
+      "file": "visualreview/pass04.spec.ts",
+      "title": "visual review matrix 1280",
+      "passed": true
+    },
+    {
+      "file": "visualreview/pass04.spec.ts",
+      "title": "visual review matrix 1440",
+      "passed": true
+    },
+    {
+      "file": "visualreview/pass04.spec.ts",
+      "title": "visual review matrix 1728",
+      "passed": true
+    }
+  ]
+}

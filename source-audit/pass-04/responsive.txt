@@ -1,0 +1,5 @@
+
+> defiant-machine-works@1.0.0 qa:visual
+> node scripts/visual-qa.mjs
+
+Visual captures 69 Overflow []

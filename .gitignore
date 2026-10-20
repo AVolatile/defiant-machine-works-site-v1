@@ -1,0 +1,17 @@
+node_modules/
+.next/
+out/
+.env*
+!.env.example
+playwright-report/
+test-results/
+.DS_Store
+.data/
+*.tsbuildinfo
+tests/visual/pass-02/
+
+tests/visual/pass-03/
+
+tests/visual/pass-04/
+
+tests/visual/pass-05/

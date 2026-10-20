@@ -1,0 +1,37 @@
+@font-face {
+  font-family: Oswald;
+  src: url('/assets/dmw/fonts/oswald-tk3iwkuhhaijg752gt8g.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 200 700;
+  font-display: swap;
+}
+@font-face {
+  font-family: Heebo;
+  src: url('/assets/dmw/fonts/heebo-ngs6v5_nc0k9p9h2tbe.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+}
+:root {
+  --color-ink: #0b0c0c;
+  --color-carbon: #121414;
+  --color-gunmetal: #1b1d1c;
+  --color-steel: #bfc1ba;
+  --color-paper: #e9e7df;
+  --color-white: #f9f8f3;
+  /* Exact dominant opaque rust pixel extracted from DEFIANT-MACHINE-WORKS-ICON.png. */
+  --color-rust: #a23f00;
+  --color-rust-hover: #b84b08;
+  --color-rust-light: #e59562;
+  --color-border: #343633;
+  --color-muted: #b2b3ac;
+  --color-success: #a6c8a6;
+  --color-warning: #e8c480;
+  --color-danger: #ffaaa0;
+  --font-display: Oswald, 'Arial Narrow', sans-serif;
+  --font-body: Heebo, Arial, sans-serif;
+  --font-mono: 'SFMono-Regular', Consolas, 'Liberation Mono', monospace;
+  --max-width: 1320px;
+  --gutter: clamp(22px, 4.8vw, 80px);
+  --section-space: clamp(70px, 8vw, 124px);
+}

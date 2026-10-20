@@ -1,0 +1,47 @@
+[
+  {
+    "type": "sale-price-reconciliation",
+    "product": "Electric Topo Sticker",
+    "listingValue": "$6.00 Original price was: $6.00.$1.00Current price is: $1.00.",
+    "detailValue": "$6.00 Original price was: $6.00.$1.00Current price is: $1.00.",
+    "structuredDataValue": null,
+    "apiValue": 1,
+    "selectedValue": 1,
+    "selectionReason": "Store API confirms the current sale price; listing and detail also show the original regular price. This is an explained sale difference, not an unresolved conflict."
+  },
+  {
+    "type": "availability",
+    "page": "/porting/",
+    "finding": "Only Bodyguard 2.0 Viper Ports has a listed catalog entry. Eight other porting options are explicitly Coming Soon.",
+    "decision": "Keep upcoming entries separate; do not assign purchasable status."
+  },
+  {
+    "type": "biography",
+    "page": "/about/",
+    "finding": "The page contains UNDER CONSTRUCTION.",
+    "decision": "No founder biography invented. Use verified experience and supplied faith-informed values."
+  },
+  {
+    "type": "legal",
+    "page": "/privacy-policy/",
+    "finding": "A legacy WordPress privacy policy exists and describes comments, Gravatar, accounts, login cookies and password resets.",
+    "decision": "Preserve audit text, replace in the rebuild with clearly marked draft policies matching the new functionality."
+  },
+  {
+    "type": "legal",
+    "page": "/terms-and-conditions/",
+    "finding": "The requested /terms-and-conditions/ route returns HTTP 404; no standalone terms were recovered.",
+    "decision": "New terms and cookie policy are marked Draft / Owner Review Required."
+  },
+  {
+    "type": "navigation",
+    "page": "/products/",
+    "finding": "Legacy public Products route has no useful catalog body.",
+    "decision": "Implement real /products and redirect /shop to it."
+  },
+  {
+    "type": "pricing",
+    "finding": "The current live API, listing and detail checks show 1 entries with differing numeric amounts (an explained sale price, not an unresolved conflict). Historical conflicts cannot be inferred.",
+    "decision": "Use Store API base prices and confirm final project options with the shop."
+  }
+]

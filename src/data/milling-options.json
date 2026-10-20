@@ -1,0 +1,6897 @@
+[
+  {
+    "serviceId": "cz-p-07",
+    "sourceUrl": "https://defiantmachineworks.com/product/cz-p-07/",
+    "fields": [
+      {
+        "id": "9",
+        "label": "Coating Type",
+        "required": true,
+        "type": "dropdown",
+        "priceType": "options",
+        "options": [
+          {
+            "id": "1",
+            "label": "Single Color",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "2",
+            "label": "Battleworn",
+            "price": "60",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "3",
+            "label": "Camo",
+            "price": "100",
+            "priceType": "fixed_amount"
+          }
+        ],
+        "conditions": []
+      },
+      {
+        "id": "6",
+        "label": "Slide Cerakote",
+        "required": true,
+        "type": "dropdown",
+        "priceType": "options",
+        "options": [
+          {
+            "id": "33",
+            "label": "Carbon Black F-102",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "34",
+            "label": "Flat Dark Earth F-106",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "35",
+            "label": "OD Green F-105",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "36",
+            "label": "Sig Dark Grey H-210",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "37",
+            "label": "Midnight Bronze H-294",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "38",
+            "label": "Phantom Teal DMW Custom",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "39",
+            "label": "Black Cherry H-319",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "40",
+            "label": "Blue Titanium H-185",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "41",
+            "label": "Tungsten H-237",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "42",
+            "label": "Sniper Green H-229",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "43",
+            "label": "Burnt Bronze H-148",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "44",
+            "label": "Rose Gold H-327",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "45",
+            "label": "Sniper Grey H-234",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "46",
+            "label": "Jesse James Eastern Front H-400",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "47",
+            "label": "USMC Red H-167",
+            "price": "",
+            "priceType": "fixed_amount"
+          }
+        ],
+        "conditions": [
+          {
+            "showWhenTrue": false,
+            "groups": [
+              [
+                {
+                  "fieldId": "9",
+                  "comparison": "Contains",
+                  "values": [
+                    "3"
+                  ]
+                }
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "8",
+        "label": "Slide Cerakote 2",
+        "required": true,
+        "type": "dropdown",
+        "priceType": "options",
+        "options": [
+          {
+            "id": "33",
+            "label": "Carbon Black F-102",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "34",
+            "label": "Flat Dark Earth F-106",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "35",
+            "label": "OD Green F-105",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "36",
+            "label": "Sig Dark Grey H-210",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "37",
+            "label": "Midnight Bronze H-294",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "38",
+            "label": "Phantom Teal DMW Custom",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "39",
+            "label": "Black Cherry H-319",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "40",
+            "label": "Blue Titanium H-185",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "41",
+            "label": "Tungsten H-237",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "42",
+            "label": "Sniper Green H-229",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "43",
+            "label": "Burnt Bronze H-148",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "44",
+            "label": "Rose Gold H-327",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "45",
+            "label": "Sniper Grey H-234",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "46",
+            "label": "Jesse James Eastern Front H-400",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "47",
+            "label": "USMC Red H-167",
+            "price": "",
+            "priceType": "fixed_amount"
+          }
+        ],
+        "conditions": [
+          {
+            "showWhenTrue": true,
+            "groups": [
+              [
+                {
+                  "fieldId": "9",
+                  "comparison": "Contains",
+                  "values": [
+                    "2"
+                  ]
+                }
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "10",
+        "label": "Slide Cerakote Camo",
+        "required": true,
+        "type": "dropdown",
+        "priceType": "options",
+        "options": [
+          {
+            "id": "39",
+            "label": "Multicam Tropic",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "40",
+            "label": "Multicam Arid",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "41",
+            "label": "Multicam Alpine",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "42",
+            "label": "Multicam Black",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "43",
+            "label": "Multicam",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "44",
+            "label": "M81 Woodland (Standard)",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "45",
+            "label": "M81 Woodland (Bright)",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "46",
+            "label": "DCU (Chocolate Chip",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "47",
+            "label": "Wood Chip",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "48",
+            "label": "Tropic Chip",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "49",
+            "label": "Blueberry Chocolate Chip",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "50",
+            "label": "Midnight Chocolate Chip",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "51",
+            "label": "Woodland Tigerstripe",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "52",
+            "label": "Midnight Tigerstripe",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "53",
+            "label": "Flectarn",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "54",
+            "label": "Swedish M90",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "55",
+            "label": "Pupkin Spice",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "56",
+            "label": "Nautical Camo",
+            "price": "",
+            "priceType": "fixed_amount"
+          }
+        ],
+        "conditions": [
+          {
+            "showWhenTrue": true,
+            "groups": [
+              [
+                {
+                  "fieldId": "9",
+                  "comparison": "Contains",
+                  "values": [
+                    "3"
+                  ]
+                }
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "serviceId": "cz-75-series-optic-cut",
+    "sourceUrl": "https://defiantmachineworks.com/product/cz-75-series-optic-cut/",
+    "fields": [
+      {
+        "id": "9",
+        "label": "Coating Type",
+        "required": true,
+        "type": "dropdown",
+        "priceType": "options",
+        "options": [
+          {
+            "id": "1",
+            "label": "Single Color",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "2",
+            "label": "Battleworn",
+            "price": "60",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "3",
+            "label": "Camo",
+            "price": "100",
+            "priceType": "fixed_amount"
+          }
+        ],
+        "conditions": []
+      },
+      {
+        "id": "6",
+        "label": "Slide Cerakote",
+        "required": true,
+        "type": "dropdown",
+        "priceType": "options",
+        "options": [
+          {
+            "id": "33",
+            "label": "Carbon Black F-102",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "34",
+            "label": "Flat Dark Earth F-106",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "35",
+            "label": "OD Green F-105",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "36",
+            "label": "Sig Dark Grey H-210",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "37",
+            "label": "Midnight Bronze H-294",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "38",
+            "label": "Phantom Teal DMW Custom",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "39",
+            "label": "Black Cherry H-319",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "40",
+            "label": "Blue Titanium H-185",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "41",
+            "label": "Tungsten H-237",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "42",
+            "label": "Sniper Green H-229",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "43",
+            "label": "Burnt Bronze H-148",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "44",
+            "label": "Rose Gold H-327",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "45",
+            "label": "Sniper Grey H-234",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "46",
+            "label": "Jesse James Eastern Front H-400",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "47",
+            "label": "USMC Red H-167",
+            "price": "",
+            "priceType": "fixed_amount"
+          }
+        ],
+        "conditions": [
+          {
+            "showWhenTrue": false,
+            "groups": [
+              [
+                {
+                  "fieldId": "9",
+                  "comparison": "Contains",
+                  "values": [
+                    "3"
+                  ]
+                }
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "8",
+        "label": "Slide Cerakote 2",
+        "required": true,
+        "type": "dropdown",
+        "priceType": "options",
+        "options": [
+          {
+            "id": "33",
+            "label": "Carbon Black F-102",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "34",
+            "label": "Flat Dark Earth F-106",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "35",
+            "label": "OD Green F-105",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "36",
+            "label": "Sig Dark Grey H-210",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "37",
+            "label": "Midnight Bronze H-294",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "38",
+            "label": "Phantom Teal DMW Custom",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "39",
+            "label": "Black Cherry H-319",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "40",
+            "label": "Blue Titanium H-185",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "41",
+            "label": "Tungsten H-237",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "42",
+            "label": "Sniper Green H-229",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "43",
+            "label": "Burnt Bronze H-148",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "44",
+            "label": "Rose Gold H-327",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "45",
+            "label": "Sniper Grey H-234",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "46",
+            "label": "Jesse James Eastern Front H-400",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "47",
+            "label": "USMC Red H-167",
+            "price": "",
+            "priceType": "fixed_amount"
+          }
+        ],
+        "conditions": [
+          {
+            "showWhenTrue": true,
+            "groups": [
+              [
+                {
+                  "fieldId": "9",
+                  "comparison": "Contains",
+                  "values": [
+                    "2"
+                  ]
+                }
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "10",
+        "label": "Slide Cerakote Camo",
+        "required": true,
+        "type": "dropdown",
+        "priceType": "options",
+        "options": [
+          {
+            "id": "39",
+            "label": "Multicam Tropic",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "40",
+            "label": "Multicam Arid",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "41",
+            "label": "Multicam Alpine",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "42",
+            "label": "Multicam Black",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "43",
+            "label": "Multicam",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "44",
+            "label": "M81 Woodland (Standard)",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "45",
+            "label": "M81 Woodland (Bright)",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "46",
+            "label": "DCU (Chocolate Chip",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "47",
+            "label": "Wood Chip",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "48",
+            "label": "Tropic Chip",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "49",
+            "label": "Blueberry Chocolate Chip",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "50",
+            "label": "Midnight Chocolate Chip",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "51",
+            "label": "Woodland Tigerstripe",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "52",
+            "label": "Midnight Tigerstripe",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "53",
+            "label": "Flectarn",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "54",
+            "label": "Swedish M90",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "55",
+            "label": "Pupkin Spice",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "56",
+            "label": "Nautical Camo",
+            "price": "",
+            "priceType": "fixed_amount"
+          }
+        ],
+        "conditions": [
+          {
+            "showWhenTrue": true,
+            "groups": [
+              [
+                {
+                  "fieldId": "9",
+                  "comparison": "Contains",
+                  "values": [
+                    "3"
+                  ]
+                }
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "serviceId": "smith-wesson-bodyguard-2-0-optic-cut",
+    "sourceUrl": "https://defiantmachineworks.com/product/smith-wesson-bodyguard-2-0-optic-cut/",
+    "fields": [
+      {
+        "id": "11",
+        "label": "Model",
+        "required": true,
+        "type": "dropdown",
+        "priceType": "options",
+        "options": [
+          {
+            "id": "1",
+            "label": "Standard Bodyguard 2.0",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "2",
+            "label": "Carry Comp Bodyguard 2.0 +$20",
+            "price": "20",
+            "priceType": "fixed_amount"
+          }
+        ],
+        "conditions": []
+      },
+      {
+        "id": "9",
+        "label": "Coating Type",
+        "required": true,
+        "type": "dropdown",
+        "priceType": "options",
+        "options": [
+          {
+            "id": "1",
+            "label": "Single Color",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "2",
+            "label": "Battleworn",
+            "price": "60",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "3",
+            "label": "Camo",
+            "price": "100",
+            "priceType": "fixed_amount"
+          }
+        ],
+        "conditions": []
+      },
+      {
+        "id": "6",
+        "label": "Slide Cerakote",
+        "required": true,
+        "type": "dropdown",
+        "priceType": "options",
+        "options": [
+          {
+            "id": "33",
+            "label": "Carbon Black F-102",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "34",
+            "label": "Flat Dark Earth F-106",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "35",
+            "label": "OD Green F-105",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "36",
+            "label": "Sig Dark Grey H-210",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "37",
+            "label": "Midnight Bronze H-294",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "38",
+            "label": "Phantom Teal DMW Custom",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "39",
+            "label": "Black Cherry H-319",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "40",
+            "label": "Blue Titanium H-185",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "41",
+            "label": "Tungsten H-237",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "42",
+            "label": "Sniper Green H-229",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "43",
+            "label": "Burnt Bronze H-148",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "44",
+            "label": "Rose Gold H-327",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "45",
+            "label": "Sniper Grey H-234",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "46",
+            "label": "Jesse James Eastern Front H-400",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "47",
+            "label": "USMC Red H-167",
+            "price": "",
+            "priceType": "fixed_amount"
+          }
+        ],
+        "conditions": [
+          {
+            "showWhenTrue": false,
+            "groups": [
+              [
+                {
+                  "fieldId": "9",
+                  "comparison": "Contains",
+                  "values": [
+                    "3"
+                  ]
+                }
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "8",
+        "label": "Slide Cerakote 2",
+        "required": true,
+        "type": "dropdown",
+        "priceType": "options",
+        "options": [
+          {
+            "id": "33",
+            "label": "Carbon Black F-102",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "34",
+            "label": "Flat Dark Earth F-106",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "35",
+            "label": "OD Green F-105",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "36",
+            "label": "Sig Dark Grey H-210",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "37",
+            "label": "Midnight Bronze H-294",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "38",
+            "label": "Phantom Teal DMW Custom",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "39",
+            "label": "Black Cherry H-319",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "40",
+            "label": "Blue Titanium H-185",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "41",
+            "label": "Tungsten H-237",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "42",
+            "label": "Sniper Green H-229",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "43",
+            "label": "Burnt Bronze H-148",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "44",
+            "label": "Rose Gold H-327",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "45",
+            "label": "Sniper Grey H-234",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "46",
+            "label": "Jesse James Eastern Front H-400",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "47",
+            "label": "USMC Red H-167",
+            "price": "",
+            "priceType": "fixed_amount"
+          }
+        ],
+        "conditions": [
+          {
+            "showWhenTrue": true,
+            "groups": [
+              [
+                {
+                  "fieldId": "9",
+                  "comparison": "Contains",
+                  "values": [
+                    "2"
+                  ]
+                }
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "10",
+        "label": "Slide Cerakote Camo",
+        "required": true,
+        "type": "dropdown",
+        "priceType": "options",
+        "options": [
+          {
+            "id": "39",
+            "label": "Multicam Tropic",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "40",
+            "label": "Multicam Arid",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "41",
+            "label": "Multicam Alpine",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "42",
+            "label": "Multicam Black",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "43",
+            "label": "Multicam",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "44",
+            "label": "M81 Woodland (Standard)",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "45",
+            "label": "M81 Woodland (Bright)",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "46",
+            "label": "DCU (Chocolate Chip",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "47",
+            "label": "Wood Chip",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "48",
+            "label": "Tropic Chip",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "49",
+            "label": "Blueberry Chocolate Chip",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "50",
+            "label": "Midnight Chocolate Chip",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "51",
+            "label": "Woodland Tigerstripe",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "52",
+            "label": "Midnight Tigerstripe",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "53",
+            "label": "Flectarn",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "54",
+            "label": "Swedish M90",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "55",
+            "label": "Pupkin Spice",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "56",
+            "label": "Nautical Camo",
+            "price": "",
+            "priceType": "fixed_amount"
+          }
+        ],
+        "conditions": [
+          {
+            "showWhenTrue": true,
+            "groups": [
+              [
+                {
+                  "fieldId": "9",
+                  "comparison": "Contains",
+                  "values": [
+                    "3"
+                  ]
+                }
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "serviceId": "p365-tiger-shark",
+    "sourceUrl": "https://defiantmachineworks.com/product/p365-tiger-shark/",
+    "fields": [
+      {
+        "id": "1",
+        "label": "Model",
+        "required": true,
+        "type": "dropdown",
+        "priceType": "options",
+        "options": [
+          {
+            "id": "1",
+            "label": "P365 Series",
+            "price": "",
+            "priceType": "fixed_amount"
+          }
+        ],
+        "conditions": []
+      },
+      {
+        "id": "10",
+        "label": "Optic Cut",
+        "required": true,
+        "type": "dropdown",
+        "priceType": "options",
+        "options": [
+          {
+            "id": "1",
+            "label": "Yes",
+            "price": "75",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "2",
+            "label": "No",
+            "price": "",
+            "priceType": "fixed_amount"
+          }
+        ],
+        "conditions": []
+      },
+      {
+        "id": "2",
+        "label": "Optic Cut Selection",
+        "required": true,
+        "type": "dropdown",
+        "priceType": "options",
+        "options": [
+          {
+            "id": "1",
+            "label": "RMRcc",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "2",
+            "label": "K Series",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "3",
+            "label": "EPS",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "4",
+            "label": "ROMEO ZERO",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "5",
+            "label": "509T",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "6",
+            "label": "Rear Irons for 365XL",
+            "price": "",
+            "priceType": "fixed_amount"
+          }
+        ],
+        "conditions": [
+          {
+            "showWhenTrue": true,
+            "groups": [
+              [
+                {
+                  "fieldId": "10",
+                  "comparison": "Contains",
+                  "values": [
+                    "1"
+                  ]
+                }
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "3",
+        "label": "BUIS",
+        "required": true,
+        "type": "dropdown",
+        "priceType": "options",
+        "options": [
+          {
+            "id": "1",
+            "label": "Keep Factory",
+            "price": "",
+            "priceType": "fixed_amount"
+          }
+        ],
+        "conditions": [
+          {
+            "showWhenTrue": false,
+            "groups": [
+              [
+                {
+                  "fieldId": "2",
+                  "comparison": "Contains",
+                  "values": [
+                    "6"
+                  ]
+                }
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "4",
+        "label": "BUIS",
+        "required": true,
+        "type": "dropdown",
+        "priceType": "options",
+        "options": [
+          {
+            "id": "1",
+            "label": "Recut dovetail for front sight",
+            "price": "10",
+            "priceType": "fixed_amount"
+          }
+        ],
+        "conditions": [
+          {
+            "showWhenTrue": true,
+            "groups": [
+              [
+                {
+                  "fieldId": "2",
+                  "comparison": "Contains",
+                  "values": [
+                    "6"
+                  ]
+                }
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "9",
+        "label": "Coating Type",
+        "required": true,
+        "type": "dropdown",
+        "priceType": "options",
+        "options": [
+          {
+            "id": "1",
+            "label": "Single Color",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "2",
+            "label": "Battleworn",
+            "price": "60",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "3",
+            "label": "Camo",
+            "price": "100",
+            "priceType": "fixed_amount"
+          }
+        ],
+        "conditions": []
+      },
+      {
+        "id": "5",
+        "label": "Slide Cerakote",
+        "required": true,
+        "type": "dropdown",
+        "priceType": "options",
+        "options": [
+          {
+            "id": "33",
+            "label": "Carbon Black F-102",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "34",
+            "label": "Flat Dark Earth F-106",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "35",
+            "label": "OD Green F-105",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "36",
+            "label": "Sig Dark Grey H-210",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "37",
+            "label": "Midnight Bronze H-294",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "38",
+            "label": "Phantom Teal DMW Custom",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "39",
+            "label": "Black Cherry H-319",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "40",
+            "label": "Blue Titanium H-185",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "41",
+            "label": "Tungsten H-237",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "42",
+            "label": "Sniper Green H-229",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "43",
+            "label": "Burnt Bronze H-148",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "44",
+            "label": "Rose Gold H-327",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "45",
+            "label": "Sniper Grey H-234",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "46",
+            "label": "Jesse James Eastern Front H-400",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "47",
+            "label": "USMC Red H-167",
+            "price": "",
+            "priceType": "fixed_amount"
+          }
+        ],
+        "conditions": [
+          {
+            "showWhenTrue": false,
+            "groups": [
+              [
+                {
+                  "fieldId": "9",
+                  "comparison": "Contains",
+                  "values": [
+                    "3"
+                  ]
+                }
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "7",
+        "label": "Slide Cerakote 2",
+        "required": true,
+        "type": "dropdown",
+        "priceType": "options",
+        "options": [
+          {
+            "id": "33",
+            "label": "Carbon Black F-102",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "34",
+            "label": "Flat Dark Earth F-106",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "35",
+            "label": "OD Green F-105",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "36",
+            "label": "Sig Dark Grey H-210",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "37",
+            "label": "Midnight Bronze H-294",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "38",
+            "label": "Phantom Teal DMW Custom",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "39",
+            "label": "Black Cherry H-319",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "40",
+            "label": "Blue Titanium H-185",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "41",
+            "label": "Tungsten H-237",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "42",
+            "label": "Sniper Green H-229",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "43",
+            "label": "Burnt Bronze H-148",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "44",
+            "label": "Rose Gold H-327",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "45",
+            "label": "Sniper Grey H-234",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "46",
+            "label": "Jesse James Eastern Front H-400",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "47",
+            "label": "USMC Red H-167",
+            "price": "",
+            "priceType": "fixed_amount"
+          }
+        ],
+        "conditions": [
+          {
+            "showWhenTrue": true,
+            "groups": [
+              [
+                {
+                  "fieldId": "9",
+                  "comparison": "Contains",
+                  "values": [
+                    "2"
+                  ]
+                }
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "8",
+        "label": "Slide Cerakote Camo",
+        "required": true,
+        "type": "dropdown",
+        "priceType": "options",
+        "options": [
+          {
+            "id": "39",
+            "label": "Multicam Tropic",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "40",
+            "label": "Multicam Arid",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "41",
+            "label": "Multicam Alpine",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "42",
+            "label": "Multicam Black",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "43",
+            "label": "Multicam",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "44",
+            "label": "M81 Woodland (Standard)",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "45",
+            "label": "M81 Woodland (Bright)",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "46",
+            "label": "DCU (Chocolate Chip",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "47",
+            "label": "Wood Chip",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "48",
+            "label": "Tropic Chip",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "49",
+            "label": "Blueberry Chocolate Chip",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "50",
+            "label": "Midnight Chocolate Chip",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "51",
+            "label": "Woodland Tigerstripe",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "52",
+            "label": "Midnight Tigerstripe",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "53",
+            "label": "Flectarn",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "54",
+            "label": "Swedish M90",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "55",
+            "label": "Pupkin Spice",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "56",
+            "label": "Nautical Camo",
+            "price": "",
+            "priceType": "fixed_amount"
+          }
+        ],
+        "conditions": [
+          {
+            "showWhenTrue": true,
+            "groups": [
+              [
+                {
+                  "fieldId": "9",
+                  "comparison": "Contains",
+                  "values": [
+                    "3"
+                  ]
+                }
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "serviceId": "saber-slide-mill",
+    "sourceUrl": "https://defiantmachineworks.com/product/saber-slide-mill/",
+    "fields": [
+      {
+        "id": "1",
+        "label": "MODEL",
+        "required": true,
+        "type": "dropdown",
+        "priceType": "options",
+        "options": [
+          {
+            "id": "2",
+            "label": "17/19x/19/45/47/34",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "3",
+            "label": "43/43x/48",
+            "price": "",
+            "priceType": "fixed_amount"
+          }
+        ],
+        "conditions": []
+      },
+      {
+        "id": "9",
+        "label": "ADD AN OPTIC CUT",
+        "required": true,
+        "type": "dropdown",
+        "priceType": "options",
+        "options": [
+          {
+            "id": "1",
+            "label": "YES",
+            "price": "75",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "2",
+            "label": "NO",
+            "price": "0",
+            "priceType": "fixed_amount"
+          }
+        ],
+        "conditions": []
+      },
+      {
+        "id": "10",
+        "label": "17/19x/19/45/47/34 OPTIC CUT",
+        "required": true,
+        "type": "dropdown",
+        "priceType": "options",
+        "options": [
+          {
+            "id": "1",
+            "label": "RMR",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "2",
+            "label": "RMRHD",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "3",
+            "label": "SRO",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "4",
+            "label": "C-SERIES",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "5",
+            "label": "RMRcc",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "6",
+            "label": "ACRO",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "7",
+            "label": "MPS",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "8",
+            "label": "VIPER",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "9",
+            "label": "VENOM",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "10",
+            "label": "DELTA POINT PRO",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "11",
+            "label": "K SERIES",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "12",
+            "label": "EPS",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "13",
+            "label": "ROMEO ZERO",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "14",
+            "label": "509T",
+            "price": "",
+            "priceType": "fixed_amount"
+          }
+        ],
+        "conditions": [
+          {
+            "showWhenTrue": true,
+            "groups": [
+              [
+                {
+                  "fieldId": "1",
+                  "comparison": "Contains",
+                  "values": [
+                    "2"
+                  ]
+                },
+                {
+                  "fieldId": "9",
+                  "comparison": "Contains",
+                  "values": [
+                    "1"
+                  ]
+                }
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "11",
+        "label": "BUIS Location",
+        "required": true,
+        "type": "dropdown",
+        "priceType": "options",
+        "options": [
+          {
+            "id": "1",
+            "label": "Recut Dovetail in Front of Optic",
+            "price": "10",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "2",
+            "label": "Keep Factory",
+            "price": "0",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "3",
+            "label": "Delete",
+            "price": "0",
+            "priceType": "fixed_amount"
+          }
+        ],
+        "conditions": [
+          {
+            "showWhenTrue": true,
+            "groups": [
+              [
+                {
+                  "fieldId": "10",
+                  "comparison": "Contains",
+                  "values": [
+                    "1"
+                  ]
+                }
+              ],
+              [
+                {
+                  "fieldId": "10",
+                  "comparison": "Contains",
+                  "values": [
+                    "4"
+                  ]
+                }
+              ],
+              [
+                {
+                  "fieldId": "10",
+                  "comparison": "Contains",
+                  "values": [
+                    "5"
+                  ]
+                }
+              ],
+              [
+                {
+                  "fieldId": "10",
+                  "comparison": "Contains",
+                  "values": [
+                    "6"
+                  ]
+                }
+              ],
+              [
+                {
+                  "fieldId": "10",
+                  "comparison": "Contains",
+                  "values": [
+                    "7"
+                  ]
+                }
+              ],
+              [
+                {
+                  "fieldId": "10",
+                  "comparison": "Contains",
+                  "values": [
+                    "11"
+                  ]
+                }
+              ],
+              [
+                {
+                  "fieldId": "10",
+                  "comparison": "Contains",
+                  "values": [
+                    "12"
+                  ]
+                }
+              ],
+              [
+                {
+                  "fieldId": "10",
+                  "comparison": "Contains",
+                  "values": [
+                    "13"
+                  ]
+                }
+              ],
+              [
+                {
+                  "fieldId": "10",
+                  "comparison": "Contains",
+                  "values": [
+                    "14"
+                  ]
+                }
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "12",
+        "label": "BUIS Location",
+        "required": true,
+        "type": "dropdown",
+        "priceType": "options",
+        "options": [
+          {
+            "id": "2",
+            "label": "Keep Factory",
+            "price": "0",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "3",
+            "label": "Delete",
+            "price": "0",
+            "priceType": "fixed_amount"
+          }
+        ],
+        "conditions": [
+          {
+            "showWhenTrue": true,
+            "groups": [
+              [
+                {
+                  "fieldId": "10",
+                  "comparison": "Contains",
+                  "values": [
+                    "2"
+                  ]
+                }
+              ],
+              [
+                {
+                  "fieldId": "10",
+                  "comparison": "Contains",
+                  "values": [
+                    "3"
+                  ]
+                }
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "13",
+        "label": "BUIS Location",
+        "required": true,
+        "type": "dropdown",
+        "priceType": "options",
+        "options": [
+          {
+            "id": "1",
+            "label": "Recut Dovetail in Front of Optic",
+            "price": "10",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "3",
+            "label": "Delete",
+            "price": "0",
+            "priceType": "fixed_amount"
+          }
+        ],
+        "conditions": [
+          {
+            "showWhenTrue": true,
+            "groups": [
+              [
+                {
+                  "fieldId": "10",
+                  "comparison": "Contains",
+                  "values": [
+                    "8"
+                  ]
+                }
+              ],
+              [
+                {
+                  "fieldId": "10",
+                  "comparison": "Contains",
+                  "values": [
+                    "9"
+                  ]
+                }
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "14",
+        "label": "BUIS Location",
+        "required": true,
+        "type": "dropdown",
+        "priceType": "options",
+        "options": [
+          {
+            "id": "1",
+            "label": "Recut Dovetail in Front of Optic",
+            "price": "10",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "2",
+            "label": "BUIS (designed for optic mounted irons)",
+            "price": "0",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "3",
+            "label": "Delete",
+            "price": "0",
+            "priceType": "fixed_amount"
+          }
+        ],
+        "conditions": [
+          {
+            "showWhenTrue": true,
+            "groups": [
+              [
+                {
+                  "fieldId": "10",
+                  "comparison": "Contains",
+                  "values": [
+                    "10"
+                  ]
+                }
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "2",
+        "label": "43/43x/48 OPTIC CUT",
+        "required": true,
+        "type": "dropdown",
+        "priceType": "options",
+        "options": [
+          {
+            "id": "1",
+            "label": "RMRcc",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "2",
+            "label": "K SERIES",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "3",
+            "label": "EPS",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "4",
+            "label": "ROMEO ZERO",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "5",
+            "label": "509T",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "6",
+            "label": "MOS REAR STUD DELETE",
+            "price": "",
+            "priceType": "fixed_amount"
+          }
+        ],
+        "conditions": [
+          {
+            "showWhenTrue": true,
+            "groups": [
+              [
+                {
+                  "fieldId": "1",
+                  "comparison": "Contains",
+                  "values": [
+                    "3"
+                  ]
+                },
+                {
+                  "fieldId": "9",
+                  "comparison": "Contains",
+                  "values": [
+                    "1"
+                  ]
+                }
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "3",
+        "label": "BUIS Location",
+        "required": true,
+        "type": "dropdown",
+        "priceType": "options",
+        "options": [
+          {
+            "id": "1",
+            "label": "Recut Dovetail in Front of Optic",
+            "price": "10",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "2",
+            "label": "Keep Factory",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "3",
+            "label": "Delete",
+            "price": "",
+            "priceType": "fixed_amount"
+          }
+        ],
+        "conditions": [
+          {
+            "showWhenTrue": true,
+            "groups": [
+              [
+                {
+                  "fieldId": "2",
+                  "comparison": "Contains",
+                  "values": [
+                    "1"
+                  ]
+                }
+              ],
+              [
+                {
+                  "fieldId": "2",
+                  "comparison": "Contains",
+                  "values": [
+                    "2"
+                  ]
+                }
+              ],
+              [
+                {
+                  "fieldId": "2",
+                  "comparison": "Contains",
+                  "values": [
+                    "3"
+                  ]
+                }
+              ],
+              [
+                {
+                  "fieldId": "2",
+                  "comparison": "Contains",
+                  "values": [
+                    "4"
+                  ]
+                }
+              ],
+              [
+                {
+                  "fieldId": "2",
+                  "comparison": "Contains",
+                  "values": [
+                    "5"
+                  ]
+                }
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "7",
+        "label": "Coating Type",
+        "required": true,
+        "type": "dropdown",
+        "priceType": "options",
+        "options": [
+          {
+            "id": "1",
+            "label": "Single Color",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "2",
+            "label": "Battleworn",
+            "price": "60",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "3",
+            "label": "Camo",
+            "price": "100",
+            "priceType": "fixed_amount"
+          }
+        ],
+        "conditions": []
+      },
+      {
+        "id": "4",
+        "label": "Slide Cerakote",
+        "required": true,
+        "type": "dropdown",
+        "priceType": "options",
+        "options": [
+          {
+            "id": "33",
+            "label": "Carbon Black F-102",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "34",
+            "label": "Flat Dark Earth F-106",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "35",
+            "label": "OD Green F-105",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "36",
+            "label": "Sig Dark Grey H-210",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "37",
+            "label": "Midnight Bronze H-294",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "38",
+            "label": "Phantom Teal DMW Custom",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "39",
+            "label": "Black Cherry H-319",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "40",
+            "label": "Blue Titanium H-185",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "41",
+            "label": "Tungsten H-237",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "42",
+            "label": "Sniper Green H-229",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "43",
+            "label": "Burnt Bronze H-148",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "44",
+            "label": "Rose Gold H-327",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "45",
+            "label": "Sniper Grey H-234",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "46",
+            "label": "Jesse James Eastern Front H-400",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "47",
+            "label": "USMC Red H-167",
+            "price": "",
+            "priceType": "fixed_amount"
+          }
+        ],
+        "conditions": [
+          {
+            "showWhenTrue": false,
+            "groups": [
+              [
+                {
+                  "fieldId": "7",
+                  "comparison": "Contains",
+                  "values": [
+                    "3"
+                  ]
+                }
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "6",
+        "label": "Slide Cerakote 2",
+        "required": true,
+        "type": "dropdown",
+        "priceType": "options",
+        "options": [
+          {
+            "id": "33",
+            "label": "Carbon Black F-102",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "34",
+            "label": "Flat Dark Earth F-106",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "35",
+            "label": "OD Green F-105",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "36",
+            "label": "Sig Dark Grey H-210",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "37",
+            "label": "Midnight Bronze H-294",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "38",
+            "label": "Phantom Teal DMW Custom",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "39",
+            "label": "Black Cherry H-319",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "40",
+            "label": "Blue Titanium H-185",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "41",
+            "label": "Tungsten H-237",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "42",
+            "label": "Sniper Green H-229",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "43",
+            "label": "Burnt Bronze H-148",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "44",
+            "label": "Rose Gold H-327",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "45",
+            "label": "Sniper Grey H-234",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "46",
+            "label": "Jesse James Eastern Front H-400",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "47",
+            "label": "USMC Red H-167",
+            "price": "",
+            "priceType": "fixed_amount"
+          }
+        ],
+        "conditions": [
+          {
+            "showWhenTrue": true,
+            "groups": [
+              [
+                {
+                  "fieldId": "7",
+                  "comparison": "Contains",
+                  "values": [
+                    "2"
+                  ]
+                }
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "8",
+        "label": "Slide Cerakote Camo",
+        "required": true,
+        "type": "dropdown",
+        "priceType": "options",
+        "options": [
+          {
+            "id": "39",
+            "label": "Multicam Tropic",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "40",
+            "label": "Multicam Arid",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "41",
+            "label": "Multicam Alpine",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "42",
+            "label": "Multicam Black",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "43",
+            "label": "Multicam",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "44",
+            "label": "M81 Woodland (Standard)",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "45",
+            "label": "M81 Woodland (Bright)",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "46",
+            "label": "DCU (Chocolate Chip",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "47",
+            "label": "Wood Chip",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "48",
+            "label": "Tropic Chip",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "49",
+            "label": "Blueberry Chocolate Chip",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "50",
+            "label": "Midnight Chocolate Chip",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "51",
+            "label": "Woodland Tigerstripe",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "52",
+            "label": "Midnight Tigerstripe",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "53",
+            "label": "Flectarn",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "54",
+            "label": "Swedish M90",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "55",
+            "label": "Pupkin Spice",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "56",
+            "label": "Nautical Camo",
+            "price": "",
+            "priceType": "fixed_amount"
+          }
+        ],
+        "conditions": [
+          {
+            "showWhenTrue": true,
+            "groups": [
+              [
+                {
+                  "fieldId": "7",
+                  "comparison": "Contains",
+                  "values": [
+                    "3"
+                  ]
+                }
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "serviceId": "genesis-oem-slide-mill",
+    "sourceUrl": "https://defiantmachineworks.com/product/genesis-oem-slide-mill/",
+    "fields": [
+      {
+        "id": "1",
+        "label": "MODEL",
+        "required": true,
+        "type": "dropdown",
+        "priceType": "options",
+        "options": [
+          {
+            "id": "2",
+            "label": "17/19x/19/45/47/34",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "3",
+            "label": "43/43x/48",
+            "price": "",
+            "priceType": "fixed_amount"
+          }
+        ],
+        "conditions": []
+      },
+      {
+        "id": "9",
+        "label": "ADD AN OPTIC CUT",
+        "required": true,
+        "type": "dropdown",
+        "priceType": "options",
+        "options": [
+          {
+            "id": "1",
+            "label": "YES",
+            "price": "75",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "2",
+            "label": "NO",
+            "price": "0",
+            "priceType": "fixed_amount"
+          }
+        ],
+        "conditions": []
+      },
+      {
+        "id": "10",
+        "label": "17/19x/19/45/47/34 OPTIC CUT",
+        "required": true,
+        "type": "dropdown",
+        "priceType": "options",
+        "options": [
+          {
+            "id": "1",
+            "label": "RMR",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "2",
+            "label": "RMRHD",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "3",
+            "label": "SRO",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "4",
+            "label": "C-SERIES",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "5",
+            "label": "RMRcc",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "6",
+            "label": "ACRO",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "7",
+            "label": "MPS",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "8",
+            "label": "VIPER",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "9",
+            "label": "VENOM",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "10",
+            "label": "DELTA POINT PRO",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "11",
+            "label": "K SERIES",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "12",
+            "label": "EPS",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "13",
+            "label": "ROMEO ZERO",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "14",
+            "label": "509T",
+            "price": "",
+            "priceType": "fixed_amount"
+          }
+        ],
+        "conditions": [
+          {
+            "showWhenTrue": true,
+            "groups": [
+              [
+                {
+                  "fieldId": "1",
+                  "comparison": "Contains",
+                  "values": [
+                    "2"
+                  ]
+                },
+                {
+                  "fieldId": "9",
+                  "comparison": "Contains",
+                  "values": [
+                    "1"
+                  ]
+                }
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "11",
+        "label": "BUIS Location",
+        "required": true,
+        "type": "dropdown",
+        "priceType": "options",
+        "options": [
+          {
+            "id": "1",
+            "label": "Recut Dovetail in Front of Optic",
+            "price": "10",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "2",
+            "label": "Keep Factory",
+            "price": "0",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "3",
+            "label": "Delete",
+            "price": "0",
+            "priceType": "fixed_amount"
+          }
+        ],
+        "conditions": [
+          {
+            "showWhenTrue": true,
+            "groups": [
+              [
+                {
+                  "fieldId": "10",
+                  "comparison": "Contains",
+                  "values": [
+                    "1"
+                  ]
+                }
+              ],
+              [
+                {
+                  "fieldId": "10",
+                  "comparison": "Contains",
+                  "values": [
+                    "4"
+                  ]
+                }
+              ],
+              [
+                {
+                  "fieldId": "10",
+                  "comparison": "Contains",
+                  "values": [
+                    "5"
+                  ]
+                }
+              ],
+              [
+                {
+                  "fieldId": "10",
+                  "comparison": "Contains",
+                  "values": [
+                    "6"
+                  ]
+                }
+              ],
+              [
+                {
+                  "fieldId": "10",
+                  "comparison": "Contains",
+                  "values": [
+                    "7"
+                  ]
+                }
+              ],
+              [
+                {
+                  "fieldId": "10",
+                  "comparison": "Contains",
+                  "values": [
+                    "11"
+                  ]
+                }
+              ],
+              [
+                {
+                  "fieldId": "10",
+                  "comparison": "Contains",
+                  "values": [
+                    "12"
+                  ]
+                }
+              ],
+              [
+                {
+                  "fieldId": "10",
+                  "comparison": "Contains",
+                  "values": [
+                    "13"
+                  ]
+                }
+              ],
+              [
+                {
+                  "fieldId": "10",
+                  "comparison": "Contains",
+                  "values": [
+                    "14"
+                  ]
+                }
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "12",
+        "label": "BUIS Location",
+        "required": true,
+        "type": "dropdown",
+        "priceType": "options",
+        "options": [
+          {
+            "id": "2",
+            "label": "Keep Factory",
+            "price": "0",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "3",
+            "label": "Delete",
+            "price": "0",
+            "priceType": "fixed_amount"
+          }
+        ],
+        "conditions": [
+          {
+            "showWhenTrue": true,
+            "groups": [
+              [
+                {
+                  "fieldId": "10",
+                  "comparison": "Contains",
+                  "values": [
+                    "2"
+                  ]
+                }
+              ],
+              [
+                {
+                  "fieldId": "10",
+                  "comparison": "Contains",
+                  "values": [
+                    "3"
+                  ]
+                }
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "13",
+        "label": "BUIS Location",
+        "required": true,
+        "type": "dropdown",
+        "priceType": "options",
+        "options": [
+          {
+            "id": "1",
+            "label": "Recut Dovetail in Front of Optic",
+            "price": "10",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "3",
+            "label": "Delete",
+            "price": "0",
+            "priceType": "fixed_amount"
+          }
+        ],
+        "conditions": [
+          {
+            "showWhenTrue": true,
+            "groups": [
+              [
+                {
+                  "fieldId": "10",
+                  "comparison": "Contains",
+                  "values": [
+                    "8"
+                  ]
+                }
+              ],
+              [
+                {
+                  "fieldId": "10",
+                  "comparison": "Contains",
+                  "values": [
+                    "9"
+                  ]
+                }
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "14",
+        "label": "BUIS Location",
+        "required": true,
+        "type": "dropdown",
+        "priceType": "options",
+        "options": [
+          {
+            "id": "1",
+            "label": "Recut Dovetail in Front of Optic",
+            "price": "10",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "2",
+            "label": "BUIS (designed for optic mounted irons)",
+            "price": "0",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "3",
+            "label": "Delete",
+            "price": "0",
+            "priceType": "fixed_amount"
+          }
+        ],
+        "conditions": [
+          {
+            "showWhenTrue": true,
+            "groups": [
+              [
+                {
+                  "fieldId": "10",
+                  "comparison": "Contains",
+                  "values": [
+                    "10"
+                  ]
+                }
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "2",
+        "label": "43/43x/48 OPTIC CUT",
+        "required": true,
+        "type": "dropdown",
+        "priceType": "options",
+        "options": [
+          {
+            "id": "1",
+            "label": "RMRcc",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "2",
+            "label": "K SERIES",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "3",
+            "label": "EPS",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "4",
+            "label": "ROMEO ZERO",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "5",
+            "label": "509T",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "6",
+            "label": "MOS REAR STUD DELETE",
+            "price": "",
+            "priceType": "fixed_amount"
+          }
+        ],
+        "conditions": [
+          {
+            "showWhenTrue": true,
+            "groups": [
+              [
+                {
+                  "fieldId": "1",
+                  "comparison": "Contains",
+                  "values": [
+                    "3"
+                  ]
+                },
+                {
+                  "fieldId": "9",
+                  "comparison": "Contains",
+                  "values": [
+                    "1"
+                  ]
+                }
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "3",
+        "label": "BUIS Location",
+        "required": true,
+        "type": "dropdown",
+        "priceType": "options",
+        "options": [
+          {
+            "id": "1",
+            "label": "Recut Dovetail in Front of Optic",
+            "price": "10",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "2",
+            "label": "Keep Factory",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "3",
+            "label": "Delete",
+            "price": "",
+            "priceType": "fixed_amount"
+          }
+        ],
+        "conditions": [
+          {
+            "showWhenTrue": true,
+            "groups": [
+              [
+                {
+                  "fieldId": "2",
+                  "comparison": "Contains",
+                  "values": [
+                    "1"
+                  ]
+                }
+              ],
+              [
+                {
+                  "fieldId": "2",
+                  "comparison": "Contains",
+                  "values": [
+                    "2"
+                  ]
+                }
+              ],
+              [
+                {
+                  "fieldId": "2",
+                  "comparison": "Contains",
+                  "values": [
+                    "3"
+                  ]
+                }
+              ],
+              [
+                {
+                  "fieldId": "2",
+                  "comparison": "Contains",
+                  "values": [
+                    "4"
+                  ]
+                }
+              ],
+              [
+                {
+                  "fieldId": "2",
+                  "comparison": "Contains",
+                  "values": [
+                    "5"
+                  ]
+                }
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "15",
+        "label": "BARREL PORT",
+        "required": true,
+        "type": "dropdown",
+        "priceType": "options",
+        "options": [
+          {
+            "id": "1",
+            "label": "Standard Barrel Port",
+            "price": "50",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "2",
+            "label": "None",
+            "price": "0",
+            "priceType": "fixed_amount"
+          }
+        ],
+        "conditions": []
+      },
+      {
+        "id": "7",
+        "label": "Coating Type",
+        "required": true,
+        "type": "dropdown",
+        "priceType": "options",
+        "options": [
+          {
+            "id": "1",
+            "label": "Single Color",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "2",
+            "label": "Battleworn",
+            "price": "60",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "3",
+            "label": "Camo",
+            "price": "100",
+            "priceType": "fixed_amount"
+          }
+        ],
+        "conditions": []
+      },
+      {
+        "id": "4",
+        "label": "Slide Cerakote",
+        "required": true,
+        "type": "dropdown",
+        "priceType": "options",
+        "options": [
+          {
+            "id": "33",
+            "label": "Carbon Black F-102",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "34",
+            "label": "Flat Dark Earth F-106",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "35",
+            "label": "OD Green F-105",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "36",
+            "label": "Sig Dark Grey H-210",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "37",
+            "label": "Midnight Bronze H-294",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "38",
+            "label": "Phantom Teal DMW Custom",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "39",
+            "label": "Black Cherry H-319",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "40",
+            "label": "Blue Titanium H-185",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "41",
+            "label": "Tungsten H-237",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "42",
+            "label": "Sniper Green H-229",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "43",
+            "label": "Burnt Bronze H-148",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "44",
+            "label": "Rose Gold H-327",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "45",
+            "label": "Sniper Grey H-234",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "46",
+            "label": "Jesse James Eastern Front H-400",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "47",
+            "label": "USMC Red H-167",
+            "price": "",
+            "priceType": "fixed_amount"
+          }
+        ],
+        "conditions": [
+          {
+            "showWhenTrue": false,
+            "groups": [
+              [
+                {
+                  "fieldId": "7",
+                  "comparison": "Contains",
+                  "values": [
+                    "3"
+                  ]
+                }
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "6",
+        "label": "Slide Cerakote 2",
+        "required": true,
+        "type": "dropdown",
+        "priceType": "options",
+        "options": [
+          {
+            "id": "33",
+            "label": "Carbon Black F-102",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "34",
+            "label": "Flat Dark Earth F-106",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "35",
+            "label": "OD Green F-105",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "36",
+            "label": "Sig Dark Grey H-210",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "37",
+            "label": "Midnight Bronze H-294",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "38",
+            "label": "Phantom Teal DMW Custom",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "39",
+            "label": "Black Cherry H-319",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "40",
+            "label": "Blue Titanium H-185",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "41",
+            "label": "Tungsten H-237",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "42",
+            "label": "Sniper Green H-229",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "43",
+            "label": "Burnt Bronze H-148",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "44",
+            "label": "Rose Gold H-327",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "45",
+            "label": "Sniper Grey H-234",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "46",
+            "label": "Jesse James Eastern Front H-400",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "47",
+            "label": "USMC Red H-167",
+            "price": "",
+            "priceType": "fixed_amount"
+          }
+        ],
+        "conditions": [
+          {
+            "showWhenTrue": true,
+            "groups": [
+              [
+                {
+                  "fieldId": "7",
+                  "comparison": "Contains",
+                  "values": [
+                    "2"
+                  ]
+                }
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "8",
+        "label": "Slide Cerakote Camo",
+        "required": true,
+        "type": "dropdown",
+        "priceType": "options",
+        "options": [
+          {
+            "id": "39",
+            "label": "Multicam Tropic",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "40",
+            "label": "Multicam Arid",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "41",
+            "label": "Multicam Alpine",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "42",
+            "label": "Multicam Black",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "43",
+            "label": "Multicam",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "44",
+            "label": "M81 Woodland (Standard)",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "45",
+            "label": "M81 Woodland (Bright)",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "46",
+            "label": "DCU (Chocolate Chip",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "47",
+            "label": "Wood Chip",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "48",
+            "label": "Tropic Chip",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "49",
+            "label": "Blueberry Chocolate Chip",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "50",
+            "label": "Midnight Chocolate Chip",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "51",
+            "label": "Woodland Tigerstripe",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "52",
+            "label": "Midnight Tigerstripe",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "53",
+            "label": "Flectarn",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "54",
+            "label": "Swedish M90",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "55",
+            "label": "Pupkin Spice",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "56",
+            "label": "Nautical Camo",
+            "price": "",
+            "priceType": "fixed_amount"
+          }
+        ],
+        "conditions": [
+          {
+            "showWhenTrue": true,
+            "groups": [
+              [
+                {
+                  "fieldId": "7",
+                  "comparison": "Contains",
+                  "values": [
+                    "3"
+                  ]
+                }
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "serviceId": "cz-p10c-cut",
+    "sourceUrl": "https://defiantmachineworks.com/product/cz-p10c-cut/",
+    "fields": [
+      {
+        "id": "1",
+        "label": "Model",
+        "required": true,
+        "type": "dropdown",
+        "priceType": "options",
+        "options": [
+          {
+            "id": "1",
+            "label": "CZ P10-C",
+            "price": "",
+            "priceType": "fixed_amount"
+          }
+        ],
+        "conditions": []
+      },
+      {
+        "id": "2",
+        "label": "Optic Cut",
+        "required": true,
+        "type": "dropdown",
+        "priceType": "options",
+        "options": [
+          {
+            "id": "1",
+            "label": "RMR",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "2",
+            "label": "RMRHD",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "3",
+            "label": "SRO",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "4",
+            "label": "C SERIES",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "5",
+            "label": "RMRcc",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "6",
+            "label": "ACRO",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "7",
+            "label": "MPS",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "8",
+            "label": "VIPER",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "9",
+            "label": "VENOM",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "10",
+            "label": "DELTA POINT PRO",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "11",
+            "label": "K SERIES",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "12",
+            "label": "EPS",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "13",
+            "label": "ROMEO ZERO",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "14",
+            "label": "509T",
+            "price": "",
+            "priceType": "fixed_amount"
+          }
+        ],
+        "conditions": []
+      },
+      {
+        "id": "3",
+        "label": "BUIS",
+        "required": true,
+        "type": "dropdown",
+        "priceType": "options",
+        "options": [
+          {
+            "id": "1",
+            "label": "Rear",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "2",
+            "label": "Recut Dovetail in Front of Optic",
+            "price": "10",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "3",
+            "label": "Delete",
+            "price": "",
+            "priceType": "fixed_amount"
+          }
+        ],
+        "conditions": [
+          {
+            "showWhenTrue": false,
+            "groups": [
+              [
+                {
+                  "fieldId": "2",
+                  "comparison": "Contains",
+                  "values": [
+                    "11"
+                  ]
+                }
+              ],
+              [
+                {
+                  "fieldId": "2",
+                  "comparison": "Contains",
+                  "values": [
+                    "12"
+                  ]
+                }
+              ],
+              [
+                {
+                  "fieldId": "2",
+                  "comparison": "Contains",
+                  "values": [
+                    "13"
+                  ]
+                }
+              ],
+              [
+                {
+                  "fieldId": "2",
+                  "comparison": "Contains",
+                  "values": [
+                    "14"
+                  ]
+                }
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "4",
+        "label": "BUIS",
+        "required": true,
+        "type": "dropdown",
+        "priceType": "options",
+        "options": [
+          {
+            "id": "4",
+            "label": "Keep Factory",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "1",
+            "label": "Rear",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "2",
+            "label": "Recut Dovetail in Front of Optic",
+            "price": "10",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "3",
+            "label": "Delete",
+            "price": "",
+            "priceType": "fixed_amount"
+          }
+        ],
+        "conditions": [
+          {
+            "showWhenTrue": true,
+            "groups": [
+              [
+                {
+                  "fieldId": "2",
+                  "comparison": "Contains",
+                  "values": [
+                    "11"
+                  ]
+                }
+              ],
+              [
+                {
+                  "fieldId": "2",
+                  "comparison": "Contains",
+                  "values": [
+                    "12"
+                  ]
+                }
+              ],
+              [
+                {
+                  "fieldId": "2",
+                  "comparison": "Contains",
+                  "values": [
+                    "13"
+                  ]
+                }
+              ],
+              [
+                {
+                  "fieldId": "2",
+                  "comparison": "Contains",
+                  "values": [
+                    "14"
+                  ]
+                }
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "8",
+        "label": "Coating Type",
+        "required": true,
+        "type": "dropdown",
+        "priceType": "options",
+        "options": [
+          {
+            "id": "1",
+            "label": "Single Color",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "2",
+            "label": "Battleworn",
+            "price": "60",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "3",
+            "label": "Camo",
+            "price": "100",
+            "priceType": "fixed_amount"
+          }
+        ],
+        "conditions": []
+      },
+      {
+        "id": "5",
+        "label": "Slide Cerakote",
+        "required": true,
+        "type": "dropdown",
+        "priceType": "options",
+        "options": [
+          {
+            "id": "33",
+            "label": "Carbon Black F-102",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "34",
+            "label": "Flat Dark Earth F-106",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "35",
+            "label": "OD Green F-105",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "36",
+            "label": "Sig Dark Grey H-210",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "37",
+            "label": "Midnight Bronze H-294",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "38",
+            "label": "Phantom Teal DMW Custom",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "39",
+            "label": "Black Cherry H-319",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "40",
+            "label": "Blue Titanium H-185",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "41",
+            "label": "Tungsten H-237",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "42",
+            "label": "Sniper Green H-229",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "43",
+            "label": "Burnt Bronze H-148",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "44",
+            "label": "Rose Gold H-327",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "45",
+            "label": "Sniper Grey H-234",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "46",
+            "label": "Jesse James Eastern Front H-400",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "47",
+            "label": "USMC Red H-167",
+            "price": "",
+            "priceType": "fixed_amount"
+          }
+        ],
+        "conditions": [
+          {
+            "showWhenTrue": false,
+            "groups": [
+              [
+                {
+                  "fieldId": "8",
+                  "comparison": "Contains",
+                  "values": [
+                    "3"
+                  ]
+                }
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "7",
+        "label": "Slide Cerakote 2",
+        "required": true,
+        "type": "dropdown",
+        "priceType": "options",
+        "options": [
+          {
+            "id": "33",
+            "label": "Carbon Black F-102",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "34",
+            "label": "Flat Dark Earth F-106",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "35",
+            "label": "OD Green F-105",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "36",
+            "label": "Sig Dark Grey H-210",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "37",
+            "label": "Midnight Bronze H-294",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "38",
+            "label": "Phantom Teal DMW Custom",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "39",
+            "label": "Black Cherry H-319",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "40",
+            "label": "Blue Titanium H-185",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "41",
+            "label": "Tungsten H-237",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "42",
+            "label": "Sniper Green H-229",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "43",
+            "label": "Burnt Bronze H-148",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "44",
+            "label": "Rose Gold H-327",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "45",
+            "label": "Sniper Grey H-234",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "46",
+            "label": "Jesse James Eastern Front H-400",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "47",
+            "label": "USMC Red H-167",
+            "price": "",
+            "priceType": "fixed_amount"
+          }
+        ],
+        "conditions": [
+          {
+            "showWhenTrue": true,
+            "groups": [
+              [
+                {
+                  "fieldId": "8",
+                  "comparison": "Contains",
+                  "values": [
+                    "2"
+                  ]
+                }
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "9",
+        "label": "Slide Cerakote Camo",
+        "required": true,
+        "type": "dropdown",
+        "priceType": "options",
+        "options": [
+          {
+            "id": "40",
+            "label": "Multicam Tropic",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "41",
+            "label": "Multicam Arid",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "42",
+            "label": "Multicam Alpine",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "43",
+            "label": "Multicam Black",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "44",
+            "label": "Multicam",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "45",
+            "label": "M81 Woodland (Standard)",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "46",
+            "label": "M81 Woodland (Bright)",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "47",
+            "label": "DCU (Chocolate Chip",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "48",
+            "label": "Wood Chip",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "49",
+            "label": "Tropic Chip",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "50",
+            "label": "Blueberry Chocolate Chip",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "51",
+            "label": "Midnight Chocolate Chip",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "52",
+            "label": "Woodland Tigerstripe",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "53",
+            "label": "Midnight Tigerstripe",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "54",
+            "label": "Flectarn",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "55",
+            "label": "Swedish M90",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "56",
+            "label": "Pupkin Spice",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "57",
+            "label": "Nautical Camo",
+            "price": "",
+            "priceType": "fixed_amount"
+          }
+        ],
+        "conditions": [
+          {
+            "showWhenTrue": true,
+            "groups": [
+              [
+                {
+                  "fieldId": "8",
+                  "comparison": "Contains",
+                  "values": [
+                    "3"
+                  ]
+                }
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "serviceId": "smith-wesson-mp-optic-cut",
+    "sourceUrl": "https://defiantmachineworks.com/product/smith-wesson-mp-optic-cut/",
+    "fields": [
+      {
+        "id": "1",
+        "label": "Model",
+        "required": true,
+        "type": "dropdown",
+        "priceType": "options",
+        "options": [
+          {
+            "id": "1",
+            "label": "M&P 2.0 (9MM/.40)",
+            "price": "",
+            "priceType": "fixed_amount"
+          }
+        ],
+        "conditions": []
+      },
+      {
+        "id": "2",
+        "label": "Optic Cut",
+        "required": true,
+        "type": "dropdown",
+        "priceType": "options",
+        "options": [
+          {
+            "id": "1",
+            "label": "RMR",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "2",
+            "label": "RMR",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "3",
+            "label": "SRO",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "4",
+            "label": "C SERIES",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "5",
+            "label": "RMRcc",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "6",
+            "label": "VIPER",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "7",
+            "label": "VENOM",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "8",
+            "label": "DELTA POINT PRO",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "9",
+            "label": "K SERIES",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "10",
+            "label": "EPS",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "11",
+            "label": "ROMEO ZERO",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "12",
+            "label": "509T",
+            "price": "",
+            "priceType": "fixed_amount"
+          }
+        ],
+        "conditions": []
+      },
+      {
+        "id": "3",
+        "label": "BUIS",
+        "required": true,
+        "type": "dropdown",
+        "priceType": "options",
+        "options": [
+          {
+            "id": "1",
+            "label": "Recut Dovetail in Front of Optic",
+            "price": "10",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "2",
+            "label": "Rear",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "3",
+            "label": "Delete",
+            "price": "",
+            "priceType": "fixed_amount"
+          }
+        ],
+        "conditions": [
+          {
+            "showWhenTrue": false,
+            "groups": [
+              [
+                {
+                  "fieldId": "2",
+                  "comparison": "Contains",
+                  "values": [
+                    "8"
+                  ]
+                }
+              ],
+              [
+                {
+                  "fieldId": "2",
+                  "comparison": "Contains",
+                  "values": [
+                    "9"
+                  ]
+                }
+              ],
+              [
+                {
+                  "fieldId": "2",
+                  "comparison": "Contains",
+                  "values": [
+                    "10"
+                  ]
+                }
+              ],
+              [
+                {
+                  "fieldId": "2",
+                  "comparison": "Contains",
+                  "values": [
+                    "11"
+                  ]
+                }
+              ],
+              [
+                {
+                  "fieldId": "2",
+                  "comparison": "Contains",
+                  "values": [
+                    "12"
+                  ]
+                }
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "4",
+        "label": "BUIS",
+        "required": true,
+        "type": "dropdown",
+        "priceType": "options",
+        "options": [
+          {
+            "id": "1",
+            "label": "Recut Dovetail in Front of Optic",
+            "price": "10",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "2",
+            "label": "Rear",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "4",
+            "label": "BUIS (designed for optic mounted irons)",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "3",
+            "label": "Delete",
+            "price": "",
+            "priceType": "fixed_amount"
+          }
+        ],
+        "conditions": [
+          {
+            "showWhenTrue": true,
+            "groups": [
+              [
+                {
+                  "fieldId": "2",
+                  "comparison": "Contains",
+                  "values": [
+                    "8"
+                  ]
+                }
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "5",
+        "label": "BUIS",
+        "required": true,
+        "type": "dropdown",
+        "priceType": "options",
+        "options": [
+          {
+            "id": "4",
+            "label": "Keep Factory",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "1",
+            "label": "Recut Dovetail in Front of Optic",
+            "price": "10",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "2",
+            "label": "Rear",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "3",
+            "label": "Delete",
+            "price": "",
+            "priceType": "fixed_amount"
+          }
+        ],
+        "conditions": [
+          {
+            "showWhenTrue": true,
+            "groups": [
+              [
+                {
+                  "fieldId": "2",
+                  "comparison": "Contains",
+                  "values": [
+                    "9"
+                  ]
+                }
+              ],
+              [
+                {
+                  "fieldId": "2",
+                  "comparison": "Contains",
+                  "values": [
+                    "10"
+                  ]
+                }
+              ],
+              [
+                {
+                  "fieldId": "2",
+                  "comparison": "Contains",
+                  "values": [
+                    "11"
+                  ]
+                }
+              ],
+              [
+                {
+                  "fieldId": "2",
+                  "comparison": "Contains",
+                  "values": [
+                    "12"
+                  ]
+                }
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "9",
+        "label": "Coating Type",
+        "required": true,
+        "type": "dropdown",
+        "priceType": "options",
+        "options": [
+          {
+            "id": "1",
+            "label": "Single Color",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "2",
+            "label": "Battleworn",
+            "price": "60",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "3",
+            "label": "Camo",
+            "price": "100",
+            "priceType": "fixed_amount"
+          }
+        ],
+        "conditions": []
+      },
+      {
+        "id": "6",
+        "label": "Slide Cerakote",
+        "required": true,
+        "type": "dropdown",
+        "priceType": "options",
+        "options": [
+          {
+            "id": "33",
+            "label": "Carbon Black F-102",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "34",
+            "label": "Flat Dark Earth F-106",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "35",
+            "label": "OD Green F-105",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "36",
+            "label": "Sig Dark Grey H-210",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "37",
+            "label": "Midnight Bronze H-294",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "38",
+            "label": "Phantom Teal DMW Custom",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "39",
+            "label": "Black Cherry H-319",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "40",
+            "label": "Blue Titanium H-185",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "41",
+            "label": "Tungsten H-237",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "42",
+            "label": "Sniper Green H-229",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "43",
+            "label": "Burnt Bronze H-148",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "44",
+            "label": "Rose Gold H-327",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "45",
+            "label": "Sniper Grey H-234",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "46",
+            "label": "Jesse James Eastern Front H-400",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "47",
+            "label": "USMC Red H-167",
+            "price": "",
+            "priceType": "fixed_amount"
+          }
+        ],
+        "conditions": [
+          {
+            "showWhenTrue": false,
+            "groups": [
+              [
+                {
+                  "fieldId": "9",
+                  "comparison": "Contains",
+                  "values": [
+                    "3"
+                  ]
+                }
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "8",
+        "label": "Slide Cerakote 2",
+        "required": true,
+        "type": "dropdown",
+        "priceType": "options",
+        "options": [
+          {
+            "id": "33",
+            "label": "Carbon Black F-102",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "34",
+            "label": "Flat Dark Earth F-106",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "35",
+            "label": "OD Green F-105",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "36",
+            "label": "Sig Dark Grey H-210",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "37",
+            "label": "Midnight Bronze H-294",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "38",
+            "label": "Phantom Teal DMW Custom",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "39",
+            "label": "Black Cherry H-319",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "40",
+            "label": "Blue Titanium H-185",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "41",
+            "label": "Tungsten H-237",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "42",
+            "label": "Sniper Green H-229",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "43",
+            "label": "Burnt Bronze H-148",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "44",
+            "label": "Rose Gold H-327",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "45",
+            "label": "Sniper Grey H-234",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "46",
+            "label": "Jesse James Eastern Front H-400",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "47",
+            "label": "USMC Red H-167",
+            "price": "",
+            "priceType": "fixed_amount"
+          }
+        ],
+        "conditions": [
+          {
+            "showWhenTrue": true,
+            "groups": [
+              [
+                {
+                  "fieldId": "9",
+                  "comparison": "Contains",
+                  "values": [
+                    "2"
+                  ]
+                }
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "10",
+        "label": "Slide Cerakote Camo",
+        "required": true,
+        "type": "dropdown",
+        "priceType": "options",
+        "options": [
+          {
+            "id": "39",
+            "label": "Multicam Tropic",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "40",
+            "label": "Multicam Arid",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "41",
+            "label": "Multicam Alpine",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "42",
+            "label": "Multicam Black",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "43",
+            "label": "Multicam",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "44",
+            "label": "M81 Woodland (Standard)",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "45",
+            "label": "M81 Woodland (Bright)",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "46",
+            "label": "DCU (Chocolate Chip",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "47",
+            "label": "Wood Chip",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "48",
+            "label": "Tropic Chip",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "49",
+            "label": "Blueberry Chocolate Chip",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "50",
+            "label": "Midnight Chocolate Chip",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "51",
+            "label": "Woodland Tigerstripe",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "52",
+            "label": "Midnight Tigerstripe",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "53",
+            "label": "Flectarn",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "54",
+            "label": "Swedish M90",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "55",
+            "label": "Pupkin Spice",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "56",
+            "label": "Nautical Camo",
+            "price": "",
+            "priceType": "fixed_amount"
+          }
+        ],
+        "conditions": [
+          {
+            "showWhenTrue": true,
+            "groups": [
+              [
+                {
+                  "fieldId": "9",
+                  "comparison": "Contains",
+                  "values": [
+                    "3"
+                  ]
+                }
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "serviceId": "sig-p365-optic-cut",
+    "sourceUrl": "https://defiantmachineworks.com/product/sig-p365-optic-cut/",
+    "fields": [
+      {
+        "id": "1",
+        "label": "Model",
+        "required": true,
+        "type": "dropdown",
+        "priceType": "options",
+        "options": [
+          {
+            "id": "1",
+            "label": "P365 Series",
+            "price": "",
+            "priceType": "fixed_amount"
+          }
+        ],
+        "conditions": []
+      },
+      {
+        "id": "2",
+        "label": "Optic Cut",
+        "required": true,
+        "type": "dropdown",
+        "priceType": "options",
+        "options": [
+          {
+            "id": "1",
+            "label": "RMRcc",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "2",
+            "label": "K Series",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "3",
+            "label": "EPS",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "4",
+            "label": "ROMEO ZERO",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "5",
+            "label": "509T",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "6",
+            "label": "Rear Irons for 365XL",
+            "price": "",
+            "priceType": "fixed_amount"
+          }
+        ],
+        "conditions": []
+      },
+      {
+        "id": "3",
+        "label": "BUIS",
+        "required": true,
+        "type": "dropdown",
+        "priceType": "options",
+        "options": [
+          {
+            "id": "1",
+            "label": "Keep Factory",
+            "price": "",
+            "priceType": "fixed_amount"
+          }
+        ],
+        "conditions": [
+          {
+            "showWhenTrue": false,
+            "groups": [
+              [
+                {
+                  "fieldId": "2",
+                  "comparison": "Contains",
+                  "values": [
+                    "6"
+                  ]
+                }
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "4",
+        "label": "BUIS",
+        "required": true,
+        "type": "dropdown",
+        "priceType": "options",
+        "options": [
+          {
+            "id": "1",
+            "label": "Recut dovetail for front sight",
+            "price": "10",
+            "priceType": "fixed_amount"
+          }
+        ],
+        "conditions": [
+          {
+            "showWhenTrue": true,
+            "groups": [
+              [
+                {
+                  "fieldId": "2",
+                  "comparison": "Contains",
+                  "values": [
+                    "6"
+                  ]
+                }
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "9",
+        "label": "Coating Type",
+        "required": true,
+        "type": "dropdown",
+        "priceType": "options",
+        "options": [
+          {
+            "id": "1",
+            "label": "Single Color",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "2",
+            "label": "Battleworn",
+            "price": "60",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "3",
+            "label": "Camo",
+            "price": "100",
+            "priceType": "fixed_amount"
+          }
+        ],
+        "conditions": []
+      },
+      {
+        "id": "5",
+        "label": "Slide Cerakote",
+        "required": true,
+        "type": "dropdown",
+        "priceType": "options",
+        "options": [
+          {
+            "id": "33",
+            "label": "Carbon Black F-102",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "34",
+            "label": "Flat Dark Earth F-106",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "35",
+            "label": "OD Green F-105",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "36",
+            "label": "Sig Dark Grey H-210",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "37",
+            "label": "Midnight Bronze H-294",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "38",
+            "label": "Phantom Teal DMW Custom",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "39",
+            "label": "Black Cherry H-319",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "40",
+            "label": "Blue Titanium H-185",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "41",
+            "label": "Tungsten H-237",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "42",
+            "label": "Sniper Green H-229",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "43",
+            "label": "Burnt Bronze H-148",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "44",
+            "label": "Rose Gold H-327",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "45",
+            "label": "Sniper Grey H-234",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "46",
+            "label": "Jesse James Eastern Front H-400",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "47",
+            "label": "USMC Red H-167",
+            "price": "",
+            "priceType": "fixed_amount"
+          }
+        ],
+        "conditions": [
+          {
+            "showWhenTrue": false,
+            "groups": [
+              [
+                {
+                  "fieldId": "9",
+                  "comparison": "Contains",
+                  "values": [
+                    "3"
+                  ]
+                }
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "7",
+        "label": "Slide Cerakote 2",
+        "required": true,
+        "type": "dropdown",
+        "priceType": "options",
+        "options": [
+          {
+            "id": "33",
+            "label": "Carbon Black F-102",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "34",
+            "label": "Flat Dark Earth F-106",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "35",
+            "label": "OD Green F-105",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "36",
+            "label": "Sig Dark Grey H-210",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "37",
+            "label": "Midnight Bronze H-294",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "38",
+            "label": "Phantom Teal DMW Custom",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "39",
+            "label": "Black Cherry H-319",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "40",
+            "label": "Blue Titanium H-185",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "41",
+            "label": "Tungsten H-237",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "42",
+            "label": "Sniper Green H-229",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "43",
+            "label": "Burnt Bronze H-148",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "44",
+            "label": "Rose Gold H-327",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "45",
+            "label": "Sniper Grey H-234",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "46",
+            "label": "Jesse James Eastern Front H-400",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "47",
+            "label": "USMC Red H-167",
+            "price": "",
+            "priceType": "fixed_amount"
+          }
+        ],
+        "conditions": [
+          {
+            "showWhenTrue": true,
+            "groups": [
+              [
+                {
+                  "fieldId": "9",
+                  "comparison": "Contains",
+                  "values": [
+                    "2"
+                  ]
+                }
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "8",
+        "label": "Slide Cerakote Camo",
+        "required": true,
+        "type": "dropdown",
+        "priceType": "options",
+        "options": [
+          {
+            "id": "39",
+            "label": "Multicam Tropic",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "40",
+            "label": "Multicam Arid",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "41",
+            "label": "Multicam Alpine",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "42",
+            "label": "Multicam Black",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "43",
+            "label": "Multicam",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "44",
+            "label": "M81 Woodland (Standard)",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "45",
+            "label": "M81 Woodland (Bright)",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "46",
+            "label": "DCU (Chocolate Chip",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "47",
+            "label": "Wood Chip",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "48",
+            "label": "Tropic Chip",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "49",
+            "label": "Blueberry Chocolate Chip",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "50",
+            "label": "Midnight Chocolate Chip",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "51",
+            "label": "Woodland Tigerstripe",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "52",
+            "label": "Midnight Tigerstripe",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "53",
+            "label": "Flectarn",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "54",
+            "label": "Swedish M90",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "55",
+            "label": "Pupkin Spice",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "56",
+            "label": "Nautical Camo",
+            "price": "",
+            "priceType": "fixed_amount"
+          }
+        ],
+        "conditions": [
+          {
+            "showWhenTrue": true,
+            "groups": [
+              [
+                {
+                  "fieldId": "9",
+                  "comparison": "Contains",
+                  "values": [
+                    "3"
+                  ]
+                }
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "serviceId": "glock-optic-cut-slimline",
+    "sourceUrl": "https://defiantmachineworks.com/product/glock-optic-cut-slimline/",
+    "fields": [
+      {
+        "id": "1",
+        "label": "MODEL",
+        "required": true,
+        "type": "dropdown",
+        "priceType": "options",
+        "options": [
+          {
+            "id": "2",
+            "label": "43/43X/48",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "3",
+            "label": "42",
+            "price": "",
+            "priceType": "fixed_amount"
+          }
+        ],
+        "conditions": []
+      },
+      {
+        "id": "2",
+        "label": "OPTIC CUT for 43/43X/48",
+        "required": true,
+        "type": "dropdown",
+        "priceType": "options",
+        "options": [
+          {
+            "id": "1",
+            "label": "RMRcc",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "2",
+            "label": "K SERIES",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "3",
+            "label": "EPS",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "4",
+            "label": "ROMEO ZERO",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "5",
+            "label": "509T",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "6",
+            "label": "MOS REAR STUD DELETE",
+            "price": "-75",
+            "priceType": "fixed_amount"
+          }
+        ],
+        "conditions": [
+          {
+            "showWhenTrue": true,
+            "groups": [
+              [
+                {
+                  "fieldId": "1",
+                  "comparison": "Contains",
+                  "values": [
+                    "2"
+                  ]
+                }
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "9",
+        "label": "OPTIC CUT for 42",
+        "required": true,
+        "type": "dropdown",
+        "priceType": "options",
+        "options": [
+          {
+            "id": "2",
+            "label": "K SERIES",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "4",
+            "label": "ROMEO ZERO",
+            "price": "",
+            "priceType": "fixed_amount"
+          }
+        ],
+        "conditions": [
+          {
+            "showWhenTrue": true,
+            "groups": [
+              [
+                {
+                  "fieldId": "1",
+                  "comparison": "Contains",
+                  "values": [
+                    "3"
+                  ]
+                }
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "3",
+        "label": "BUIS for 43/43X/48",
+        "required": true,
+        "type": "dropdown",
+        "priceType": "options",
+        "options": [
+          {
+            "id": "1",
+            "label": "Recut Dovetail in Front of Optic",
+            "price": "10",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "2",
+            "label": "Keep Factory",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "3",
+            "label": "Delete",
+            "price": "",
+            "priceType": "fixed_amount"
+          }
+        ],
+        "conditions": [
+          {
+            "showWhenTrue": false,
+            "groups": [
+              [
+                {
+                  "fieldId": "2",
+                  "comparison": "Contains",
+                  "values": [
+                    "6"
+                  ]
+                }
+              ],
+              [
+                {
+                  "fieldId": "1",
+                  "comparison": "Contains",
+                  "values": [
+                    "3"
+                  ]
+                }
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "10",
+        "label": "BUIS for 42",
+        "required": true,
+        "type": "dropdown",
+        "priceType": "options",
+        "options": [
+          {
+            "id": "3",
+            "label": "Delete",
+            "price": "",
+            "priceType": "fixed_amount"
+          }
+        ],
+        "conditions": [
+          {
+            "showWhenTrue": true,
+            "groups": [
+              [
+                {
+                  "fieldId": "1",
+                  "comparison": "Contains",
+                  "values": [
+                    "3"
+                  ]
+                }
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "7",
+        "label": "Coating Type",
+        "required": true,
+        "type": "dropdown",
+        "priceType": "options",
+        "options": [
+          {
+            "id": "1",
+            "label": "Single Color",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "2",
+            "label": "Battleworn",
+            "price": "60",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "3",
+            "label": "Camo",
+            "price": "100",
+            "priceType": "fixed_amount"
+          }
+        ],
+        "conditions": []
+      },
+      {
+        "id": "4",
+        "label": "Slide Cerakote",
+        "required": true,
+        "type": "dropdown",
+        "priceType": "options",
+        "options": [
+          {
+            "id": "33",
+            "label": "Carbon Black F-102",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "34",
+            "label": "Flat Dark Earth F-106",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "35",
+            "label": "OD Green F-105",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "36",
+            "label": "Sig Dark Grey H-210",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "37",
+            "label": "Midnight Bronze H-294",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "38",
+            "label": "Phantom Teal DMW Custom",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "39",
+            "label": "Black Cherry H-319",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "40",
+            "label": "Blue Titanium H-185",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "41",
+            "label": "Tungsten H-237",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "42",
+            "label": "Sniper Green H-229",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "43",
+            "label": "Burnt Bronze H-148",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "44",
+            "label": "Rose Gold H-327",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "45",
+            "label": "Sniper Grey H-234",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "46",
+            "label": "Jesse James Eastern Front H-400",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "47",
+            "label": "USMC Red H-167",
+            "price": "",
+            "priceType": "fixed_amount"
+          }
+        ],
+        "conditions": [
+          {
+            "showWhenTrue": false,
+            "groups": [
+              [
+                {
+                  "fieldId": "7",
+                  "comparison": "Contains",
+                  "values": [
+                    "3"
+                  ]
+                }
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "6",
+        "label": "Slide Cerakote 2",
+        "required": true,
+        "type": "dropdown",
+        "priceType": "options",
+        "options": [
+          {
+            "id": "33",
+            "label": "Carbon Black F-102",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "34",
+            "label": "Flat Dark Earth F-106",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "35",
+            "label": "OD Green F-105",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "36",
+            "label": "Sig Dark Grey H-210",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "37",
+            "label": "Midnight Bronze H-294",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "38",
+            "label": "Phantom Teal DMW Custom",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "39",
+            "label": "Black Cherry H-319",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "40",
+            "label": "Blue Titanium H-185",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "41",
+            "label": "Tungsten H-237",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "42",
+            "label": "Sniper Green H-229",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "43",
+            "label": "Burnt Bronze H-148",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "44",
+            "label": "Rose Gold H-327",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "45",
+            "label": "Sniper Grey H-234",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "46",
+            "label": "Jesse James Eastern Front H-400",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "47",
+            "label": "USMC Red H-167",
+            "price": "",
+            "priceType": "fixed_amount"
+          }
+        ],
+        "conditions": [
+          {
+            "showWhenTrue": true,
+            "groups": [
+              [
+                {
+                  "fieldId": "7",
+                  "comparison": "Contains",
+                  "values": [
+                    "2"
+                  ]
+                }
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "8",
+        "label": "Slide Cerakote Camo",
+        "required": true,
+        "type": "dropdown",
+        "priceType": "options",
+        "options": [
+          {
+            "id": "39",
+            "label": "Multicam Tropic",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "40",
+            "label": "Multicam Arid",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "41",
+            "label": "Multicam Alpine",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "42",
+            "label": "Multicam Black",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "43",
+            "label": "Multicam",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "44",
+            "label": "M81 Woodland (Standard)",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "45",
+            "label": "M81 Woodland (Bright)",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "46",
+            "label": "DCU (Chocolate Chip",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "47",
+            "label": "Wood Chip",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "48",
+            "label": "Tropic Chip",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "49",
+            "label": "Blueberry Chocolate Chip",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "50",
+            "label": "Midnight Chocolate Chip",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "51",
+            "label": "Woodland Tigerstripe",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "52",
+            "label": "Midnight Tigerstripe",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "53",
+            "label": "Flectarn",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "54",
+            "label": "Swedish M90",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "55",
+            "label": "Pupkin Spice",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "56",
+            "label": "Nautical Camo",
+            "price": "",
+            "priceType": "fixed_amount"
+          }
+        ],
+        "conditions": [
+          {
+            "showWhenTrue": true,
+            "groups": [
+              [
+                {
+                  "fieldId": "7",
+                  "comparison": "Contains",
+                  "values": [
+                    "3"
+                  ]
+                }
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "serviceId": "glock-optic-cut-full-size",
+    "sourceUrl": "https://defiantmachineworks.com/product/glock-optic-cut-full-size/",
+    "fields": [
+      {
+        "id": "1",
+        "label": "MODEL",
+        "required": true,
+        "type": "dropdown",
+        "priceType": "options",
+        "options": [
+          {
+            "id": "1",
+            "label": "26/27/33/19/19x/17/23/22/32/31/35/45/20/21/29/30/40",
+            "price": "",
+            "priceType": "fixed_amount"
+          }
+        ],
+        "conditions": []
+      },
+      {
+        "id": "2",
+        "label": "OPTIC CUT",
+        "required": true,
+        "type": "dropdown",
+        "priceType": "none",
+        "options": [
+          {
+            "id": "1",
+            "label": "RMR",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "2",
+            "label": "RMRHD",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "3",
+            "label": "SRO",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "4",
+            "label": "C SERIES",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "5",
+            "label": "RMRcc",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "6",
+            "label": "ACRO",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "7",
+            "label": "MPS",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "8",
+            "label": "VIPER",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "9",
+            "label": "VENOM",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "10",
+            "label": "DELTA POINT PRO",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "11",
+            "label": "K SERIES",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "12",
+            "label": "EPS",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "13",
+            "label": "ROMEO ZERO",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "14",
+            "label": "509T",
+            "price": "",
+            "priceType": "fixed_amount"
+          }
+        ],
+        "conditions": []
+      },
+      {
+        "id": "3",
+        "label": "BUIS Location",
+        "required": true,
+        "type": "dropdown",
+        "priceType": "options",
+        "options": [
+          {
+            "id": "1",
+            "label": "Recut Dovetail in Front of Optic",
+            "price": "10",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "2",
+            "label": "Keep Factory",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "3",
+            "label": "Delete",
+            "price": "",
+            "priceType": "fixed_amount"
+          }
+        ],
+        "conditions": [
+          {
+            "showWhenTrue": false,
+            "groups": [
+              [
+                {
+                  "fieldId": "2",
+                  "comparison": "Contains",
+                  "values": [
+                    "2"
+                  ]
+                }
+              ],
+              [
+                {
+                  "fieldId": "2",
+                  "comparison": "Contains",
+                  "values": [
+                    "3"
+                  ]
+                }
+              ],
+              [
+                {
+                  "fieldId": "2",
+                  "comparison": "Contains",
+                  "values": [
+                    "8"
+                  ]
+                }
+              ],
+              [
+                {
+                  "fieldId": "2",
+                  "comparison": "Contains",
+                  "values": [
+                    "9"
+                  ]
+                }
+              ],
+              [
+                {
+                  "fieldId": "2",
+                  "comparison": "Contains",
+                  "values": [
+                    "10"
+                  ]
+                }
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "4",
+        "label": "BUIS Location",
+        "required": true,
+        "type": "dropdown",
+        "priceType": "options",
+        "options": [
+          {
+            "id": "2",
+            "label": "Keep Factory",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "3",
+            "label": "Delete",
+            "price": "",
+            "priceType": "fixed_amount"
+          }
+        ],
+        "conditions": [
+          {
+            "showWhenTrue": true,
+            "groups": [
+              [
+                {
+                  "fieldId": "2",
+                  "comparison": "Contains",
+                  "values": [
+                    "2"
+                  ]
+                }
+              ],
+              [
+                {
+                  "fieldId": "2",
+                  "comparison": "Contains",
+                  "values": [
+                    "3"
+                  ]
+                }
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "5",
+        "label": "BUIS Location",
+        "required": true,
+        "type": "dropdown",
+        "priceType": "options",
+        "options": [
+          {
+            "id": "2",
+            "label": "Recut Dovetail in Front of Optic",
+            "price": "10",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "3",
+            "label": "Delete",
+            "price": "",
+            "priceType": "fixed_amount"
+          }
+        ],
+        "conditions": [
+          {
+            "showWhenTrue": true,
+            "groups": [
+              [
+                {
+                  "fieldId": "2",
+                  "comparison": "Contains",
+                  "values": [
+                    "8"
+                  ]
+                }
+              ],
+              [
+                {
+                  "fieldId": "2",
+                  "comparison": "Contains",
+                  "values": [
+                    "9"
+                  ]
+                }
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "6",
+        "label": "BUIS Location",
+        "required": true,
+        "type": "dropdown",
+        "priceType": "options",
+        "options": [
+          {
+            "id": "2",
+            "label": "Recut Dovetail in Front of Optic",
+            "price": "10",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "4",
+            "label": "BUIS (designed for optic mounted irons)",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "3",
+            "label": "Delete",
+            "price": "",
+            "priceType": "fixed_amount"
+          }
+        ],
+        "conditions": [
+          {
+            "showWhenTrue": true,
+            "groups": [
+              [
+                {
+                  "fieldId": "2",
+                  "comparison": "Contains",
+                  "values": [
+                    "10"
+                  ]
+                }
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "10",
+        "label": "Coating Type",
+        "required": true,
+        "type": "dropdown",
+        "priceType": "options",
+        "options": [
+          {
+            "id": "1",
+            "label": "Single Color",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "2",
+            "label": "Battleworn",
+            "price": "60",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "3",
+            "label": "Camo",
+            "price": "100",
+            "priceType": "fixed_amount"
+          }
+        ],
+        "conditions": []
+      },
+      {
+        "id": "7",
+        "label": "Slide Cerakote",
+        "required": true,
+        "type": "dropdown",
+        "priceType": "options",
+        "options": [
+          {
+            "id": "33",
+            "label": "Carbon Black F-102",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "34",
+            "label": "Flat Dark Earth F-106",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "35",
+            "label": "OD Green F-105",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "36",
+            "label": "Sig Dark Grey H-210",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "37",
+            "label": "Midnight Bronze H-294",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "38",
+            "label": "Phantom Teal DMW Custom",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "39",
+            "label": "Black Cherry H-319",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "40",
+            "label": "Blue Titanium H-185",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "41",
+            "label": "Tungsten H-237",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "42",
+            "label": "Sniper Green H-229",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "43",
+            "label": "Burnt Bronze H-148",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "44",
+            "label": "Rose Gold H-327",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "45",
+            "label": "Sniper Grey H-234",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "46",
+            "label": "Jesse James Eastern Front H-400",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "47",
+            "label": "USMC Red H-167",
+            "price": "",
+            "priceType": "fixed_amount"
+          }
+        ],
+        "conditions": [
+          {
+            "showWhenTrue": false,
+            "groups": [
+              [
+                {
+                  "fieldId": "10",
+                  "comparison": "Contains",
+                  "values": [
+                    "3"
+                  ]
+                }
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "9",
+        "label": "Slide Cerakote 2",
+        "required": true,
+        "type": "dropdown",
+        "priceType": "options",
+        "options": [
+          {
+            "id": "33",
+            "label": "Carbon Black F-102",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "34",
+            "label": "Flat Dark Earth F-106",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "35",
+            "label": "OD Green F-105",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "36",
+            "label": "Sig Dark Grey H-210",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "37",
+            "label": "Midnight Bronze H-294",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "38",
+            "label": "Phantom Teal DMW Custom",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "39",
+            "label": "Black Cherry H-319",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "40",
+            "label": "Blue Titanium H-185",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "41",
+            "label": "Tungsten H-237",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "42",
+            "label": "Sniper Green H-229",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "43",
+            "label": "Burnt Bronze H-148",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "44",
+            "label": "Rose Gold H-327",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "45",
+            "label": "Sniper Grey H-234",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "46",
+            "label": "Jesse James Eastern Front H-400",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "47",
+            "label": "USMC Red H-167",
+            "price": "",
+            "priceType": "fixed_amount"
+          }
+        ],
+        "conditions": [
+          {
+            "showWhenTrue": true,
+            "groups": [
+              [
+                {
+                  "fieldId": "10",
+                  "comparison": "Contains",
+                  "values": [
+                    "2"
+                  ]
+                }
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "11",
+        "label": "Slide Cerakote Camo",
+        "required": true,
+        "type": "dropdown",
+        "priceType": "options",
+        "options": [
+          {
+            "id": "41",
+            "label": "Multicam Tropic",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "42",
+            "label": "Multicam Arid",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "43",
+            "label": "Multicam Alpine",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "44",
+            "label": "Multicam Black",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "45",
+            "label": "Multicam",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "46",
+            "label": "M81 Woodland (Standard)",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "47",
+            "label": "M81 Woodland (Bright)",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "48",
+            "label": "DCU (Chocolate Chip",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "49",
+            "label": "Wood Chip",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "50",
+            "label": "Tropic Chip",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "51",
+            "label": "Blueberry Chocolate Chip",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "52",
+            "label": "Midnight Chocolate Chip",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "53",
+            "label": "Woodland Tigerstripe",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "54",
+            "label": "Midnight Tigerstripe",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "55",
+            "label": "Flectarn",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "56",
+            "label": "Swedish M90",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "57",
+            "label": "Pupkin Spice",
+            "price": "",
+            "priceType": "fixed_amount"
+          },
+          {
+            "id": "58",
+            "label": "Nautical Camo",
+            "price": "",
+            "priceType": "fixed_amount"
+          }
+        ],
+        "conditions": [
+          {
+            "showWhenTrue": true,
+            "groups": [
+              [
+                {
+                  "fieldId": "10",
+                  "comparison": "Contains",
+                  "values": [
+                    "3"
+                  ]
+                }
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

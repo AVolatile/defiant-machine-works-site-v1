@@ -1,0 +1,4 @@
+{
+  "accountLandingCorrection": "The first discovery pass fetched the public /dmw-account/ and lost-password landing pages without authentication. No account data was accessed and no forms were submitted. These pages were removed from the migration inventory and the crawler exclusion now blocks account and password paths.",
+  "filenameCollisionsRepaired": 42
+}

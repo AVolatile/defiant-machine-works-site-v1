@@ -1,0 +1,324 @@
+{
+  "pass": "05",
+  "reviewDate": "2026-10-20",
+  "timezone": "America/New_York",
+  "generatedAt": "2026-10-20T12:05:18.623Z",
+  "scope": "Presentation only; no commerce/domain changes",
+  "catalogVersion": "dmw-dd3ca0aec896",
+  "checks": {
+    "lint": {
+      "result": "passed",
+      "warnings": 0,
+      "log": "pass-05/lint.txt"
+    },
+    "strictTypecheck": {
+      "result": "passed",
+      "log": "pass-05/typecheck.txt"
+    },
+    "productionBuild": {
+      "result": "passed",
+      "staticOutputs": 95,
+      "log": "pass-05/build.txt"
+    },
+    "fullPlaywright": {
+      "result": "passed",
+      "startTime": "2026-10-19T22:21:54.331Z",
+      "duration": 107640.903,
+      "expected": 159,
+      "skipped": 0,
+      "unexpected": 0,
+      "flaky": 0,
+      "log": "pass-05/playwright.txt"
+    },
+    "assets": {
+      "result": "passed",
+      "originalHashes": 1854,
+      "contentReferences": 258,
+      "retainedCatalogVisualReferences": 915,
+      "knownSource404s": 3,
+      "log": "pass-05/assets.txt"
+    },
+    "responsive": {
+      "result": "passed",
+      "requestedCaptures": 20,
+      "regressionCaptures": 139,
+      "standardChecks": 69,
+      "overflow": 0,
+      "brokenImages": 0,
+      "log": "pass-05/responsive.txt"
+    }
+  },
+  "tests": {
+    "total": 159,
+    "unit": 91,
+    "workflow": 48,
+    "accessibilityCases": 10,
+    "visualMatrixCases": 10,
+    "targetedNewCases": 14
+  },
+  "accessibility": {
+    "axeScans": 39,
+    "existingSuiteScans": 18,
+    "targetedTextCardsAndGalleryScans": 18,
+    "populatedMobileCheckoutScans": 3,
+    "violations": 0,
+    "certification": false
+  },
+  "coverage": {
+    "services": 32,
+    "fields": 180,
+    "optionRecords": 1280,
+    "comingSoon": 8,
+    "legacyAddOns": 23,
+    "coveragePercent": 100,
+    "unchanged": true,
+    "report": "SERVICE_COVERAGE.md"
+  },
+  "preservation": {
+    "protectedFiles": 29,
+    "allUnchanged": true,
+    "files": [
+      {
+        "file": "src/lib/commerce/build-rules.ts",
+        "sha256": "b21320dc650cca4923944819a363d206803fe1471d0f988e5705caa4badc36b4",
+        "unchanged": true
+      },
+      {
+        "file": "src/lib/commerce/cart-envelope.ts",
+        "sha256": "27ff4fa70b9bb37ace16ad0c99d3d64eb24cde6cd0c483c5be19b3b10c35b086",
+        "unchanged": true
+      },
+      {
+        "file": "src/lib/commerce/cart-migration.ts",
+        "sha256": "0ccc83b1496199136dc05a7a8fb84df8ff8d9b72e1e7afc48b71879cf6231719",
+        "unchanged": true
+      },
+      {
+        "file": "src/lib/commerce/catalog-schema.ts",
+        "sha256": "29a4d5715bacb78c6f7d48bde9f3c771baf4be4442126571a26cb38f8ee08c86",
+        "unchanged": true
+      },
+      {
+        "file": "src/lib/commerce/catalog.ts",
+        "sha256": "597899ad7c118b240324bd9535039c028add793e9803e6b5bd80e10e7aef5e7a",
+        "unchanged": true
+      },
+      {
+        "file": "src/lib/commerce/communications.ts",
+        "sha256": "21281500f948b65886ee73fa9598430bf8b206b39e98ebd23bb8f284d190e465",
+        "unchanged": true
+      },
+      {
+        "file": "src/lib/commerce/eligibility.ts",
+        "sha256": "95c8b47beabe396bc146688f10c45bee9be7166a71917c86e085be0775d83b7c",
+        "unchanged": true
+      },
+      {
+        "file": "src/lib/commerce/http.ts",
+        "sha256": "f6c8cc013152cd4bb5c70d95788f835d97a935aafff148649d19e643d3df71f5",
+        "unchanged": true
+      },
+      {
+        "file": "src/lib/commerce/order-repository.ts",
+        "sha256": "c363eb1ccac7aa3243a661ca9e9926aa5c4d892ff53ebd05a4b7b8b8afc6a3fc",
+        "unchanged": true
+      },
+      {
+        "file": "src/lib/commerce/payment.ts",
+        "sha256": "2b35533d778a9f0bd9193e50fc2c7843b015a0cbf83039ec1a3119ed154499d9",
+        "unchanged": true
+      },
+      {
+        "file": "src/lib/commerce/pricing.ts",
+        "sha256": "04dc172a52cc279ca5ad3b0b7f169fc753c494940164f2ff2a257bb302588608",
+        "unchanged": true
+      },
+      {
+        "file": "src/lib/commerce/schema.ts",
+        "sha256": "01ebabf08834ceb6ad31418cc4dd306e225993206e9e45d6261e7e7e4532f9a4",
+        "unchanged": true
+      },
+      {
+        "file": "src/lib/commerce/service-configuration.ts",
+        "sha256": "12ecf0c00cec6cd2b5da9951f72f66c6bd566ed9bbfc15faf3354aefa7468f36",
+        "unchanged": true
+      },
+      {
+        "file": "src/components/commerce/address-fields.tsx",
+        "sha256": "c7f14651f2d9399eca107ad0bd1ca178f79e03491841d1952c4d41f6bd08c3ea",
+        "unchanged": true
+      },
+      {
+        "file": "src/components/commerce/build-summary.tsx",
+        "sha256": "1ea14dc5bdab28f2804f59023b5fa4121451fc59228d89fd73736059930e7e7f",
+        "unchanged": true
+      },
+      {
+        "file": "src/components/commerce/cart-store.tsx",
+        "sha256": "c31bc940339183bc9289678c4d2fd610fbef29d8872db4738df81ca543c23615",
+        "unchanged": true
+      },
+      {
+        "file": "src/components/commerce/cart.tsx",
+        "sha256": "6575a96443ce7a5fabed23560a33823d9bc69e1b9c9ad207a5c4237bd3f414df",
+        "unchanged": true
+      },
+      {
+        "file": "src/components/commerce/checkout.tsx",
+        "sha256": "ce16ae9ae9df2e4307039f399a38fa5c146b84ed3ed2b2a720b44bac4fbd4d5a",
+        "unchanged": true
+      },
+      {
+        "file": "src/data/service-matrix.json",
+        "sha256": "d22b6ae505a1ab56ab55e6ba3beef8a65242d1e63b8ef280fa95ca627a24aa4c",
+        "unchanged": true
+      },
+      {
+        "file": "src/data/catalog-version.ts",
+        "sha256": "383cb97ec8f35f64fadae4e5dabcbb86d6d554ddc49174a67b443d089e7952c8",
+        "unchanged": true
+      },
+      {
+        "file": "src/data/gallery.json",
+        "sha256": "d706be55e7a96b48c273c5e78e8ebe7fa1e588013775b647f71e8a64cb3ef739",
+        "unchanged": true
+      },
+      {
+        "file": "src/app/api/commerce/orders/route.ts",
+        "sha256": "91113f078664dc77d7b5936690074f3edde5adbc6e196dbf46c17b692bca5b05",
+        "unchanged": true
+      },
+      {
+        "file": "src/app/api/commerce/quote/route.ts",
+        "sha256": "bb66ce867168fb362e107d95a205903e637cbc1287bd6f1aa75d376e76160808",
+        "unchanged": true
+      },
+      {
+        "file": "src/app/order/[orderNumber]/confirmation/page.tsx",
+        "sha256": "46416ee6926352d6e895fa87a1397d27af040d5e6d8774f4539fb2c50cdf246a",
+        "unchanged": true
+      },
+      {
+        "file": "src/components/home/home-page.tsx",
+        "sha256": "4b1c51d1155df85439cc2ae8cc2f01caf4fe06e30671fd3062c0f1ce21a1a471",
+        "unchanged": true
+      },
+      {
+        "file": "src/components/layout/header.tsx",
+        "sha256": "842253df65c896fb3835e767225c125bb783506995961e1795597263069553c7",
+        "unchanged": true
+      },
+      {
+        "file": "source-audit/SERVICE_COVERAGE.md",
+        "sha256": "15873dd32df8c00028f3b88b9b7222a162554bd28eed3c2f3d15f4e52868e091",
+        "unchanged": true
+      },
+      {
+        "file": "source-audit/pass-03-verification.json",
+        "sha256": "919183630b115f55a28f19510307705ffe8a57b289ff8e0e73f181768b3e4cc2",
+        "unchanged": true
+      },
+      {
+        "file": "tests/unit/catalog.spec.ts",
+        "sha256": "7f8c144509b03481a2c3d0d0f4aef81fe03fa71528f8254bd844172f1d635c2b",
+        "unchanged": true
+      }
+    ],
+    "cartSchemaVersion": 3,
+    "changedDomainFiles": 0,
+    "changedCheckoutFiles": 0
+  },
+  "gallery": {
+    "filterContract": "/gallery?service=<existing Gallery service label>",
+    "retainedFinishContract": "/gallery?finish=<search>",
+    "filters": [
+      {
+        "family": "stippling",
+        "service": "Stippling",
+        "href": "/gallery?service=Stippling",
+        "examples": 1
+      },
+      {
+        "family": "milling",
+        "service": "Slide Milling",
+        "href": "/gallery?service=Slide+Milling",
+        "examples": 1
+      },
+      {
+        "family": "cerakote",
+        "service": "Cerakote",
+        "href": "/gallery?service=Cerakote",
+        "examples": 29
+      },
+      {
+        "family": "porting",
+        "service": "Porting",
+        "href": "/gallery?service=Porting",
+        "examples": 1
+      }
+    ],
+    "newTab": true,
+    "rel": "noopener noreferrer",
+    "oneLinkPerServiceSection": true,
+    "perOptionLinks": 0,
+    "originalBuildStatePreserved": true
+  },
+  "performance": {
+    "wizardImagesRendered": 0,
+    "wizardServiceImageRequests": 0,
+    "wizardServiceImagePreloads": 0,
+    "verifiedFamilyViewportFlows": 8,
+    "retainedDistinctPriorImages": 66,
+    "catalogDataChanged": false,
+    "imageAssetsDeleted": 0,
+    "unusedImageImportsRemoved": true
+  },
+  "regressions": {
+    "humanDoubleCharge": {
+      "platform": "Glock 17 / slide / uncut OEM",
+      "finish": "Midnight Chocolate Chip",
+      "optic": "C Series",
+      "buis": "Keep Factory",
+      "subtotalCents": 28500,
+      "bothSelectionDirections": "passed"
+    },
+    "comingSoon": "passed",
+    "checkout": "passed",
+    "cartMigrationAndStaleCatalog": "passed",
+    "mobileHeroAndNavigation": "passed"
+  },
+  "dependencyAudit": {
+    "all": {
+      "info": 0,
+      "low": 0,
+      "moderate": 0,
+      "high": 5,
+      "critical": 0,
+      "total": 5
+    },
+    "production": {
+      "info": 0,
+      "low": 0,
+      "moderate": 0,
+      "high": 0,
+      "critical": 0,
+      "total": 0
+    },
+    "notes": "Five inherited high-severity development-tooling entries; zero production entries. No dependencies changed."
+  },
+  "boundaries": {
+    "livePaymentEnabled": false,
+    "realOrderSubmitted": false,
+    "emailSent": false,
+    "committed": false,
+    "deployed": false,
+    "historicalPass04RecordsRewritten": false
+  },
+  "artifacts": [
+    "PASS_05_VISUAL_REVIEW.md",
+    "PASS_05_ASSETS.md",
+    "pass-05/asset-usage.json",
+    "pass-05/targeted-browser-results.json",
+    "pass-05/service-coverage-verification.json"
+  ]
+}

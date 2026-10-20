@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Cobblestone",
+    "image": "/assets/dmw/optimized/texture-cobblestone.webp",
+    "sourceUrl": "https://defiantmachineworks.com/wp-content/uploads/2025/10/1.png"
+  },
+  {
+    "name": "Gravel",
+    "image": "/assets/dmw/optimized/texture-gravel.webp",
+    "sourceUrl": "https://defiantmachineworks.com/wp-content/uploads/2025/10/11.png"
+  },
+  {
+    "name": "Kevlar",
+    "image": "/assets/dmw/optimized/texture-kevlar.webp",
+    "sourceUrl": "https://defiantmachineworks.com/wp-content/uploads/2025/10/16.png"
+  },
+  {
+    "name": "Coffin",
+    "image": "/assets/dmw/optimized/texture-coffin.webp",
+    "sourceUrl": "https://defiantmachineworks.com/wp-content/uploads/2025/10/2.png"
+  },
+  {
+    "name": "Chainmail",
+    "image": "/assets/dmw/optimized/texture-chainmail.webp",
+    "sourceUrl": "https://defiantmachineworks.com/wp-content/uploads/2025/10/20.png"
+  },
+  {
+    "name": "Tread",
+    "image": "/assets/dmw/optimized/texture-tread.webp",
+    "sourceUrl": "https://defiantmachineworks.com/wp-content/uploads/2025/10/3.png"
+  },
+  {
+    "name": "Rip-N-Dots",
+    "image": "/assets/dmw/optimized/texture-rip-n-dots.webp",
+    "sourceUrl": "https://defiantmachineworks.com/wp-content/uploads/2025/10/12.png"
+  }
+]
