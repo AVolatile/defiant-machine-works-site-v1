@@ -200,6 +200,8 @@ test('protected rules, checkout, hero and navigation remain unchanged outside do
     'src/components/commerce/build-summary.tsx',
     // Pass 06C enriches Gallery media; its provenance and preserved Cerakote set are tested separately.
     'src/data/gallery.json',
+    // The approved homepage hero pass preserves copy/other sections in service-media.spec.ts.
+    'src/components/home/home-page.tsx',
   ]);
   for (const [file, hash] of Object.entries(baseline.hashes).filter(
     ([file]) => !coatingContextFiles.has(file),

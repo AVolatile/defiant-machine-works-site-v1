@@ -1,0 +1,11 @@
+
+Running 2 tests using 2 workers
+
+(node:34055) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:34056) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  2 [chromium] › tests/e2e/pass05.spec.ts:192:5 › protected rules, checkout, hero and navigation remain unchanged outside documented context/media changes (11ms)
+  ✓  1 [chromium] › tests/unit/service-media.spec.ts:10:5 › media enrichment preserves commerce, configurators, focus, Gallery routing, styles and all Cerakote entries (31ms)
+
+  2 passed (736ms)
