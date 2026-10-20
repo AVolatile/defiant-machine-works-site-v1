@@ -26,6 +26,7 @@ import { ServiceFields } from './service-fields';
 import { CoatingConfigurator } from './coating-configurator';
 import { isStandaloneCoatingId } from '@/lib/commerce/coating-context';
 import { useConfiguratorStepFocus } from './use-configurator-step-focus';
+import reviewStyles from './build-review.module.css';
 const steps = ['Platform', 'Services', 'Service details', 'Review'];
 const blank = (): BuildConfiguration => ({
   schemaVersion: 3,
@@ -530,31 +531,26 @@ function PlatformConfigurator({
             </>
           )}
           {step === 3 && (
-            <>
-              <dl className="review-summary">
-                <div>
-                  <dt>Platform</dt>
-                  <dd>{platformTitle(build.firearm)}</dd>
-                </div>
-                <div>
-                  <dt>Component</dt>
-                  <dd>{componentLabels[build.firearm.componentType]}</dd>
-                </div>
-                <div>
-                  <dt>Variant</dt>
-                  <dd>{variantLabel(build.firearm)}</dd>
-                </div>
-              </dl>
+            <div className={reviewStyles.review}>
+              <div className={reviewStyles.identity}>
+                <h3>{platformTitle(build.firearm)}</h3>
+                <p>
+                  {componentLabels[build.firearm.componentType]}
+                  <span aria-hidden="true"> · </span>
+                  <span className="sr-only">, </span>
+                  {variantLabel(build.firearm)}
+                </p>
+              </div>
               {priced.services.map((s) => (
-                <section className="review-service" key={s.serviceId}>
-                  <div>
+                <section className={`review-service ${reviewStyles.service}`} key={s.serviceId}>
+                  <div className={reviewStyles.serviceHeading}>
                     <h3>{s.title}</h3>
-                    <ServiceDetails service={s} showBreakdown />
+                    <strong>{money(s.calculatedPriceCents)}</strong>
                   </div>
-                  <strong>{money(s.calculatedPriceCents)}</strong>
+                  <ServiceDetails service={s} showBreakdown />
                 </section>
               ))}
-              <div className="notice">
+              <div className={`notice ${reviewStyles.status}`}>
                 <span className="eyebrow">
                   {priced.orderability === 'ready'
                     ? 'Ready for checkout'
@@ -571,7 +567,7 @@ function PlatformConfigurator({
                   </Link>
                 )}
               </div>
-            </>
+            </div>
           )}
           <div className="configuration-actions">
             <button
