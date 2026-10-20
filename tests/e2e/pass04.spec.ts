@@ -1,4 +1,4 @@
-import { test, expect, type Page } from '@playwright/test';
+import { test, expect } from '@playwright/test';
 import AxeBuilder from '@axe-core/playwright';
 import { serviceById, catalogVersion } from '../../src/lib/commerce/catalog';
 import { priceBuild } from '../../src/lib/commerce/pricing';
@@ -25,16 +25,6 @@ function camo(id: string) {
   );
   setOption(b, id, 'camo', 'Midnight Chocolate Chip');
   return b;
-}
-async function selectPackage(page: Page, id: string) {
-  const s = serviceById.get(id)!,
-    input = page.getByRole('checkbox', { name: s.displayName, exact: true }),
-    family = page
-      .locator('.service-family')
-      .filter({ has: page.locator(`input[aria-label="${s.displayName}"]`) });
-  if (!(await family.evaluate((el) => (el as HTMLDetailsElement).open)))
-    await family.locator('summary').first().click();
-  await input.click();
 }
 for (const [id, choice] of [
   ['glock-core-lvl-stippling-package', 'Kevlar'],
@@ -74,23 +64,29 @@ test('standalone Cerakote retains its finish and verified treatment delta withou
   ).toEqual([]);
 });
 for (const reverse of [false, true])
-  test(`human regression: Glock 17 Midnight Chocolate Chip / reverse=${reverse}`, async ({
+  test(`legacy selection-order regression: Glock 17 Midnight Chocolate Chip / reverse=${reverse}`, async ({
     page,
     request,
   }) => {
-    const first = camo(reverse ? 'glock-optic-cut-full-size' : 'slide-only-cerakote');
-    first.firearm.modelId = 'glock-17';
-    if (reverse) setOption(first, first.services[0].serviceId, 'optic', 'C SERIES');
-    await configureInBrowser(page, first, false);
-    await page.getByRole('button', { name: 'Back', exact: true }).click();
-    await page.getByRole('button', { name: 'Back', exact: true }).click();
-    await selectPackage(page, reverse ? 'slide-only-cerakote' : 'glock-optic-cut-full-size');
-    await expect(page.locator('.normalization-notice')).toContainText('separate slide Cerakote');
-    await expect(page.locator('input[aria-label="Slide Only Cerakote"]')).not.toBeChecked();
-    await page.getByRole('button', { name: 'Continue', exact: true }).click();
     const final = camo('glock-optic-cut-full-size');
     final.firearm.modelId = 'glock-17';
     setOption(final, final.services[0].serviceId, 'optic', 'C SERIES');
+    const coating = camo('slide-only-cerakote');
+    const legacy = structuredClone(final);
+    legacy.services = reverse
+      ? [...final.services, ...coating.services]
+      : [...coating.services, ...final.services];
+    // The duplicate card is retired. Old records must still normalize in either stored order.
+    const before = await request.post('/api/commerce/quote', {
+      data: { items: [{ kind: 'build', id: legacy.id, build: legacy }], catalogVersion },
+    });
+    expect(before.ok()).toBe(true);
+    expect((await before.json()).quote.subtotalCents).toBe(28500);
+    await seedCart(page, [legacy]);
+    await page.getByRole('link', { name: 'Edit build', exact: true }).click();
+    await page.getByRole('button', { name: 'Continue', exact: true }).click();
+    await expect(page.locator('.service-family[data-service-family="cerakote"]')).toHaveCount(0);
+    await page.getByRole('button', { name: 'Continue', exact: true }).click();
     await fillDetails(page, final);
     await page.getByRole('button', { name: 'Continue', exact: true }).click();
     await expect(page.locator('.review-service')).toHaveCount(1);

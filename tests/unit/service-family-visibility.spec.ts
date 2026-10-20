@@ -5,6 +5,7 @@ import {
   visibleServiceFamilyGroups,
 } from '../../src/lib/commerce/service-family-visibility';
 import type { BuildConfiguration } from '../../src/lib/commerce/schema';
+import { configuredBuild, setOption } from '../e2e/commerce-fixtures';
 
 const cases = [
   ['frame', ['stippling', 'cerakote']],
@@ -69,19 +70,84 @@ test('relevant families without a matching package remain informational, not new
   expect(groups.find((g) => g.family === 'porting')!.entries).toEqual([]);
 });
 
-test('slide-plus-barrel coating choices describe the supported slide scope only', () => {
-  const groups = visibleServiceFamilyGroups({
+test('slide coating stays canonically eligible while its separate family uses the dedicated entry', () => {
+  const firearm: BuildConfiguration['firearm'] = {
     manufacturerId: 'sw',
     modelId: 'sw-bodyguard20',
     variantId: 'uncut',
     generationId: 'unspecified',
     componentType: 'slide-and-barrel',
-  });
-  expect(groups.find((g) => g.family === 'cerakote')!.entries.map((s) => s.componentScope)).toEqual(
-    ['slide'],
-  );
+  };
+  const groups = visibleServiceFamilyGroups(firearm);
+  expect(groups.some((g) => g.family === 'cerakote')).toBe(false);
+  expect(
+    serviceCatalog
+      .filter((s) => s.serviceFamily === 'cerakote' && eligibleService(s, firearm))
+      .map((s) => s.componentScope),
+  ).toEqual(['slide']);
   expect(groups.find((g) => g.family === 'porting')!.entries).toHaveLength(1);
   expect(
     groups.find((g) => g.family === 'porting')!.upcoming.every((s) => s.status === 'coming-soon'),
+  ).toBe(true);
+});
+
+for (const [componentType, expected] of [
+  ['slide', ['milling']],
+  ['slide-and-barrel', ['milling', 'porting']],
+] as const)
+  test(`${componentType}: normal build selection omits standalone coating`, () => {
+    const f = configuredBuild().firearm;
+    expect(visibleServiceFamilyGroups({ ...f, componentType }).map((g) => g.family)).toEqual(
+      expected,
+    );
+  });
+
+for (const id of ['glock-optic-cut-full-size', 'bodyguard-2-0-viper-ports'])
+  test(`complete project hides the separate family when ${id} owns included coating`, () => {
+    const build = configuredBuild(id);
+    build.firearm.componentType = 'complete-firearm';
+    build.services[0].attributes = {};
+    const before = structuredClone(build);
+    expect(visibleServiceFamilyGroups(build.firearm, build.services).map((g) => g.family)).toEqual([
+      'stippling',
+      'milling',
+      'porting',
+    ]);
+    expect(build).toEqual(before);
+    expect(visibleServiceFamilyGroups(build.firearm).some((g) => g.family === 'cerakote')).toBe(
+      true,
+    );
+  });
+
+test('optional frame coating suppresses duplicates only when selected; None keeps the family', () => {
+  const build = configuredBuild('glock-core-lvl-stippling-package');
+  build.firearm.componentType = 'complete-firearm';
+  expect(
+    visibleServiceFamilyGroups(build.firearm, build.services).some((g) => g.family === 'cerakote'),
+  ).toBe(true);
+  const coating = serviceCatalog
+    .find((s) => s.serviceId === build.services[0].serviceId)!
+    .fields.find((f) => f.role === 'coating')!;
+  setOption(
+    build,
+    build.services[0].serviceId,
+    'coating',
+    coating.options.find((o) => o.coatingId === 'single')!.displayName,
+  );
+  expect(
+    visibleServiceFamilyGroups(build.firearm, build.services).some((g) => g.family === 'cerakote'),
+  ).toBe(false);
+});
+
+test('an incompatible saved owner does not suppress valid standalone scope choices', () => {
+  const build = configuredBuild();
+  Object.assign(build.firearm, {
+    manufacturerId: 'fn',
+    modelId: 'fn-reflex',
+    variantId: 'standard',
+    componentType: 'complete-firearm',
+  });
+  expect(
+    visibleServiceFamilyGroups(build.firearm, build.services).some((g) => g.family === 'cerakote'),
   ).toBe(true);
 });

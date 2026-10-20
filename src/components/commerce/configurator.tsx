@@ -367,82 +367,84 @@ function PlatformConfigurator({
                 compatible families stay together as one build.
                 {service && ` You arrived from ${service}.`}
               </p>
-              {visibleServiceFamilyGroups(build.firearm).map(({ family, entries, upcoming }) => {
-                const current = build.services.some(
-                  (c) => serviceById.get(c.serviceId)?.serviceFamily === family,
-                );
-                return (
-                  <details
-                    className="service-family"
-                    data-service-family={family}
-                    key={`${family}-${step}`}
-                    open={current || undefined}
-                  >
-                    <summary>
-                      {familyLabels[family]}
-                      <span>
-                        {entries.length
-                          ? `${entries.length} available`
-                          : upcoming.length
-                            ? 'Coming soon / custom inquiry'
-                            : 'Custom inquiry'}
-                      </span>
-                    </summary>
-                    <GalleryReference family={family} />
-                    {entries.length > 0 ? (
-                      <div className="service-package-grid">
-                        {entries.map((entry) => (
-                          <OptionCard
-                            className="service-package"
-                            key={entry.serviceId}
-                            type="checkbox"
-                            value={entry.serviceId}
-                            title={entry.displayName}
-                            checked={build.services.some((c) => c.serviceId === entry.serviceId)}
-                            onChange={() => toggle(entry.serviceId)}
-                            description={
-                              entry.componentScope === 'extension'
-                                ? 'Magazine-extension texture'
-                                : entry.includedFeatures.map((f) => f.label).join(' · ') ||
-                                  `${componentLabels[entry.componentScope]} service`
-                            }
-                            price={`From ${money(entry.basePriceCents)}`}
-                            status={
-                              entry.checkoutEligibility === 'review-required'
-                                ? 'Requires review'
-                                : undefined
-                            }
-                          />
-                        ))}
-                      </div>
-                    ) : (
-                      <p className="form-note">
-                        No listed package for this platform and component.{' '}
-                        <Link className="text-link" href="/custom-inquiry">
-                          Ask about this work
-                        </Link>
-                      </p>
-                    )}
-                    {upcoming.length > 0 && (
-                      <details className="upcoming-config">
-                        <summary>Upcoming porting · not available to order</summary>
-                        {upcoming.map((entry) => (
-                          <div className="unavailable-package" key={entry.serviceId}>
+              {visibleServiceFamilyGroups(build.firearm, build.services).map(
+                ({ family, entries, upcoming }) => {
+                  const current = build.services.some(
+                    (c) => serviceById.get(c.serviceId)?.serviceFamily === family,
+                  );
+                  return (
+                    <details
+                      className="service-family"
+                      data-service-family={family}
+                      key={`${family}-${step}`}
+                      open={current || undefined}
+                    >
+                      <summary>
+                        {familyLabels[family]}
+                        <span>
+                          {entries.length
+                            ? `${entries.length} available`
+                            : upcoming.length
+                              ? 'Coming soon / custom inquiry'
+                              : 'Custom inquiry'}
+                        </span>
+                      </summary>
+                      <GalleryReference family={family} />
+                      {entries.length > 0 ? (
+                        <div className="service-package-grid">
+                          {entries.map((entry) => (
                             <OptionCard
+                              className="service-package"
+                              key={entry.serviceId}
                               type="checkbox"
-                              title={entry.displayName}
                               value={entry.serviceId}
-                              checked={false}
-                              disabled
-                              status="Coming soon"
+                              title={entry.displayName}
+                              checked={build.services.some((c) => c.serviceId === entry.serviceId)}
+                              onChange={() => toggle(entry.serviceId)}
+                              description={
+                                entry.componentScope === 'extension'
+                                  ? 'Magazine-extension texture'
+                                  : entry.includedFeatures.map((f) => f.label).join(' · ') ||
+                                    `${componentLabels[entry.componentScope]} service`
+                              }
+                              price={`From ${money(entry.basePriceCents)}`}
+                              status={
+                                entry.checkoutEligibility === 'review-required'
+                                  ? 'Requires review'
+                                  : undefined
+                              }
                             />
-                          </div>
-                        ))}
-                      </details>
-                    )}
-                  </details>
-                );
-              })}
+                          ))}
+                        </div>
+                      ) : (
+                        <p className="form-note">
+                          No listed package for this platform and component.{' '}
+                          <Link className="text-link" href="/custom-inquiry">
+                            Ask about this work
+                          </Link>
+                        </p>
+                      )}
+                      {upcoming.length > 0 && (
+                        <details className="upcoming-config">
+                          <summary>Upcoming porting · not available to order</summary>
+                          {upcoming.map((entry) => (
+                            <div className="unavailable-package" key={entry.serviceId}>
+                              <OptionCard
+                                type="checkbox"
+                                title={entry.displayName}
+                                value={entry.serviceId}
+                                checked={false}
+                                disabled
+                                status="Coming soon"
+                              />
+                            </div>
+                          ))}
+                        </details>
+                      )}
+                    </details>
+                  );
+                },
+              )}
               {build.services.some((c) => !available.some((s) => s.serviceId === c.serviceId)) && (
                 <div className="notice">
                   <p>A previous selection is unavailable for this component.</p>

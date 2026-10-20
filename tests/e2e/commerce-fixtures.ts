@@ -90,7 +90,9 @@ export async function fillDetails(page: Page, build: BuildConfiguration) {
   for (const choice of build.services) {
     const service = serviceById.get(choice.serviceId)!;
     const tabs = page.locator('.service-detail-tabs');
-    await tabs.getByRole('button', { name: service.displayName, exact: true }).click();
+    if (await tabs.count())
+      await tabs.getByRole('button', { name: service.displayName, exact: true }).click();
+    else await expect(page.locator('.service-options h3')).toHaveText(service.displayName);
     for (let pass = 0; pass < 3; pass++)
       for (const field of activeSourceFields(choice.serviceId, sourceSelections(choice, build))) {
         if (field.role === 'model') continue;
@@ -115,25 +117,38 @@ export async function fillDetails(page: Page, build: BuildConfiguration) {
   }
 }
 export async function configureInBrowser(page: Page, build: BuildConfiguration, save = true) {
-  await page.goto('/customize');
-  await page.getByLabel('Manufacturer', { exact: true }).selectOption(build.firearm.manufacturerId);
-  await page.getByLabel('Model', { exact: true }).selectOption(build.firearm.modelId);
-  await page
-    .getByLabel('Variant / existing work', { exact: true })
-    .selectOption(build.firearm.variantId);
-  await page
-    .getByLabel('Component being sent', { exact: true })
-    .selectOption(build.firearm.componentType);
-  await page.getByRole('button', { name: 'Continue', exact: true }).click();
-  for (const choice of build.services) {
-    const service = serviceById.get(choice.serviceId)!;
-    const family = page
-      .locator('.service-family')
-      .filter({ has: page.locator(`input[aria-label="${service.displayName}"]`) });
-    await family.locator('summary').first().click();
-    await page.getByRole('checkbox', { name: service.displayName, exact: true }).check();
+  const standaloneCoating =
+    build.services.length === 1 &&
+    serviceById.get(build.services[0].serviceId)?.serviceFamily === 'cerakote';
+  if (standaloneCoating) {
+    await page.goto(`/customize?product=${encodeURIComponent(build.services[0].serviceId)}`);
+    await expect(
+      page.locator(`input[name="coating-scope"][value="${build.services[0].serviceId}"]`),
+    ).toBeChecked();
+    await page.getByRole('button', { name: 'Continue', exact: true }).click();
+  } else {
+    await page.goto('/customize');
+    await page
+      .getByLabel('Manufacturer', { exact: true })
+      .selectOption(build.firearm.manufacturerId);
+    await page.getByLabel('Model', { exact: true }).selectOption(build.firearm.modelId);
+    await page
+      .getByLabel('Variant / existing work', { exact: true })
+      .selectOption(build.firearm.variantId);
+    await page
+      .getByLabel('Component being sent', { exact: true })
+      .selectOption(build.firearm.componentType);
+    await page.getByRole('button', { name: 'Continue', exact: true }).click();
+    for (const choice of build.services) {
+      const service = serviceById.get(choice.serviceId)!;
+      const family = page
+        .locator('.service-family')
+        .filter({ has: page.locator(`input[aria-label="${service.displayName}"]`) });
+      await family.locator('summary').first().click();
+      await page.getByRole('checkbox', { name: service.displayName, exact: true }).check();
+    }
+    await page.getByRole('button', { name: 'Continue', exact: true }).click();
   }
-  await page.getByRole('button', { name: 'Continue', exact: true }).click();
   await fillDetails(page, build);
   await page.getByRole('button', { name: 'Continue', exact: true }).click();
   await expect(page.locator('.configuration-panel')).toContainText('Ready for checkout');

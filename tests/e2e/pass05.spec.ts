@@ -62,7 +62,7 @@ for (const width of [390, 1440])
       await expect(page.locator('.configuration-panel img,.commerce-summary img')).toHaveCount(0);
       await page.getByRole('button', { name: 'Back', exact: true }).click();
       const section = page.locator('.service-options'),
-        link = section.locator('a.gallery-reference');
+        link = page.locator('.configuration-panel a.gallery-reference');
       await expect(link).toHaveCount(1);
       await expect(link).toHaveAttribute('href', galleryReferenceHref(family));
       await expect(link).toHaveAttribute('target', '_blank');
@@ -105,6 +105,11 @@ for (const width of [390, 1440])
         await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth + 1),
       ).toBe(true);
       await page.getByRole('button', { name: 'Back', exact: true }).click();
+      if (family === 'cerakote') {
+        await expect(page.locator(`input[name="coating-scope"][value="${id}"]`)).toBeChecked();
+        await expect(page.locator('.configuration-panel a.gallery-reference')).toHaveCount(1);
+        return;
+      }
       const selectedFamily = page
         .locator('.service-family')
         .filter({ has: page.locator(`input[aria-label="${serviceById.get(id)!.displayName}"]`) });

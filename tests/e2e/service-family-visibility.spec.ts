@@ -1,12 +1,13 @@
 import { test, expect, type Page } from '@playwright/test';
 import type { BuildConfiguration } from '../../src/lib/commerce/schema';
-import { configuredBuild, seedCart } from './commerce-fixtures';
+import { configuredBuild, seedCart, fillDetails } from './commerce-fixtures';
+import { serviceById } from '../../src/lib/commerce/catalog';
 
 type Component = BuildConfiguration['firearm']['componentType'];
 const cases: [Component, string[]][] = [
   ['frame', ['stippling', 'cerakote']],
-  ['slide', ['milling', 'cerakote']],
-  ['slide-and-barrel', ['milling', 'cerakote', 'porting']],
+  ['slide', ['milling']],
+  ['slide-and-barrel', ['milling', 'porting']],
   ['complete-firearm', ['stippling', 'milling', 'cerakote', 'porting']],
 ];
 
@@ -53,6 +54,10 @@ for (const width of [390, 1440])
       ).toEqual(families);
       if (component === 'slide-and-barrel' || component === 'slide')
         await expect(page.getByRole('checkbox', { name: /stippling/i })).toHaveCount(0);
+      if (component === 'slide-and-barrel' || component === 'slide')
+        await expect(page.locator('.service-family[data-service-family="cerakote"]')).toHaveCount(
+          0,
+        );
       // Open the family states to review both package choices and inquiry-only explanations.
       await page
         .locator('.service-family')
@@ -64,10 +69,11 @@ for (const width of [390, 1440])
       expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(
         true,
       );
-      await info.attach(`families-${component}-${width}`, {
-        body: await page.screenshot({ fullPage: true }),
-        contentType: 'image/png',
-      });
+      if (component === 'slide' || component === 'slide-and-barrel')
+        await info.attach(`package-coating-${component}-${width}`, {
+          body: await page.screenshot({ fullPage: true }),
+          contentType: 'image/png',
+        });
       await expect(page.locator('.service-options')).toHaveCount(0);
     });
 
@@ -106,7 +112,7 @@ test('complete-firearm Stippling-only edit retains its selection without unrelat
 
 for (const [component, name, id] of [
   ['complete-firearm', 'Pistol Cerakote', 'pistol-cerakote'],
-  ['slide', 'Slide Only Cerakote', 'slide-only-cerakote'],
+  ['frame', 'Frame Only Cerakote', 'frame-only-cerakote'],
 ] as const)
   test(`${component} Cerakote-only details contain coating questions only`, async ({ page }) => {
     await services(page, component);
@@ -118,16 +124,48 @@ for (const [component, name, id] of [
     await expect(page.locator('.service-options')).not.toContainText('Texture');
   });
 
-test('selecting a currently supported package reveals only its existing milling fields', async ({
+for (const width of [390, 1440])
+  test(`milling keeps its source coating controls inside the package at ${width}`, async ({
+    page,
+  }, info) => {
+    await page.setViewportSize({ width, height: 900 });
+    await services(page, 'slide', 'glock', 'glock-17', 'uncut');
+    await expect(page.locator('.service-options')).toHaveCount(0);
+    await selectPackage(page, 'milling', 'GLOCK Optic Cut – Full Size');
+    await page.getByRole('button', { name: 'Continue', exact: true }).click();
+    await onlyFields(page, 'glock-optic-cut-full-size');
+    await expect(page.locator('.service-options')).toContainText('Optic');
+    await expect(page.locator('.service-options')).not.toContainText('Texture');
+    const build = configuredBuild('glock-optic-cut-full-size');
+    build.firearm.modelId = 'glock-17';
+    await fillDetails(page, build);
+    const source = serviceById.get(build.services[0].serviceId)!;
+    const coating = source.fields.find((field) => field.role === 'coating')!;
+    const finish = source.fields.find((field) => field.role === 'finish')!;
+    await expect(page.locator(`select[id="${source.serviceId}-${coating.id}"]`)).toHaveValue(
+      build.services[0].attributes[coating.id],
+    );
+    await expect(page.locator(`#${source.serviceId}-${finish.id}`)).toBeVisible();
+    await expect(page.locator('.service-detail-tabs button')).toHaveCount(1);
+    await page.locator('.configuration-panel > h2').focus();
+    await page.evaluate(() => window.scrollTo({ top: 0, behavior: 'instant' }));
+    await info.attach(`package-coating-milling-details-${width}`, {
+      body: await page.screenshot({ fullPage: true }),
+      contentType: 'image/png',
+    });
+  });
+
+test('complete project hides standalone coating only while a selected package owns it', async ({
   page,
 }) => {
-  await services(page, 'slide', 'glock', 'glock-17', 'uncut');
-  await expect(page.locator('.service-options')).toHaveCount(0);
+  await services(page, 'complete-firearm', 'glock', 'glock-17', 'uncut');
+  const separate = page.locator('.service-family[data-service-family="cerakote"]');
+  await expect(separate).toHaveCount(1);
   await selectPackage(page, 'milling', 'GLOCK Optic Cut – Full Size');
-  await page.getByRole('button', { name: 'Continue', exact: true }).click();
-  await onlyFields(page, 'glock-optic-cut-full-size');
-  await expect(page.locator('.service-options')).toContainText('Optic');
-  await expect(page.locator('.service-options')).not.toContainText('Texture');
+  await expect(separate).toHaveCount(0);
+  await expect(page.locator('.service-family')).toHaveCount(3);
+  await page.getByRole('checkbox', { name: 'GLOCK Optic Cut – Full Size', exact: true }).uncheck();
+  await expect(separate).toHaveCount(1);
 });
 
 test('Porting uses existing supported package state; Coming Soon remains disabled', async ({
