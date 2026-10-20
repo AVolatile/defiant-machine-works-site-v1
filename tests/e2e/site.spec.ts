@@ -1,5 +1,5 @@
 import { test, expect } from '@playwright/test';
-import { products, articles } from '../../src/data/catalog';
+import { products, articles, gallery } from '../../src/data/catalog';
 const routes = [
   '/',
   '/services',
@@ -110,7 +110,9 @@ test('catalog filters, search, empty reset and price sorting', async ({ page }) 
 test('gallery filtering, keyboard lightbox, focus restoration', async ({ page }) => {
   await page.goto('/gallery');
   await page.getByRole('button', { name: 'Stippling', exact: true }).click();
-  await expect(page.locator('.gallery-tile')).toHaveCount(1);
+  await expect(page.locator('.gallery-tile')).toHaveCount(
+    gallery.filter((item) => item.service === 'Stippling').length,
+  );
   await page.getByRole('button', { name: 'All', exact: true }).click();
   await page.getByLabel('Search finish names').fill('Flectarn');
   await expect(page.locator('.gallery-tile')).toHaveCount(1);

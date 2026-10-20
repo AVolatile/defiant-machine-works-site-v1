@@ -1,0 +1,120 @@
+{
+  "pass": "06C",
+  "date": "2026-10-20",
+  "scope": "Service photography and presentation; commerce/configurators unchanged",
+  "lint": {
+    "passed": true,
+    "warnings": 0
+  },
+  "typecheck": {
+    "passed": true
+  },
+  "productionBuild": {
+    "passed": true
+  },
+  "unit": {
+    "passed": 115,
+    "failed": 0,
+    "skipped": 0
+  },
+  "browser": {
+    "startTime": "2026-10-20T19:16:47.967Z",
+    "duration": 29990.472999999998,
+    "expected": 48,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "axe": {
+    "scans": 33,
+    "violations": 0,
+    "certification": false
+  },
+  "responsive": {
+    "widths": [
+      390,
+      1440
+    ],
+    "captures": 12,
+    "brokenImages": 0,
+    "horizontalOverflow": 0,
+    "fullVisualMatrixRun": false
+  },
+  "gallery": {
+    "stippling": {
+      "before": 1,
+      "after": 12,
+      "added": 12,
+      "retired": 1
+    },
+    "milling": {
+      "before": 1,
+      "after": 10,
+      "added": 10,
+      "retired": 1
+    },
+    "porting": {
+      "before": 1,
+      "after": 10,
+      "added": 9,
+      "comingSoonReferences": 8
+    },
+    "cerakote": {
+      "before": 29,
+      "after": 29,
+      "unchanged": true
+    }
+  },
+  "assets": {
+    "verifiedOriginalHashes": 1854,
+    "contentReferences": 287,
+    "retainedCatalogReferences": 915,
+    "knownHistorical404s": 3,
+    "downloads": 0,
+    "reusedDerivatives": 24,
+    "newDerivatives": [
+      {
+        "image": "/assets/dmw/optimized/90e4cc29029fae.webp",
+        "bytes": 221256
+      },
+      {
+        "image": "/assets/dmw/optimized/3be7d61073e862.webp",
+        "bytes": 122654
+      },
+      {
+        "image": "/assets/dmw/optimized/00b3c3ad47526b.webp",
+        "bytes": 126534
+      },
+      {
+        "image": "/assets/dmw/optimized/c06e847f518d74.webp",
+        "bytes": 75684
+      },
+      {
+        "image": "/assets/dmw/optimized/048fb096b6460f.webp",
+        "bytes": 143726
+      },
+      {
+        "image": "/assets/dmw/optimized/a33dd2ec6e9877.webp",
+        "bytes": 75730
+      },
+      {
+        "image": "/assets/dmw/optimized/0e30ae6bdb2e8c.webp",
+        "bytes": 42458
+      },
+      {
+        "image": "/assets/dmw/optimized/29ed5053afb7ba.webp",
+        "bytes": 160016
+      }
+    ]
+  },
+  "protected": {
+    "fileCount": 77,
+    "changed": []
+  },
+  "production": {
+    "deployed": false,
+    "committed": false,
+    "pushed": false,
+    "realPayment": false
+  }
+}

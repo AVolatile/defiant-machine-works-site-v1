@@ -1,0 +1,333 @@
+{
+  "hashes": {
+    "src/app/[slug]/page.tsx": "4087011b72a37e903a95026cc309d62b175fb395402969393503eeeb803bf817",
+    "src/app/api/commerce/orders/route.ts": "91113f078664dc77d7b5936690074f3edde5adbc6e196dbf46c17b692bca5b05",
+    "src/app/api/commerce/quote/route.ts": "bb66ce867168fb362e107d95a205903e637cbc1287bd6f1aa75d376e76160808",
+    "src/app/api/inquiry/route.ts": "5a30c5ec1c3ffe73706692df987f3ba6ef9564ee53cae7e45df81591f90b85d4",
+    "src/app/blog/[slug]/page.tsx": "974987a5fcac9c55dfd6883cfb44e64ceb6809483dd38d0c54287975b3a77a29",
+    "src/app/cart/page.tsx": "b6c9d32ee3c44045a6a896eeb10a9eb33eeba8e3a311114e083715e61c8c36d3",
+    "src/app/checkout/page.tsx": "f77693e998ac3d426c1bbd20e8e9e33718b54d41cc3eb67afa69bf597a54eed2",
+    "src/app/custom-inquiry/page.tsx": "d62d6076299b0eb92a374402424fca88640890cd7f3aa171f77769d265795a43",
+    "src/app/customize/page.tsx": "429b154bb5f4bdbe56ad8e5b5073e721173b386f31021723da44fc9307938ea4",
+    "src/app/error.tsx": "eddd420678924a7236ee10cd3ed405050b0e6b1ac029a6713f05eb5f2481c20b",
+    "src/app/gallery/page.tsx": "4f8a87bf698d5e0e47d6ff6a660a8ccc62ff1be90a0cd98ddf4c2d6a5913424f",
+    "src/app/layout.tsx": "c2b81123a2297b07f53f949f3478ceb7f88a9aa255165a3bcf385a226dba91e4",
+    "src/app/not-found.tsx": "e75d114e8ef5c0bba37d3a0bbb34315c7de2e74a7cc377be700a955a99f82859",
+    "src/app/order/[orderNumber]/confirmation/page.tsx": "46416ee6926352d6e895fa87a1397d27af040d5e6d8774f4539fb2c50cdf246a",
+    "src/app/page.tsx": "ba46d6b949a90c047dd73645988d65871175c66b878db4b8c34d55f425a168d6",
+    "src/app/products/[slug]/page.tsx": "e53be4a5f7a455a273cdea0a86e83d4f484c584b5f35de93be8309be6a170bfa",
+    "src/app/resources/stippling-guide/page.tsx": "5c0bcb8af83eb21b2f81e738fdc86076028330f730e86f339430e658b8c14ac5",
+    "src/app/robots.ts": "079075cc0f0b05c910b9bbe04f5b62875ca8e5d6dac148dea6b538db960a7621",
+    "src/app/sitemap.ts": "6d2b7f4380ee4a11769225600d768c6b71a6c10f08a7e1849114c9457f9acb02",
+    "src/components/catalog/product-browser.tsx": "9dac818b5e19ffe6926d9e7954bb396616fcc5c1936043e93e6c6eeaeee025ee",
+    "src/components/catalog/product-card.tsx": "3189e661b904fd180e121e6234eea71ec724023468a9dd5960ceb4bcfa6fe461",
+    "src/components/catalog/product-images.tsx": "f68e3b502947926daf2e01be985a8a45ac9c31360afb00766c5f3a12fd342f06",
+    "src/components/commerce/address-fields.tsx": "c7f14651f2d9399eca107ad0bd1ca178f79e03491841d1952c4d41f6bd08c3ea",
+    "src/components/commerce/build-summary.tsx": "f2fe182539e8f9204409bc29345f64a45722946b15919a470fe430fc26f95965",
+    "src/components/commerce/cart-access.tsx": "5d9818f28210922d24605660a6fbede1d93497c6be9d2b39d8c5fda6b323cd1a",
+    "src/components/commerce/cart-store.tsx": "c31bc940339183bc9289678c4d2fd610fbef29d8872db4738df81ca543c23615",
+    "src/components/commerce/cart.tsx": "6575a96443ce7a5fabed23560a33823d9bc69e1b9c9ad207a5c4237bd3f414df",
+    "src/components/commerce/checkout.tsx": "ce16ae9ae9df2e4307039f399a38fa5c146b84ed3ed2b2a720b44bac4fbd4d5a",
+    "src/components/commerce/coating-configurator.tsx": "eb32bdb14e72989cd3bdb092b7ce37b3d56848fcd70a23217468faaac5732353",
+    "src/components/commerce/configurator.tsx": "e7791dd2ed9872cfaefa10f7fc72b6c44db9c8700b12f08002903474e7452712",
+    "src/components/commerce/gallery-reference.tsx": "b526ff6c93634abab18bd17eff16f4022eff87d221c1728c2e38a2f0b9d75130",
+    "src/components/commerce/option-card.tsx": "abeb37e8576b389ff5ecf889b84d114c51c31d291f70c09b006cc99f1ad79e94",
+    "src/components/commerce/option-picker.tsx": "7cbfbf4acbbd39c8ec1002c2b5427db1858d1dc4c4604241ffa4b7bf06287b8b",
+    "src/components/commerce/service-fields.tsx": "025e73884c21ee499a1d39e7bdee8cad1dfde0687f4cd7d6cf86d49931246ea4",
+    "src/components/commerce/use-configurator-step-focus.ts": "08cf4c4af1b56fe4283a04038b4ebbbfe09a0eb5ba2841da77e606a5dee70b1f",
+    "src/components/content/blog-list.tsx": "048bea5d82af5de858e5d3e1e0b8cfe3a0ee8f34a56a5a638937ae6a5751072f",
+    "src/components/content/info-pages.tsx": "d3727647f280b6468f84fab7cd6eec41b7dda9818442ab9dab34f4cf0200fe8c",
+    "src/components/forms/build-wizard.tsx": "8291641cb695463f5cdb67e34e8a2d36a012035d4025151a9849bc0f21924bd5",
+    "src/components/forms/contact-form.tsx": "e03dd827ac2a4727f9608dce27603ebb7c62b1d6f50d8af6d11d33389526b50b",
+    "src/components/home/home-page.tsx": "4b1c51d1155df85439cc2ae8cc2f01caf4fe06e30671fd3062c0f1ce21a1a471",
+    "src/components/layout/footer.tsx": "ad02b59b766961793e55463f818085b8daa6beb9dd3cf1abda09fb48e6111de3",
+    "src/components/layout/header.tsx": "842253df65c896fb3835e767225c125bb783506995961e1795597263069553c7",
+    "src/components/ui/icon.tsx": "67257bb9153ed22b103307f69fe122e407beb434911de311e1327098f3359e5c",
+    "src/components/ui/primitives.tsx": "4328e9b50e5283929077976b66f32777cc4a1f04fe945e6da13ba1e65a00dcc7",
+    "src/data/articles.json": "ac87ee8cf4b91b9a4dc3eb2549aaec023bd3dbec996d17741c987be6ba255d6c",
+    "src/data/catalog-version.ts": "383cb97ec8f35f64fadae4e5dabcbb86d6d554ddc49174a67b443d089e7952c8",
+    "src/data/catalog.ts": "03ecb2c1cb2162922fb87f3ae8fcf28e69b6e623118ddc00e1219f6f9035e9c1",
+    "src/data/faq.ts": "a0b33a6bccfdd712ba20bd3b3a853f9c13d3d999fcdcc15de1b49465ac922d8c",
+    "src/data/milling-options.json": "620143e16c862f063e078baefc8c2491f163efeca0377f891d41e1b3daf2fc15",
+    "src/data/products.json": "97169bfca9085f5985122f3605dd9ac34c822f982aa7aaaff63845d5c1ab81f2",
+    "src/data/reviews.ts": "5e2c360d6144574205011aa7def59f563bc6f1e0df2065b08aaa7e31aea10c67",
+    "src/data/service-matrix.json": "d22b6ae505a1ab56ab55e6ba3beef8a65242d1e63b8ef280fa95ca627a24aa4c",
+    "src/data/services.ts": "022869a0656f88f88166b91960e438a4d64c237495d015d630d316fd1cb9e616",
+    "src/data/site.ts": "e822f5bdf3a68bcceef7852c3553e1c8109eac85dfe5ba195927a665eefc4f9a",
+    "src/data/texture-images.json": "bcf0da7def2d9e543c50a1ea89af8ef1507756320c1480fd749c6972e9778b1c",
+    "src/lib/catalog.ts": "76a0224d5225f65c0df0275154511809dd690d4fbd62bcb664dfd763d007ab1e",
+    "src/lib/commerce/build-rules.ts": "b21320dc650cca4923944819a363d206803fe1471d0f988e5705caa4badc36b4",
+    "src/lib/commerce/cart-envelope.ts": "27ff4fa70b9bb37ace16ad0c99d3d64eb24cde6cd0c483c5be19b3b10c35b086",
+    "src/lib/commerce/cart-migration.ts": "0ccc83b1496199136dc05a7a8fb84df8ff8d9b72e1e7afc48b71879cf6231719",
+    "src/lib/commerce/catalog-schema.ts": "29a4d5715bacb78c6f7d48bde9f3c771baf4be4442126571a26cb38f8ee08c86",
+    "src/lib/commerce/catalog.ts": "3f954d9e4d0e22238d23ab8a2ee91d7e8f8e083e7a93230fa4210cb5593ef33b",
+    "src/lib/commerce/coating-context.ts": "89a2b4435433121e2e16be862401791c716557c8fd6e6e3a3e4ce0c181bf4269",
+    "src/lib/commerce/communications.ts": "21281500f948b65886ee73fa9598430bf8b206b39e98ebd23bb8f284d190e465",
+    "src/lib/commerce/eligibility.ts": "95c8b47beabe396bc146688f10c45bee9be7166a71917c86e085be0775d83b7c",
+    "src/lib/commerce/http.ts": "f6c8cc013152cd4bb5c70d95788f835d97a935aafff148649d19e643d3df71f5",
+    "src/lib/commerce/order-repository.ts": "c363eb1ccac7aa3243a661ca9e9926aa5c4d892ff53ebd05a4b7b8b8afc6a3fc",
+    "src/lib/commerce/payment.ts": "2b35533d778a9f0bd9193e50fc2c7843b015a0cbf83039ec1a3119ed154499d9",
+    "src/lib/commerce/pricing.ts": "f2149b4246a7dde032353e1e421507f65199485585513d4e9b9f0e831f531fb5",
+    "src/lib/commerce/schema.ts": "7a49f63211451293a0516e395e05d678bb0566254ce6effe6c1b2d7a8a4ff370",
+    "src/lib/commerce/service-configuration.ts": "12ecf0c00cec6cd2b5da9951f72f66c6bd566ed9bbfc15faf3354aefa7468f36",
+    "src/lib/commerce/service-family-visibility.ts": "eb1bee1fa767844a5100160856172a5422a49727080a6ed80185157bee23bdcb",
+    "src/lib/gallery.ts": "40f8c1dfe7cd65c158e83b516d72c38a2230fc0a9cf08831ff2095afb5251ec8",
+    "src/lib/seo.tsx": "2357722305e7db60271c88e56e60e67865697dd0db43470a905ede2a756201bf",
+    "src/lib/validation.ts": "cb412cbce4aff5dbc0b148bcfc7240bbd0843ab5cd87fffd9926968195c1a4df",
+    "src/styles/commerce.css": "e03941b490078445f258e71046dfec4b94e7ee63d627f87c802b60d4ccdebf5c",
+    "src/styles/globals.css": "88851d438c9c313b4859ded6ff88ab45735b1eee747acdb88f8b8ede0370683c",
+    "src/styles/tokens.css": "bac518402448e46cbe42aa9c036d397af2178a9e7fd988a1172062437dc5253f"
+  },
+  "cerakote": [
+    {
+      "slug": "flectarn",
+      "title": "Flectarn",
+      "finish": "Flectarn",
+      "service": "Cerakote",
+      "image": "/assets/dmw/optimized/cada8b502bf018.webp",
+      "sourceUrl": "https://defiantmachineworks.com/wp-content/uploads/2025/09/14.png"
+    },
+    {
+      "slug": "m90-swedish",
+      "title": "M90 Swedish",
+      "finish": "M90 Swedish",
+      "service": "Cerakote",
+      "image": "/assets/dmw/optimized/121dcb2f08e4ea.webp",
+      "sourceUrl": "https://defiantmachineworks.com/wp-content/uploads/2025/09/13.png"
+    },
+    {
+      "slug": "midnight-chocolate-chip",
+      "title": "Midnight Chocolate Chip",
+      "finish": "Midnight Chocolate Chip",
+      "service": "Cerakote",
+      "image": "/assets/dmw/optimized/c9d9cd8161efb8.webp",
+      "sourceUrl": "https://defiantmachineworks.com/wp-content/uploads/2025/09/12.png"
+    },
+    {
+      "slug": "tropic-chip",
+      "title": "Tropic Chip",
+      "finish": "Tropic Chip",
+      "service": "Cerakote",
+      "image": "/assets/dmw/optimized/fc0efc09bbb1a3.webp",
+      "sourceUrl": "https://defiantmachineworks.com/wp-content/uploads/2025/09/11.png"
+    },
+    {
+      "slug": "pumpkin-spice",
+      "title": "Pumpkin Spice",
+      "finish": "Pumpkin Spice",
+      "service": "Cerakote",
+      "image": "/assets/dmw/optimized/b28768c1605847.webp",
+      "sourceUrl": "https://defiantmachineworks.com/wp-content/uploads/2025/09/10.png"
+    },
+    {
+      "slug": "nautical-camo",
+      "title": "Nautical Camo",
+      "finish": "Nautical Camo",
+      "service": "Cerakote",
+      "image": "/assets/dmw/optimized/8e9e956f0d47f2.webp",
+      "sourceUrl": "https://defiantmachineworks.com/wp-content/uploads/2025/09/9.png"
+    },
+    {
+      "slug": "wood-chip",
+      "title": "Wood Chip",
+      "finish": "Wood Chip",
+      "service": "Cerakote",
+      "image": "/assets/dmw/optimized/66ddfa9991d0be.webp",
+      "sourceUrl": "https://defiantmachineworks.com/wp-content/uploads/2025/09/3.png"
+    },
+    {
+      "slug": "black-multicam",
+      "title": "Black Multicam",
+      "finish": "Black Multicam",
+      "service": "Cerakote",
+      "image": "/assets/dmw/optimized/ac929365f01a1a.webp",
+      "sourceUrl": "https://defiantmachineworks.com/wp-content/uploads/2025/09/4.png"
+    },
+    {
+      "slug": "dcu-chocolate-chip",
+      "title": "DCU Chocolate Chip",
+      "finish": "DCU Chocolate Chip",
+      "service": "Cerakote",
+      "image": "/assets/dmw/optimized/0393ff840a3ed4.webp",
+      "sourceUrl": "https://defiantmachineworks.com/wp-content/uploads/2025/09/5.png"
+    },
+    {
+      "slug": "arctic-multicam",
+      "title": "Arctic Multicam",
+      "finish": "Arctic Multicam",
+      "service": "Cerakote",
+      "image": "/assets/dmw/optimized/f0e3c88e877b4c.webp",
+      "sourceUrl": "https://defiantmachineworks.com/wp-content/uploads/2025/09/6.png"
+    },
+    {
+      "slug": "blueberry-chocolate-chip",
+      "title": "Blueberry Chocolate Chip",
+      "finish": "Blueberry Chocolate Chip",
+      "service": "Cerakote",
+      "image": "/assets/dmw/optimized/340e4e26936c1f.webp",
+      "sourceUrl": "https://defiantmachineworks.com/wp-content/uploads/2025/09/7.png"
+    },
+    {
+      "slug": "rocky-road",
+      "title": "Rocky Road",
+      "finish": "Rocky Road",
+      "service": "Cerakote",
+      "image": "/assets/dmw/optimized/57cc083af9ce0a.webp",
+      "sourceUrl": "https://defiantmachineworks.com/wp-content/uploads/2025/09/8.png"
+    },
+    {
+      "slug": "woodland-tigerstripe",
+      "title": "Woodland Tigerstripe",
+      "finish": "Woodland Tigerstripe",
+      "service": "Cerakote",
+      "image": "/assets/dmw/optimized/911cfa08c62384.webp",
+      "sourceUrl": "https://defiantmachineworks.com/wp-content/uploads/2025/09/2-1.png"
+    },
+    {
+      "slug": "woodland",
+      "title": "Woodland",
+      "finish": "Woodland",
+      "service": "Cerakote",
+      "image": "/assets/dmw/optimized/dedcf68c73a4f0.webp",
+      "sourceUrl": "https://defiantmachineworks.com/wp-content/uploads/2025/09/1-1.png"
+    },
+    {
+      "slug": "usmc-red-h-167",
+      "title": "USMC Red H-167",
+      "finish": "USMC Red H-167",
+      "service": "Cerakote",
+      "image": "/assets/dmw/optimized/05ad5a7a311ba1.webp",
+      "sourceUrl": "https://defiantmachineworks.com/wp-content/uploads/2026/01/15.png"
+    },
+    {
+      "slug": "jesse-james-eastern-front-h-400",
+      "title": "Jesse James Eastern Front H-400",
+      "finish": "Jesse James Eastern Front H-400",
+      "service": "Cerakote",
+      "image": "/assets/dmw/optimized/9dee4802330a5e.webp",
+      "sourceUrl": "https://defiantmachineworks.com/wp-content/uploads/2026/01/14.png"
+    },
+    {
+      "slug": "sniper-grey-h-234",
+      "title": "Sniper Grey H-234",
+      "finish": "Sniper Grey H-234",
+      "service": "Cerakote",
+      "image": "/assets/dmw/optimized/5476a75a8f527d.webp",
+      "sourceUrl": "https://defiantmachineworks.com/wp-content/uploads/2026/01/13.png"
+    },
+    {
+      "slug": "rose-gold-h-327",
+      "title": "Rose Gold H-327",
+      "finish": "Rose Gold H-327",
+      "service": "Cerakote",
+      "image": "/assets/dmw/optimized/5deba0ccb010dd.webp",
+      "sourceUrl": "https://defiantmachineworks.com/wp-content/uploads/2026/01/12.png"
+    },
+    {
+      "slug": "sniper-green-h-229",
+      "title": "Sniper Green H-229",
+      "finish": "Sniper Green H-229",
+      "service": "Cerakote",
+      "image": "/assets/dmw/optimized/b0cea9e391b93d.webp",
+      "sourceUrl": "https://defiantmachineworks.com/wp-content/uploads/2026/01/11.png"
+    },
+    {
+      "slug": "tungsten-h-237",
+      "title": "Tungsten H-237",
+      "finish": "Tungsten H-237",
+      "service": "Cerakote",
+      "image": "/assets/dmw/optimized/ba8dbb6445fd36.webp",
+      "sourceUrl": "https://defiantmachineworks.com/wp-content/uploads/2026/01/10.png"
+    },
+    {
+      "slug": "sig-dark-grey-h-210",
+      "title": "Sig Dark Grey H-210",
+      "finish": "Sig Dark Grey H-210",
+      "service": "Cerakote",
+      "image": "/assets/dmw/optimized/e79cb17e141656.webp",
+      "sourceUrl": "https://defiantmachineworks.com/wp-content/uploads/2026/01/4.png"
+    },
+    {
+      "slug": "midnight-bronze-h-294",
+      "title": "Midnight Bronze H-294",
+      "finish": "Midnight Bronze H-294",
+      "service": "Cerakote",
+      "image": "/assets/dmw/optimized/7d2e54bb275df8.webp",
+      "sourceUrl": "https://defiantmachineworks.com/wp-content/uploads/2026/01/5.png"
+    },
+    {
+      "slug": "burnt-bronze-h-148",
+      "title": "Burnt Bronze H-148",
+      "finish": "Burnt Bronze H-148",
+      "service": "Cerakote",
+      "image": "/assets/dmw/optimized/d526af3ba31ef9.webp",
+      "sourceUrl": "https://defiantmachineworks.com/wp-content/uploads/2026/01/6.png"
+    },
+    {
+      "slug": "phantom-teal-dmw-custom",
+      "title": "Phantom Teal DMW Custom",
+      "finish": "Phantom Teal DMW Custom",
+      "service": "Cerakote",
+      "image": "/assets/dmw/optimized/c85d714cae0dc4.webp",
+      "sourceUrl": "https://defiantmachineworks.com/wp-content/uploads/2026/01/7.png"
+    },
+    {
+      "slug": "black-cherry-h-319",
+      "title": "Black Cherry H-319",
+      "finish": "Black Cherry H-319",
+      "service": "Cerakote",
+      "image": "/assets/dmw/optimized/57abb1d57b1e7d.webp",
+      "sourceUrl": "https://defiantmachineworks.com/wp-content/uploads/2026/01/8.png"
+    },
+    {
+      "slug": "blue-titanium-h-185",
+      "title": "Blue Titanium H-185",
+      "finish": "Blue Titanium H-185",
+      "service": "Cerakote",
+      "image": "/assets/dmw/optimized/917270eb671a2e.webp",
+      "sourceUrl": "https://defiantmachineworks.com/wp-content/uploads/2026/01/9.png"
+    },
+    {
+      "slug": "od-green-f-105",
+      "title": "OD Green F-105",
+      "finish": "OD Green F-105",
+      "service": "Cerakote",
+      "image": "/assets/dmw/optimized/59342ac6068482.webp",
+      "sourceUrl": "https://defiantmachineworks.com/wp-content/uploads/2026/01/3.png"
+    },
+    {
+      "slug": "flat-dark-earth-f-106",
+      "title": "Flat Dark Earth F-106",
+      "finish": "Flat Dark Earth F-106",
+      "service": "Cerakote",
+      "image": "/assets/dmw/optimized/9241f6015c126b.webp",
+      "sourceUrl": "https://defiantmachineworks.com/wp-content/uploads/2026/01/2.png"
+    },
+    {
+      "slug": "carbon-black-f-102",
+      "title": "Carbon Black F-102",
+      "finish": "Carbon Black F-102",
+      "service": "Cerakote",
+      "image": "/assets/dmw/optimized/6067aec99e1ee4.webp",
+      "sourceUrl": "https://defiantmachineworks.com/wp-content/uploads/2026/01/1.png"
+    }
+  ],
+  "retired": [
+    {
+      "slug": "custom-frame-work",
+      "title": "Custom frame work",
+      "finish": "",
+      "service": "Stippling",
+      "image": "/assets/dmw/optimized/36ede68501ab4d.webp",
+      "sourceUrl": "https://defiantmachineworks.com/stippling/"
+    },
+    {
+      "slug": "custom-slide-detail",
+      "title": "Custom slide detail",
+      "finish": "",
+      "service": "Slide Milling",
+      "image": "/assets/dmw/optimized/4e5c4110f85a22.webp",
+      "sourceUrl": "https://defiantmachineworks.com/slide-milling-select-your-model/"
+    }
+  ]
+}
