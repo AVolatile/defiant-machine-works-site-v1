@@ -1,5 +1,5 @@
 import { test, expect } from '@playwright/test';
-import { products, articles } from '../../src/data/catalog';
+import { products, articles, gallery } from '../../src/data/catalog';
 const routes = [
   '/',
   '/services',
@@ -110,7 +110,9 @@ test('catalog filters, search, empty reset and price sorting', async ({ page }) 
 test('gallery filtering, keyboard lightbox, focus restoration', async ({ page }) => {
   await page.goto('/gallery');
   await page.getByRole('button', { name: 'Stippling', exact: true }).click();
-  await expect(page.locator('.gallery-tile')).toHaveCount(1);
+  await expect(page.locator('.gallery-tile')).toHaveCount(
+    gallery.filter((item) => item.service === 'Stippling').length,
+  );
   await page.getByRole('button', { name: 'All', exact: true }).click();
   await page.getByLabel('Search finish names').fill('Flectarn');
   await expect(page.locator('.gallery-tile')).toHaveCount(1);
@@ -179,18 +181,20 @@ test('build wizard preserves back/next state, draft, and completes reviewed inqu
   await expect(page.getByRole('heading', { name: 'Your project starts here.' })).toBeVisible();
   expect(await page.evaluate(() => localStorage.getItem('dmw-build-draft-v1'))).toBeNull();
 });
-test('catalog service preselects the order configurator', async ({ page }) => {
+test('catalog cosmetic coating preselects its scope without platform questions', async ({
+  page,
+}) => {
   await page.goto('/products/pistol-cerakote');
   await page
     .locator('.product-detail-copy')
     .getByRole('link', { name: 'Configure this service' })
     .click();
   await expect(page).toHaveURL(/\/customize\?product=/);
-  await page.getByLabel('Manufacturer', { exact: true }).selectOption('glock');
-  await page.getByLabel('Model', { exact: true }).selectOption('glock-19');
-  await page.getByLabel('Variant / existing work').selectOption('uncut');
+  await expect(page.getByRole('radio', { name: 'Complete Pistol', exact: true })).toBeChecked();
+  await expect(page.getByLabel('Manufacturer', { exact: true })).toHaveCount(0);
   await page.getByRole('button', { name: 'Continue', exact: true }).click();
-  await expect(page.getByRole('checkbox', { name: 'Pistol Cerakote' })).toBeChecked();
+  await expect(page.locator('.service-options h3')).toHaveText('Pistol Cerakote');
+  await expect(page.getByLabel('Coating Type', { exact: false })).toBeVisible();
 });
 test('server rejects malformed, cross-origin and invalid input; no delivery success without configuration', async ({
   request,

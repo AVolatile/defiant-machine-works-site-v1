@@ -1,6 +1,7 @@
 import source from '@/data/service-matrix.json';
 import { serviceMatrixSchema, type CatalogService } from './catalog-schema';
 import type { BuildConfiguration } from './schema';
+import { hasScopeOnlyCoatingContext } from './coating-context';
 export const serviceMatrix = serviceMatrixSchema.parse(source);
 export const catalogVersion = serviceMatrix.catalogVersion;
 export const platforms = serviceMatrix.platforms;
@@ -26,6 +27,12 @@ export const componentLabels: Record<BuildConfiguration['firearm']['componentTyp
 export function platformTitle(f: BuildConfiguration['firearm']) {
   const p = platforms.find((p) => p.id === f.manufacturerId);
   return `${p?.label || 'Your platform'} ${p?.models.find((m) => m.id === f.modelId)?.label || ''}`.trim();
+}
+export function buildTitle(build: BuildConfiguration) {
+  const f = build.firearm;
+  return hasScopeOnlyCoatingContext(build)
+    ? `${f.componentType === 'complete-firearm' ? 'Complete pistol' : componentLabels[f.componentType]} coating`
+    : platformTitle(f);
 }
 export function variantLabel(f: BuildConfiguration['firearm']) {
   return (

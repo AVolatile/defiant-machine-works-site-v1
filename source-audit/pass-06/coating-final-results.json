@@ -1,0 +1,93 @@
+{
+  "stats": {
+    "startTime": "2026-10-20T15:01:04.327Z",
+    "duration": 12810.429,
+    "expected": 18,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "errors": [],
+  "tests": [
+    {
+      "title": "scope-only coating reaches review while real payment remains disabled",
+      "status": "expected"
+    },
+    {
+      "title": "Cerakote service-page entry opens coating scope directly",
+      "status": "expected"
+    },
+    {
+      "title": "standalone cosmetic coating: Slide Only → finish → cart → edit without platform questions",
+      "status": "expected"
+    },
+    {
+      "title": "standalone cosmetic coating: Frame Only → finish → cart → edit without platform questions",
+      "status": "expected"
+    },
+    {
+      "title": "standalone cosmetic coating: Complete Pistol → finish → cart → edit without platform questions",
+      "status": "expected"
+    },
+    {
+      "title": "coating entry link, scope/finish errors, Gallery new tab and keyboard controls",
+      "status": "expected"
+    },
+    {
+      "title": "coating treatment change prunes hidden options and scope change resets finish choices",
+      "status": "expected"
+    },
+    {
+      "title": "prior platform-specific cosmetic coating carts edit without data migration",
+      "status": "expected"
+    },
+    {
+      "title": "scope-only cosmetic coating continues through existing test checkout and private confirmation",
+      "status": "expected"
+    },
+    {
+      "title": "coating quote independently rejects forged hidden fields and invalid scopes",
+      "status": "expected"
+    },
+    {
+      "title": "cosmetic coating visual and Axe review at 390",
+      "status": "expected"
+    },
+    {
+      "title": "cosmetic coating visual and Axe review at 1440",
+      "status": "expected"
+    },
+    {
+      "title": "pistol-cerakote: scope-only record uses verified coating fields and canonical price",
+      "status": "expected"
+    },
+    {
+      "title": "frame-only-cerakote: scope-only record uses verified coating fields and canonical price",
+      "status": "expected"
+    },
+    {
+      "title": "slide-only-cerakote: scope-only record uses verified coating fields and canonical price",
+      "status": "expected"
+    },
+    {
+      "title": "scope-only exception rejects partial identities, generation claims, add-ons and unknown services",
+      "status": "expected"
+    },
+    {
+      "title": "coating still rejects incompatible scope, hidden source fields and invented field names",
+      "status": "expected"
+    },
+    {
+      "title": "existing version-3 platform-specific coating records retain their identity and price",
+      "status": "expected"
+    }
+  ],
+  "screenshots": [
+    "source-audit/pass-06/screens/coating-scope-390.png",
+    "source-audit/pass-06/screens/coating-finish-390.png",
+    "source-audit/pass-06/screens/coating-review-390.png",
+    "source-audit/pass-06/screens/coating-scope-1440.png",
+    "source-audit/pass-06/screens/coating-finish-1440.png",
+    "source-audit/pass-06/screens/coating-review-1440.png"
+  ]
+}

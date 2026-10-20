@@ -103,7 +103,10 @@ export function GalleryGrid({
               />
               <div className="gallery-caption">
                 <span>
-                  <small>{item.service}</small>
+                  <small>
+                    {item.service}
+                    {item.referenceStatus === 'coming-soon' && ' / Coming soon · Reference only'}
+                  </small>
                   <strong>{item.title}</strong>
                 </span>
               </div>
@@ -154,10 +157,15 @@ export function GalleryGrid({
               <div>
                 <span className="eyebrow">{filtered[selected].service}</span>
                 <h2 id="lightbox-title">{filtered[selected].title}</h2>
+                {filtered[selected].referenceStatus === 'coming-soon' && (
+                  <p className="form-note">
+                    Coming soon. Visual reference only; not available to order.
+                  </p>
+                )}
                 <Link
                   href={`/custom-inquiry?service=${encodeURIComponent(filtered[selected].service)}&finish=${encodeURIComponent(filtered[selected].finish)}`}
                 >
-                  Inquire about this finish
+                  {filtered[selected].finish ? 'Inquire about this finish' : 'Ask about this work'}
                 </Link>
               </div>
               <div className="lightbox-navigation">

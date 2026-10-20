@@ -10,7 +10,6 @@ import {
   platformTitle,
   serviceById,
   serviceCatalog,
-  serviceMatrix,
   serviceOptions,
   variantLabel,
   variantsFor,
@@ -18,12 +17,16 @@ import {
 import { priceBuild } from '@/lib/commerce/pricing';
 import { normalizeBuild, toggleBuildService } from '@/lib/commerce/build-rules';
 import { money, type BuildConfiguration, type ServiceSelection } from '@/lib/commerce/schema';
-import type { ServiceFamily } from '@/lib/commerce/catalog-schema';
+import { visibleServiceFamilyGroups } from '@/lib/commerce/service-family-visibility';
 import { cartActions, useCart } from './cart-store';
 import { BuildSummary, ServiceDetails } from './build-summary';
 import { GalleryReference } from './gallery-reference';
 import { OptionCard } from './option-card';
 import { ServiceFields } from './service-fields';
+import { CoatingConfigurator } from './coating-configurator';
+import { isStandaloneCoatingId } from '@/lib/commerce/coating-context';
+import { useConfiguratorStepFocus } from './use-configurator-step-focus';
+import reviewStyles from './build-review.module.css';
 const steps = ['Platform', 'Services', 'Service details', 'Review'];
 const blank = (): BuildConfiguration => ({
   schemaVersion: 3,
@@ -38,7 +41,36 @@ const blank = (): BuildConfiguration => ({
   services: [],
   createdAt: '2000-01-01T00:00:00.000Z',
 });
-export function Configurator({
+type ConfiguratorProps = { editId?: string; product?: string; service?: string };
+
+export function Configurator(props: ConfiguratorProps) {
+  const cart = useCart();
+  const saved = cart.items.find((item) => item.kind === 'build' && item.id === props.editId);
+  const entry =
+    serviceById.get(props.product || '') ||
+    serviceCatalog.find((entry) => entry.displayName === props.product);
+  const coatingEdit =
+    saved?.kind === 'build' &&
+    saved.build.services.length === 1 &&
+    isStandaloneCoatingId(saved.build.services[0].serviceId);
+  if (!cart.ready) return <p role="status">Loading your configuration…</p>;
+  if (
+    coatingEdit ||
+    (!props.editId &&
+      (props.service?.toLowerCase() === 'cerakote' ||
+        (entry && isStandaloneCoatingId(entry.serviceId))))
+  )
+    return (
+      <CoatingConfigurator
+        key={props.editId || entry?.serviceId || 'cerakote'}
+        initialBuild={coatingEdit && saved.kind === 'build' ? saved.build : undefined}
+        product={entry?.serviceId}
+      />
+    );
+  return <PlatformConfigurator {...props} />;
+}
+
+function PlatformConfigurator({
   editId = '',
   product = '',
   service = '',
@@ -55,8 +87,8 @@ export function Configurator({
     [messages, setMessages] = useState<string[]>([]),
     [initialized, setInitialized] = useState(false),
     [activeService, setActiveService] = useState('');
-  const heading = useRef<HTMLHeadingElement>(null),
-    errorRef = useRef<HTMLDivElement>(null);
+  const { heading, panel } = useConfiguratorStepFocus(step);
+  const errorRef = useRef<HTMLDivElement>(null);
   useEffect(() => {
     if (!cart.ready || initialized) return;
     const saved = cart.items.find((i) => i.kind === 'build' && i.id === editId);
@@ -164,7 +196,6 @@ export function Configurator({
     }
     setErrors([]);
     setStep((s) => s + 1);
-    requestAnimationFrame(() => heading.current?.focus());
   }
   function save() {
     if (priced.errors.length) {
@@ -194,7 +225,7 @@ export function Configurator({
         ))}
       </ol>
       <div className="commerce-layout">
-        <section className="configuration-panel">
+        <section className="configuration-panel" ref={panel}>
           <span className="eyebrow">
             {editId ? 'Edit build' : 'Configure your work'} / 0{step + 1}
           </span>
@@ -228,6 +259,13 @@ export function Configurator({
           )}
           {step === 0 && (
             <>
+              {!editId && !build.services.length && (
+                <p className="notice">
+                  <Link className="text-link" href="/customize?service=cerakote">
+                    Cerakote only? Choose scope and finish
+                  </Link>
+                </p>
+              )}
               <div className="form-grid">
                 <div>
                   <label htmlFor="manufacturer">Manufacturer</label>
@@ -330,78 +368,84 @@ export function Configurator({
                 compatible families stay together as one build.
                 {service && ` You arrived from ${service}.`}
               </p>
-              {(Object.keys(familyLabels) as ServiceFamily[]).map((family) => {
-                const entries = available.filter((s) => s.serviceFamily === family);
-                const current = build.services.some(
-                  (c) => serviceById.get(c.serviceId)?.serviceFamily === family,
-                );
-                const upcoming =
-                  family === 'porting'
-                    ? serviceMatrix.upcoming.filter((entry) =>
-                        entry.compatibleManufacturers.includes(build.firearm.manufacturerId),
-                      )
-                    : [];
-                if (!entries.length && !upcoming.length) return null;
-                return (
-                  <details
-                    className="service-family"
-                    key={`${family}-${step}`}
-                    open={current || undefined}
-                  >
-                    <summary>
-                      {familyLabels[family]}
-                      <span>
-                        {entries.length
-                          ? `${entries.length} available`
-                          : 'Coming soon / custom inquiry'}
-                      </span>
-                    </summary>
-                    <GalleryReference family={family} />
-                    <div className="service-package-grid">
-                      {entries.map((entry) => (
-                        <OptionCard
-                          className="service-package"
-                          key={entry.serviceId}
-                          type="checkbox"
-                          value={entry.serviceId}
-                          title={entry.displayName}
-                          checked={build.services.some((c) => c.serviceId === entry.serviceId)}
-                          onChange={() => toggle(entry.serviceId)}
-                          description={
-                            entry.componentScope === 'extension'
-                              ? 'Magazine-extension texture'
-                              : entry.includedFeatures.map((f) => f.label).join(' · ') ||
-                                `${componentLabels[entry.componentScope]} service`
-                          }
-                          price={`From ${money(entry.basePriceCents)}`}
-                          status={
-                            entry.checkoutEligibility === 'review-required'
-                              ? 'Requires review'
-                              : undefined
-                          }
-                        />
-                      ))}
-                    </div>
-                    {upcoming.length > 0 && (
-                      <details className="upcoming-config">
-                        <summary>Upcoming porting · not available to order</summary>
-                        {upcoming.map((entry) => (
-                          <div className="unavailable-package" key={entry.serviceId}>
+              {visibleServiceFamilyGroups(build.firearm, build.services).map(
+                ({ family, entries, upcoming }) => {
+                  const current = build.services.some(
+                    (c) => serviceById.get(c.serviceId)?.serviceFamily === family,
+                  );
+                  return (
+                    <details
+                      className="service-family"
+                      data-service-family={family}
+                      key={`${family}-${step}`}
+                      open={current || undefined}
+                    >
+                      <summary>
+                        {familyLabels[family]}
+                        <span>
+                          {entries.length
+                            ? `${entries.length} available`
+                            : upcoming.length
+                              ? 'Coming soon / custom inquiry'
+                              : 'Custom inquiry'}
+                        </span>
+                      </summary>
+                      <GalleryReference family={family} />
+                      {entries.length > 0 ? (
+                        <div className="service-package-grid">
+                          {entries.map((entry) => (
                             <OptionCard
+                              className="service-package"
+                              key={entry.serviceId}
                               type="checkbox"
-                              title={entry.displayName}
                               value={entry.serviceId}
-                              checked={false}
-                              disabled
-                              status="Coming soon"
+                              title={entry.displayName}
+                              checked={build.services.some((c) => c.serviceId === entry.serviceId)}
+                              onChange={() => toggle(entry.serviceId)}
+                              description={
+                                entry.componentScope === 'extension'
+                                  ? 'Magazine-extension texture'
+                                  : entry.includedFeatures.map((f) => f.label).join(' · ') ||
+                                    `${componentLabels[entry.componentScope]} service`
+                              }
+                              price={`From ${money(entry.basePriceCents)}`}
+                              status={
+                                entry.checkoutEligibility === 'review-required'
+                                  ? 'Requires review'
+                                  : undefined
+                              }
                             />
-                          </div>
-                        ))}
-                      </details>
-                    )}
-                  </details>
-                );
-              })}
+                          ))}
+                        </div>
+                      ) : (
+                        <p className="form-note">
+                          No listed package for this platform and component.{' '}
+                          <Link className="text-link" href="/custom-inquiry">
+                            Ask about this work
+                          </Link>
+                        </p>
+                      )}
+                      {upcoming.length > 0 && (
+                        <details className="upcoming-config">
+                          <summary>Upcoming porting · not available to order</summary>
+                          {upcoming.map((entry) => (
+                            <div className="unavailable-package" key={entry.serviceId}>
+                              <OptionCard
+                                type="checkbox"
+                                title={entry.displayName}
+                                value={entry.serviceId}
+                                checked={false}
+                                disabled
+                                status="Coming soon"
+                              />
+                            </div>
+                          ))}
+                        </details>
+                      )}
+                    </details>
+                  );
+                },
+              )}
               {build.services.some((c) => !available.some((s) => s.serviceId === c.serviceId)) && (
                 <div className="notice">
                   <p>A previous selection is unavailable for this component.</p>
@@ -487,31 +531,26 @@ export function Configurator({
             </>
           )}
           {step === 3 && (
-            <>
-              <dl className="review-summary">
-                <div>
-                  <dt>Platform</dt>
-                  <dd>{platformTitle(build.firearm)}</dd>
-                </div>
-                <div>
-                  <dt>Component</dt>
-                  <dd>{componentLabels[build.firearm.componentType]}</dd>
-                </div>
-                <div>
-                  <dt>Variant</dt>
-                  <dd>{variantLabel(build.firearm)}</dd>
-                </div>
-              </dl>
+            <div className={reviewStyles.review}>
+              <div className={reviewStyles.identity}>
+                <h3>{platformTitle(build.firearm)}</h3>
+                <p>
+                  {componentLabels[build.firearm.componentType]}
+                  <span aria-hidden="true"> · </span>
+                  <span className="sr-only">, </span>
+                  {variantLabel(build.firearm)}
+                </p>
+              </div>
               {priced.services.map((s) => (
-                <section className="review-service" key={s.serviceId}>
-                  <div>
+                <section className={`review-service ${reviewStyles.service}`} key={s.serviceId}>
+                  <div className={reviewStyles.serviceHeading}>
                     <h3>{s.title}</h3>
-                    <ServiceDetails service={s} showBreakdown />
+                    <strong>{money(s.calculatedPriceCents)}</strong>
                   </div>
-                  <strong>{money(s.calculatedPriceCents)}</strong>
+                  <ServiceDetails service={s} showBreakdown />
                 </section>
               ))}
-              <div className="notice">
+              <div className={`notice ${reviewStyles.status}`}>
                 <span className="eyebrow">
                   {priced.orderability === 'ready'
                     ? 'Ready for checkout'
@@ -528,7 +567,7 @@ export function Configurator({
                   </Link>
                 )}
               </div>
-            </>
+            </div>
           )}
           <div className="configuration-actions">
             <button
@@ -537,7 +576,6 @@ export function Configurator({
               onClick={() => {
                 setStep((s) => s - 1);
                 setErrors([]);
-                requestAnimationFrame(() => heading.current?.focus());
               }}
             >
               Back

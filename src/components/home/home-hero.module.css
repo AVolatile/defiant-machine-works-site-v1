@@ -1,0 +1,90 @@
+.composition :global(.hero-media) {
+  left: 32%;
+  mask-image: linear-gradient(to right, transparent, black 14%);
+}
+
+.composition :global(.hero-image) {
+  object-position: 50% 40%;
+}
+
+.composition :global(.hero-shade) {
+  background:
+    linear-gradient(
+      90deg,
+      #090b0c 0%,
+      #090b0cf2 29%,
+      #090b0c9c 44%,
+      #090b0c0d 68%,
+      transparent 100%
+    ),
+    linear-gradient(0deg, #090b0c70, transparent 24%, transparent 75%, #090b0cdd);
+}
+
+@media (min-width: 651px) and (max-width: 1280px) {
+  .composition :global(.hero-media) {
+    mask-image:
+      linear-gradient(to right, transparent, black 14%), linear-gradient(black 78%, transparent 86%);
+    mask-composite: intersect;
+  }
+}
+
+@media (min-width: 951px) and (max-width: 1280px) {
+  .composition :global(.hero-media) {
+    top: -40px;
+  }
+}
+
+@media (min-width: 651px) and (max-width: 950px) {
+  .composition :global(.hero-content) h1 {
+    font-size: clamp(54px, 7.6vw, 72px);
+  }
+
+  .composition :global(.hero-image) {
+    object-position: 48% 55%;
+  }
+
+  .composition :global(.hero-media) {
+    inset: -70px calc(-1 * var(--gutter)) auto 27%;
+    aspect-ratio: 1;
+  }
+}
+
+@media (max-width: 650px) {
+  .composition :global(.hero-media) {
+    inset: 140px calc(-1 * var(--gutter)) auto;
+    aspect-ratio: 1;
+    mask-image: linear-gradient(to bottom, transparent, black 12%, black 78%, transparent 86%);
+  }
+
+  .composition :global(.hero-image) {
+    object-position: 50% 50%;
+  }
+
+  .composition :global(.hero-shade) {
+    background:
+      linear-gradient(90deg, #090b0c88, #090b0c44 38%, transparent 90%),
+      linear-gradient(
+        to bottom,
+        #090b0cbb,
+        #090b0c70 22%,
+        transparent 38%,
+        transparent 61%,
+        #090b0cd9 74%,
+        #090b0c 100%
+      );
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+
+  .composition :global(.hero-content) p {
+    margin-top: clamp(210px, 57vw, 370px);
+  }
+
+  .composition :global(.button-row) {
+    margin-top: 24px;
+  }
+
+  .composition :global(.hero-bottom) {
+    margin-top: 24px;
+  }
+}

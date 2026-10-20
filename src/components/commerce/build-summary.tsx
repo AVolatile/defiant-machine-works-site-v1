@@ -6,7 +6,7 @@ import {
   type PricedBuild,
   type PricedService,
 } from '@/lib/commerce/schema';
-import { componentLabels, platformTitle, variantLabel } from '@/lib/commerce/catalog';
+import { componentLabels, buildTitle, variantLabel } from '@/lib/commerce/catalog';
 export function ServiceDetails({
   service,
   showBreakdown = false,
@@ -51,15 +51,17 @@ export function ServiceDetails({
     </>
   );
 }
-export function BuildSummary({ build }: { build: PricedBuild }) {
+export function BuildSummary({ build, title }: { build: PricedBuild; title?: string }) {
   return (
     <aside className="commerce-summary" aria-label="Build summary">
       <span className="eyebrow">Your build / At a glance</span>
-      <h2>{platformTitle(build.firearm)}</h2>
-      <p className="summary-component">
-        {componentLabels[build.firearm.componentType]}
-        {build.firearm.variantId && ` / ${variantLabel(build.firearm)}`}
-      </p>
+      <h2>{title || buildTitle(build)}</h2>
+      {build.services.length > 0 && (
+        <p className="summary-component">
+          {componentLabels[build.firearm.componentType]}
+          {build.firearm.variantId && ` / ${variantLabel(build.firearm)}`}
+        </p>
+      )}
       <div className="summary-lines">
         {build.services.map((service) => (
           <div key={service.serviceId}>

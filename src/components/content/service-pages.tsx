@@ -7,6 +7,7 @@ import { Photo, SectionHeading, ButtonLink, CTA, FAQ } from '@/components/ui/pri
 import { ProductCard } from '@/components/catalog/product-card';
 import { GalleryGrid } from '@/components/gallery/gallery-grid';
 import { priceLabel } from '@/lib/catalog';
+import { galleryReferenceHref } from '@/lib/gallery';
 export function ServicesHub() {
   return (
     <>
@@ -272,6 +273,30 @@ export function ServicePage({ slug }: { slug: string }) {
             Upcoming services are preserved from the porting page. Contact Defiant for current
             status.
           </p>
+        </section>
+      )}
+      {slug !== 'cerakote' && (
+        <section className="section wrap" aria-label={`${service.title} work examples`}>
+          <SectionHeading
+            eyebrow="The work / Photographed by Defiant"
+            title={slug === 'stippling' ? 'Texture. Borders. Detail.' : 'See the work.'}
+            href={galleryReferenceHref(
+              slug === 'slide-milling' ? 'milling' : slug === 'porting' ? 'porting' : 'stippling',
+            )}
+            linkText="More work in the Gallery"
+          >
+            {slug === 'porting'
+              ? 'Viper work and upcoming references. Coming Soon examples are not available to order.'
+              : 'Real package and detail photographs. Explore more examples in the Gallery.'}
+          </SectionHeading>
+          <GalleryGrid
+            items={gallery.filter(
+              (item) =>
+                item.servicePageExample &&
+                item.service.toLowerCase() === service.title.toLowerCase(),
+            )}
+            filters={false}
+          />
         </section>
       )}
       <CTA />

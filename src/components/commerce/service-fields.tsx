@@ -1,4 +1,5 @@
 'use client';
+import { Fragment } from 'react';
 import {
   activeSourceFields,
   configurationFor,
@@ -9,6 +10,7 @@ import {
 import { platformTitle } from '@/lib/commerce/catalog';
 import { money, type BuildConfiguration, type ServiceSelection } from '@/lib/commerce/schema';
 import { OptionPicker } from './option-picker';
+import { GalleryReference } from './gallery-reference';
 export function ServiceFields({
   choice,
   build,
@@ -26,6 +28,10 @@ export function ServiceFields({
     ),
     service = configurationFor(choice.serviceId);
   if (!service) return null;
+  const firstPackageFinish =
+    service.serviceFamily !== 'cerakote'
+      ? fields.find((field) => ['finish', 'finish-secondary', 'camo'].includes(field.role))
+      : undefined;
   return (
     <>
       {service.fixedOpticId && (
@@ -56,14 +62,16 @@ export function ServiceFields({
           );
         if (['texture', 'finish', 'finish-secondary', 'camo'].includes(field.role))
           return (
-            <OptionPicker
-              key={id}
-              field={field}
-              error={error}
-              value={values[field.id] || ''}
-              serviceId={choice.serviceId}
-              onChange={(value) => onChange(updateSourceSelection(choice, build, field, value))}
-            />
+            <Fragment key={id}>
+              {field.id === firstPackageFinish?.id && <GalleryReference family="cerakote" />}
+              <OptionPicker
+                field={field}
+                error={error}
+                value={values[field.id] || ''}
+                serviceId={choice.serviceId}
+                onChange={(value) => onChange(updateSourceSelection(choice, build, field, value))}
+              />
+            </Fragment>
           );
         return (
           <div key={id} className="service-field">
