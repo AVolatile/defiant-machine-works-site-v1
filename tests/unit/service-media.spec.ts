@@ -10,8 +10,28 @@ const baseline = read('source-audit/pass-06c/preserved-baseline.json');
 test('media enrichment preserves commerce, configurators, focus, Gallery routing, styles and all Cerakote entries', () => {
   // A later approved hero pass changes only its source image and scoped composition.
   const homeFile = 'src/components/home/home-page.tsx';
-  for (const [file, hash] of Object.entries(baseline.hashes).filter(([file]) => file !== homeFile))
+  // Package-owned coating later reuses GalleryReference; focused browser checks cover its fields/state.
+  const packageReferenceFile = 'src/components/commerce/service-fields.tsx';
+  const configuratorFile = 'src/components/commerce/configurator.tsx';
+  for (const [file, hash] of Object.entries(baseline.hashes).filter(
+    ([file]) => ![homeFile, packageReferenceFile, configuratorFile].includes(file),
+  ))
     expect(createHash('sha256').update(readFileSync(file)).digest('hex'), file).toBe(hash);
+  // The approved review polish changes only the final presentation and a scoped CSS import.
+  const configurator = readFileSync(configuratorFile, 'utf8').replace(
+    "import reviewStyles from './build-review.module.css';\n",
+    '',
+  );
+  const reviewStart = configurator.indexOf('          {step === 3 && (');
+  const reviewEnd = configurator.indexOf(
+    '          <div className="configuration-actions">',
+    reviewStart,
+  );
+  expect(
+    createHash('sha256')
+      .update(configurator.slice(0, reviewStart) + configurator.slice(reviewEnd))
+      .digest('hex'),
+  ).toBe('03084aa34842babb3ce3fcc2ac347e7e0f1e851d04a29c8bb48adfb8794d236b');
   const home = readFileSync(homeFile, 'utf8').replace(
     "import styles from './home-hero.module.css';\n",
     '',

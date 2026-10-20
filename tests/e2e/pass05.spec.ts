@@ -62,7 +62,9 @@ for (const width of [390, 1440])
       await expect(page.locator('.configuration-panel img,.commerce-summary img')).toHaveCount(0);
       await page.getByRole('button', { name: 'Back', exact: true }).click();
       const section = page.locator('.service-options'),
-        link = page.locator('.configuration-panel a.gallery-reference');
+        link = page.locator(
+          `.configuration-panel a.gallery-reference[href="${galleryReferenceHref(family)}"]`,
+        );
       await expect(link).toHaveCount(1);
       await expect(link).toHaveAttribute('href', galleryReferenceHref(family));
       await expect(link).toHaveAttribute('target', '_blank');

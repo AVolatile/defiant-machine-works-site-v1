@@ -1,0 +1,106 @@
+.review {
+  max-width: 40rem;
+}
+
+.identity {
+  border-top: 2px solid var(--color-rust);
+  border-bottom: 1px solid var(--color-border);
+  padding: 18px 0;
+}
+
+.identity h3 {
+  font-size: 28px;
+}
+
+.identity p {
+  margin-top: 6px;
+  color: var(--color-muted);
+  font-size: 12px;
+  line-height: 1.7;
+}
+
+.review .service {
+  display: block;
+  padding: 22px 0;
+}
+
+.serviceHeading {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 16px;
+}
+
+.serviceHeading h3 {
+  min-width: 0;
+  font-size: clamp(22px, 2vw, 26px);
+}
+
+.serviceHeading strong {
+  flex-shrink: 0;
+  font-size: 16px;
+  font-weight: 500;
+  font-variant-numeric: tabular-nums;
+}
+
+.service :global(.configured-details) {
+  margin-top: 14px;
+}
+
+.service :global(.configured-details) > div {
+  grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+  gap: 16px;
+  padding: 4px 0;
+}
+
+.service :global(.configured-details) dd {
+  text-align: right;
+}
+
+.service :global(.service-price-breakdown) {
+  margin-top: 16px;
+  padding-top: 8px;
+}
+
+.service :global(.service-price-breakdown) > div {
+  padding: 5px 0;
+}
+
+.service :global(.service-price-breakdown) dd {
+  font-variant-numeric: tabular-nums;
+}
+
+.service :global(.service-price-breakdown) :global(.service-price-total) {
+  margin-top: 6px;
+  padding-top: 10px;
+}
+
+.review .status {
+  margin: 20px 0 0;
+  padding: 14px 16px;
+}
+
+.review .status p {
+  margin-top: 6px;
+}
+
+.status :global(.text-link) {
+  margin-top: 10px;
+}
+
+@media (max-width: 600px) {
+  .service :global(.configured-details) > div {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 2px;
+    padding: 6px 0;
+    font-size: 12px;
+  }
+
+  .service :global(.configured-details) dt {
+    font-size: 11px;
+  }
+
+  .service :global(.configured-details) dd {
+    text-align: left;
+  }
+}
